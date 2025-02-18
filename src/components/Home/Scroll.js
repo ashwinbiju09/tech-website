@@ -2,8 +2,8 @@ import React from "react";
 
 const Scroll = () => {
   return (
-    <div className="py-4">
-      <div className="text-center text-3xl font-bold py-8 text-blue-900">
+    <div className="lg:py-4">
+      <div className="text-center text-2xl lg:text-3xl font-bold py-8 text-blue-900">
         Technology Offerings
       </div>
 

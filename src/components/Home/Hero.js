@@ -7,11 +7,11 @@ const Hero = () => {
       className="relative bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/assets/home-banner.jpg')" }}
     >
-      <div className="relative mx-auto max-w-screen-xl px-4 py-48">
-        <div className="max-w-xl text-left">
-          <div className="font-bold text-3xl py-2 antialiased">
+      <div className="relative mx-auto max-w-screen-xl px-4 py-48 ">
+        <div className="max-w-xl text-center md:text-left">
+          <div className="font-bold lg:text-3xl py-2 antialiased text-xl ">
             Empowering businesses with
-            <div className="block text-blue-800 text-4xl pt-4 antialiased">
+            <div className="block text-blue-800 lg:text-4xl pt-4 antialiased text-2xl">
               <ReactTyped
                 strings={[
                   "Next-Level IT Solutions",

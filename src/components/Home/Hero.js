@@ -28,7 +28,7 @@ const Hero = () => {
           </div>
           <div className="mt-6 flex flex-wrap gap-4">
             <a
-              href="#"
+              href="/"
               className="block w-full rounded-full bg-blue-800 px-6 py-3 text-white font-medium hover:bg-blue-900 sm:w-auto antialiased"
             >
               Connect with an Expert Today &#8594;

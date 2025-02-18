@@ -8,7 +8,7 @@ const Services = () => {
       <div className="text-center text-2xl lg:text-3xl pt-2 pb-6 font-bold text-blue-900">
         Our Services
       </div>
-      <div className="text-center text-lg font-semibold tracking-normal">
+      <div className="text-center text-lg pb-2 font-semibold tracking-normal">
         Comprehensive solutions tailored to accelerate your digital
         transformation journey
       </div>

@@ -3,12 +3,12 @@ import React from "react";
 const Scroll = () => {
   return (
     <div className="lg:py-4">
-      <div className="text-center text-2xl lg:text-3xl font-bold py-8 text-blue-900">
+      <div className="text-center text-2xl lg:text-3xl pt-4 pb-6 font-bold text-blue-900">
         Technology Offerings
       </div>
 
       {/* Centered and Reduced Width */}
-      <div className="w-2/3 mx-auto">
+      <div className="w-2/3 mx-auto pt-4 pb-6">
         <div className="flex overflow-hidden space-x-16 group h-12">
           <div className="flex space-x-16 animate-loop-scroll group-hover:paused">
             {[

@@ -3,12 +3,12 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['"Poppins"', "sans-serif"],
-      },
+      // fontFamily: {
+      //   sans: ["Poppins", "sans-serif"],
+      // },
     },
     animation: {
-      "loop-scroll": "loop-scroll 50s linear infinite",
+      "loop-scroll": "loop-scroll 30s linear infinite",
     },
     keyframes: {
       "loop-scroll": {

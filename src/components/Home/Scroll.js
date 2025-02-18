@@ -9,8 +9,8 @@ const Scroll = () => {
 
       {/* Centered and Reduced Width */}
       <div className="w-2/3 mx-auto pt-4 pb-6">
-        <div className="flex overflow-hidden space-x-16 group h-12">
-          <div className="flex space-x-16 animate-loop-scroll group-hover:paused">
+        <div className="flex overflow-hidden space-x-12 group h-12">
+          <div className="flex space-x-12 animate-loop-scroll group-hover:paused">
             {[
               "1-MS-Azure.png",
               "2-Sap-Cloud.png",
@@ -33,7 +33,7 @@ const Scroll = () => {
 
           {/* Duplicate for Seamless Scrolling */}
           <div
-            className="flex space-x-16 animate-loop-scroll group-hover:paused"
+            className="flex space-x-12 animate-loop-scroll group-hover:paused"
             aria-hidden="true"
           >
             {[

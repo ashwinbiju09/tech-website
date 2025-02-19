@@ -3,7 +3,7 @@ import expertiseData from "./expertiseData";
 
 const Expertise = () => {
   return (
-    <div className="my-4">
+    <div className="mt-4 mb-12">
       <div className="text-center text-2xl lg:text-3xl pt-4 pb-6 font-bold text-blue-900">
         Our Areas of Expertise
       </div>

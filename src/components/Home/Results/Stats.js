@@ -32,7 +32,7 @@ const Stats = () => {
                 className="w-12 h-12 mb-3"
               />
               <p className="text-2xl font-bold">
-                <CountUp start={0} end={stat.number} duration={5} />
+                <CountUp start={0} end={stat.number} duration={7} />
                 {stat.symbol}
               </p>
               <p className="text-sm">{stat.title}</p>

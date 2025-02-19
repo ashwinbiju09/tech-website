@@ -43,7 +43,7 @@ const NavBar = () => {
                 setOpenDropdown(openDropdown === index ? null : index);
                 setOpenSubDropdown(null);
               }}
-              className="px-3 text-sm font-semibold text-blue-900 flex items-center cursor-pointer transition-all"
+              className="px-3 text-sm font-semibold text-blue-800 hover:text-blue-950 flex items-center cursor-pointer transition-all"
             >
               {link.name}
               {link.subMenu?.length > 0 && (
@@ -82,7 +82,7 @@ const NavBar = () => {
                             openSubDropdown === subIndex ? null : subIndex
                           );
                         }}
-                        className="w-full text-left px-4 py-2 text-sm font-semibold text-blue-900 flex justify-between items-center"
+                        className="w-full text-left px-4 py-2 text-sm font-semibold text-blue-800 hover:text-blue-950 flex justify-between items-center"
                       >
                         {sub.name}
                         {sub.subMenu?.length > 0 && (
@@ -121,7 +121,7 @@ const NavBar = () => {
                                 <a
                                   key={itemIndex}
                                   href={item.path || "#"}
-                                  className="block px-4 py-2 text-sm font-semibold text-blue-900"
+                                  className="block px-4 py-2 text-sm font-semibold text-blue-800 hover:text-blue-950"
                                 >
                                   {item.name || item}
                                 </a>
@@ -150,7 +150,7 @@ const NavBar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`z-10 fixed top-0 right-0 w-3/4 md:w-1/2 h-full bg-slate-100 text-blue-900 flex flex-col p-10 transition-transform duration-300 ease-in-out ${
+        className={`z-10 fixed top-0 right-0 w-3/4 md:w-1/2 h-full bg-slate-100 text-blue-800 hover:text-blue-950 flex flex-col p-10 transition-transform duration-300 ease-in-out ${
           isOpen ? "transform translate-x-0" : "transform translate-x-full"
         }`}
       >
@@ -169,7 +169,7 @@ const NavBar = () => {
           {navLinks.map((link, index) => (
             <div key={index} className="w-full">
               <button
-                className="w-full text-left px-2 py-2 text-sm text-blue-900 font-semibold flex justify-between items-center"
+                className="w-full text-left px-2 py-2 text-sm text-blue-800 hover:text-blue-950 font-semibold flex justify-between items-center"
                 onClick={() => {
                   setOpenMobileDropdown(
                     openMobileDropdown === index ? null : index
@@ -194,7 +194,7 @@ const NavBar = () => {
                 {link.subMenu?.map((sub, subIndex) => (
                   <div key={subIndex}>
                     <button
-                      className="w-full text-left px-2 py-1 text-sm text-blue-900 font-semibold flex justify-between items-center"
+                      className="w-full text-left px-2 py-1 text-sm text-blue-800 hover:text-blue-950 font-semibold flex justify-between items-center"
                       onClick={() => {
                         setOpenMobileSubDropdown(
                           openMobileSubDropdown === subIndex ? null : subIndex
@@ -221,7 +221,7 @@ const NavBar = () => {
                         <a
                           key={itemIndex}
                           href={item.path || "#"}
-                          className="block px-2 py-1 text-sm text-blue-900"
+                          className="block px-2 py-1 text-sm text-blue-800 hover:text-blue-950"
                         >
                           {item.name || item}
                         </a>

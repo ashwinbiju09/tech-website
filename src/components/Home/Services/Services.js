@@ -4,7 +4,7 @@ import cardsData from "./cardsData";
 
 const Services = () => {
   return (
-    <>
+    <div className="pb-6">
       <div className="text-center text-2xl lg:text-3xl pt-2 pb-6 font-bold text-blue-900">
         Our Services
       </div>
@@ -42,7 +42,7 @@ const Services = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

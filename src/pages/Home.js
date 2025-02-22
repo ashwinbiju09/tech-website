@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
-import NavBar from "../components/NavBar/NavBar";
+import NavBar from "../components/General/NavBar/NavBar";
+import Footer from "../components/General/Footer";
 import Hero from "../components/Home/Hero";
 import Scroll from "../components/Home/Scroll";
 import Info from "../components/Home/Info";
 import Services from "../components/Home/Services/Services";
 import Stats from "../components/Home/Results/Stats";
 import Expertise from "../components/Home/Expertise/Expertise";
-import Footer from "../components/Home/Footer";
 import Contact from "../components/Home/Contact";
 
 const sectionVariants = {

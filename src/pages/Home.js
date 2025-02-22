@@ -10,6 +10,11 @@ import Stats from "../components/Home/Results/Stats";
 import Expertise from "../components/Home/Expertise/Expertise";
 import Contact from "../components/Home/Contact";
 
+const heroVariants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 1.0, ease: "easeOut" } },
+};
+
 const sectionVariants = {
   hidden: { opacity: 0, y: 50 },
   visible: { opacity: 1, y: 0, transition: { duration: 1.5, ease: "easeOut" } },
@@ -19,7 +24,15 @@ const Home = () => {
   return (
     <>
       <NavBar />
-      <Hero />
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        variants={heroVariants}
+        viewport={{ once: true }}
+      >
+        <Hero />
+      </motion.div>
 
       <motion.div
         initial="hidden"

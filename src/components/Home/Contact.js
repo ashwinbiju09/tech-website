@@ -60,7 +60,7 @@ const Contact = () => {
           ></textarea>
           <button
             type="button"
-            class="text-white bg-blue-500 hover:bg-blue-600 tracking-wide rounded-xl text-sm px-4 py-3 w-full !mt-6"
+            class="text-white bg-gradient-to-br from-yellow-400 to-yellow-600 hover:bg-yellow-500 font-semibold tracking-wide rounded-sm text-sm px-4 py-3 w-full !mt-6"
           >
             Send
           </button>

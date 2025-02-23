@@ -3,9 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      // fontFamily: {
-      //   sans: ["Poppins", "sans-serif"],
-      // },
+      fontFamily: {
+        mont: ["Montserrat", "sans-serif"],
+      },
     },
     animation: {
       "loop-scroll": "loop-scroll 30s linear infinite",

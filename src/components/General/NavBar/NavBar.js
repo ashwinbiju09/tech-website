@@ -98,7 +98,8 @@ const NavBar = () => {
                 <div>
                   {link.subMenu.map((sub, subIndex) => (
                     <div key={subIndex} className="relative dropdown-container">
-                      <button
+                      <a
+                        href={sub.path}
                         onClick={(e) => {
                           e.stopPropagation();
                           setOpenSubDropdown(
@@ -123,7 +124,7 @@ const NavBar = () => {
                             />
                           </svg>
                         )}
-                      </button>
+                      </a>
 
                       {/* Second Level Dropdown (Desktop) */}
                       <div
@@ -161,17 +162,18 @@ const NavBar = () => {
         ))}
       </div>
 
-      {/* Mobile Menu Button (unchanged) */}
+      {/* Mobile Menu Button */}
       <div className="m-2 lg:hidden">
         <button
-          className="inline-flex items-center text-lg font-extrabold text-white"
+          className={`inline-flex items-center text-lg font-extrabold px-3 py-2 rounded-md transition-all duration-300
+      ${isScrolled ? "text-blue-900" : "bg-transparent text-white"}
+    `}
           onClick={() => setIsOpen(!isOpen)}
         >
           ☰
         </button>
       </div>
 
-      {/* Mobile Menu (unchanged) */}
       <div
         className={`z-10 fixed top-0 right-0 w-3/4 md:w-1/2 h-full bg-slate-100 text-blue-800 hover:text-blue-950 flex flex-col p-10 transition-transform duration-300 ease-in-out ${
           isOpen ? "transform translate-x-0" : "transform translate-x-full"
@@ -191,7 +193,8 @@ const NavBar = () => {
         <div className="w-full flex flex-col items-start mt-4">
           {navLinks.map((link, index) => (
             <div key={index} className="w-full">
-              <button
+              <a
+                href={link.path}
                 className="w-full text-left px-2 py-2 text-sm text-blue-800 hover:text-blue-950 font-semibold flex justify-between items-center"
                 onClick={() => {
                   setOpenMobileDropdown(
@@ -206,7 +209,7 @@ const NavBar = () => {
                     {openMobileDropdown === index ? "−" : "+"}
                   </span>
                 )}
-              </button>
+              </a>
 
               {/* First-level sub-menu in mobile */}
               <div
@@ -216,7 +219,8 @@ const NavBar = () => {
               >
                 {link.subMenu?.map((sub, subIndex) => (
                   <div key={subIndex}>
-                    <button
+                    <a
+                      href={sub.path}
                       className="w-full text-left px-2 py-1 text-sm text-blue-800 hover:text-blue-950 font-semibold flex justify-between items-center"
                       onClick={() => {
                         setOpenMobileSubDropdown(
@@ -230,7 +234,7 @@ const NavBar = () => {
                           {openMobileSubDropdown === subIndex ? "−" : "+"}
                         </span>
                       )}
-                    </button>
+                    </a>
 
                     {/* Second-level sub-menu in mobile */}
                     <div
@@ -243,7 +247,7 @@ const NavBar = () => {
                       {sub.subMenu?.map((item, itemIndex) => (
                         <a
                           key={itemIndex}
-                          href={item.path || "#"}
+                          href={item.path}
                           className="block px-2 py-1 text-sm text-blue-800 hover:text-blue-950"
                         >
                           {item.name || item}

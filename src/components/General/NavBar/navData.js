@@ -63,7 +63,13 @@ const navLinks = [
       },
     ],
   },
-  { name: "Industries", path: "#" },
+  {
+    name: "Industries",
+    subMenu: [
+      { name: "Education", path: "/industries/education" },
+      { name: "Oil & Gas", path: "/industries/oil-gas" },
+    ],
+  },
   { name: "Career", path: "#" },
   { name: "Contact Us", path: "#" },
 ];

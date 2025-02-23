@@ -57,13 +57,14 @@ const NavBar = () => {
       <div className="m-2 hidden lg:flex space-x-6">
         {navLinks.map((link, index) => (
           <div key={index} className="relative dropdown-container">
-            <button
+            <a
+              href={link.path}
               onClick={(e) => {
                 e.stopPropagation();
                 setOpenDropdown(openDropdown === index ? null : index);
                 setOpenSubDropdown(null);
               }}
-              className={`px-3 text-sm font-semibold flex items-center cursor-pointer transition-all ${
+              className={`px-3 text-md font-semibold flex items-center cursor-pointer transition-all ${
                 isScrolled ? "hover:text-gray-700" : "hover:text-gray-200"
               }`}
             >
@@ -79,7 +80,7 @@ const NavBar = () => {
                   />
                 </svg>
               )}
-            </button>
+            </a>
 
             {/* First Level Dropdown (Desktop) */}
             <div
@@ -163,7 +164,7 @@ const NavBar = () => {
       {/* Mobile Menu Button (unchanged) */}
       <div className="m-2 lg:hidden">
         <button
-          className="inline-flex items-center text-lg font-extrabold"
+          className="inline-flex items-center text-lg font-extrabold text-white"
           onClick={() => setIsOpen(!isOpen)}
         >
           ☰

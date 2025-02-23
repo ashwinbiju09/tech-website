@@ -1,5 +1,5 @@
 const navLinks = [
-  { name: "About us", path: "#" },
+  { name: "About us", path: "/about" },
   {
     name: "Services",
     subMenu: [

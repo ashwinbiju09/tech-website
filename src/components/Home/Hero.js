@@ -3,7 +3,7 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full h-3/4 overflow-hidden">
       <video
         className="absolute inset-0 w-full h-full object-cover"
         src="/assets/tech-bg.mp4"
@@ -12,13 +12,11 @@ const Hero = () => {
         muted
         playsInline
       />
-
-      {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
       <div className="relative mx-auto max-w-screen-xl px-4 py-48 z-10">
         <div className="max-w-xl text-center md:text-left">
-          <div className="font-bold lg:text-3xl py-2 antialiased text-xl text-white">
+          <div className="font-bold text-xl lg:text-3xl py-2 antialiased text-white">
             Empowering businesses with
-            <div className="block text-blue-400 lg:text-4xl pt-4 antialiased text-2xl">
+            <div className="block text-blue-400 text-2xl lg:text-4xl pt-4 antialiased ">
               <ReactTyped
                 strings={[
                   "Next-Level IT Solutions",

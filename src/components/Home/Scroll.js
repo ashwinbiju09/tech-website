@@ -2,12 +2,11 @@ import React from "react";
 
 const Scroll = () => {
   return (
-    <div className="lg:py-4">
+    <div className="lg:py-2">
       <div className="text-center text-2xl lg:text-3xl pt-4 pb-6 font-bold text-blue-900">
         Technology Offerings
       </div>
 
-      {/* Centered and Reduced Width */}
       <div className="w-2/3 mx-auto pt-4 pb-6">
         <div className="flex overflow-hidden space-x-12 group h-12">
           <div className="flex space-x-12 animate-loop-scroll group-hover:paused">
@@ -31,7 +30,6 @@ const Scroll = () => {
             ))}
           </div>
 
-          {/* Duplicate for Seamless Scrolling */}
           <div
             className="flex space-x-12 animate-loop-scroll group-hover:paused"
             aria-hidden="true"

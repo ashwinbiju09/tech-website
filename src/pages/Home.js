@@ -10,9 +10,14 @@ import Stats from "../components/Home/Results/Stats";
 import Expertise from "../components/Home/Expertise/Expertise";
 import Contact from "../components/Home/Contact";
 
-const heroVariants = {
+const heroVariant = {
   hidden: { opacity: 0, y: 50 },
-  visible: { opacity: 1, y: 0, transition: { duration: 1.0, ease: "easeOut" } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+};
+
+const countVariant = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { opacity: 1, y: 0, transition: { duration: 5.0, ease: "easeOut" } },
 };
 
 const sectionVariants = {
@@ -28,7 +33,7 @@ const Home = () => {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        variants={heroVariants}
+        variants={heroVariant}
         viewport={{ once: true }}
       >
         <Hero />
@@ -41,6 +46,15 @@ const Home = () => {
         viewport={{ once: true }}
       >
         <Info />
+      </motion.div>
+
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        variants={countVariant}
+        viewport={{ once: true }}
+      >
+        <Stats />
       </motion.div>
 
       <motion.div
@@ -59,15 +73,6 @@ const Home = () => {
         viewport={{ once: true }}
       >
         <Services />
-      </motion.div>
-
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        variants={sectionVariants}
-        viewport={{ once: true }}
-      >
-        <Stats />
       </motion.div>
 
       <motion.div

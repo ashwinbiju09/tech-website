@@ -35,59 +35,25 @@ const navLinks = [
     name: "Solutions",
     subMenu: [
       {
-        name: "SAP ERP",
+        name: "SAP Consulting",
         subMenu: [
           { name: "SAP S/4HANA", path: "#" },
           { name: "SAP S/4HANA Public Cloud", path: "#" },
           { name: "SAP S/4HANA Private Cloud", path: "#" },
-        ],
-      },
-      {
-        name: "SAP Analytics Cloud",
-        subMenu: [
           { name: "SAP Financial Management", path: "#" },
           { name: "SAP Analytics Cloud Planning", path: "#" },
           { name: "SAP Group Reporting", path: "#" },
           { name: "SAP PaPM", path: "#" },
-        ],
-      },
-      {
-        name: "SAP Customer Experience and CRM",
-        subMenu: [
           { name: "SAP Commerce Cloud", path: "#" },
           { name: "SAP Sales Cloud", path: "#" },
           { name: "SAP Service Cloud", path: "#" },
           { name: "SAP Emarsys", path: "#" },
-        ],
-      },
-      {
-        name: "SAP BTP",
-        subMenu: [
           { name: "SAP E-Mobility", path: "#" },
           { name: "SAP CPI", path: "#" },
           { name: "SAP Build Apps", path: "#" },
-        ],
-      },
-      {
-        name: "SAP HXM",
-        subMenu: [{ name: "SAP SuccessFactors HCM", path: "#" }],
-      },
-      {
-        name: "Artificial Intelligence",
-        subMenu: [{ name: "SAP Business AI", path: "#" }],
-      },
-      {
-        name: "ESG Consulting",
-        subMenu: [{ name: "SAP Sustainability", path: "#" }],
-      },
-      {
-        name: "Other Technologies",
-        subMenu: [
-          { name: "Digital Transformation", path: "#" },
-          { name: "Enterprise Content Management", path: "#" },
-          { name: "Robotic Process Automation", path: "#" },
-          { name: "Blockchain Technology", path: "#" },
-          { name: "Internet of Things", path: "#" },
+          { name: "SAP SuccessFactors HCM", path: "#" },
+          { name: "SAP Business AI", path: "#" },
+          { name: "SAP Sustainability", path: "#" },
         ],
       },
     ],

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import navLinks from "./navData";
+import Logo from "../../../assets/logo.png";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +42,7 @@ const NavBar = () => {
     >
       <div className="flex justify-between items-center px-4 md:px-24 py-2 md:py-3 font-bold font-sans">
         <a href="/" className="m-2">
-          <img className="h-8" src="/assets/logo.png" alt="Logo" />
+          <img className="h-8" src={Logo} alt="Logo" />
         </a>
 
         {/* Desktop Nav */}

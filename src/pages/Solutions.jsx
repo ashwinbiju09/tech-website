@@ -1,15 +1,15 @@
 import Navbar from "../components/General/NavBar/NavBar";
 import Footer from "../components/General/Footer";
-import DynamicSolution "../components/Solutions/DynamicSolution";
+import DynamicSolution from "../components/Solutions/DynamicSolution";
 
-const Solutions = () =>{
-    return (
-        <>
-        <Navbar/>
-        <DynamicSolution />
-        <Footer />
-        </>
-    );
+const Solutions = () => {
+  return (
+    <>
+      <Navbar />
+      <DynamicSolution />
+      <Footer />
+    </>
+  );
 };
 
-export deafult Solutions;
+export default Solutions;

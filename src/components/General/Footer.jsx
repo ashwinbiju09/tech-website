@@ -41,7 +41,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="px-4 pt-8 pb-8 bg-gray-100 text-gray-800">
+    <footer className="px-4 pt-8 pb-8 bg-gradient-to-br from-slate-100 to-slate-300 text-gray-800">
       <div className="container mx-auto grid gap-10 lg:grid-cols-6">
         <div className="lg:col-span-2 pl-4">
           <a href="/" className="inline-flex items-center">

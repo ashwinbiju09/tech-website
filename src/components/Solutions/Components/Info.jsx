@@ -1,0 +1,56 @@
+import React from "react";
+
+const Info = ({ title, subContent, image, features, infoTitle }) => {
+  return (
+    <div>
+      <section className="w-full bg-white py-16">
+        <div className="container mx-auto px-6 lg:px-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            {/* Left Side: Image */}
+            <div className="w-full flex justify-center">
+              <img
+                src={image}
+                alt={title}
+                className="w-96 h-96 object-cover rounded-lg shadow-lg"
+              />
+            </div>
+
+            {/* Right Side: Text & Features */}
+            <div>
+              <h2 className="text-3xl font-extrabold text-gray-900">
+                {infoTitle}
+              </h2>
+              <p className="mt-4 text-gray-600">{subContent}</p>
+
+              <div className="mt-8 space-y-6">
+                {features.map((feature, index) => (
+                  <div
+                    key={index}
+                    className="grid grid-cols-[auto_1fr] gap-6 items-start"
+                  >
+                    {/* Feature Icon - Fixed Size */}
+                    <div className="w-12 h-12 flex items-center justify-center bg-blue-600 rounded-full p-2 shrink-0">
+                      {feature.icon}
+                    </div>
+
+                    {/* Feature Text - Uniform Height */}
+                    <div className="flex flex-col min-h-[64px]">
+                      <h3 className="text-lg font-semibold text-gray-900">
+                        {feature.title}
+                      </h3>
+                      <p className="text-gray-600 leading-relaxed flex-grow">
+                        {feature.description}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Info;

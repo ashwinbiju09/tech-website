@@ -8,8 +8,11 @@ const navLinks = [
           {
             name: "SAP Consulting",
             subMenu: [
-              { name: "SAP S/4HANA", path: "#" },
-              { name: "SAP S/4HANA Public Cloud", path: "#" },
+              { name: "SAP S/4HANA", path: "/solutions/sap-s4-hana" },
+              {
+                name: "SAP S/4HANA Public Cloud",
+                path: "/solutions/sap-s4hana-public-cloud",
+              },
               { name: "SAP S/4HANA Private Cloud", path: "#" },
               { name: "SAP Financial Management", path: "#" },
               { name: "SAP Analytics Cloud Planning", path: "#" },

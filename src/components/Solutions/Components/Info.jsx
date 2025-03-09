@@ -1,9 +1,14 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Info = ({ title, subContent, image, features, infoTitle }) => {
   return (
-    <div>
-      <section className="w-full bg-white py-16">
+    <div className="w-full bg-white py-16">
+      <motion.div
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
+      >
         <div className="container mx-auto px-6 lg:px-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left Side: Image */}
@@ -12,6 +17,7 @@ const Info = ({ title, subContent, image, features, infoTitle }) => {
                 src={image}
                 alt={title}
                 className="w-96 h-96 object-cover rounded-lg shadow-lg"
+                loading="lazy"
               />
             </div>
 
@@ -48,7 +54,7 @@ const Info = ({ title, subContent, image, features, infoTitle }) => {
             </div>
           </div>
         </div>
-      </section>
+      </motion.div>
     </div>
   );
 };

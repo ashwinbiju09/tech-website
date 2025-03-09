@@ -1,28 +1,45 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import { motion, useInView } from "framer-motion";
 
 const FAQ = ({ faqSection }) => {
-  return (
-    <section className="w-full py-16 bg-gradient-to-b from-blue-950 to-blue-900 text-white">
-      <div className="max-w-5xl mx-auto px-6 lg:px-16 flex flex-col md:flex-row gap-12">
-        {/* Left Side: FAQ Header */}
-        <div className="flex flex-col text-left md:w-1/2">
-          <p className="inline-block font-semibold text-yellow-400 mb-4">
-            SAP S/4HANA FAQ
-          </p>
-          <p className="sm:text-4xl text-3xl font-extrabold">
-            {faqSection.title}
-          </p>
-          <p className="mt-3 text-lg text-gray-300">{faqSection.description}</p>
-        </div>
+  const ref = useRef(null);
+  const isInView = useInView(ref, { triggerOnce: true, threshold: 0.2 });
 
-        {/* Right Side: FAQ List */}
-        <ul className="md:w-1/2">
-          {faqSection.faqs.map((faq, index) => (
-            <FAQItem key={index} question={faq.question} answer={faq.answer} />
-          ))}
-        </ul>
-      </div>
-    </section>
+  return (
+    <div className="w-full py-16 bg-gradient-to-b from-blue-950 to-blue-900 text-white">
+      <motion.div
+        ref={ref}
+        initial={{ opacity: 0, x: -100 }}
+        animate={isInView ? { opacity: 1, x: 0 } : {}}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
+        <div className="max-w-5xl mx-auto px-6 lg:px-16 flex flex-col md:flex-row gap-12">
+          {/* Left Side: FAQ Header */}
+          <div className="flex flex-col text-left md:w-1/2">
+            <p className="inline-block font-semibold text-yellow-400 mb-4">
+              SAP S/4HANA FAQ
+            </p>
+            <p className="sm:text-4xl text-3xl font-extrabold">
+              {faqSection.title}
+            </p>
+            <p className="mt-3 text-lg text-gray-300">
+              {faqSection.description}
+            </p>
+          </div>
+
+          {/* Right Side: FAQ List */}
+          <ul className="md:w-1/2">
+            {faqSection.faqs.map((faq, index) => (
+              <FAQItem
+                key={index}
+                question={faq.question}
+                answer={faq.answer}
+              />
+            ))}
+          </ul>
+        </div>
+      </motion.div>
+    </div>
   );
 };
 

@@ -24,7 +24,7 @@ const Offerings = ({ offerings }) => {
           {offerings.departments.map((department, index) => (
             <SwiperSlide key={index} className="relative flex justify-center">
               {/* Content Box */}
-              <div className="relative w-full bg-gradient-to-br from-slate-100 to-slate-300 pt-12 pb-16 px-8 rounded-lg shadow-lg">
+              <div className="relative w-full bg-gradient-to-br from-slate-100 to-slate-300 pt-12 pb-16 px-8 rounded-sm shadow-lg">
                 <h3 className="text-3xl font-extrabold text-gray-900 text-center">
                   {department.title}
                 </h3>
@@ -37,7 +37,7 @@ const Offerings = ({ offerings }) => {
                   {department.features.map((feature, i) => (
                     <li key={i} className="flex items-center space-x-3">
                       {/* Feature Icon */}
-                      <span className="hidden lg:block w-10 h-10 flex items-center justify-center bg-blue-600 rounded-full p-2">
+                      <span className="hidden lg:flex w-10 h-10 items-center justify-center bg-blue-600 rounded-full p-2">
                         {feature.icon}
                       </span>
                       {/* Feature Text */}

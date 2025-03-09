@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
 import CountUp from "react-countup";
+import { useInView } from "framer-motion";
 
 const Percentage = ({ percentageSection }) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { triggerOnce: true, threshold: 0.3 });
+
   return (
     <section className="w-full py-16 bg-white">
       <div className="container mx-auto px-6 lg:px-16 max-w-5xl text-center">
@@ -9,11 +13,20 @@ const Percentage = ({ percentageSection }) => {
           {percentageSection.title}
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-28 gap-y-10 text-center">
+        <div
+          ref={ref}
+          className="grid grid-cols-1 sm:grid-cols-3 gap-x-28 gap-y-10 text-center"
+        >
           {percentageSection.stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center space-y-6">
+              {/* Only starts counting when in viewport */}
               <p className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-900 to-blue-950">
-                <CountUp start={0} end={stat.number} duration={5} />%
+                {isInView ? (
+                  <CountUp start={0} end={stat.number} duration={3} />
+                ) : (
+                  0
+                )}
+                %
               </p>
 
               <p className="text-lg md:text-xl font-semibold text-gray-800">

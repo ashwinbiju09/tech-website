@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Info = ({ title, subContent, image, features, infoTitle }) => {
+const Info = ({ data }) => {
   return (
     <div className="w-full bg-white py-16">
       <motion.div
@@ -14,8 +14,8 @@ const Info = ({ title, subContent, image, features, infoTitle }) => {
             {/* Left Side: Image */}
             <div className="w-full flex justify-center">
               <img
-                src={image}
-                alt={title}
+                src={data.image}
+                alt={data.infoTitle}
                 className="w-96 h-96 object-cover rounded-lg shadow-lg"
                 loading="lazy"
               />
@@ -24,12 +24,12 @@ const Info = ({ title, subContent, image, features, infoTitle }) => {
             {/* Right Side: Text & Features */}
             <div>
               <h2 className="text-3xl font-extrabold text-gray-900">
-                {infoTitle}
+                {data.infoTitle}
               </h2>
-              <p className="mt-4 text-gray-600">{subContent}</p>
+              <p className="mt-4 text-gray-600">{data.subContent}</p>
 
               <div className="mt-8 space-y-6">
-                {features.map((feature, index) => (
+                {data.features.map((feature, index) => (
                   <div
                     key={index}
                     className="grid grid-cols-[auto_1fr] gap-6 items-start"

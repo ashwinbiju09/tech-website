@@ -11,34 +11,25 @@ const SolutionDetail = ({ data }) => {
   return (
     <>
       {/* Hero Section */}
-      <Hero
-        title={data.heroSection.heroTitle}
-        subContent={data.heroSection.heroSubContent}
-        image={data.heroSection.image}
-      />
+      <Hero data={data.heroSection} />
 
       {/* Info Section */}
-      <Info
-        infoTitle={data.infoSection.infoTitle}
-        subContent={data.heroSection.heroSubContent}
-        image={data.infoSection.image}
-        features={data.infoSection.features}
-      />
+      <Info data={data.infoSection} />
 
       {/* Offerings Section */}
-      <Offerings offerings={data.offeringsSection} />
+      <Offerings data={data.offeringsSection} />
 
       {/* Percentage Section */}
-      <Percentage percentageSection={data.percentageSection} />
+      <Percentage data={data.percentageSection} />
 
       {/* Info Bar Section */}
       <InfoBar data={data.ctaSection.description} />
 
       {/* Benefits Section */}
-      <Benefits benefitsSection={data.benefitsSection} />
+      <Benefits data={data.benefitsSection} />
 
       {/* FAQ Section */}
-      <FAQ faqSection={data.faqSection} />
+      <FAQ data={data.faqSection} />
     </>
   );
 };

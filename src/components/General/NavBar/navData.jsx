@@ -8,10 +8,10 @@ const navLinks = [
           {
             name: "SAP Consulting",
             subMenu: [
-              { name: "SAP S/4HANA", path: "/solutions/sap-s4-hana" },
+              { name: "SAP S/4HANA", path: "/sap-solutions/sap-s4-hana" },
               {
                 name: "SAP S/4HANA Public Cloud",
-                path: "/solutions/sap-s4hana-public-cloud",
+                path: "/sap-solutions/sap-s4hana-public-cloud",
               },
               { name: "SAP S/4HANA Private Cloud", path: "#" },
               { name: "SAP Financial Management", path: "#" },
@@ -33,7 +33,10 @@ const navLinks = [
           {
             name: "Epicor Consulting",
             subMenu: [
-              { name: "Epicor Kinetic", path: "#" },
+              {
+                name: "Epicor Kinetic",
+                path: "/epicor-solutions/epicor-kinetic-planning",
+              },
               { name: "Epicor Prophet 21", path: "#" },
               { name: "Epicor BisTrack", path: "#" },
               { name: "Epicor Data Analytics (EDA)", path: "#" },

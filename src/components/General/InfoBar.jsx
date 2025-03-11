@@ -1,4 +1,5 @@
 import React from "react";
+import CTAButton from "./CTAButton";
 
 const FullWidthCTA = ({ data }) => {
   return (
@@ -9,12 +10,7 @@ const FullWidthCTA = ({ data }) => {
 
         {/* Button */}
         <div className="flex justify-center">
-          <a
-            href="#"
-            className="rounded-sm bg-gradient-to-br from-yellow-400 to-yellow-600 px-6 py-3 text-white font-medium hover:bg-yellow-500 transition duration-300"
-          >
-            Connect with an Expert Today &#8594;
-          </a>
+          <CTAButton />
         </div>
       </div>
     </section>

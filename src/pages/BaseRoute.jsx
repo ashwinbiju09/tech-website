@@ -3,7 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Industries from "./Industries";
-import Solutions from "./Solutions";
+import SAPSolutions from "./SAPSolutions";
+import EpicorSolutions from "./EpicorSolutions";
 
 const BaseRoute = () => {
   return (
@@ -13,7 +14,9 @@ const BaseRoute = () => {
         <Route path="/about" element={<About />} />
 
         <Route path="/industries/:slug" element={<Industries />} />
-        <Route path="/solutions/:slug" element={<Solutions />} />
+
+        <Route path="/sap-solutions/:slug" element={<SAPSolutions />} />
+        <Route path="/epicor-solutions/:slug" element={<EpicorSolutions />} />
       </Routes>
     </>
   );

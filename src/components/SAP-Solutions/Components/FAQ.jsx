@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
-const FAQ = ({ faqSection }) => {
+const FAQ = ({ data }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { triggerOnce: true, threshold: 0.2 });
 
@@ -19,17 +19,13 @@ const FAQ = ({ faqSection }) => {
             <p className="inline-block font-semibold text-yellow-400 mb-4">
               SAP S/4HANA FAQ
             </p>
-            <p className="sm:text-4xl text-3xl font-extrabold">
-              {faqSection.title}
-            </p>
-            <p className="mt-3 text-lg text-gray-300">
-              {faqSection.description}
-            </p>
+            <p className="sm:text-4xl text-3xl font-extrabold">{data.title}</p>
+            <p className="mt-3 text-lg text-gray-300">{data.description}</p>
           </div>
 
           {/* Right Side: FAQ List */}
           <ul className="md:w-1/2">
-            {faqSection.faqs.map((faq, index) => (
+            {data.faqs.map((faq, index) => (
               <FAQItem
                 key={index}
                 question={faq.question}

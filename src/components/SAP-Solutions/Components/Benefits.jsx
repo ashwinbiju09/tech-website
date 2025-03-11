@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
-const Benefits = ({ benefitsSection }) => {
+const Benefits = ({ data }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { triggerOnce: true, threshold: 0.2 });
 
@@ -16,16 +16,16 @@ const Benefits = ({ benefitsSection }) => {
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
       >
         <div className="text-center text-2xl lg:text-4xl pt-2 pb-6 font-bold text-blue-900 tracking-wide">
-          {benefitsSection.title}
+          {data.title}
         </div>
         <div className="text-center text-lg font-semibold tracking-normal max-w-3xl mx-auto">
-          {benefitsSection.description}
+          {data.description}
         </div>
 
         {/* Cards Container */}
         <div className="flex items-center justify-center pt-12">
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
-            {benefitsSection.benefits.map((benefit, index) => (
+            {data.benefits.map((benefit, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, scale: 0.95 }}

@@ -1,5 +1,6 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
+import CTAButton from "../General/CTAButton";
 
 const Hero = () => {
   return (
@@ -36,12 +37,7 @@ const Hero = () => {
         </div>
 
         <div className="mt-8 flex justify-center">
-          <a
-            href="/"
-            className="rounded-sm bg-gradient-to-br from-yellow-400 to-yellow-600 px-6 py-3 text-white font-medium hover:bg-yellow-500 antialiased"
-          >
-            Connect with an Expert Today &#8594;
-          </a>
+          <CTAButton />
         </div>
       </div>
     </div>

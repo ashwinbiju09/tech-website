@@ -1,5 +1,5 @@
-import sapS4Hana from "../../assets/solutions/sap-s4-hana.jpg";
-import sapS4HanaPublicCloud from "../../assets/solutions/sap-s4hana-public-cloud.jpg";
+import sapS4Hana from "../../assets/solutions/sap/sap-s4-hana.jpg";
+import sapS4HanaPublicCloud from "../../assets/solutions/sap/sap-s4hana-public-cloud.jpg";
 
 const featureIcon = (
   <img
@@ -21,6 +21,8 @@ const solutionData = [
     infoSection: {
       image: sapS4Hana,
       infoTitle: "What is SAP S/4HANA?",
+      subContent:
+        "Transform your business with SAP S/4HANA, a next-gen ERP system that uses intelligent automation, real-time analytics, and seamless integration to support fast, data-driven decisions.",
       features: [
         {
           icon: featureIcon,

@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import CTAButton from "../../General/CTAButton";
 
-const Hero = ({ title, subContent, image }) => {
+const Hero = ({ data }) => {
   return (
     <div className="relative w-full bg-gradient-to-b from-blue-950 to-blue-900">
       <motion.div
@@ -14,28 +15,23 @@ const Hero = ({ title, subContent, image }) => {
             {/* Left Side: Text Content */}
             <div className="text-center lg:text-left text-white">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-                {title}
+                {data.heroTitle}
               </h1>
 
               <p className="mt-4 text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
-                {subContent}
+                {data.heroSubContent}
               </p>
 
               <div className="mt-8 flex justify-center lg:justify-start">
-                <a
-                  href="/"
-                  className="rounded-md bg-gradient-to-br from-yellow-400 to-yellow-600 px-6 py-3 text-white font-medium text-sm md:text-base hover:bg-yellow-500 transition-all duration-300"
-                >
-                  Connect with an Expert Today &#8594;
-                </a>
+                <CTAButton />
               </div>
             </div>
 
             {/* Right Side: Image */}
             <div className="w-full flex justify-center">
               <img
-                src={image}
-                alt={title}
+                src={data.image}
+                alt={data.heroTitle}
                 className="w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-lg shadow-lg object-cover"
               />
             </div>

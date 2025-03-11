@@ -5,12 +5,12 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination } from "swiper/modules";
 
-const Offerings = ({ offerings }) => {
+const data = ({ data }) => {
   return (
     <section className="w-full pt-10 pb-16 bg-gradient-to-b from-blue-950 to-blue-900">
       <div className="container mx-auto px-6 lg:px-16 ">
         <h2 className="text-4xl font-bold text-gray-100 text-center mb-8">
-          Our Offerings
+          Our data
         </h2>
 
         <Swiper
@@ -21,7 +21,7 @@ const Offerings = ({ offerings }) => {
           modules={[Autoplay, Pagination]}
           className="mySwiper"
         >
-          {offerings.departments.map((department, index) => (
+          {data.departments.map((department, index) => (
             <SwiperSlide key={index} className="relative flex justify-center">
               {/* Content Box */}
               <div className="relative w-full bg-gradient-to-br from-slate-100 to-slate-300 pt-12 pb-16 px-8 rounded-sm shadow-lg">
@@ -61,4 +61,4 @@ const Offerings = ({ offerings }) => {
   );
 };
 
-export default Offerings;
+export default data;

@@ -6,31 +6,42 @@ import Percentage from "./Components/Percentage";
 import InfoBar from "../General/InfoBar";
 import Benefits from "./Components/Benefits";
 import FAQ from "./Components/FAQ";
+import StickyNav from "./Components/StickyNav"; // Import the new Sticky Nav
 
 const SolutionDetail = ({ data }) => {
   return (
-    <>
+    <div className="relative">
       {/* Hero Section */}
       <Hero data={data.heroSection} />
 
-      {/* Info Section */}
-      <Info data={data.infoSection} />
+      {/* Sticky Navigation Bar */}
+      <StickyNav />
 
-      {/* Offerings Section */}
-      <Offerings data={data.offeringsSection} />
+      {/* Sections with IDs for smooth scrolling */}
+      <section id="info">
+        <Info data={data.infoSection} />
+      </section>
 
-      {/* Percentage Section */}
-      <Percentage data={data.percentageSection} />
+      <section id="offerings">
+        <Offerings data={data.offeringsSection} />
+      </section>
 
-      {/* Info Bar Section */}
-      <InfoBar data={data.ctaSection.description} />
+      <section id="percentage">
+        <Percentage data={data.percentageSection} />
+      </section>
 
-      {/* Benefits Section */}
-      <Benefits data={data.benefitsSection} />
+      <section id="info-bar">
+        <InfoBar data={data.ctaSection.description} />
+      </section>
 
-      {/* FAQ Section */}
-      <FAQ data={data.faqSection} />
-    </>
+      <section id="benefits">
+        <Benefits data={data.benefitsSection} />
+      </section>
+
+      <section id="faq">
+        <FAQ data={data.faqSection} />
+      </section>
+    </div>
   );
 };
 

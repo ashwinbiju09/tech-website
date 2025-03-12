@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from "react";
 
-const StickyNav = () => {
+const Navigation = () => {
   const [activeSection, setActiveSection] = useState("");
-  const NAVBAR_HEIGHT = 80; // Adjust if your navbar height differs
-  const STICKY_NAV_HEIGHT = 60; // Adjust based on your sticky nav height
-  const OFFSET = NAVBAR_HEIGHT + STICKY_NAV_HEIGHT + 16; // Extra padding
+  const NAVBAR_HEIGHT = 80;
+  const STICKY_NAV_HEIGHT = 60;
+  const OFFSET = NAVBAR_HEIGHT + STICKY_NAV_HEIGHT + 16;
 
-  // Function to detect which section is in view
   useEffect(() => {
     const handleScroll = () => {
       const sections = [
@@ -36,7 +35,6 @@ const StickyNav = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Function to scroll to section smoothly with offset
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -50,8 +48,8 @@ const StickyNav = () => {
   };
 
   return (
-    <nav className="sticky top-16 z-50 bg-slate-100 shadow-md border-b">
-      <ul className="flex justify-center space-x-8 py-4 text-lg font-medium text-gray-700">
+    <nav className="sticky top-14 z-40 bg-slate-100 shadow-md border-b">
+      <ul className="flex justify-center space-x-8 py-2 text-md font-medium text-gray-700">
         {[
           { id: "info", label: "Info" },
           { id: "offerings", label: "Offerings" },
@@ -78,4 +76,4 @@ const StickyNav = () => {
   );
 };
 
-export default StickyNav;
+export default Navigation;

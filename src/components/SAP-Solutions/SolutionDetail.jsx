@@ -6,18 +6,15 @@ import Percentage from "./Components/Percentage";
 import InfoBar from "../General/InfoBar";
 import Benefits from "./Components/Benefits";
 import FAQ from "./Components/FAQ";
-import StickyNav from "./Components/StickyNav"; // Import the new Sticky Nav
+import Navigation from "./Components/Navigation";
 
 const SolutionDetail = ({ data }) => {
   return (
     <div className="relative">
-      {/* Hero Section */}
       <Hero data={data.heroSection} />
 
-      {/* Sticky Navigation Bar */}
-      <StickyNav />
+      <Navigation />
 
-      {/* Sections with IDs for smooth scrolling */}
       <section id="info">
         <Info data={data.infoSection} />
       </section>

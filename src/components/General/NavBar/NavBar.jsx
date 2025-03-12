@@ -40,7 +40,7 @@ const NavBar = () => {
         isScrolled ? "bg-white text-black shadow" : "bg-transparent text-white"
       }`}
     >
-      <div className="flex justify-between items-center px-4 md:px-24 py-2 md:py-3 font-bold font-sans">
+      <div className="flex justify-between items-center px-4 md:px-24 py-2 md:py-1 font-bold font-sans">
         <a href="/" className="m-2">
           <img className="h-8" src={Logo} alt="Logo" />
         </a>

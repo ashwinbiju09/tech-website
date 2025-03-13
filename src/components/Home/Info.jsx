@@ -3,7 +3,7 @@ import React from "react";
 const Info = () => {
   return (
     <div className="w-full flex flex-col md:flex-row items-center md:p-12">
-      <div className="w-full py-4 md:py-0 md:-1/2 flex justify-center font-medium text-3xl md:text-6xl text-blue-900">
+      <div className="w-full py-4 md:py-0 md:w-1/2 flex justify-start font-medium text-3xl md:text-6xl text-blue-900">
         Innovation begins here
       </div>
       <div className="w-full md:w-1/2 px-4 md:px-0 pb-4 md:pb-0 text-justify text-base md:text-lg/8">

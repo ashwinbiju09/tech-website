@@ -57,7 +57,7 @@ const Industry = () => {
                 <h3 className="text-lg font-semibold text-white tracking-wide">
                   {industry.name}
                 </h3>
-                <span className="text-gray-300 text-lg">→</span>{" "}
+                {/* <span className="text-gray-300 text-lg">→</span>{" "} */}
                 {/* Right Arrow */}
               </div>
 
@@ -93,7 +93,7 @@ const Industry = () => {
                 <h3 className="text-lg font-semibold text-white tracking-wide">
                   {industry.name}
                 </h3>
-                <span className="text-gray-300 text-lg">→</span>{" "}
+                {/* <span className="text-gray-300 text-lg">→</span>{" "} */}
                 {/* Right Arrow */}
               </div>
 

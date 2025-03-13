@@ -97,7 +97,10 @@ const navLinks = [
       {
         name: "Retail",
         subMenu: [
-          { name: "Fashion & Apparel", path: "#" },
+          {
+            name: "Fashion & Apparel",
+            path: "/industries/fashion-and-apparel",
+          },
           { name: "Grocery", path: "#" },
           { name: "Specialty Retail", path: "#" },
           { name: "Healthcare & Wellness", path: "#" },
@@ -109,7 +112,7 @@ const navLinks = [
       {
         name: "Consumer Products",
         subMenu: [
-          { name: "Food & Beverage", path: "#" },
+          { name: "Food & Beverage", path: "/industries/food-and-beverage" },
           { name: "Consumer Durables", path: "#" },
           { name: "Home & Personal Care", path: "#" },
         ],

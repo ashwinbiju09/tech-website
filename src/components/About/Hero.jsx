@@ -1,14 +1,41 @@
 import React from "react";
+import { motion } from "framer-motion";
+import aboutData from "./aboutData";
 
 const Hero = () => {
+  const data = aboutData[0].heroSection;
+
   return (
-    <div>
-      <img
-        className="w-full h-2/3 bg-gradient-to-b from-black/30 to-transparent"
-        src="/assets/about-2.png"
-        alt="Hero"
+    <div className="relative w-full h-[550px] overflow-hidden">
+      <div
+        className="absolute inset-0 w-full h-full"
+        style={{
+          backgroundImage: data.image ? `url(${data.image})` : "none",
+          backgroundSize: "cover",
+          backgroundPosition: "center center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+        }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent" />
+
+      <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/30"></div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.0, ease: "easeOut" }}
+        className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6 text-white"
+      >
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold pb-6">
+          {data.title}
+        </h1>
+
+        <p className="mt-4 text-lg sm:text-xl text-gray-300 max-w-2xl">
+          {data.subContent}
+        </p>
+
+        <div className="mt-8"></div>
+      </motion.div>
     </div>
   );
 };

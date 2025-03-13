@@ -6,10 +6,8 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const [openSubDropdown, setOpenSubDropdown] = useState(null);
-
   const [openMobileDropdown, setOpenMobileDropdown] = useState(null);
   const [openMobileSubDropdown, setOpenMobileSubDropdown] = useState(null);
-
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -21,8 +19,16 @@ const NavBar = () => {
   const handleMouseEnter = (topIndex) => {
     setOpenDropdown(topIndex);
     const firstLevel = navLinks[topIndex];
-    if (firstLevel?.subMenu?.length) setOpenSubDropdown(0);
-    else setOpenSubDropdown(null);
+
+    if (firstLevel?.subMenu?.length) {
+      if (firstLevel.subMenu[0].Heading) {
+        setOpenSubDropdown({ parent: 0, child: 0 });
+      } else {
+        setOpenSubDropdown(0);
+      }
+    } else {
+      setOpenSubDropdown(null);
+    }
   };
 
   const handleMouseLeave = () => {
@@ -30,8 +36,8 @@ const NavBar = () => {
     setOpenSubDropdown(null);
   };
 
-  const handleSubMouseEnter = (subIndex) => {
-    setOpenSubDropdown(subIndex);
+  const handleSubMouseEnter = (val) => {
+    setOpenSubDropdown(val);
   };
 
   return (
@@ -68,35 +74,35 @@ const NavBar = () => {
             navLinks[openDropdown]?.subMenu?.length > 0 && (
               <div
                 className="
-          absolute top-full left-1/2
-          -translate-x-1/2
-          bg-gradient-to-br from-slate-100 to-slate-300
-          shadow-lg pointer-events-auto
-          min-w-[42rem]
-          max-h-[600px]
-          overflow-auto
-          p-4
-        "
+                  absolute top-full left-1/2
+                  -translate-x-1/2
+                  bg-gradient-to-br from-slate-100 to-slate-300
+                  shadow-lg pointer-events-auto
+                  min-w-[42rem]
+                  max-h-[600px]
+                  overflow-auto
+                  p-4
+                "
               >
                 <div className="flex">
-                  {/* First column */}
-                  <div className="border-r w-1/3 pr-4">
+                  <div className="border-r w-48">
                     {navLinks[openDropdown].subMenu.map((sub, subIndex) => {
                       if (sub.Heading) {
                         return (
-                          <div key={subIndex} className="px-4">
-                            {/* Heading with an underline */}
-                            <div className="py-2 text-md font-extrabold text-black uppercase border-b border-slate-300 mb-2">
+                          <div key={subIndex} className="px-2">
+                            <div className="py-2 text-sm font-extrabold text-black border-slate-300">
                               {sub.Heading}
                             </div>
-                            {/* Children align with heading */}
                             {sub.subMenu?.map((child, childIndex) => (
                               <div
                                 key={childIndex}
                                 onMouseEnter={() =>
-                                  handleSubMouseEnter(childIndex)
+                                  handleSubMouseEnter({
+                                    parent: subIndex,
+                                    child: childIndex,
+                                  })
                                 }
-                                className="cursor-pointer py-2 text-sm font-semibold text-black hover:text-blue-800"
+                                className="cursor-pointer px-4 py-2 ml-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-white"
                               >
                                 {child.name}
                               </div>
@@ -104,11 +110,12 @@ const NavBar = () => {
                           </div>
                         );
                       }
+
                       return (
                         <div
                           key={subIndex}
                           onMouseEnter={() => handleSubMouseEnter(subIndex)}
-                          className="cursor-pointer px-4 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-white"
+                          className="cursor-pointer px-2 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-white"
                         >
                           {sub.name}
                         </div>
@@ -116,22 +123,20 @@ const NavBar = () => {
                     })}
                   </div>
 
-                  {/* Second column */}
-                  <div className="w-2/3 pl-4 pt-10">
+                  <div className="w-2/3 pl-4">
                     {openSubDropdown !== null &&
                       (() => {
                         const parentArray = navLinks[openDropdown].subMenu;
                         let itemsToShow = [];
 
-                        if (
-                          parentArray.length === 1 &&
-                          parentArray[0].Heading &&
-                          parentArray[0].subMenu
-                        ) {
-                          const headingObj = parentArray[0];
-                          const child = headingObj.subMenu[openSubDropdown];
-                          if (!child?.subMenu) return null;
-                          itemsToShow = child.subMenu;
+                        if (typeof openSubDropdown === "object") {
+                          const headingObj =
+                            parentArray[openSubDropdown.parent];
+                          if (!headingObj?.subMenu) return null;
+                          const childObj =
+                            headingObj.subMenu[openSubDropdown.child];
+                          if (!childObj?.subMenu) return null;
+                          itemsToShow = childObj.subMenu;
                         } else {
                           const normalObj = parentArray[openSubDropdown];
                           if (!normalObj?.subMenu) return null;
@@ -170,6 +175,7 @@ const NavBar = () => {
                             </div>
                           );
                         }
+
                         return (
                           <div className="flex flex-col">
                             {itemsToShow.map((item, i) => (

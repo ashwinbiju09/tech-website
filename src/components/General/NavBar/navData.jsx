@@ -46,6 +46,25 @@ const navLinks = [
           },
         ],
       },
+      {
+        name: "Enhanced Add-ons",
+        subMenu: [
+          {
+            name: "Field Service Management",
+            path: "/enhanced-addons/field-service-management",
+          },
+          { name: "Vendor Management", path: "#" },
+          { name: "Asset  Management", path: "#" },
+          { name: "Subscription Billing System", path: "#" },
+          { name: "Sales Force Automation (SFA)", path: "#" },
+          { name: "Digital Retail Solution ", path: "#" },
+          { name: "Real Estate Management", path: "#" },
+          { name: "Compliance management", path: "#" },
+          { name: "No-code workflow automation", path: "#" },
+          { name: "Project management", path: "#" },
+          { name: "Document management", path: "#" },
+        ],
+      },
     ],
   },
   {

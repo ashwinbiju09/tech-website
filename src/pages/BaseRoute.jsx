@@ -5,6 +5,7 @@ import About from "./About";
 import Industries from "./Industries";
 import SAPSolutions from "./SAPSolutions";
 import EpicorSolutions from "./EpicorSolutions";
+import Addons from "./Addons";
 
 const BaseRoute = () => {
   return (
@@ -17,6 +18,7 @@ const BaseRoute = () => {
 
         <Route path="/sap-solutions/:slug" element={<SAPSolutions />} />
         <Route path="/epicor-solutions/:slug" element={<EpicorSolutions />} />
+        <Route path="/enhanced-addons/:slug" element={<Addons />} />
       </Routes>
     </>
   );

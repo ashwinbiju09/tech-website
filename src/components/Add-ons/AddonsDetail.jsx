@@ -17,11 +17,11 @@ const AddonsDetail = ({ data }) => {
       <section id="insights">
         <Insights data={data.insightsSection} />
       </section>
-      <section id="benefits">
-        <Benefits data={data.benefitsSection} />
-      </section>
       <section id="percentage">
         <Percentage data={data.percentageSection} />
+      </section>
+      <section id="benefits">
+        <Benefits data={data.benefitsSection} />
       </section>
     </div>
   );

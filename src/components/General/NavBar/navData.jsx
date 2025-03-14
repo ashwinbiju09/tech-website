@@ -47,6 +47,19 @@ const navLinks = [
         ],
       },
       {
+        name: "AI Automation",
+        subMenu: [
+          {
+            name: "Build AI Agents",
+            path: "/ai-automation/ai-agents",
+          },
+          { name: "Streamline workflows", path: "#" },
+          { name: "Process complex documents", path: "#" },
+          { name: "Discover opportunities", path: "#" },
+          { name: "Orchestrate automations", path: "#" },
+        ],
+      },
+      {
         name: "Enhanced Add-ons",
         subMenu: [
           {

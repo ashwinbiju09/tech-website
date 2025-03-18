@@ -381,6 +381,15 @@ const solutionData = [
       ],
     },
   },
+  {
+    slug: "SAP S/4HANA Private Cloud",
+  },
+  {
+    slug: "SAP Financial Management",
+  },
+  {
+    slug: "SAP Analytics Cloud Planning",
+  },
 ];
 
 export default solutionData;

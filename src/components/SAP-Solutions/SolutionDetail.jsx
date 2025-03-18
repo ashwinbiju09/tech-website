@@ -7,6 +7,8 @@ import InfoBar from "../General/InfoBar";
 import Benefits from "./Components/Benefits";
 import FAQ from "./Components/FAQ";
 import Navigation from "./Components/Navigation";
+import OtherServices from "./Components/OtherServices";
+import navLinks from "../General/NavBar/navData";
 
 const SolutionDetail = ({ data }) => {
   return (
@@ -15,7 +17,7 @@ const SolutionDetail = ({ data }) => {
 
       <Navigation />
 
-      <section id="info">
+      <section id="overview">
         <Info data={data.infoSection} />
       </section>
 
@@ -23,12 +25,8 @@ const SolutionDetail = ({ data }) => {
         <Offerings data={data.offeringsSection} />
       </section>
 
-      <section id="percentage">
+      <section id="insights">
         <Percentage data={data.percentageSection} />
-      </section>
-
-      <section id="info-bar">
-        <InfoBar data={data.ctaSection.description} />
       </section>
 
       <section id="benefits">
@@ -37,6 +35,14 @@ const SolutionDetail = ({ data }) => {
 
       <section id="faq">
         <FAQ data={data.faqSection} />
+      </section>
+
+      <section>
+        <OtherServices navLinks={navLinks} />
+      </section>
+
+      <section id="info-bar">
+        <InfoBar data={data.ctaSection.description} />
       </section>
     </div>
   );

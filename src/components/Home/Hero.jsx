@@ -5,8 +5,9 @@ import CTAButton from "../General/CTAButton";
 const Hero = () => {
   return (
     <div className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+      {/* Background video */}
       <video
-        className="absolute inset-0 w-full h-full object-cover "
+        className="absolute inset-0 w-full h-full object-cover"
         src="/3.mp4"
         autoPlay
         loop
@@ -14,7 +15,11 @@ const Hero = () => {
         playsInline
       />
 
-      <div className="w-full relative z-10 px-6 text-center">
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black bg-opacity-40" />
+
+      {/* Content on top */}
+      <div className="relative z-10 px-6 text-center">
         <p className="text-white text-sm font-medium tracking-widest py-2">
           WE ARE A PREMIER SAP GOLD PARTNER
         </p>

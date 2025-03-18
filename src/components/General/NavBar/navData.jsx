@@ -47,19 +47,6 @@ const navLinks = [
         ],
       },
       {
-        name: "AI Automation",
-        subMenu: [
-          {
-            name: "Build AI Agents",
-            path: "/ai-automation/ai-agents",
-          },
-          { name: "Streamline workflows", path: "#" },
-          { name: "Process complex documents", path: "#" },
-          { name: "Discover opportunities", path: "#" },
-          { name: "Orchestrate automations", path: "#" },
-        ],
-      },
-      {
         name: "Enhanced Add-ons",
         subMenu: [
           {
@@ -76,6 +63,19 @@ const navLinks = [
           { name: "No-code workflow automation", path: "#" },
           { name: "Project management", path: "#" },
           { name: "Document management", path: "#" },
+        ],
+      },
+      {
+        name: "AI Automation",
+        subMenu: [
+          {
+            name: "Build AI Agents",
+            path: "/ai-automation/ai-agents",
+          },
+          { name: "Streamline workflows", path: "#" },
+          { name: "Process complex documents", path: "#" },
+          { name: "Discover opportunities", path: "#" },
+          { name: "Orchestrate automations", path: "#" },
         ],
       },
     ],
@@ -195,8 +195,7 @@ const navLinks = [
       },
     ],
   },
-  { name: "About us", path: "/about" },
-  { name: "Contact Us", path: "#" },
+  { name: "Why Us", path: "/about" },
 ];
 
 export default navLinks;

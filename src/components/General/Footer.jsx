@@ -1,44 +1,54 @@
-import React from "react";
+import React, { useState } from "react";
+import navLinks from "../General/NavBar/navData";
+// Function to transform navLinks into footer menu items
+const transformNavLinksToFooterMenu = (navLinks) => {
+  const footerMenuItems = [];
+
+  navLinks.forEach((link) => {
+    if (link.subMenu) {
+      const links = [];
+      link.subMenu.forEach((subLink) => {
+        if (subLink.subMenu) {
+          subLink.subMenu.forEach((nestedSubLink) => {
+            if (nestedSubLink.subMenu) {
+              nestedSubLink.subMenu.forEach((deepNestedSubLink) => {
+                links.push(deepNestedSubLink.name);
+              });
+            } else {
+              links.push(nestedSubLink.name);
+            }
+          });
+        } else {
+          links.push(subLink.name);
+        }
+      });
+      footerMenuItems.push({
+        title: link.name,
+        links: links,
+      });
+    } else {
+      footerMenuItems.push({
+        title: link.name,
+        links: [link.name],
+      });
+    }
+  });
+
+  return footerMenuItems;
+};
 
 const Footer = () => {
-  const menuItems = [
-    {
-      title: "Solutions",
-      links: [
-        "SAP",
-        "Oracle",
-        "Digital Application",
-        "DevOps",
-        "Data, Automation AI",
-        "Salesforce",
-        "AWS",
-        "Microsoft",
-        "Services Now",
-      ],
-    },
-    {
-      title: "Industries",
-      links: [
-        "Public & Government Sector",
-        "Healthcare & Life Sciences",
-        "Education",
-        "Manufacturing & Technology",
-        "Retail & Consumer",
-        "Financial Services",
-        "Construction & Engineering",
-        "Transportation & Logistics",
-        "Oil & Gas",
-      ],
-    },
-    {
-      title: "About Ladera",
-      links: ["Company", "Career", "Contact us"],
-    },
-    {
-      title: "Quick Links",
-      links: ["Privacy Policy", "Terms & Conditions", "Cookies Policy"],
-    },
-  ];
+  const [expandedMenus, setExpandedMenus] = useState({});
+
+  const menuItems = transformNavLinksToFooterMenu(navLinks);
+
+  // Function to toggle "Show More" for a specific menu
+  const toggleShowMore = (title) => {
+    setExpandedMenus((prev) => ({
+      ...prev,
+      [title]: !prev[title],
+    }));
+  };
 
   return (
     <footer className="px-4 pt-8 pb-8 bg-gradient-to-br from-slate-100 to-slate-300 text-gray-800">
@@ -71,23 +81,41 @@ const Footer = () => {
           </div>
         </div>
         <div className="grid grid-cols-2 gap-5 lg:col-span-4 md:grid-cols-4">
-          {menuItems.map(({ title, links }) => (
-            <div key={title}>
-              <h3 className="font-bold tracking-wide text-gray-800">{title}</h3>
-              <ul className="mt-2 space-y-2">
-                {links.map((link) => (
-                  <li key={link}>
-                    <a
-                      href="/"
-                      className="text-gray-600 transition-colors duration-300 hover:text-blue-900"
-                    >
-                      {link}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          {menuItems.map(({ title, links }) => {
+            const isExpanded = expandedMenus[title];
+            const visibleLinks = isExpanded ? links : links.slice(0, 5); // Show only 5 links initially
+            const hasMoreLinks = links.length > 5;
+
+            return (
+              <div key={title}>
+                <h3 className="font-bold tracking-wide text-gray-800">
+                  {title}
+                </h3>
+                <ul className="mt-2 space-y-2">
+                  {visibleLinks.map((link) => (
+                    <li key={link}>
+                      <a
+                        href={link}
+                        className="text-gray-600 transition-colors duration-300 hover:text-blue-900"
+                      >
+                        {link}
+                      </a>
+                    </li>
+                  ))}
+                  {hasMoreLinks && (
+                    <li>
+                      <button
+                        onClick={() => toggleShowMore(title)}
+                        className="text-blue-600 hover:text-blue-900 focus:outline-none"
+                      >
+                        {isExpanded ? "Show Less" : "Show More"}
+                      </button>
+                    </li>
+                  )}
+                </ul>
+              </div>
+            );
+          })}
         </div>
       </div>
     </footer>

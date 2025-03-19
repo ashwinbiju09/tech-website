@@ -25,7 +25,13 @@ const solutionData = [
         "Transform your business with SAP S/4HANA, a next-gen ERP system that uses intelligent automation, real-time analytics, and seamless integration to support fast, data-driven decisions.",
       features: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pastel-glyph/100/FFFFFF/intelligent-person.png"
+              alt="intelligent-person"
+            />
+          ),
           title: "Intelligent Automation",
           description:
             "Leverage AI-driven automation to streamline workflows and enhance operational efficiency.",

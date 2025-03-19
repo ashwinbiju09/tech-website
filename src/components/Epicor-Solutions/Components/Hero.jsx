@@ -34,12 +34,12 @@ const Hero = ({ data }) => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 1.5, ease: "easeOut", delay: 0.6 }}
-          className="hidden lg:block absolute right-60 bottom-[-300px]"
+          className="hidden lg:block absolute right-32 bottom-[-450px] pl-14"
         >
           <img
             src={data.image}
             alt="Cloud Technology"
-            className="rounded-lg shadow-lg w-96 h-full object-cover"
+            className="rounded-lg shadow-lg w-[580px] h-full object-cover"
           />
         </motion.div>
       </div>

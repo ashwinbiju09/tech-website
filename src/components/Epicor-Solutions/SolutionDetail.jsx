@@ -3,6 +3,7 @@ import Hero from "./Components/Hero";
 import Features from "./Components/Features";
 import Container from "./Components/Container";
 import Benefits from "./Components/Benefits";
+import InfoBar from "../General/InfoBar";
 
 const SolutionDetail = ({ data }) => {
   return (
@@ -18,6 +19,9 @@ const SolutionDetail = ({ data }) => {
 
       {/* Benefits Section */}
       <Benefits data={data.benefitsSection} />
+
+      {/* CTA Conatiner Section */}
+      <InfoBar data={data.ctaSection.description} />
     </>
   );
 };

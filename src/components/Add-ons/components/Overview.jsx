@@ -47,7 +47,8 @@ const Overview = ({ data }) => {
         </div>
 
         <div className="w-full md:w-1/2 flex flex-col items-center">
-          <Chart sections={data.features} onSelectStage={setSelectedStage} />
+          {/* <Chart sections={data.features} onSelectStage={setSelectedStage} /> */}
+          <img src="/Chart.svg" alt="Chart" style={{ height: "400px" }} />
         </div>
       </div>
     </div>

@@ -32,7 +32,7 @@ const Hero = ({ data }) => {
               <img
                 src={data.image}
                 alt={data.heroTitle}
-                className="w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-lg shadow-lg object-cover"
+                className="w-72 h-72 sm:w-80 sm:h-80 md:w-96 md:h-96 rounded-lg object-cover"
               />
             </div>
           </div>

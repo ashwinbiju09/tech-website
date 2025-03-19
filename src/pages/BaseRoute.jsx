@@ -7,6 +7,7 @@ import SAPSolutions from "./SAPSolutions";
 import EpicorSolutions from "./EpicorSolutions";
 import Addons from "./Addons";
 import Automation from "./Automation";
+import Services from "./Services";
 
 const BaseRoute = () => {
   return (
@@ -16,6 +17,8 @@ const BaseRoute = () => {
         <Route path="/about" element={<About />} />
 
         <Route path="/industries/:slug" element={<Industries />} />
+
+        <Route path="/services/:slug" element={<Services />} />
 
         <Route path="/sap-solutions/:slug" element={<SAPSolutions />} />
         <Route path="/epicor-solutions/:slug" element={<EpicorSolutions />} />

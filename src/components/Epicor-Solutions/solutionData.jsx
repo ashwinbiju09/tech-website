@@ -87,6 +87,10 @@ const solutionData = [
         },
       ],
     },
+    ctaSection: {
+      description:
+        "Transform your enterprise with Accely’s SAP S/4HANA solutions and enhance operational efficiency, optimize processes, and drive sustainable growth through innovative, data-driven decision-making for future success.",
+    },
   },
 ];
 

@@ -8,22 +8,26 @@ const Benefits = ({ data }) => {
   return (
     <section className="w-full bg-white pt-16 pb-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-6xl">
+        {/* Title Section */}
         <motion.h2
           ref={ref}
           initial={{ opacity: 0, y: -20 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{ duration: 0.4, ease: "easeOut" }}
           className="text-center text-4xl font-extrabold text-blue-900 mb-12"
         >
           {data.title}
         </motion.h2>
 
+        {/* Benefits List */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-16">
           {data.benefits.map((benefit, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, x: -20 }}
-              animate={isInView ? { opacity: 1, x: 0 } : {}}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
               transition={{
                 duration: 0.6,
                 ease: "easeOut",
@@ -31,9 +35,11 @@ const Benefits = ({ data }) => {
               }}
               className="flex items-center gap-4"
             >
+              {/* Icon */}
               <motion.div
                 initial={{ scale: 0.8, opacity: 0 }}
-                animate={isInView ? { scale: 1, opacity: 1 } : {}}
+                whileInView={{ scale: 1, opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   duration: 0.4,
                   ease: "easeOut",
@@ -44,9 +50,11 @@ const Benefits = ({ data }) => {
                 {benefit.icon}
               </motion.div>
 
+              {/* Text */}
               <motion.p
                 initial={{ opacity: 0 }}
-                animate={isInView ? { opacity: 1 } : {}}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
                 transition={{
                   duration: 0.5,
                   ease: "easeOut",

@@ -37,7 +37,7 @@ const SolutionDetail = ({ data }) => {
         <FAQ data={data.faqSection} />
       </section>
 
-      <section>
+      <section id="otherservices">
         <OtherServices navLinks={navLinks} />
       </section>
 

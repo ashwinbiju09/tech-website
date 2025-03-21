@@ -41,7 +41,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="sticky top-14 z-40 bg-white shadow-md border-b">
+    <nav className="hidden md:block sticky top-14 z-40 bg-white shadow-md border-b">
       <ul className="flex justify-center space-x-8 py-2 text-md font-medium text-gray-700">
         {[
           { id: "overview", label: "Overview" },

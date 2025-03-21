@@ -8,7 +8,7 @@ const Navigation = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["overview", "insights", "benefits", "percentage"];
+      const sections = ["overview", "howitworks", "insights", "benefits"];
       let foundSection = "";
 
       for (let section of sections) {
@@ -40,15 +40,17 @@ const Navigation = () => {
     }
   };
 
+  const navItems = [
+    { id: "overview", label: "Overview" },
+    { id: "howitworks", label: "How It Works" },
+    { id: "insights", label: "Insights" },
+    { id: "benefits", label: "Benefits" },
+  ];
+
   return (
-    <nav className="sticky top-14 z-40 bg-slate-100 shadow-md border-b">
+    <nav className="hidden md:block sticky top-14 z-40 bg-slate-100 shadow-md border-b">
       <ul className="flex justify-center space-x-8 py-2 text-md font-medium text-gray-700">
-        {[
-          { id: "overview", label: "Overview" },
-          { id: "insights", label: "Insights" },
-          { id: "benefits", label: "Benefits" },
-          { id: "percentage", label: "Stats" },
-        ].map((item) => (
+        {navItems.map((item) => (
           <li key={item.id}>
             <button
               onClick={() => scrollToSection(item.id)}

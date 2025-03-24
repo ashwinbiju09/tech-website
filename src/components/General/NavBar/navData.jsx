@@ -86,20 +86,41 @@ const navLinks = [
       {
         name: "Strategy and Consulting",
         subMenu: [
-          { name: "Business Consulting", path: "#" },
-          { name: "Process Consulting", path: "#" },
-          { name: "Technology Consulting", path: "#" },
+          {
+            name: "Business Consulting",
+            path: "/services/business-consulting-services",
+          },
+          { name: "Process Consulting", path: "/services/process-consulting" },
+          {
+            name: "Technology Consulting",
+            path: "/services/technology-consulting",
+          },
         ],
       },
       {
         name: "SAP Support",
         subMenu: [
-          { name: "SAP Managed Services", path: "#" },
-          { name: "SAP AMS", path: "#" },
-          { name: "SAP S/4HANA Migration", path: "#" },
-          { name: "SAP Discovery & Evaluation", path: "#" },
-          { name: "SAP Implementation & Rollout", path: "#" },
-          { name: "SAP Upgrade Services", path: "#" },
+          {
+            name: "SAP Managed Services",
+            path: "/services/sap-managed-services",
+          },
+          { name: "SAP AMS", path: "/services/sap-ams" },
+          {
+            name: "SAP S/4HANA Migration",
+            path: "/services/sap-s4hana-migration",
+          },
+          {
+            name: "SAP Discovery & Evaluation",
+            path: "/services/sap-discovery-and-evaluation",
+          },
+          {
+            name: "SAP Implementation & Rollout",
+            path: "/services/sap-implementation-and-rollout",
+          },
+          {
+            name: "SAP Upgrade Services",
+            path: "/services/sap-upgrade-services",
+          },
         ],
       },
     ],

@@ -2,10 +2,8 @@ import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
 const Services = ({ data }) => {
-  // Ref for the section wrapper
   const ref = useRef(null);
 
-  // Trigger the animation when 10% of this section is in the viewport
   const isInView = useInView(ref, { threshold: 0.1, triggerOnce: true });
 
   return (

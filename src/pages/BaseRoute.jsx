@@ -8,6 +8,7 @@ import EpicorSolutions from "./EpicorSolutions";
 import Addons from "./Addons";
 import Automation from "./Automation";
 import Services from "./Services";
+import Contact from "./Contact";
 
 const BaseRoute = () => {
   return (
@@ -15,6 +16,7 @@ const BaseRoute = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
 
         <Route path="/industries/:slug" element={<Industries />} />
 

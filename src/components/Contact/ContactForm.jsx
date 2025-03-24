@@ -1,9 +1,9 @@
 import React from "react";
 import { Mail, Send, User, FileText, MessageSquare } from "lucide-react";
 
-const Contact = () => {
+const ContactForm = () => {
   return (
-    <div className="relative z-20 py-20 px-4 ">
+    <div className="py-20 px-4">
       <div className="max-w-6xl mx-auto bg-white rounded-2xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
         {/* Left Section */}
         <div className="bg-blue-900 text-white p-8 md:p-12 md:w-2/5 flex flex-col justify-between">
@@ -70,7 +70,7 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="John Smith"
-                  className="w-full pl-12 pr-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full pl-12 pr-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 />
                 <User className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               </div>
@@ -85,7 +85,7 @@ const Contact = () => {
                 <input
                   type="email"
                   placeholder="your@email.com"
-                  className="w-full pl-12 pr-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full pl-12 pr-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 />
                 <Mail className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               </div>
@@ -100,7 +100,7 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="How can we help you?"
-                  className="w-full pl-12 pr-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full pl-12 pr-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 />
                 <FileText className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               </div>
@@ -113,7 +113,7 @@ const Contact = () => {
               </label>
               <textarea
                 placeholder="Tell us about your project or inquiry..."
-                rows={1}
+                rows={5}
                 className="w-full p-4 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
               />
             </div>
@@ -121,10 +121,10 @@ const Contact = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full rounded-sm bg-gradient-to-br from-yellow-400 to-yellow-600 px-6 py-2 text-white font-medium hover:bg-yellow-500 flex items-center justify-center space-x-2 transition-colors"
+              className="w-full rounded-sm bg-gradient-to-br from-yellow-400 to-yellow-600 px-6 py-3 text-white font-medium hover:bg-yellow-500 flex items-center justify-center space-x-2 transition-colors"
             >
               <span>Send Message</span>
-              <Send className="w-4 h-4" />
+              <Send className="w-5 h-5" />
             </button>
 
             {/* Privacy Note */}
@@ -142,4 +142,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactForm;

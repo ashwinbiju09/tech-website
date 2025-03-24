@@ -34,59 +34,23 @@ const Home = () => {
         <Hero />
       </motion.div>
 
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        variants={sectionVariants}
-        viewport={{ once: true }}
+      <div
+        className="relative bg-slate-100 z-30"
+        style={{
+          backgroundImage: 'url("/bg-2.png")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
       >
+        <div className="absolute inset-0 bg-slate-100/90 -z-10"></div>
         <Info />
-      </motion.div>
-
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        variants={sectionVariants}
-        viewport={{ once: true }}
-      >
         <Stats />
-      </motion.div>
-
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        variants={sectionVariants}
-        viewport={{ once: true }}
-      >
         <Scroll />
-      </motion.div>
-
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        variants={sectionVariants}
-        viewport={{ once: true }}
-      >
         <Industry />
-      </motion.div>
-
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        variants={sectionVariants}
-        viewport={{ once: true }}
-      >
         <Services />
-      </motion.div>
-
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        variants={sectionVariants}
-        viewport={{ once: true }}
-      >
         <Contact />
-      </motion.div>
+      </div>
 
       <Footer />
     </>

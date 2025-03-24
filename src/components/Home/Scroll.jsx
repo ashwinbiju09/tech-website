@@ -21,11 +21,11 @@ const logos = [
 
 const Scroll = () => {
   return (
-    <div className="lg:py-6">
-      <div className="text-center text-2xl lg:text-4xl pb-6 font-bold text-blue-900 tracking-wide">
+    <div className="relative w-full z-20 lg:pb-16 pt-4">
+      <h2 className="text-[50px] font-[700] pb-4 tracking-[-2px] text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-950 to-blue-900">
         Technology Offerings
-      </div>
-      <div className="w-full md:w-3/4 mx-auto pt-4 pb-6">
+      </h2>
+      <div className="w-full py-2 px-24">
         <div className="flex overflow-hidden space-x-12 group h-14">
           {/* First set of scrolling logos */}
           <div className="flex space-x-12 animate-loop-scroll group-hover:paused">
@@ -34,7 +34,7 @@ const Scroll = () => {
                 key={index}
                 loading="lazy"
                 src={logo}
-                className="max-w-none h-10"
+                className="max-w-none h-14"
                 alt={`Logo ${index + 1}`}
               />
             ))}
@@ -50,7 +50,7 @@ const Scroll = () => {
                 key={`duplicate-${index}`}
                 loading="lazy"
                 src={logo}
-                className="max-w-none h-10"
+                className="max-w-none h-14"
                 alt={`Logo ${index + 1}`}
               />
             ))}

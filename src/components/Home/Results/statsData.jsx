@@ -1,39 +1,39 @@
-// statsData.js
 const statsData = [
   {
     id: 1,
-    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/conference-call.png",
+    title: "Consultants",
     number: 400,
     symbol: "+",
-    title: "Consultants",
+    icon: "https://img.icons8.com/ios-filled/50/000000/consultation.png",
   },
   {
     id: 2,
-    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/globe.png",
+    title: "Global Clients",
     number: 25,
     symbol: "+",
-    title: "Global Clients",
+    icon: "https://img.icons8.com/ios-filled/50/000000/group-foreground-selected.png",
   },
+
   {
     id: 3,
-    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/combo-chart.png",
-    number: 80,
-    symbol: "%",
-    title: "YoY Growth",
+    title: "YOY Growth",
+    number: 50,
+    symbol: "+",
+    icon: "https://img.icons8.com/ios-filled/50/000000/combo-chart.png",
   },
   {
     id: 4,
-    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/handshake.png",
+    title: "Trusted Partners",
     number: 15,
     symbol: "+",
-    title: "Trusted Partners",
+    icon: "https://img.icons8.com/ios-filled/50/000000/handshake.png",
   },
   {
     id: 5,
-    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/medal.png",
-    number: 50,
+    title: "Combined T-Certification",
+    number: 80,
     symbol: "+",
-    title: "Combined T-Certifications",
+    icon: "https://img.icons8.com/ios-filled/50/000000/certificate.png",
   },
 ];
 

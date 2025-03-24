@@ -4,31 +4,57 @@ import CountUp from "react-countup";
 
 const Stats = () => {
   return (
-    <div className="flex justify-center w-full px-6 pb-10">
-      <div className="grid grid-cols-5 md:grid-cols-5 gap-6 md:gap-8 w-full text-center">
-        {statsData.map((stat, index) => (
-          <div
-            key={stat.id}
-            className={`flex flex-col items-center px-3 py-4 ${
-              index === statsData.length - 1
-                ? "md:justify-self-center w-full flex justify-center"
-                : ""
-            }`}
-          >
-            <img
-              src={stat.icon}
-              alt={stat.title}
-              className="w-12 h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 mb-3 bg-blue-900 rounded-2xl p-2 hidden md:block"
-            />
-            <p className="text-3xl md:text-4xl lg:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-900 to-blue-950">
-              <CountUp start={0} end={stat.number} duration={8} />
-              {stat.symbol}
-            </p>
-            <p className="text-xs md:text-sm lg:text-lg text-gray-700 font-medium mt-1">
-              {stat.title}
-            </p>
+    <div className="relative z-20 pt-4">
+      <div className="w-full py-6 px-12 flex justify-center">
+        <div className="bg-gradient-t from bg-slate-200 to-slate-100 rounded-2xl shadow-md py-10 w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-12 gap-x-6">
+            {/* First Row - 3 items */}
+            <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+              {statsData.slice(0, 3).map((stat) => (
+                <div
+                  key={stat.id}
+                  className="flex flex-col items-center justify-center text-center"
+                >
+                  <div className="flex items-center justify-center text-sm text-gray-500 font-medium mb-2 space-x-2">
+                    <span className="text-4xl font-normal">{stat.title}</span>
+                    <img
+                      src={stat.icon}
+                      alt={stat.title}
+                      className="w-6 h-6 object-contain"
+                    />
+                  </div>
+                  <div className="text-7xl font-bold bg-gradient-to-r from-blue-800 to-blue-500 text-transparent bg-clip-text">
+                    <CountUp start={0} end={stat.number} duration={8} />
+                    {stat.symbol}
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Second Row - 2 items */}
+            <div className="md:col-span-3 grid grid-cols-1 sm:grid-cols-2 gap-8 justify-items-center">
+              {statsData.slice(3).map((stat) => (
+                <div
+                  key={stat.id}
+                  className="flex flex-col items-center justify-center text-center w-full"
+                >
+                  <div className="flex items-center justify-center text-sm text-gray-500 font-medium mb-2 space-x-2">
+                    <span className="text-4xl font-normal">{stat.title}</span>
+                    <img
+                      src={stat.icon}
+                      alt={stat.title}
+                      className="w-6 h-6 object-contain"
+                    />
+                  </div>
+                  <div className="text-7xl font-bold bg-gradient-to-r from-blue-800 to-blue-500 text-transparent bg-clip-text">
+                    <CountUp start={0} end={stat.number} duration={8} />
+                    {stat.symbol}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
-        ))}
+        </div>
       </div>
     </div>
   );

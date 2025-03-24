@@ -1,109 +1,106 @@
 import React, { useState } from "react";
 
-// Import industry images
-import industry1 from "../../assets/industries/1.jpg";
-import industry2 from "../../assets/industries/2.jpg";
-import industry3 from "../../assets/industries/3.jpg";
-import industry4 from "../../assets/industries/4.jpg";
-import industry5 from "../../assets/industries/5.jpg";
-import industry6 from "../../assets/industries/6.jpg";
-import industry7 from "../../assets/industries/7.jpg";
-import industry8 from "../../assets/industries/8.jpg";
-import industry9 from "../../assets/industries/9.jpg";
-import industry10 from "../../assets/industries/10.jpg";
-
-// Define industries and corresponding images
-const industriesLeft = [
-  { name: "Manufacturing", image: industry1 },
-  { name: "Healthcare", image: industry2 },
-  { name: "Retail", image: industry3 },
-  { name: "Finance", image: industry4 },
-  { name: "Telecom", image: industry5 },
-];
-
-const industriesRight = [
-  { name: "Education", image: industry6 },
-  { name: "Automotive", image: industry7 },
-  { name: "Energy", image: industry8 },
-  { name: "Logistics", image: industry9 },
-  { name: "Technology", image: industry10 },
+const industries = [
+  {
+    title: "Retail",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/shopping-bag.png",
+  },
+  {
+    title: "Consumer Products",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/product.png",
+  },
+  {
+    title: "Engineering & Construction",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/engineering.png",
+  },
+  {
+    title: "Healthcare",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/stethoscope.png",
+  },
+  {
+    title: "Professional Services",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/conference.png",
+  },
+  {
+    title: "Manufacturing",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/factory.png",
+  },
+  {
+    title: "Energy",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/electricity.png",
+  },
+  {
+    title: "Automotive",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/car--v1.png",
+  },
+  {
+    title: "Government",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/city-hall.png",
+  },
+  {
+    title: "Telecom",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/phone.png",
+  },
+  {
+    title: "Education",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/graduation-cap.png",
+  },
+  {
+    title: "Technology",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/processor.png",
+  },
 ];
 
 const Industry = () => {
-  const [hoveredImage, setHoveredImage] = useState(industry1);
+  const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="w-full pt-10 pb-10 bg-gradient-to-b from-blue-950 to-blue-900 px-4 md:px-8">
-      {/* Heading */}
-      <div className="text-center text-3xl lg:text-4xl font-bold text-white tracking-wide">
-        Industries
-      </div>
-      <div className="text-center text-lg font-medium text-gray-300 py-3">
-        Comprehensive solutions tailored to accelerate your digital
-        transformation journey
-      </div>
+    <div className="relative z-20 min-h-screen">
+      <div className="relative z-10 max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <h2 className="text-[50px] font-[700]  pb-4 tracking-[-2px] text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-950 to-blue-900">
+          Driving transformation across Industries
+        </h2>
+        <p className="text-2xl font-medium text-center mb-16 mx-auto text-black">
+          Comprehensive solutions tailored to accelerate your digital
+          transformation journey
+        </p>
 
-      {/* Main Container */}
-      <div className="max-w-6xl mx-auto grid sm:flex sm:flex-col md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 items-center py-6">
-        {/* Left Section - Industries List */}
-        <div className="flex flex-col space-y-3 text-center md:text-left">
-          {industriesLeft.map((industry, index) => (
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 place-items-start">
+          {industries.map((industry, index) => (
             <div
               key={index}
-              onMouseEnter={() => setHoveredImage(industry.image)}
-              className="w-full md:w-80 px-4 py-2 cursor-pointer"
+              className="flex flex-col items-center justify-start w-full h-40 text-center group"
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
             >
-              <div className="flex justify-between items-center">
-                <h3 className="text-lg font-semibold text-white tracking-wide">
-                  {industry.name}
-                </h3>
-                {/* <span className="text-gray-300 text-lg">→</span>{" "} */}
-                {/* Right Arrow */}
+              <div
+                className="w-24 h-24 rounded-full flex items-center justify-center mb-4 transition-all duration-300 shadow-2xl group-hover:shadow-lg"
+                style={{
+                  backgroundColor:
+                    hoveredIndex === index ? "#1e3a8a" : "#ffffff",
+                  transform:
+                    hoveredIndex === index ? "scale(1.05)" : "scale(1)",
+                  boxShadow:
+                    hoveredIndex === index
+                      ? "0 0 20px rgba(30, 58, 138, 0.3)"
+                      : "0 2px 8px rgba(0, 0, 0, 0.05)",
+                }}
+              >
+                <img
+                  src={industry.icon}
+                  alt={industry.title}
+                  className="h-10 w-10 transition-all duration-300"
+                  style={{
+                    filter:
+                      hoveredIndex === index
+                        ? "brightness(0) invert(1)"
+                        : "brightness(0) saturate(100%) invert(12%) sepia(83%) saturate(2169%) hue-rotate(216deg) brightness(95%) contrast(106%)",
+                  }}
+                />
               </div>
-
-              {/* Hide description on small screens, show on large screens */}
-              <p className="text-sm text-gray-300 hidden lg:block">
-                Transform your business with cutting-edge AI.
-              </p>
-
-              {/* Divider Line */}
-              <hr className="mt-3 border-gray-500 opacity-50" />
-            </div>
-          ))}
-        </div>
-
-        {/* Center Section - Industry Image (Hidden on Small & Medium Screens) */}
-        <div className="hidden lg:flex items-center justify-center">
-          <img
-            src={hoveredImage}
-            alt="Industry"
-            className="w-96 h-96 object-cover shadow-xl transition-all duration-500 rounded-lg opacity-90 hover:opacity-100"
-          />
-        </div>
-
-        {/* Right Section - Industries List */}
-        <div className="flex flex-col space-y-3 text-center md:text-left">
-          {industriesRight.map((industry, index) => (
-            <div
-              key={index}
-              onMouseEnter={() => setHoveredImage(industry.image)}
-              className="w-full md:w-80 px-4 py-2 cursor-pointer"
-            >
-              <div className="flex justify-between items-center">
-                <h3 className="text-lg font-semibold text-white tracking-wide">
-                  {industry.name}
-                </h3>
-                {/* <span className="text-gray-300 text-lg">→</span>{" "} */}
-                {/* Right Arrow */}
-              </div>
-
-              {/* Hide description on small screens, show on large screens */}
-              <p className="text-sm text-gray-300 hidden lg:block">
-                Transform your business with cutting-edge AI.
-              </p>
-
-              {/* Divider Line */}
-              <hr className="mt-3 border-gray-500 opacity-50" />
+              <h3 className="text-sm font-medium text-black px-2 min-h-[40px] flex items-center justify-center">
+                {industry.title}
+              </h3>
             </div>
           ))}
         </div>

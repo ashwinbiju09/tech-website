@@ -83,9 +83,9 @@ const Offerings = ({ data }) => {
                   className="flex items-start space-x-3"
                 >
                   {/* Feature Icon */}
-                  <span className="w-12 h-12 flex items-center justify-center bg-blue-600 rounded-full p-2 text-white">
+                  {/* <span className="w-12 h-12 flex items-center justify-center bg-blue-600 rounded-full p-2 text-white">
                     {feature.icon}
-                  </span>
+                  </span> */}
                   {/* Feature Text */}
                   <div>
                     <h4 className="font-semibold text-gray-900">

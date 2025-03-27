@@ -31,9 +31,9 @@ const Hero = ({ data }) => {
           {data.title}
         </h1>
 
-        <p className="mt-4 text-lg sm:text-xl text-gray-300 max-w-2xl">
+        {/* <p className="mt-4 text-lg sm:text-xl text-gray-300 max-w-2xl">
           {data.subContent}
-        </p>
+        </p> */}
 
         <div className="mt-8">
           <CTAButton />

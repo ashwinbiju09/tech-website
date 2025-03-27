@@ -135,83 +135,131 @@ const navLinks = [
             name: "Fashion & Apparel",
             path: "/industries/fashion-and-apparel",
           },
-          { name: "Grocery", path: "#" },
-          { name: "Specialty Retail", path: "#" },
-          { name: "Healthcare & Wellness", path: "#" },
-          { name: "Department Stores", path: "#" },
-          { name: "Wholesale Distribution", path: "#" },
-          { name: "Gems & Jewelry", path: "#" },
+          { name: "Grocery", path: "/industries/grocery" },
+          { name: "Specialty Retail", path: "/industries/specialty-retail" },
+          {
+            name: "Healthcare & Wellness",
+            path: "/industries/healthcare-wellness",
+          },
+          { name: "Department Stores", path: "/industries/department-stores" },
+          {
+            name: "Wholesale Distribution",
+            path: "/industries/wholesale-distribution",
+          },
+          { name: "Gems & Jewelry", path: "/industries/gems-jewelry" },
         ],
       },
       {
         name: "Consumer Products",
         subMenu: [
-          { name: "Food & Beverage", path: "/industries/food-and-beverage" },
-          { name: "Consumer Durables", path: "#" },
-          { name: "Home & Personal Care", path: "#" },
+          { name: "Food & Beverage", path: "/industries/food-beverages" },
+          { name: "Consumer Durables", path: "/industries/consumer-durables" },
+          {
+            name: "Home & Personal Care",
+            path: "/industries/home-personal-care",
+          },
         ],
       },
       {
         name: "Manufacturing",
         subMenu: [
-          { name: "Automotive Manufacturing", path: "#" },
-          { name: "Process Manufacturing", path: "#" },
-          { name: "Discrete Manufacturing", path: "#" },
+          {
+            name: "Automotive Manufacturing",
+            path: "/industries/automotive-manufacturing",
+          },
+          {
+            name: "Process Manufacturing",
+            path: "/industries/process-manufacturing",
+          },
+          {
+            name: "Discrete Manufacturing",
+            path: "/industries/discrete-manufacturing",
+          },
         ],
       },
       {
         name: "Engineering & Construction",
         subMenu: [
-          { name: "EC&O", path: "#" },
-          { name: "Real Estate", path: "#" },
+          {
+            name: "EC&O",
+            path: "/industries/engineering-construction-operations",
+          },
+          { name: "Real Estate", path: "/industries/real-estate" },
         ],
       },
       {
         name: "Oil, Gas, & Energy",
         subMenu: [
-          { name: "Power Generation", path: "#" },
-          { name: "Renewable Energy", path: "#" },
-          { name: "Energy Retail", path: "#" },
-          { name: "Smart Grid", path: "#" },
-          { name: "Transmission & Distribution", path: "#" },
+          { name: "Power Generation", path: "/industries/power-generation" },
+          { name: "Renewable Energy", path: "/industries/renewable-energy" },
+          { name: "Energy Retail", path: "/industries/energy-retail" },
+          { name: "Smart Grid", path: "/industries/smart-grid" },
+          {
+            name: "Transmission & Distribution",
+            path: "/industries/transmission-distribution",
+          },
         ],
       },
       {
         name: "Professional Services",
         subMenu: [
-          { name: "Information Technology", path: "#" },
-          { name: "Travel & Tourism", path: "#" },
+          {
+            name: "Information Technology",
+            path: "/industries/information-technology",
+          },
+          { name: "Travel & Tourism", path: "/industries/travel-tourism" },
         ],
       },
       {
         name: "Life Sciences & Healthcare",
         subMenu: [
-          { name: "Pharmaceutical & Biotech", path: "#" },
-          { name: "Medical Devices", path: "#" },
-          { name: "Hospital & Clinics", path: "#" },
+          {
+            name: "Pharmaceutical & Biotech",
+            path: "/industries/pharmaceutical-biotech",
+          },
+          { name: "Medical Devices", path: "/industries/medical-devices" },
+          { name: "Hospital & Clinics", path: "/industries/hospital-clinics" },
         ],
       },
       {
         name: "Banking & Financial Services",
         subMenu: [
-          { name: "Banking", path: "#" },
-          { name: "Insurance", path: "#" },
-          { name: "Financial Institutions", path: "#" },
+          { name: "Banking", path: "/industries/banking" },
+          { name: "Insurance", path: "/industries/insurance" },
+          {
+            name: "Financial Institutions",
+            path: "/industries/financial-institutions",
+          },
         ],
       },
       {
         name: "Education",
         subMenu: [
-          { name: "Business Information Services", path: "#" },
-          { name: "Enterprise Services", path: "#" },
+          {
+            name: "Business Information Services",
+            path: "/industries/business-information-services",
+          },
+          {
+            name: "Enterprise Services",
+            path: "/industries/enterprise-services",
+          },
         ],
       },
       {
         name: "High-Tech",
         subMenu: [
-          { name: "Computer Peripherals", path: "#" },
-          { name: "Contract Manufacturers", path: "#" },
-          { name: "Distribution Companies", path: "#" },
+          {
+            name: "Computer Peripherals",
+            path: "/industries/computer-peripherals",
+          },
+          {
+            name: "Contract Manufacturers",
+            path: "/industries/contract-manufacturers",
+          },
+          {
+            name: "Distribution Companies",
+            path: "/industries/distribution-companies",
+          },
         ],
       },
     ],

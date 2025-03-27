@@ -8,7 +8,7 @@ const Insights = ({ data }) => {
 
   return (
     <section className="w-full py-16 bg-white">
-      <div className="container mx-auto px-6 lg:px-16 max-w-5xl text-center">
+      <div className="container mx-auto px-6 lg:px-16 max-w-8xl text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-10">
           {data.title}
         </h2>
@@ -29,11 +29,11 @@ const Insights = ({ data }) => {
                 %
               </p>
 
-              <p className="text-lg md:text-xl font-semibold text-gray-800">
+              <p className="w-full text-lg md:text-xl font-semibold text-gray-800">
                 {stat.label}
               </p>
 
-              <p className="text-sm md:text-base text-gray-700 max-w-xs">
+              <p className="text-sm md:text-base text-gray-700">
                 {stat.content}
               </p>
             </div>

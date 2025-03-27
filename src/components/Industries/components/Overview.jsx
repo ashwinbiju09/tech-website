@@ -19,8 +19,9 @@ const Overview = ({ data }) => {
           <h2 className="text-3xl md:text-4xl font-semibold">{data.title}</h2>
         </div>
 
-        <div className="md:w-1/2 text-gray-300 text-lg leading-relaxed text-justify">
-          <p>{data.description}</p>
+        <div className="md:w-1/2 text-gray-300 text-lg leading-relaxed text-justify space-y-4">
+          <p>{data.descriptionOne}</p>
+          <p>{data.descriptionTwo}</p>
         </div>
       </div>
     </motion.section>

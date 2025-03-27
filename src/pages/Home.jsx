@@ -37,21 +37,38 @@ const Home = () => {
       <div
         className="relative bg-slate-100 z-30"
         style={{
-          backgroundImage: 'url("/bg-2.png")',
+          backgroundImage: 'url("/bg.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="absolute inset-0 bg-slate-100/90 -z-10"></div>
+        <div className="absolute inset-0 bg-slate-100/85 -z-10"></div>
         <Info />
+      </div>
+      <div className="relative bg-white z-30">
         <Stats />
         <Scroll />
+      </div>
+      <div
+        className="relative bg-slate-100 z-30"
+        style={{
+          backgroundImage: 'url("/industry-bg.jpg")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="absolute inset-0 bg-slate-100/85 -z-10"></div>
+
         <Industry />
+      </div>
+      <div className="relative bg-white z-30">
         <Services />
+      </div>
+      <div className="relative bg-slate-100 z-30">
         <Contact />
       </div>
-
       <Footer />
     </>
   );

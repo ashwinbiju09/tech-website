@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 const industries = [
   {
@@ -51,13 +52,27 @@ const industries = [
   },
 ];
 
+const containerVariants = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 30 },
+  show: { opacity: 1, y: 0, transition: { type: "spring", stiffness: 100 } },
+};
+
 const Industry = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="relative z-20 min-h-screen">
-      <div className="relative z-10 max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <h2 className="text-[50px] font-[700]  pb-4 tracking-[-2px] text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-950 to-blue-900">
+    <div className="relative z-20">
+      <div className="relative z-10 max-w-7xl mx-auto py-28 px-4 sm:px-6 lg:px-8">
+        <h2 className="text-4xl font-semibold tracking-wide md:text-[50px] md:font-[700] pb-4 md:tracking-[-2px] text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-950 to-blue-900">
           Driving transformation across Industries
         </h2>
         <p className="text-2xl font-medium text-center mb-16 mx-auto text-black">
@@ -65,21 +80,28 @@ const Industry = () => {
           transformation journey
         </p>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 place-items-start">
+        <motion.div
+          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 place-items-start"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.2 }}
+        >
           {industries.map((industry, index) => (
-            <div
+            <motion.div
               key={index}
-              className="flex flex-col items-center justify-start w-full h-40 text-center group"
+              variants={itemVariants}
+              className="flex flex-col items-center justify-start w-full h-40 text-center group cursor-pointer"
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 200 }}
             >
               <div
-                className="w-24 h-24 rounded-full flex items-center justify-center mb-4 transition-all duration-300 shadow-2xl group-hover:shadow-lg"
+                className="w-24 h-24 rounded-full flex items-center justify-center mb-4 transition-all duration-300 shadow-2xl"
                 style={{
                   backgroundColor:
                     hoveredIndex === index ? "#1e3a8a" : "#ffffff",
-                  transform:
-                    hoveredIndex === index ? "scale(1.05)" : "scale(1)",
                   boxShadow:
                     hoveredIndex === index
                       ? "0 0 20px rgba(30, 58, 138, 0.3)"
@@ -98,12 +120,12 @@ const Industry = () => {
                   }}
                 />
               </div>
-              <h3 className="text-sm font-medium text-black px-2 min-h-[40px] flex items-center justify-center">
+              <h3 className="text-sm md:text-lg font-semibold text-black px-2 min-h-[40px] flex items-center justify-center">
                 {industry.title}
               </h3>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );

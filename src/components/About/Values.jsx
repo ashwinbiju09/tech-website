@@ -1,5 +1,6 @@
 import React from "react";
 import aboutData from "./aboutData";
+import { motion } from "framer-motion";
 
 const Values = () => {
   const introData = aboutData[0].introSection;
@@ -10,84 +11,134 @@ const Values = () => {
         {introData.map((item, index) => {
           if (item.title === "Who We Are ?") {
             return (
-              <div
+              <motion.div
                 key={index}
-                className="flex flex-col md:flex-row items-center px-4 lg:px-16 space-y-8 md:space-y-0 lg:space-x-8"
+                className="flex flex-col-reverse lg:flex-row items-center justify-between px-6 lg:px-20 py-16 gap-20"
+                initial={{ opacity: 0, x: -100 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 1.2, ease: "easeInOut" }}
               >
-                {/* Image Container - Hidden on smaller screens */}
-                <div className="relative w-full lg:w-1/3 hidden lg:block">
-                  {/* Decorative Box */}
-                  <div className="absolute -top-4 -left-4 w-80 h-80 bg-indigo-200 rounded-lg"></div>
+                {/* Text Content */}
+                <div className="flex-1">
+                  <h2 className="text-4xl md:text-7xl font-bold text-gray-500 mb-6">
+                    Who{" "}
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-950 to-blue-700">
+                      we
+                    </span>{" "}
+                    are
+                    <span className="text-gray-500"> ?</span>
+                  </h2>
+                  <p className="text-gray-600 text-xl text-justify leading-relaxed">
+                    {item.description}
+                  </p>
+                </div>
+
+                {/* Image Section */}
+                <motion.div
+                  className="flex-1 w-full"
+                  initial={{ scale: 0.9, opacity: 0 }}
+                  whileInView={{ scale: 1, opacity: 1 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{ delay: 0.2, duration: 1, ease: "easeInOut" }}
+                >
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="relative w-80 h-80 rounded-lg shadow-xl"
+                    className="w-full h-[400px] rounded-lg shadow-2xl"
                   />
-                </div>
-                {/* Text Container */}
-                <div className="flex-1 bg-white text-gray-900 border rounded-md p-6 lg:p-8 shadow-lg">
-                  <h3 className="text-2xl md:text-4xl font-bold mt-2">
-                    {item.title}
-                  </h3>
-                  <p className="mt-4 text-base md:text-lg text-gray-700 text-justify">
-                    {item.description}
-                  </p>
-                </div>
-              </div>
+                </motion.div>
+              </motion.div>
             );
           } else if (item.title === "Our Mission") {
             return (
-              <div
+              <motion.div
                 key={index}
-                className="w-full py-8 md:py-16 bg-gradient-to-b from-blue-950 to-blue-900 text-center px-4 md:px-16"
+                className="w-full py-16 px-6 lg:px-28 bg-gradient-to-r from-blue-950 to-blue-900 text-white"
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 1.2, ease: "easeInOut" }}
               >
-                <h3 className="text-2xl md:text-5xl font-bold mb-4">
-                  {item.title}
-                </h3>
-                <p className="text-base md:text-xl md:leading-8">
-                  {item.description}
-                </p>
-              </div>
+                <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+                  {/* Title */}
+                  <motion.h3
+                    className="text-4xl md:text-7xl font-bold text-white flex-1 text-center"
+                    initial={{ scale: 0.8, opacity: 0 }}
+                    whileInView={{ scale: 1, opacity: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ delay: 0.3, duration: 1, ease: "easeInOut" }}
+                  >
+                    {item.title}
+                  </motion.h3>
+
+                  {/* Description */}
+                  <motion.p
+                    className="text-lg md:text-xl/8 leading-relaxed text-white flex-1 text-justify"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{
+                      delay: 0.6,
+                      duration: 1.2,
+                      ease: "easeInOut",
+                    }}
+                  >
+                    {item.description}
+                  </motion.p>
+                </div>
+              </motion.div>
             );
           } else if (item.title === "Our Expertise") {
             return (
-              <div
+              <motion.div
                 key={index}
-                className="flex flex-col md:flex-row items-center justify-center py-8 md:py-12 px-4 md:px-12 text-black space-y-8 md:space-y-0 md:space-x-8"
+                className="border rounded-xl shadow-xl bg-white px-6 lg:px-12 py-12 mx-4 lg:mx-24"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 1.2, ease: "easeInOut" }}
               >
-                <h3 className="text-2xl md:text-5xl font-bold md:w-1/3 text-center">
-                  {item.title}
-                </h3>
-                <p className="text-base md:text-xl md:leading-8 md:w-2/3 text-justify">
-                  {item.description}
-                </p>
-              </div>
+                <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+                  {/* Left: Text Section */}
+                  <motion.div
+                    className="lg:w-1/2 w-full"
+                    initial={{ x: -50, opacity: 0 }}
+                    whileInView={{ x: 0, opacity: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ duration: 1, ease: "easeInOut", delay: 0.2 }}
+                  >
+                    <h3 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
+                      {item.title}
+                    </h3>
+                    <p className="text-gray-600 text-lg leading-loose">
+                      {item.description}
+                    </p>
+                  </motion.div>
+
+                  {/* Right: Image */}
+                  <motion.div
+                    className="lg:w-1/2 w-full"
+                    initial={{ rotateY: 90, opacity: 0 }}
+                    whileInView={{ rotateY: 0, opacity: 1 }}
+                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{
+                      duration: 1.2,
+                      ease: "easeInOut",
+                      delay: 0.3,
+                    }}
+                  >
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="w-full h-[500px] rounded-xl object-cover shadow-md"
+                    />
+                  </motion.div>
+                </div>
+              </motion.div>
             );
           } else {
-            // Default layout for any other items
-            return (
-              <div
-                key={index}
-                className={`flex flex-col overflow-hidden rounded-sm shadow-sm md:flex-row ${
-                  index % 2 !== 0 ? "md:flex-row-reverse" : ""
-                }`}
-              >
-                {/* Image - hidden on small screens, visible on md and above */}
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="hidden md:block w-full md:w-1/2 h-80 object-cover"
-                />
-                <div className="flex flex-col justify-center flex-1 p-6 bg-white text-black rounded-md">
-                  <h3 className="text-2xl md:text-3xl font-bold">
-                    {item.title}
-                  </h3>
-                  <p className="my-6 text-base md:text-lg">
-                    {item.description}
-                  </p>
-                </div>
-              </div>
-            );
+            return null;
           }
         })}
       </div>

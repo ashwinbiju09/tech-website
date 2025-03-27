@@ -110,6 +110,48 @@ const aboutData = [
       description:
         "Take the first step toward operational excellence and AI-powered growth. Our team is ready to discuss your challenges and demonstrate how our intelligent ERP solutions can address them. ",
     },
+    methodSection: [
+      {
+        title: "Layer 1",
+        heading: "Core ERP Foundation",
+        description:
+          "We begin with a robust ERP system that serves as the backbone of your operations by streamlining processes and centralizing data. Whether implementing new solutions or optimizing existing ones, we ensure your foundation is solid, scalable, and aligned with industry best practices.",
+        points: [
+          "AI Agent Studio for building custom AI agents",
+          "Automator AI for streamlining complex workflows",
+          "Intelligent document processing",
+          "Process discovery tools to identify inefficiencies",
+          "Advanced orchestration and governance capabilities",
+        ],
+      },
+      {
+        title: "Layer 2",
+        heading: "Enhanced Capabilities",
+        description:
+          "We address the gaps left by standard ERP implementations through advanced add-ons tailored to your specific needs. These enhancements bridge critical functionality gaps with specialized modules for:",
+        points: [
+          "Field Service Management",
+          "Subscription Billing",
+          "Digital Retail Solutions",
+          "Manufacturing ERP Solutions",
+          "Supply Chain Optimization",
+          "And many other specialized functions",
+        ],
+      },
+      {
+        title: "Layer 3",
+        heading: "AI Automation",
+        description:
+          "Our advanced AI-driven automation layer optimizes workflows, reduces manual tasks, and unlocks actionable insights for sustainable growth. This layer includes:",
+        points: [
+          "AI Agent Studio for building custom AI agents",
+          "Automator AI for streamlining complex workflows",
+          "Intelligent document processing",
+          "Process discovery tools to identify inefficiencies",
+          "Advanced orchestration and governance capabilities",
+        ],
+      },
+    ],
   },
 ];
 

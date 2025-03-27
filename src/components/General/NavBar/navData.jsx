@@ -22,12 +22,12 @@ const navLinks = [
               { name: "SAP Sales Cloud", path: "#" },
               { name: "SAP Service Cloud", path: "#" },
               { name: "SAP Emarsys", path: "#" },
+              { name: "SAP Sustainability", path: "#" },
               { name: "SAP E-Mobility", path: "#" },
               { name: "SAP CPI", path: "#" },
               { name: "SAP Build Apps", path: "#" },
               { name: "SAP SuccessFactors HCM", path: "#" },
               { name: "SAP Business AI", path: "#" },
-              { name: "SAP Sustainability", path: "#" },
             ],
           },
           {

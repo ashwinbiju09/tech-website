@@ -1,56 +1,78 @@
 import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import aboutData from "./aboutData";
 
 const Process = () => {
   const data = aboutData[0].processSection;
-  const [selectedStep, setSelectedStep] = useState(data.process[0]);
+  const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <section className="w-full pt-10 pb-16 text-white">
+    <motion.section
+      className="w-full py-16 text-white"
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+    >
       <div className="container mx-auto px-6 lg:px-16">
-        <h2 className="text-3xl font-bold text-blue-800 mb-8 text-center">
-          Our Process
-        </h2>
-
-        <div className="flex flex-col lg:flex-row bg-gray-100 text-gray-900 rounded-sm shadow-lg">
-          <div className="lg:w-1/3 p-6 space-y-4 border-r border-gray-300">
-            {data.process.map((step, index) => (
-              <button
-                key={index}
-                className={`w-full py-2 text-lg font-medium text-left transition-all ${
-                  selectedStep.title === step.title
-                    ? "text-blue-900 font-semibold border-l-4 border-blue-700 pl-3"
-                    : "text-gray-700 hover:text-blue-700 pl-3"
-                }`}
-                onClick={() => setSelectedStep(step)}
-                onMouseEnter={() => setSelectedStep(step)}
-              >
-                {step.title}
-              </button>
-            ))}
+        <div className="flex flex-col lg:flex-row rounded-xl overflow-hidden border shadow-lg bg-white text-gray-900">
+          {/* Left Side - Static Visual Section */}
+          <div className="lg:w-1/3 bg-gradient-to-b from-blue-950 to-blue-900 text-white flex items-center justify-center p-10">
+            <h2 className="text-4xl md:text-6xl font-bold text-center leading-tight">
+              <span className="block text-sm md:text-lg mb-2 font-semibold tracking-wide">
+                OUR
+              </span>
+              Process
+            </h2>
           </div>
 
-          <div className="lg:w-2/3 p-8">
-            <div className="flex items-start space-x-4">
-              <div>
-                <div className="flex flex-row items-center justify-start space-x-4 pb-4">
-                  <span className="w-12 h-12 flex items-center justify-center bg-blue-600 rounded-full text-white">
-                    {selectedStep.icon}
-                  </span>
-                  <h3 className="text-2xl font-bold text-blue-900">
-                    {selectedStep.title}
-                  </h3>
+          {/* Right Side - Steps List with Framer Motion */}
+          <motion.div
+            className="lg:w-2/3 p-10 space-y-6"
+            initial={{ opacity: 0, x: 40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 1, ease: "easeOut", delay: 0.3 }}
+          >
+            {data.process.map((step, index) => (
+              <div
+                key={index}
+                className="border-b pb-4 cursor-pointer"
+                onMouseEnter={() => setHoveredIndex(index)}
+                onMouseLeave={() => setHoveredIndex(null)}
+              >
+                {/* Step Title */}
+                <div
+                  className={`text-xl font-medium transition-colors duration-300 ${
+                    hoveredIndex === index ? "text-blue-700" : "text-gray-900"
+                  }`}
+                >
+                  {step.title}
                 </div>
 
-                <p className="mt-2 text-xl text-justify  text-gray-700">
-                  {selectedStep.description}
-                </p>
+                {/* Animated Description */}
+                <AnimatePresence>
+                  {hoveredIndex === index && (
+                    <motion.div
+                      key="desc"
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: "auto" }}
+                      exit={{ opacity: 0, height: 0 }}
+                      transition={{ duration: 0.4, ease: "easeInOut" }}
+                      className="overflow-hidden mt-2"
+                    >
+                      <p className="text-gray-600 text-base leading-relaxed">
+                        {step.description}
+                      </p>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
               </div>
-            </div>
-          </div>
+            ))}
+          </motion.div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

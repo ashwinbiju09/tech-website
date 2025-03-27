@@ -6,6 +6,7 @@ import Values from "../components/About/Values";
 import Differentiators from "../components/About/Differentiators";
 import Process from "../components/About/Process";
 import CTABar from "../components/About/CTABar";
+import Methodology from "../components/About/Methodology";
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
       <NavBar />
       <Hero />
       <Values />
+      <Methodology />
       <Differentiators />
       <Process />
       <CTABar />

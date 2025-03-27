@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="w-full font-normal text-2xl md:text-3xl lg:text-5xl text-white tracking-[-0.30px]">
           Globally Trusted SAP Consulting Company
         </div>
-        <div className="block w-full font-bold text-white text-3xl md:text-4xl lg:text-4xl pt-4 antialiased">
+        {/* <div className="block w-full font-bold text-white text-3xl md:text-4xl lg:text-4xl pt-4 antialiased">
           <ReactTyped
             strings={[
               "Next-Level IT Solutions",
@@ -40,7 +40,7 @@ const Hero = () => {
             backSpeed={40}
             loop
           />
-        </div>
+        </div> */}
 
         <div className="mt-8 flex justify-center">
           <CTAButton />

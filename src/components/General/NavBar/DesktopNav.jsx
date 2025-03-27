@@ -65,9 +65,12 @@ const DesktopNav = ({
                                   child: childIndex,
                                 })
                               }
-                              className="cursor-pointer px-4 py-2 ml-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-white"
+                              className="group relative cursor-pointer px-4 py-2 ml-2 text-sm font-semibold text-black overflow-hidden"
                             >
-                              {child.name}
+                              <span className="relative z-10 group-hover:text-blue-800">
+                                {child.name}
+                              </span>
+                              <span className="absolute inset-0 bg-white scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0"></span>
                             </div>
                           ))}
                         </div>
@@ -78,9 +81,10 @@ const DesktopNav = ({
                       <div
                         key={subIndex}
                         onMouseEnter={() => handleSubMouseEnter(subIndex)}
-                        className="cursor-pointer px-2 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-white"
+                        className="group relative cursor-pointer px-2 py-2 text-sm font-semibold text-black hover:text-blue-800 overflow-hidden"
                       >
-                        {sub.name}
+                        <span className="relative z-10">{sub.name}</span>
+                        <span className="absolute inset-0 bg-white scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0"></span>
                       </div>
                     );
                   })}
@@ -88,73 +92,82 @@ const DesktopNav = ({
 
                 {/* Right column (deeper nested items) */}
                 <div className="w-2/3 pl-4">
-                  {openSubDropdown !== null &&
-                    (() => {
-                      const parentArray = navLinks[openDropdown].subMenu;
-                      let itemsToShow = [];
-
-                      if (typeof openSubDropdown === "object") {
-                        // "Heading" case
-                        const headingObj = parentArray[openSubDropdown.parent];
-                        if (!headingObj?.subMenu) return null;
-                        const childObj =
-                          headingObj.subMenu[openSubDropdown.child];
-                        if (!childObj?.subMenu) return null;
-                        itemsToShow = childObj.subMenu;
-                      } else {
-                        // Normal sub-item case
-                        const normalObj = parentArray[openSubDropdown];
-                        if (!normalObj?.subMenu) return null;
-                        itemsToShow = normalObj.subMenu;
+                  {openSubDropdown !== null && (
+                    <div
+                      key={
+                        typeof openSubDropdown === "object"
+                          ? `${openSubDropdown.parent}-${openSubDropdown.child}`
+                          : openSubDropdown
                       }
+                      className="animate-slide-in transition-all duration-500 ease-out"
+                    >
+                      {(() => {
+                        const parentArray = navLinks[openDropdown].subMenu;
+                        let itemsToShow = [];
 
-                      if (itemsToShow.length > 10) {
-                        const half = Math.ceil(itemsToShow.length / 2);
-                        const leftCol = itemsToShow.slice(0, half);
-                        const rightCol = itemsToShow.slice(half);
+                        if (typeof openSubDropdown === "object") {
+                          const headingObj =
+                            parentArray[openSubDropdown.parent];
+                          if (!headingObj?.subMenu) return null;
+                          const childObj =
+                            headingObj.subMenu[openSubDropdown.child];
+                          if (!childObj?.subMenu) return null;
+                          itemsToShow = childObj.subMenu;
+                        } else {
+                          const normalObj = parentArray[openSubDropdown];
+                          if (!normalObj?.subMenu) return null;
+                          itemsToShow = normalObj.subMenu;
+                        }
+
+                        if (itemsToShow.length > 10) {
+                          const half = Math.ceil(itemsToShow.length / 2);
+                          const leftCol = itemsToShow.slice(0, half);
+                          const rightCol = itemsToShow.slice(half);
+
+                          return (
+                            <div className="grid grid-cols-2 gap-8">
+                              <div className="flex flex-col">
+                                {leftCol.map((item, i) => (
+                                  <a
+                                    key={i}
+                                    href={item.path || "#"}
+                                    className="block px-4 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-slate-200 whitespace-nowrap"
+                                  >
+                                    {item.name || item}
+                                  </a>
+                                ))}
+                              </div>
+                              <div className="flex flex-col">
+                                {rightCol.map((item, i) => (
+                                  <a
+                                    key={i}
+                                    href={item.path || "#"}
+                                    className="block px-4 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-slate-200 whitespace-nowrap"
+                                  >
+                                    {item.name || item}
+                                  </a>
+                                ))}
+                              </div>
+                            </div>
+                          );
+                        }
 
                         return (
-                          <div className="grid grid-cols-2 gap-8">
-                            <div className="flex flex-col">
-                              {leftCol.map((item, i) => (
-                                <a
-                                  key={i}
-                                  href={item.path || "#"}
-                                  className="block px-4 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-slate-200 whitespace-nowrap"
-                                >
-                                  {item.name || item}
-                                </a>
-                              ))}
-                            </div>
-                            <div className="flex flex-col">
-                              {rightCol.map((item, i) => (
-                                <a
-                                  key={i}
-                                  href={item.path || "#"}
-                                  className="block px-4 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-slate-200 whitespace-nowrap"
-                                >
-                                  {item.name || item}
-                                </a>
-                              ))}
-                            </div>
+                          <div className="flex flex-col">
+                            {itemsToShow.map((item, i) => (
+                              <a
+                                key={i}
+                                href={item.path || "#"}
+                                className="block px-4 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-slate-200 whitespace-nowrap"
+                              >
+                                {item.name || item}
+                              </a>
+                            ))}
                           </div>
                         );
-                      }
-
-                      return (
-                        <div className="flex flex-col">
-                          {itemsToShow.map((item, i) => (
-                            <a
-                              key={i}
-                              href={item.path || "#"}
-                              className="block px-4 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-slate-200 whitespace-nowrap"
-                            >
-                              {item.name || item}
-                            </a>
-                          ))}
-                        </div>
-                      );
-                    })()}
+                      })()}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>

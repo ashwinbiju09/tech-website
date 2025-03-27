@@ -6,7 +6,7 @@ const Hero = () => {
   const data = aboutData[0].heroSection;
 
   return (
-    <div className="relative w-full h-[550px] overflow-hidden">
+    <div className="relative w-full h-screen overflow-hidden">
       <div
         className="absolute inset-0 w-full h-full"
         style={{

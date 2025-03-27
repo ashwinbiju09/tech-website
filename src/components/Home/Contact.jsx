@@ -4,12 +4,15 @@ import { Mail, Send, User, FileText, MessageSquare } from "lucide-react";
 const Contact = () => {
   return (
     <div className="relative z-20 py-20 px-4 ">
-      <div className="max-w-6xl mx-auto bg-white rounded-2xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
+      <h2 className="text-4xl font-semibold tracking-wide md:text-[50px] md:font-[700] pb-4 md:tracking-[-2px] text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-950 to-blue-900">
+        We are here to help you{" "}
+      </h2>
+      <div className="max-w-6xl mx-auto overflow-hidden flex flex-col md:flex-row">
         {/* Left Section */}
-        <div className="bg-blue-900 text-white p-8 md:p-12 md:w-2/5 flex flex-col justify-between">
+        <div className=" text-blue-800 p-8 md:p-12 md:w-2/5 flex flex-col justify-between">
           <div>
             <h2 className="text-3xl font-bold mb-4">Let’s Create Together</h2>
-            <p className="text-blue-100 text-lg mb-10">
+            <p className="text-black text-lg mb-10">
               Have a big idea or brand to develop? We’re excited to hear about
               your project and help bring it to life.
             </p>
@@ -21,37 +24,17 @@ const Contact = () => {
                   <Mail className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <p className="text-sm text-blue-200">Email</p>
+                  <p className="text-sm text-black">Email</p>
                   <a
                     href="mailto:info@example.com"
-                    className="text-white font-medium hover:underline"
+                    className="text-black font-medium hover:underline"
                   >
                     info@example.com
                   </a>
                 </div>
               </div>
-
-              {/* Live Chat */}
-              <div className="flex items-center space-x-4">
-                <div className="bg-blue-800 w-12 h-12 flex items-center justify-center rounded-full">
-                  <MessageSquare className="w-5 h-5 text-white" />
-                </div>
-                <div>
-                  <p className="text-sm text-blue-200">Live Chat</p>
-                  <a
-                    href="#"
-                    className="text-white font-medium hover:underline"
-                  >
-                    Start a conversation
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
-
-          <p className="text-sm text-blue-200 mt-10 border-t border-blue-800 pt-6">
-            We typically respond within 24 hours during business days.
-          </p>
         </div>
 
         {/* Right Section (Form) */}
@@ -126,15 +109,6 @@ const Contact = () => {
               <span>Send Message</span>
               <Send className="w-4 h-4" />
             </button>
-
-            {/* Privacy Note */}
-            <p className="text-sm text-gray-500 text-center mt-4">
-              By submitting this form, you agree to our{" "}
-              <a href="#" className="text-blue-600 hover:underline">
-                Privacy Policy
-              </a>
-              .
-            </p>
           </form>
         </div>
       </div>

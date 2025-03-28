@@ -70,12 +70,14 @@ const Info = () => {
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
       >
-        Accely offers top-tier SAP consulting services using refined
-        methodologies and innovation, thus creating a synergy of the latest
-        technology and vast accumulated experience. Renowned for our technical
-        expertise and rapid return on investment (ROI), we serve small-medium
-        businesses to Fortune 500 Companies. We deliver high-value, end-to-end
-        solutions as an SAP Value Added Reseller (VAR) partner.
+        Synapse delivers enterprise transformation through intelligent
+        automation, backed by over 10 years of industry expertise. Standard ERP
+        holds you back. Our advanced solutions liberate businesses from legacy
+        constraints. Renowned for technical excellence and rapid ROI, we serve
+        businesses of all sizes with tailored ERP enhancements. We build custom
+        AI powered solutions that eliminate bottlenecks and create sustainable
+        competitive advantages across all major platforms
+        including SAP and Epicor.
       </motion.div>
     </div>
   );

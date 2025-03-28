@@ -22,10 +22,10 @@ const Hero = () => {
       {/* Content on top */}
       <div className="relative z-10 pb-6 text-center">
         <p className="text-white text-sm font-medium tracking-widest py-2">
-          WE ARE A PREMIER SAP GOLD PARTNER
+          GLOBALLY RECOGNIZED ERP EXPERTS
         </p>
         <div className="w-full font-normal text-2xl md:text-3xl lg:text-5xl text-white tracking-[-0.30px]">
-          Globally Trusted SAP Consulting Company
+          Transforming Business Through Intelligent Automation
         </div>
         {/* <div className="block w-full font-bold text-white text-3xl md:text-4xl lg:text-4xl pt-4 antialiased">
           <ReactTyped

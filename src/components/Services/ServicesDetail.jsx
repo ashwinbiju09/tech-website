@@ -26,11 +26,11 @@ const ServicesDetail = ({ data }) => {
       <section id="insights">
         <Percentage data={data.insightsSection} />
       </section>
-      {data.benefitsSection && (
-        <section id="benefits">
-          <Benefits data={data.benefitsSection} />
-        </section>
-      )}
+
+      <section id="benefits">
+        <Benefits data={data.benefitSection} />
+      </section>
+
       <section id="expertise">
         <Expertise data={data.expertiseSection.items} />
       </section>

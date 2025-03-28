@@ -19,7 +19,7 @@ const Navigation = ({ hasBenefits }) => {
           "benefits",
           "expertise",
           "other-services",
-        ].filter((section) => section !== "benefits" || hasBenefits);
+        ];
 
         let foundSection = "";
 
@@ -60,7 +60,7 @@ const Navigation = ({ hasBenefits }) => {
     { id: "overview", label: "Overview" },
     { id: "offerings", label: "Offerings" },
     { id: "insights", label: "Insights" },
-    ...(hasBenefits ? [{ id: "benefits", label: "Benefits" }] : []),
+    { id: "benefits", label: "Benefits" },
     { id: "expertise", label: "Expertise" },
     { id: "other-services", label: "Other Services" },
   ];

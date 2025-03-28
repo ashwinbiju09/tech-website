@@ -21,7 +21,7 @@ const SolutionDetail = ({ data }) => {
       <Benefits data={data.benefitsSection} />
 
       {/* CTA Conatiner Section */}
-      <InfoBar data={data.ctaSection.description} />
+      <InfoBar data={data.containerSection.content} />
     </>
   );
 };

@@ -39,7 +39,7 @@ const Hero = ({ data }) => {
           <img
             src={data.image}
             alt="Cloud Technology"
-            className="rounded-lg shadow-lg w-[580px] h-full object-cover"
+            className="rounded-lg shadow-lg w-[460px] h-full object-cover"
           />
         </motion.div>
       </div>

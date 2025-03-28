@@ -66,15 +66,31 @@ const navLinks = [
           {
             name: "Epicor Consulting",
             subMenu: [
+              { name: "Supply Chain", path: "/epicor-solutions/supply-chain" },
               {
-                name: "Epicor Kinetic",
-                path: "/epicor-solutions/epicor-kinetic-planning",
+                name: "Epicor Project Management",
+                path: "/epicor-solutions/epicor-project-management",
               },
-              { name: "Epicor Prophet 21", path: "#" },
-              { name: "Epicor BisTrack", path: "#" },
-              { name: "Epicor Data Analytics (EDA)", path: "#" },
-              { name: "Epicor Financial Planner", path: "#" },
-              { name: "Epicor Advanced Financial", path: "#" },
+              {
+                name: "Epicor Production Management",
+                path: "/epicor-solutions/epicor-production-management",
+              },
+              {
+                name: "Epicor Financial Management",
+                path: "/epicor-solutions/epicor-financial-management",
+              },
+              {
+                name: "Epicor HR Management",
+                path: "/epicor-solutions/epicor-hr-management",
+              },
+              {
+                name: "Epicor Service Asset Management",
+                path: "/epicor-solutions/epicor-service-asset-management",
+              },
+              {
+                name: "Epicor Kinetic CRM",
+                path: "/epicor-solutions/epicor-kinetic-crm",
+              },
             ],
           },
         ],
@@ -123,10 +139,13 @@ const navLinks = [
             name: "Business Consulting",
             path: "/services/business-consulting-services",
           },
-          { name: "Process Consulting", path: "/services/process-consulting" },
+          {
+            name: "Process Consulting",
+            path: "/services/process-consulting-services",
+          },
           {
             name: "Technology Consulting",
-            path: "/services/technology-consulting",
+            path: "/services/technology-consulting-services",
           },
         ],
       },
@@ -137,18 +156,21 @@ const navLinks = [
             name: "SAP Managed Services",
             path: "/services/sap-managed-services",
           },
-          { name: "SAP AMS", path: "/services/sap-ams" },
+          {
+            name: "SAP AMS",
+            path: "/services/application-management-services",
+          },
           {
             name: "SAP S/4HANA Migration",
-            path: "/services/sap-s4hana-migration",
+            path: "/services/sap-s4-hana-migration-services",
           },
           {
             name: "SAP Discovery & Evaluation",
-            path: "/services/sap-discovery-and-evaluation",
+            path: "/services/sap-discovery-evaluation-services",
           },
           {
             name: "SAP Implementation & Rollout",
-            path: "/services/sap-implementation-and-rollout",
+            path: "/services/sap-implementation-rollout-services",
           },
           {
             name: "SAP Upgrade Services",

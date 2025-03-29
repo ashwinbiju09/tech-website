@@ -15,7 +15,7 @@ const AddonsDetail = ({ data }) => {
       <section id="overview">
         <Overview data={data.overviewSection} />
       </section>
-      <section id="howitworks">
+      <section id="features">
         <Insights data={data.insightsSection} />
       </section>
       <section id="insights">

@@ -16,7 +16,7 @@ const Insights = ({ data }) => {
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
       >
         <div className="text-center text-2xl lg:text-4xl pt-2 pb-6 font-bold text-white tracking-wide">
-          How it works ?
+          {data.title}
         </div>
         <div className="text-center text-lg text-white font-semibold tracking-normal max-w-4xl mx-auto">
           {data.description}

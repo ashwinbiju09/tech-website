@@ -12,7 +12,7 @@ const Navigation = () => {
     const handleScroll = () => {
       clearTimeout(timeout);
       timeout = setTimeout(() => {
-        const sections = ["overview", "howitworks", "insights", "benefits"];
+        const sections = ["overview", "features", "insights", "benefits"];
         let foundSection = "";
 
         for (let section of sections) {
@@ -50,7 +50,7 @@ const Navigation = () => {
 
   const navItems = [
     { id: "overview", label: "Overview" },
-    { id: "howitworks", label: "How It Works" },
+    { id: "features", label: "Features" },
     { id: "insights", label: "Insights" },
     { id: "benefits", label: "Benefits" },
   ];

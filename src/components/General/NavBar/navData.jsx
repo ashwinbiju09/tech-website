@@ -99,19 +99,57 @@ const navLinks = [
         name: "Enhanced Add-ons",
         subMenu: [
           {
+            name: "Asset  Management",
+            path: "/enhanced-addons/asset-management-system",
+          },
+          {
+            name: "Digital Retail & Platform",
+            path: "/enhanced-addons/digital-retail-platform",
+          },
+          {
+            name: "Distribution Management System",
+            path: "/enhanced-addons/distribution-management-system",
+          },
+          {
             name: "Field Service Management",
             path: "/enhanced-addons/field-service-management",
           },
-          { name: "Vendor Management", path: "#" },
-          { name: "Asset  Management", path: "#" },
-          { name: "Subscription Billing System", path: "#" },
-          { name: "Sales Force Automation (SFA)", path: "#" },
-          { name: "Digital Retail Solution ", path: "#" },
-          { name: "Real Estate Management", path: "#" },
-          { name: "Compliance management", path: "#" },
-          { name: "No-code workflow automation", path: "#" },
-          { name: "Project management", path: "#" },
-          { name: "Document management", path: "#" },
+          {
+            name: "Real Estate Management & Systems",
+            path: "/enhanced-addons/real-estate-management-systems",
+          },
+          {
+            name: "Sales Force Automation",
+            path: "/enhanced-addons/sales-force-automation",
+          },
+          {
+            name: "Subscription Billing & Management",
+            path: "/enhanced-addons/subscription-billing-management",
+          },
+          {
+            name: "Vendor Management Solution",
+            path: "/enhanced-addons/vendor-management-solution",
+          },
+          {
+            name: "Document Delivery Automation Services",
+            path: "/enhanced-addons/document-delivery-automation",
+          },
+          {
+            name: "Compliance Management Software",
+            path: "/enhanced-addons/compliance-management-software",
+          },
+          {
+            name: "No-Code Work Platform",
+            path: "/enhanced-addons/no-code-work-platform",
+          },
+          {
+            name: "Procurement Software",
+            path: "/enhanced-addons/procurement-software",
+          },
+          {
+            name: "Project Management Software",
+            path: "/enhanced-addons/project-management-software",
+          },
         ],
       },
       {

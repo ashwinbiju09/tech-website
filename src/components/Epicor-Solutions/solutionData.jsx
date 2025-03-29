@@ -11,7 +11,7 @@ import ekc from "../../assets/Epicor/crm.jpg";
 const featureIcon = (
   <img
     className="h-8 w-8"
-    src="https://img.icons8.com/pastel-glyph/100/FFFFFF/intelligent-person.png"
+    src="https://img.icons8.com/pastel-glyph/100/intelligent-person.png"
     alt="intelligent-person"
   />
 );
@@ -39,7 +39,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/100/FFFFFF/checkout.png"
+              src="https://img.icons8.com/ios/64/checkout.png"
               alt="checkout"
             />
           ),
@@ -49,7 +49,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/move-by-trolley.png"
+              src="https://img.icons8.com/ios-filled/64/move-by-trolley.png"
               alt="move-by-trolley"
             />
           ),
@@ -59,7 +59,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/carbon-copy/100/FFFFFF/garage-closed.png"
+              src="https://img.icons8.com/carbon-copy/64/garage-closed.png"
               alt="garage-closed"
             />
           ),
@@ -69,7 +69,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/100/FFFFFF/trust--v1.png"
+              src="https://img.icons8.com/ios/64/trust--v1.png"
               alt="trust--v1"
             />
           ),
@@ -108,7 +108,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/invisible.png"
+              src="https://img.icons8.com/ios-filled/64/invisible.png"
               alt="invisible"
             />
           ),
@@ -120,7 +120,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pastel-glyph/100/FFFFFF/gender-neutral-user.png"
+              src="https://img.icons8.com/pastel-glyph/64/gender-neutral-user.png"
               alt="gender-neutral-user"
             />
           ),
@@ -132,7 +132,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/wired/100/FFFFFF/decision.png"
+              src="https://img.icons8.com/wired/64/decision.png"
               alt="decision"
             />
           ),
@@ -144,7 +144,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/100/FFFFFF/external-regulation-project-management-kmg-design-glyph-kmg-design.png"
+              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/64/external-regulation-project-management-kmg-design-glyph-kmg-design.png"
               alt="external-regulation-project-management-kmg-design-glyph-kmg-design"
             />
           ),
@@ -156,7 +156,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-creatype-outline-colourcreatype/100/FFFFFF/external-edi-data-file-extension-line-creatype-outline-colourcreatype.png"
+              src="https://img.icons8.com/external-creatype-outline-colourcreatype/64/external-edi-data-file-extension-line-creatype-outline-colourcreatype.png"
               alt="external-edi-data-file-extension-line-creatype-outline-colourcreatype"
             />
           ),
@@ -168,7 +168,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/material-outlined/100/FFFFFF/collaboration.png"
+              src="https://img.icons8.com/material-outlined/64/collaboration.png"
               alt="collaboration"
             />
           ),
@@ -180,7 +180,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/membrane.png"
+              src="https://img.icons8.com/ios-filled/64/membrane.png"
               alt="membrane"
             />
           ),
@@ -213,7 +213,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/project.png"
+              src="https://img.icons8.com/ios-filled/64/project.png"
               alt="project"
             />
           ),
@@ -223,7 +223,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/billing.png"
+              src="https://img.icons8.com/ios-filled/64/billing.png"
               alt="billing"
             />
           ),
@@ -233,7 +233,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-wanicon-lineal-wanicon/100/FFFFFF/external-resource-business-model-canvas-wanicon-lineal-wanicon.png"
+              src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/external-resource-business-model-canvas-wanicon-lineal-wanicon.png"
               alt="external-resource-business-model-canvas-wanicon-lineal-wanicon"
             />
           ),
@@ -243,7 +243,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/100/FFFFFF/signing-a-document.png"
+              src="https://img.icons8.com/ios/64/signing-a-document.png"
               alt="signing-a-document"
             />
           ),
@@ -282,7 +282,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/100/FFFFFF/external-visibility-internet-marketing-kmg-design-glyph-kmg-design.png"
+              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/64/external-visibility-internet-marketing-kmg-design-glyph-kmg-design.png"
               alt="external-visibility-internet-marketing-kmg-design-glyph-kmg-design"
             />
           ),
@@ -294,7 +294,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/idea-sharing.png"
+              src="https://img.icons8.com/ios-filled/64/idea-sharing.png"
               alt="idea-sharing"
             />
           ),
@@ -306,7 +306,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-hand-drawn-black-smashing-stocks/100/FFFFFF/external-workforce-data-analytics-smashingstocks-hand-drawn-black-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-hand-drawn-black-smashing-stocks/64/external-workforce-data-analytics-smashingstocks-hand-drawn-black-smashing-stocks.png"
               alt="external-workforce-data-analytics-smashingstocks-hand-drawn-black-smashing-stocks"
             />
           ),
@@ -318,7 +318,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-glyph-geotatah/100/FFFFFF/external-collaborative-knowledge-management-glyph-glyph-geotatah.png"
+              src="https://img.icons8.com/external-glyph-geotatah/64/external-collaborative-knowledge-management-glyph-glyph-geotatah.png"
               alt="external-collaborative-knowledge-management-glyph-glyph-geotatah"
             />
           ),
@@ -330,7 +330,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pulsar-line/100/FFFFFF/Profitability.png"
+              src="https://img.icons8.com/pulsar-line/64/Profitability.png"
               alt="Profitability"
             />
           ),
@@ -342,7 +342,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/100/FFFFFF/external-Decision-Making-business-startup-2-kmg-design-glyph-kmg-design.png"
+              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/64/external-Decision-Making-business-startup-2-kmg-design-glyph-kmg-design.png"
               alt="external-Decision-Making-business-startup-2-kmg-design-glyph-kmg-design"
             />
           ),
@@ -354,7 +354,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/100/FFFFFF/administrative-tools.png"
+              src="https://img.icons8.com/ios/64/administrative-tools.png"
               alt="administrative-tools"
             />
           ),
@@ -388,8 +388,8 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/online-support.png"
-              alt="online-support"
+              src="https://img.icons8.com/ios-filled/50/1A1A1A/manufacturing.png"
+              alt="manufacturing"
             />
           ),
           name: "Multi-Mode Manufacturing Support",
@@ -398,8 +398,8 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/online-support.png"
-              alt="online-support"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/32/1A1A1A/external-scheduling-project-management-outline-black-m-oki-orlando.png"
+              alt="external-scheduling-project-management-outline-black-m-oki-orlando"
             />
           ),
           name: "Advanced Scheduling and Tracking",
@@ -408,8 +408,8 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/online-support.png"
-              alt="online-support"
+              src="https://img.icons8.com/ios-filled/50/1A1A1A/warranty-card.png"
+              alt="warranty-card"
             />
           ),
           name: "Quality Management System",
@@ -418,8 +418,8 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/online-support.png"
-              alt="online-support"
+              src="https://img.icons8.com/ios-filled/50/1A1A1A/engineering.png"
+              alt="engineering"
             />
           ),
           name: "Engineering Change Management",
@@ -457,7 +457,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/100/FFFFFF/external-agility-digital-transformation-parzival-1997-detailed-outline-parzival-1997.png"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/external-agility-digital-transformation-parzival-1997-detailed-outline-parzival-1997.png"
               alt="external-agility-digital-transformation-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
@@ -469,7 +469,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-wichaiwi/100/FFFFFF/external-operational-business-risks-outline-wichaiwi.png"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/external-operational-business-risks-outline-wichaiwi.png"
               alt="external-operational-business-risks-outline-wichaiwi"
             />
           ),
@@ -481,7 +481,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/100/FFFFFF/connected-people.png"
+              src="https://img.icons8.com/ios/64/connected-people.png"
               alt="connected-people"
             />
           ),
@@ -493,7 +493,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/100/FFFFFF/connected-people.png"
+              src="https://img.icons8.com/ios/64/connected-people.png"
               alt="connected-people"
             />
           ),
@@ -505,7 +505,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-icons-smashing-stocks/100/FFFFFF/external-Precision-military-icon-icons-smashing-stocks-2.png"
+              src="https://img.icons8.com/external-icons-smashing-stocks/64/external-Precision-military-icon-icons-smashing-stocks-2.png"
               alt="external-Precision-military-icon-icons-smashing-stocks-2"
             />
           ),
@@ -517,7 +517,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/material-rounded/100/FFFFFF/3-wheel-scooter.png"
+              src="https://img.icons8.com/material-rounded/64/3-wheel-scooter.png"
               alt="3-wheel-scooter"
             />
           ),
@@ -529,7 +529,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/lifecycle--v1.png"
+              src="https://img.icons8.com/ios-filled/64/lifecycle--v1.png"
               alt="lifecycle--v1"
             />
           ),
@@ -563,7 +563,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/accounting.png"
+              src="https://img.icons8.com/ios-filled/64/accounting.png"
               alt="accounting"
             />
           ),
@@ -573,7 +573,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/64/FFFFFF/external-Global-Business-business-startup-2-kmg-design-detailed-outline-kmg-design.png"
+              src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/64/external-Global-Business-business-startup-2-kmg-design-detailed-outline-kmg-design.png"
               alt="external-Global-Business-business-startup-2-kmg-design-detailed-outline-kmg-design"
             />
           ),
@@ -583,7 +583,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/check-dollar.png"
+              src="https://img.icons8.com/ios-filled/64/check-dollar.png"
               alt="check-dollar"
             />
           ),
@@ -593,7 +593,7 @@ const solutionData = [
           icon: (
             <img
               className="h=8 w=8"
-              src="https://img.icons8.com/ios/50/FFFFFF/investment.png"
+              src="https://img.icons8.com/ios/38/investment.png"
               alt="investment"
             />
           ),
@@ -632,7 +632,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/credit-control.png"
+              src="https://img.icons8.com/ios-filled/64/credit-control.png"
               alt="credit-control"
             />
           ),
@@ -644,7 +644,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/sf-black-filled/64/FFFFFF/money.png"
+              src="https://img.icons8.com/sf-black-filled/64/money.png"
               alt="money"
             />
           ),
@@ -656,7 +656,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/FFFFFF/external-businessmen-business-and-management-kiranshastry-solid-kiranshastry-2.png"
+              src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/external-businessmen-business-and-management-kiranshastry-solid-kiranshastry-2.png"
               alt="external-businessmen-business-and-management-kiranshastry-solid-kiranshastry-2"
             />
           ),
@@ -668,7 +668,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/FFFFFF/external-business-intelligence-information-systems-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/external-business-intelligence-information-systems-solid-solidglyph-m-oki-orlando.png"
               alt="external-business-intelligence-information-systems-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -680,7 +680,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-juicy-fish/60/FFFFFF/external-decision-crisis-management-outline-outline-juicy-fish.png"
+              src="https://img.icons8.com/external-outline-juicy-fish/60/external-decision-crisis-management-outline-outline-juicy-fish.png"
               alt="external-decision-crisis-management-outline-outline-juicy-fish"
             />
           ),
@@ -692,7 +692,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/dotty/80/FFFFFF/administrative-tools.png"
+              src="https://img.icons8.com/dotty/80/administrative-tools.png"
               alt="administrative-tools"
             />
           ),
@@ -704,7 +704,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/FFFFFF/external-operation-digital-transformation-parzival-1997-detailed-outline-parzival-1997.png"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/external-operation-digital-transformation-parzival-1997-detailed-outline-parzival-1997.png"
               alt="external-operation-digital-transformation-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
@@ -738,7 +738,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/creativity.png"
+              src="https://img.icons8.com/ios-filled/50/creativity.png"
               alt="creativity"
             />
           ),
@@ -748,7 +748,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/material-outlined/24/FFFFFF/membrane.png"
+              src="https://img.icons8.com/material-outlined/24/membrane.png"
               alt="membrane"
             />
           ),
@@ -758,7 +758,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/planning-skill.png"
+              src="https://img.icons8.com/ios-filled/50/planning-skill.png"
               alt="planning-skill"
             />
           ),
@@ -768,7 +768,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-black-m-oki-orlando/32/FFFFFF/external-resource-project-management-outline-black-m-oki-orlando-2.png"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/32/external-resource-project-management-outline-black-m-oki-orlando-2.png"
               alt="external-resource-project-management-outline-black-m-oki-orlando-2"
             />
           ),
@@ -807,7 +807,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/decision-making.png"
+              src="https://img.icons8.com/ios-filled/50/decision-making.png"
               alt="decision-making"
             />
           ),
@@ -819,7 +819,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/overtime.png"
+              src="https://img.icons8.com/ios-filled/50/overtime.png"
               alt="overtime"
             />
           ),
@@ -831,7 +831,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/supply-chain.png"
+              src="https://img.icons8.com/ios-glyphs/30/supply-chain.png"
               alt="supply-chain"
             />
           ),
@@ -843,7 +843,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/FFFFFF/external-resource-talent-management-flatart-icons-outline-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-resource-talent-management-flatart-icons-outline-flatarticons.png"
               alt="external-resource-talent-management-flatart-icons-outline-flatarticons"
             />
           ),
@@ -855,7 +855,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/project.png"
+              src="https://img.icons8.com/ios-filled/50/project.png"
               alt="project"
             />
           ),
@@ -867,7 +867,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-geotatah/64/FFFFFF/external-coordination-emergency-and-disaster-management-outline-geotatah.png"
+              src="https://img.icons8.com/external-outline-geotatah/64/external-coordination-emergency-and-disaster-management-outline-geotatah.png"
               alt="external-coordination-emergency-and-disaster-management-outline-geotatah"
             />
           ),
@@ -879,7 +879,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/FFFFFF/timeline-week.png"
+              src="https://img.icons8.com/ios-glyphs/30/timeline-week.png"
               alt="timeline-week"
             />
           ),
@@ -913,7 +913,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-geotatah/64/FFFFFF/external-talent-the-global-war-for-talent-outline-geotatah-2.png"
+              src="https://img.icons8.com/external-outline-geotatah/64/external-talent-the-global-war-for-talent-outline-geotatah-2.png"
               alt="external-talent-the-global-war-for-talent-outline-geotatah-2"
             />
           ),
@@ -923,7 +923,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/human-resources.png"
+              src="https://img.icons8.com/ios-filled/50/human-resources.png"
               alt="human-resources"
             />
           ),
@@ -933,7 +933,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/training.png"
+              src="https://img.icons8.com/ios-filled/50/training.png"
               alt="training"
             />
           ),
@@ -943,7 +943,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/FFFFFF/person-growth.png"
+              src="https://img.icons8.com/ios/50/person-growth.png"
               alt="person-growth"
             />
           ),
@@ -982,7 +982,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/wired/64/FFFFFF/settings-3.png"
+              src="https://img.icons8.com/wired/64/settings-3.png"
               alt="settings-3"
             />
           ),
@@ -994,7 +994,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/accessibility2.png"
+              src="https://img.icons8.com/ios-filled/50/accessibility2.png"
               alt="accessibility2"
             />
           ),
@@ -1006,7 +1006,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/FFFFFF/administrative-tools.png"
+              src="https://img.icons8.com/ios/50/administrative-tools.png"
               alt="administrative-tools"
             />
           ),
@@ -1018,7 +1018,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pastel-glyph/64/FFFFFF/information--v1.png"
+              src="https://img.icons8.com/pastel-glyph/64/information--v1.png"
               alt="information--v1"
             />
           ),
@@ -1030,7 +1030,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/self-service-kiosk.png"
+              src="https://img.icons8.com/ios-filled/50/self-service-kiosk.png"
               alt="self-service-kiosk"
             />
           ),
@@ -1042,7 +1042,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/FFFFFF/external-flexibility-freelance-smashingstocks-mixed-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/external-flexibility-freelance-smashingstocks-mixed-smashing-stocks.png"
               alt="external-flexibility-freelance-smashingstocks-mixed-smashing-stocks"
             />
           ),
@@ -1054,7 +1054,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/ledger.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/ledger.png"
               alt="ledger"
             />
           ),
@@ -1088,7 +1088,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/estimate--v1.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/estimate--v1.png"
               alt="estimate--v1"
             />
           ),
@@ -1098,7 +1098,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/purchase-order--v1.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/purchase-order--v1.png"
               alt="purchase-order--v1"
             />
           ),
@@ -1108,7 +1108,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/price-tag.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/price-tag.png"
               alt="price-tag"
             />
           ),
@@ -1118,7 +1118,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/franchise.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/franchise.png"
               alt="franchise"
             />
           ),
@@ -1157,7 +1157,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/batch-assign--v1.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/batch-assign--v1.png"
               alt="batch-assign--v1"
             />
           ),
@@ -1169,7 +1169,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/down3.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/down3.png"
               alt="down3"
             />
           ),
@@ -1181,7 +1181,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/visible--v1.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/visible--v1.png"
               alt="visible--v1"
             />
           ),
@@ -1193,7 +1193,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/fast-cart.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/fast-cart.png"
               alt="fast-cart"
             />
           ),
@@ -1205,7 +1205,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/total-sales.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/total-sales.png"
               alt="total-sales"
             />
           ),
@@ -1217,7 +1217,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/FFFFFF/tags--v1.png"
+              src="https://img.icons8.com/ios/50/tags--v1.png"
               alt="tags--v1"
             />
           ),
@@ -1229,7 +1229,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/dotty/80/FFFFFF/reseller.png"
+              src="https://img.icons8.com/dotty/80/reseller.png"
               alt="reseller"
             />
           ),
@@ -1262,9 +1262,8 @@ const solutionData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-filled/100/FFFFFF/service.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-filled/64/service.png"
               alt="service"
             />
           ),
@@ -1274,7 +1273,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/carbon-copy/100/FFFFFF/warranty.png"
+              src="https://img.icons8.com/carbon-copy/64/warranty.png"
               alt="warranty"
             />
           ),
@@ -1284,7 +1283,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/work.png"
+              src="https://img.icons8.com/ios-filled/50/work.png"
               alt="work"
             />
           ),
@@ -1294,7 +1293,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-global-made-by-made/50/FFFFFF/external-Case-legal-global-made-by-made-4.png"
+              src="https://img.icons8.com/external-global-made-by-made/50/external-Case-legal-global-made-by-made-4.png"
               alt="external-Case-legal-global-made-by-made-4"
             />
           ),
@@ -1333,7 +1332,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/carbon-copy/100/FFFFFF/money.png"
+              src="https://img.icons8.com/carbon-copy/64/money.png"
               alt="money"
             />
           ),
@@ -1345,7 +1344,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/100/FFFFFF/conference-background-selected.png"
+              src="https://img.icons8.com/ios/64/conference-background-selected.png"
               alt="conference-background-selected"
             />
           ),
@@ -1357,7 +1356,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/online-maintenance-portal.png"
+              src="https://img.icons8.com/ios-filled/64/online-maintenance-portal.png"
               alt="online-maintenance-portal"
             />
           ),
@@ -1369,7 +1368,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/100/FFFFFF/external-resource-digital-globalization-parzival-1997-detailed-outline-parzival-1997.png"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/external-resource-digital-globalization-parzival-1997-detailed-outline-parzival-1997.png"
               alt="external-resource-digital-globalization-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
@@ -1381,7 +1380,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-glyph-geotatah/100/FFFFFF/external-collaborative-knowledge-management-glyph-glyph-geotatah.png"
+              src="https://img.icons8.com/external-glyph-geotatah/64/external-collaborative-knowledge-management-glyph-glyph-geotatah.png"
               alt="external-collaborative-knowledge-management-glyph-glyph-geotatah"
             />
           ),
@@ -1393,7 +1392,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-wichaiwi/100/FFFFFF/external-development-business-outline-wichaiwi.png"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/external-development-business-outline-wichaiwi.png"
               alt="external-development-business-outline-wichaiwi"
             />
           ),
@@ -1405,7 +1404,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/100/FFFFFF/service--v2.png"
+              src="https://img.icons8.com/ios-glyphs/64/service--v2.png"
               alt="service--v2"
             />
           ),
@@ -1438,7 +1437,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/100/FFFFFF/contact-card.png"
+              src="https://img.icons8.com/ios-filled/64/contact-card.png"
               alt="contact-card"
             />
           ),
@@ -1448,7 +1447,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/100/FFFFFF/opportunity.png"
+              src="https://img.icons8.com/windows/64/opportunity.png"
               alt="opportunity"
             />
           ),
@@ -1458,7 +1457,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/100/FFFFFF/external-case-finance-xnimrodx-lineal-xnimrodx.png"
+              src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/external-case-finance-xnimrodx-lineal-xnimrodx.png"
               alt="external-case-finance-xnimrodx-lineal-xnimrodx"
             />
           ),
@@ -1468,7 +1467,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/100/FFFFFF/speaker_1.png"
+              src="https://img.icons8.com/ios/64/speaker_1.png"
               alt="speaker_1"
             />
           ),
@@ -1507,7 +1506,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/100/FFFFFF/external-forecasting-data-science-and-cyber-security-flatart-icons-solid-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/external-forecasting-data-science-and-cyber-security-flatart-icons-solid-flatarticons.png"
               alt="external-forecasting-data-science-and-cyber-security-flatart-icons-solid-flatarticons"
             />
           ),
@@ -1519,8 +1518,8 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/100/FFFFFF/external-forecasting-data-science-and-cyber-security-flatart-icons-solid-flatarticons.png"
-              alt="external-forecasting-data-science-and-cyber-security-flatart-icons-solid-flatarticons"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/1A1A1A/external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks.png"
+              alt="external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks"
             />
           ),
           title: "Forecasting Precision",
@@ -1531,7 +1530,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/100/FFFFFF/external-skills-business-and-management-kiranshastry-solid-kiranshastry-3.png"
+              src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/external-skills-business-and-management-kiranshastry-solid-kiranshastry-3.png"
               alt="external-skills-business-and-management-kiranshastry-solid-kiranshastry-3"
             />
           ),
@@ -1543,7 +1542,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-black-m-oki-orlando/100/FFFFFF/external-business-project-management-outline-black-m-oki-orlando-2.png"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/external-business-project-management-outline-black-m-oki-orlando-2.png"
               alt="external-business-project-management-outline-black-m-oki-orlando-2"
             />
           ),
@@ -1555,7 +1554,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/100/FFFFFF/omnichannel.png"
+              src="https://img.icons8.com/ios/64/omnichannel.png"
               alt="omnichannel"
             />
           ),
@@ -1567,8 +1566,8 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/100/FFFFFF/add-shopping-cart--v1.png"
-              alt="add-shopping-cart--v1"
+              src="https://img.icons8.com/stamp/32/1A1A1A/cloud.png"
+              alt="cloud"
             />
           ),
           title: "Cloud Integration",
@@ -1579,7 +1578,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/100/FFFFFF/add-shopping-cart--v1.png"
+              src="https://img.icons8.com/ios/64/add-shopping-cart--v1.png"
               alt="add-shopping-cart--v1"
             />
           ),

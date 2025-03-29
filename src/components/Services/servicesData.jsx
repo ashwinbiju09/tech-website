@@ -100,7 +100,7 @@ const servicesData = [
           icon: (
             <img
               className="h-10 w-10"
-              src="https://img.icons8.com/windows/100/FFFFFF/strategy-board.png"
+              src="https://img.icons8.com/windows/64/strategy-board.png"
               alt="strategy-board"
             />
           ),
@@ -112,7 +112,7 @@ const servicesData = [
           icon: (
             <img
               className="h-10 w-10"
-              src="https://img.icons8.com/windows/100/FFFFFF/performance-smartphone.png"
+              src="https://img.icons8.com/windows/64/performance-smartphone.png"
               alt="performance-smartphone"
             />
           ),
@@ -123,10 +123,9 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/decentralized-network.png"
-              alt="decentralized-network"
+              className="h-8 w-8"
+              src="https://img.icons8.com/pastel-glyph/64/1A1A1A/network-care.png"
+              alt="network-care"
             />
           ),
           title: "Digital Enablement",
@@ -136,9 +135,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/positive-dynamic.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/positive-dynamic.png"
               alt="positive-dynamic"
             />
           ),
@@ -149,9 +147,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/8/FFFFFF/external-roi-digital-marketing-outline-solidglyph-m-oki-orlando.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/external-roi-digital-marketing-outline-solidglyph-m-oki-orlando.png"
               alt="external-roi-digital-marketing-outline-solidglyph-m-oki-orlando"
             />
           ),
@@ -162,9 +159,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-glyph-silhouettes-icons-papa-vector/8/FFFFFF/external-Organic-Company-Structure-company-structure-glyph-silhouettes-icons-papa-vector.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-glyph-silhouettes-icons-papa-vector/64/external-Organic-Company-Structure-company-structure-glyph-silhouettes-icons-papa-vector.png"
               alt="external-Organic-Company-Structure-company-structure-glyph-silhouettes-icons-papa-vector"
             />
           ),
@@ -179,9 +175,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-tulpahn-detailed-outline-tulpahn/8/FFFFFF/external-productivity-work-from-home-tulpahn-detailed-outline-tulpahn.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-tulpahn-detailed-outline-tulpahn/64/external-productivity-work-from-home-tulpahn-detailed-outline-tulpahn.png"
               alt="external-productivity-work-from-home-tulpahn-detailed-outline-tulpahn"
             />
           ),
@@ -192,9 +187,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-ddara-lineal-ddara/8/FFFFFF/external-outsourcing-business-management-ddara-lineal-ddara-2.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-ddara-lineal-ddara/64/external-outsourcing-business-management-ddara-lineal-ddara-2.png"
               alt="external-outsourcing-business-management-ddara-lineal-ddara-2"
             />
           ),
@@ -205,9 +199,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/lunacy-new--v2.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/lunacy-new--v2.png"
               alt="lunacy-new--v2"
             />
           ),
@@ -299,9 +292,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-regular/8/FFFFFF/visible--v1.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/64/visible--v1.png"
               alt="visible--v1"
             />
           ),
@@ -312,9 +304,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-regular/8/FFFFFF/system-task.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/64/system-task.png"
               alt="system-task"
             />
           ),
@@ -325,9 +316,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-regular/8/FFFFFF/services--v1.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/64/services--v1.png"
               alt="services--v1"
             />
           ),
@@ -338,9 +328,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-regular/8/FFFFFF/agree-.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/64/agree-.png"
               alt="agree-"
             />
           ),
@@ -351,9 +340,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/computer-support.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/computer-support.png"
               alt="computer-support"
             />
           ),
@@ -364,9 +352,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios-glyphs/8/FFFFFF/customer-support.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/64/customer-support.png"
               alt="customer-support"
             />
           ),
@@ -381,9 +368,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios-glyphs/8/FFFFFF/software-box.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/64/software-box.png"
               alt="software-box"
             />
           ),
@@ -394,9 +380,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-outline-geotatah/8/FFFFFF/external-implementation-new-product-development-npd-outline-geotatah.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-geotatah/64/external-implementation-new-product-development-npd-outline-geotatah.png"
               alt="external-implementation-new-product-development-npd-outline-geotatah"
             />
           ),
@@ -407,9 +392,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/material-rounded/8/FFFFFF/process.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/material-rounded/64/process.png"
               alt="process"
             />
           ),
@@ -502,9 +486,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/wired/8/FFFFFF/workflow.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/wired/64/workflow.png"
               alt="workflow"
             />
           ),
@@ -515,9 +498,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/pastel-glyph/8/FFFFFF/network-care.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/pastel-glyph/64/network-care.png"
               alt="network-care"
             />
           ),
@@ -528,9 +510,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/8/FFFFFF/external-agile-web-design-and-development-flatart-icons-solid-flatarticons.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/external-agile-web-design-and-development-flatart-icons-solid-flatarticons.png"
               alt="external-agile-web-design-and-development-flatart-icons-solid-flatarticons"
             />
           ),
@@ -541,9 +522,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/decision-making.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/decision-making.png"
               alt="decision-making"
             />
           ),
@@ -554,9 +534,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/wired/8/FFFFFF/cost.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/wired/64/cost.png"
               alt="cost"
             />
           ),
@@ -567,9 +546,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/cyber-security.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/cyber-security.png"
               alt="cyber-security"
             />
           ),
@@ -696,9 +674,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/8/FFFFFF/external-availability-database-solid-solidglyph-m-oki-orlando.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/external-availability-database-solid-solidglyph-m-oki-orlando.png"
               alt="external-availability-database-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -709,9 +686,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios-filled/8/FFFFFF/cost.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/cost.png"
               alt="cost"
             />
           ),
@@ -722,9 +698,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-regular/8/FFFFFF/fingerprint-scan.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/64/fingerprint-scan.png"
               alt="fingerprint-scan"
             />
           ),
@@ -735,9 +710,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-regular/8/FFFFFF/project-management.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/64/project-management.png"
               alt="project-management"
             />
           ),
@@ -748,9 +722,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/conference.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/conference.png"
               alt="conference"
             />
           ),
@@ -761,9 +734,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/lifecycle--v1.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/lifecycle--v1.png"
               alt="lifecycle--v1"
             />
           ),
@@ -778,9 +750,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/ookla-speedtest.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/ookla-speedtest.png"
               alt="ookla-speedtest"
             />
           ),
@@ -791,9 +762,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/pastel-glyph/8/FFFFFF/cloud-development--v4.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/pastel-glyph/64/cloud-development--v4.png"
               alt="cloud-development--v4"
             />
           ),
@@ -804,9 +774,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/service--v1.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/service--v1.png"
               alt="service--v1"
             />
           ),
@@ -887,9 +856,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-regular/8/FFFFFF/balance.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/64/balance.png"
               alt="balance"
             />
           ),
@@ -900,9 +868,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-regular/8/FFFFFF/cheap-2--v1.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/64/cheap-2--v1.png"
               alt="cheap-2--v1"
             />
           ),
@@ -913,9 +880,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-regular/8/FFFFFF/business-conference-female-speaker.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/64/business-conference-female-speaker.png"
               alt="business-conference-female-speaker"
             />
           ),
@@ -926,9 +892,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/key.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/key.png"
               alt="key"
             />
           ),
@@ -939,9 +904,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/8/FFFFFF/external-infrastructure-finance-smashingstocks-glyph-smashing-stocks.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/64/external-infrastructure-finance-smashingstocks-glyph-smashing-stocks.png"
               alt="external-infrastructure-finance-smashingstocks-glyph-smashing-stocks"
             />
           ),
@@ -952,9 +916,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios-filled/8/FFFFFF/customer-support.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/customer-support.png"
               alt="customer-support"
             />
           ),
@@ -969,9 +932,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios-filled/8/FFFFFF/low-price.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/low-price.png"
               alt="low-price"
             />
           ),
@@ -982,9 +944,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios-filled/8/FFFFFF/business-goal.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/business-goal.png"
               alt="business-goal"
             />
           ),
@@ -995,9 +956,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios-filled/8/FFFFFF/delivery--v1.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/delivery--v1.png"
               alt="delivery--v1"
             />
           ),
@@ -1088,7 +1048,13 @@ const servicesData = [
         "Migrate smarter and faster with tailored strategies that ensure a secure, agile, and high-performing SAP S/4 HANA environment.",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pastel-glyph/64/1A1A1A/intelligent-person.png"
+              alt="intelligent-person"
+            />
+          ),
           title: "Strategic Migration Planning",
           description:
             "Thorough assessment and roadmap creation align your business goals with the right migration path—greenfield, brownfield, or bluefield.",
@@ -1096,9 +1062,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/data-backup.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/data-backup.png"
               alt="data-backup"
             />
           ),
@@ -1109,9 +1074,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-outline-juicy-fish/8/FFFFFF/external-flexible-arrows-outline-outline-juicy-fish-2.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-juicy-fish/64/external-flexible-arrows-outline-outline-juicy-fish-2.png"
               alt="external-flexible-arrows-outline-outline-juicy-fish-2"
             />
           ),
@@ -1122,9 +1086,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios-filled/8/FFFFFF/medium-risk.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/medium-risk.png"
               alt="medium-risk"
             />
           ),
@@ -1135,9 +1098,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/dashboard.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/dashboard.png"
               alt="dashboard"
             />
           ),
@@ -1148,9 +1110,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/8/FFFFFF/external-data-architecture-data-engineering-solid-solidglyph-m-oki-orlando.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/external-data-architecture-data-engineering-solid-solidglyph-m-oki-orlando.png"
               alt="external-data-architecture-data-engineering-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -1165,9 +1126,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/material-sharp/8/FFFFFF/increase-profits.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/material-sharp/64/increase-profits.png"
               alt="increase-profits"
             />
           ),
@@ -1178,9 +1138,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-outline-wichaiwi/8/FFFFFF/external-development-business-outline-wichaiwi.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/external-development-business-outline-wichaiwi.png"
               alt="external-development-business-outline-wichaiwi"
             />
           ),
@@ -1191,9 +1150,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/8/FFFFFF/external-check-multimedia-kiranshastry-lineal-kiranshastry.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/external-check-multimedia-kiranshastry-lineal-kiranshastry.png"
               alt="external-check-multimedia-kiranshastry-lineal-kiranshastry"
             />
           ),
@@ -1298,9 +1256,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/critical-thinking.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/critical-thinking.png"
               alt="critical-thinking"
             />
           ),
@@ -1311,9 +1268,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/change.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/change.png"
               alt="change"
             />
           ),
@@ -1324,9 +1280,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/accuracy.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/accuracy.png"
               alt="accuracy"
             />
           ),
@@ -1337,9 +1292,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/down3.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/down3.png"
               alt="down3"
             />
           ),
@@ -1350,9 +1304,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/light-automation.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/light-automation.png"
               alt="light-automation"
             />
           ),
@@ -1363,9 +1316,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/cloud-database.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/cloud-database.png"
               alt="cloud-database"
             />
           ),
@@ -1380,9 +1332,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/scales.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/scales.png"
               alt="scales"
             />
           ),
@@ -1393,9 +1344,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/strategy-board.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/strategy-board.png"
               alt="strategy-board"
             />
           ),
@@ -1406,9 +1356,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/project-management.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/project-management.png"
               alt="project-management"
             />
           ),
@@ -1507,9 +1456,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/deployment.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/deployment.png"
               alt="deployment"
             />
           ),
@@ -1520,9 +1468,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/windows/8/FFFFFF/doughnut-chart.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/doughnut-chart.png"
               alt="doughnut-chart"
             />
           ),
@@ -1533,9 +1480,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/android/8/FFFFFF/user.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/android/64/user.png"
               alt="user"
             />
           ),
@@ -1546,9 +1492,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios-filled/8/FFFFFF/high-risk.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/high-risk.png"
               alt="high-risk"
             />
           ),
@@ -1559,9 +1504,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/laptop-settings--v2.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/laptop-settings--v2.png"
               alt="laptop-settings--v2"
             />
           ),
@@ -1572,9 +1516,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/wired/8/FFFFFF/ecosystem.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/wired/64/ecosystem.png"
               alt="ecosystem"
             />
           ),
@@ -1589,9 +1532,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios-filled/8/FFFFFF/deployment.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/deployment.png"
               alt="deployment"
             />
           ),
@@ -1602,9 +1544,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/ookla-speedtest.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/ookla-speedtest.png"
               alt="ookla-speedtest"
             />
           ),
@@ -1615,9 +1556,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/android/8/FFFFFF/user.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/android/64/user.png"
               alt="user"
             />
           ),
@@ -1722,9 +1662,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/8/FFFFFF/external-transition-animation-royyan-wijaya-detailed-outline-royyan-wijaya-4.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/64/external-transition-animation-royyan-wijaya-detailed-outline-royyan-wijaya-4.png"
               alt="external-transition-animation-royyan-wijaya-detailed-outline-royyan-wijaya-4"
             />
           ),
@@ -1735,9 +1674,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios-filled/8/FFFFFF/future.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/future.png"
               alt="future"
             />
           ),
@@ -1748,9 +1686,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/laptop-settings--v2.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/laptop-settings--v2.png"
               alt="laptop-settings--v2"
             />
           ),
@@ -1761,9 +1698,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-regular/8/FFFFFF/lock-orientation.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/64/lock-orientation.png"
               alt="lock-orientation"
             />
           ),
@@ -1774,9 +1710,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/fluency-systems-regular/8/FFFFFF/support.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/64/support.png"
               alt="support"
             />
           ),
@@ -1787,9 +1722,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/parakeet-line/8/FFFFFF/group.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/parakeet-line/64/group.png"
               alt="group"
             />
           ),
@@ -1804,9 +1738,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/8/FFFFFF/external-download-video-and-movie-tanah-basah-basic-outline-tanah-basah.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/64/external-download-video-and-movie-tanah-basah-basic-outline-tanah-basah.png"
               alt="external-download-video-and-movie-tanah-basah-basic-outline-tanah-basah"
             />
           ),
@@ -1817,9 +1750,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/ios/8/FFFFFF/square.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/square.png"
               alt="square"
             />
           ),
@@ -1830,9 +1762,8 @@ const servicesData = [
         {
           icon: (
             <img
-              width="8"
-              height="8"
-              src="https://img.icons8.com/android/8/FFFFFF/user.png"
+              className="h-8 w-8"
+              src="https://img.icons8.com/android/64/user.png"
               alt="user"
             />
           ),

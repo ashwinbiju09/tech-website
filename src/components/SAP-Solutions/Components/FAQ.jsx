@@ -14,7 +14,6 @@ const FAQ = ({ data }) => {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <div className="max-w-5xl mx-auto px-6 lg:px-16 flex flex-col md:flex-row gap-12">
-          {/* Left Side: FAQ Header */}
           <div className="flex flex-col text-left md:w-1/2">
             <p className="inline-block font-semibold text-yellow-400 mb-4">
               SAP S/4HANA FAQ
@@ -23,7 +22,6 @@ const FAQ = ({ data }) => {
             <p className="mt-3 text-lg text-gray-300">{data.description}</p>
           </div>
 
-          {/* Right Side: FAQ List */}
           <ul className="md:w-1/2">
             {data.faqs.map((faq, index) => (
               <FAQItem

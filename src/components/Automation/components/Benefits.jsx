@@ -8,7 +8,6 @@ const Benefits = ({ data }) => {
   return (
     <section className="w-full bg-white pt-16 pb-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-6xl">
-        {/* Title Section */}
         <motion.h2
           ref={ref}
           initial={{ opacity: 0, y: -20 }}
@@ -20,7 +19,6 @@ const Benefits = ({ data }) => {
           {data.title}
         </motion.h2>
 
-        {/* Benefits List */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-16">
           {data.benefits.map((benefit, index) => (
             <motion.div
@@ -35,7 +33,6 @@ const Benefits = ({ data }) => {
               }}
               className="flex items-center gap-4"
             >
-              {/* Icon */}
               <motion.div
                 initial={{ scale: 0.8, opacity: 0 }}
                 whileInView={{ scale: 1, opacity: 1 }}
@@ -50,7 +47,6 @@ const Benefits = ({ data }) => {
                 {benefit.icon}
               </motion.div>
 
-              {/* Text */}
               <motion.p
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}

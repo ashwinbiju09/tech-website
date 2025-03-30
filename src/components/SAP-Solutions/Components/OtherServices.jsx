@@ -5,7 +5,6 @@ const OtherServices = ({ data, currentService, navLinks }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { triggerOnce: true, threshold: 0.2 });
 
-  // Function to recursively find services in `navLinks`
   const extractServices = (menu) => {
     let services = [];
     menu.forEach((item) => {
@@ -19,18 +18,14 @@ const OtherServices = ({ data, currentService, navLinks }) => {
     return services;
   };
 
-  // Extract all services dynamically
   const allServices = extractServices(navLinks);
 
-  // Find the index of the current service
   const currentIndex = allServices.findIndex(
     (service) => service.name === currentService
   );
 
-  // If service not found, default to first four
   const validIndex = currentIndex === -1 ? 0 : currentIndex;
 
-  // Get next four services, with wrapping
   const nextServices = [...allServices, ...allServices].slice(
     validIndex + 1,
     validIndex + 7
@@ -45,7 +40,6 @@ const OtherServices = ({ data, currentService, navLinks }) => {
       className="w-full bg-white pb-16"
     >
       <div className="container mx-auto px-6 lg:px-8 max-w-6xl">
-        {/* Explore Other Services Section */}
         {nextServices.length > 0 && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}

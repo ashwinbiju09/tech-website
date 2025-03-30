@@ -11,7 +11,6 @@ const IndustryDetail = ({ data }) => {
     <>
       <Hero data={data.heroSection} />
 
-      {/* Sticky Navigation Bar */}
       <Navigation />
 
       <section id="overview">

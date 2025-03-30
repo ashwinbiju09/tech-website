@@ -24,15 +24,14 @@ const Info = () => {
       opacity: 1,
       y: 0,
       transition: {
-        delay: titles.length * 0.5 + 0.3,
+        delay: titles.length * 0.4,
         duration: 0.6,
       },
     },
   };
 
   return (
-    <div className="relative w-full flex flex-col md:flex-row items-center md:px-12 md:py-16 lg:py-40 z-20">
-      {/* Left Section */}
+    <div className="relative w-full flex flex-col md:flex-col items-center md:px-12 md:py-16 lg:py-20">
       <motion.div
         className="w-full py-4 md:py-0 md:w-1/2 flex flex-row justify-center px-8"
         variants={containerVariants}
@@ -40,7 +39,7 @@ const Info = () => {
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
       >
-        <div className="text-4xl md:text-6xl lg:text-9xl font-bold text-center md:text-end flex flex-col space-y-4">
+        <div className="text-4xl md:text-5xl lg:text-7xl font-bold text-center md:text-end flex flex-row space-x-16">
           <motion.div
             className="bg-clip-text text-transparent bg-gradient-to-br from-blue-950 to-blue-900"
             variants={itemVariants}
@@ -62,9 +61,8 @@ const Info = () => {
         </div>
       </motion.div>
 
-      {/* Right Section */}
       <motion.div
-        className="w-full md:w-1/2 px-8 md:px-0 pb-4 md:pb-0 text-justify text-base md:font-semibold md:text-xl/relaxed lg:text-2xl/loose"
+        className="w-full md:w-3/4 px-8 md:px-0 pb-4 md:pb-0 md:pt-8 text-center text-base md:font-medium md:text-xl/relaxed lg:text-2xl/loose"
         variants={paragraphVariants}
         initial="hidden"
         whileInView="visible"

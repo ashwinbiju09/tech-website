@@ -14,9 +14,7 @@ const Services = ({ data }) => {
       transition={{ duration: 3.0, ease: "easeOut" }}
       className="relative w-full py-16 px-6 bg-white"
     >
-      {/* Services Content */}
       <div className="relative max-w-screen-xl mx-auto text-gray-900">
-        {/* Section Title */}
         <h2 className="text-center text-2xl lg:text-4xl font-bold">
           {data.title}
         </h2>
@@ -24,9 +22,7 @@ const Services = ({ data }) => {
           Explore key solutions that enhance industry performance.
         </p>
 
-        {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center pt-12">
-          {/* Left Section - First 3 Services */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -44,7 +40,6 @@ const Services = ({ data }) => {
             ))}
           </motion.div>
 
-          {/* Center Section - Static Image (hidden on small screens) */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={isInView ? { opacity: 1, scale: 1 } : {}}
@@ -58,7 +53,6 @@ const Services = ({ data }) => {
             />
           </motion.div>
 
-          {/* Right Section - Last 3 Services */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}

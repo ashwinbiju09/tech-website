@@ -22,7 +22,6 @@ const Features = ({ data }) => {
           {data.description}
         </div>
 
-        {/* Cards Container */}
         <div className="flex items-center justify-center pt-12">
           <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
             {data.benefits.map((benefit, index) => (
@@ -41,7 +40,6 @@ const Features = ({ data }) => {
                 }}
                 className="relative bg-white py-6 px-6 w-80 my-4 shadow-xl rounded-md"
               >
-                {/* Icon Container */}
                 <div className="text-white flex items-center absolute rounded-full py-4 px-4 shadow-xl bg-blue-900 left-4 -top-6">
                   {benefit.icon}
                 </div>

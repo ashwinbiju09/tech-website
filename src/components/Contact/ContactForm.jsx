@@ -5,7 +5,6 @@ const ContactForm = () => {
   return (
     <div className="py-20 px-4">
       <div className="max-w-6xl mx-auto bg-white rounded-2xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
-        {/* Left Section */}
         <div className="bg-blue-900 text-white p-8 md:p-12 md:w-2/5 flex flex-col justify-between">
           <div>
             <h2 className="text-3xl font-bold mb-4">Let’s Create Together</h2>
@@ -15,7 +14,6 @@ const ContactForm = () => {
             </p>
 
             <div className="space-y-6">
-              {/* Email */}
               <div className="flex items-center space-x-4">
                 <div className="bg-blue-800 w-12 h-12 flex items-center justify-center rounded-full">
                   <Mail className="w-5 h-5 text-white" />
@@ -31,7 +29,6 @@ const ContactForm = () => {
                 </div>
               </div>
 
-              {/* Live Chat */}
               <div className="flex items-center space-x-4">
                 <div className="bg-blue-800 w-12 h-12 flex items-center justify-center rounded-full">
                   <MessageSquare className="w-5 h-5 text-white" />
@@ -54,14 +51,12 @@ const ContactForm = () => {
           </p>
         </div>
 
-        {/* Right Section (Form) */}
         <div className="p-8 md:p-12 md:w-3/5">
           <h3 className="text-2xl font-semibold text-gray-800 mb-6">
             Send us a message
           </h3>
 
           <form className="space-y-6">
-            {/* Name */}
             <div>
               <label className="text-sm text-gray-600 block mb-1">
                 Your Name
@@ -76,7 +71,6 @@ const ContactForm = () => {
               </div>
             </div>
 
-            {/* Email */}
             <div>
               <label className="text-sm text-gray-600 block mb-1">
                 Email Address
@@ -91,7 +85,6 @@ const ContactForm = () => {
               </div>
             </div>
 
-            {/* Subject */}
             <div>
               <label className="text-sm text-gray-600 block mb-1">
                 Subject
@@ -106,7 +99,6 @@ const ContactForm = () => {
               </div>
             </div>
 
-            {/* Message */}
             <div>
               <label className="text-sm text-gray-600 block mb-1">
                 Message
@@ -118,7 +110,6 @@ const ContactForm = () => {
               />
             </div>
 
-            {/* Submit Button */}
             <button
               type="submit"
               className="w-full rounded-sm bg-gradient-to-br from-yellow-400 to-yellow-600 px-6 py-3 text-white font-medium hover:bg-yellow-500 flex items-center justify-center space-x-2 transition-colors"
@@ -127,7 +118,6 @@ const ContactForm = () => {
               <Send className="w-5 h-5" />
             </button>
 
-            {/* Privacy Note */}
             <p className="text-sm text-gray-500 text-center mt-4">
               By submitting this form, you agree to our{" "}
               <a href="#" className="text-blue-600 hover:underline">

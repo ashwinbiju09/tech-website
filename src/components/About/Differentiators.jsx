@@ -16,12 +16,10 @@ const Differentiators = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="container mx-auto px-4 sm:px-6 lg:px-8"
       >
-        {/* Section Title */}
         <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-center text-white mb-16">
           Key Differentiators
         </h2>
 
-        {/* First Row (3 items) */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-y-12 gap-x-8 justify-items-center mb-12">
           {data.slice(0, 3).map((diff, index) => (
             <motion.div
@@ -47,7 +45,6 @@ const Differentiators = () => {
           ))}
         </div>
 
-        {/* Second Row (2 items centered) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-12 justify-items-center px-0 lg:px-24">
           {data.slice(3).map((diff, index) => (
             <motion.div

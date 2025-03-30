@@ -5,14 +5,9 @@ import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
 
 const NavBar = () => {
-  // Shared states
   const [isScrolled, setIsScrolled] = useState(false);
-
-  // Desktop states
   const [openDropdown, setOpenDropdown] = useState(null);
   const [openSubDropdown, setOpenSubDropdown] = useState(null);
-
-  // Mobile states
   const [isOpen, setIsOpen] = useState(false);
   const [openMobileDropdown, setOpenMobileDropdown] = useState(null);
   const [openMobileSubDropdown, setOpenMobileSubDropdown] = useState(null);
@@ -23,7 +18,6 @@ const NavBar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Desktop handlers
   const handleMouseEnter = (topIndex) => {
     setOpenDropdown(topIndex);
     const firstLevel = navLinks[topIndex];
@@ -54,7 +48,6 @@ const NavBar = () => {
       }`}
     >
       <div className="flex justify-between items-center px-4 md:px-24 py-2 md:py-1">
-        {/* Logo */}
         <a href="/" className="m-2">
           <img className="h-8" src={Logo} alt="Logo" />
         </a>

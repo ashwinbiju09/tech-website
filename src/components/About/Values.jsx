@@ -19,7 +19,6 @@ const Values = () => {
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 1.2, ease: "easeInOut" }}
               >
-                {/* Text Content */}
                 <div className="flex-1">
                   <h2 className="text-4xl md:text-7xl font-bold text-gray-500 mb-6">
                     Who{" "}
@@ -34,7 +33,6 @@ const Values = () => {
                   </p>
                 </div>
 
-                {/* Image Section */}
                 <motion.div
                   className="flex-1 w-full"
                   initial={{ scale: 0.9, opacity: 0 }}
@@ -61,7 +59,6 @@ const Values = () => {
                 transition={{ duration: 1.2, ease: "easeInOut" }}
               >
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-                  {/* Title */}
                   <motion.h3
                     className="text-4xl md:text-7xl font-bold text-white flex-1 text-center"
                     initial={{ scale: 0.8, opacity: 0 }}
@@ -72,7 +69,6 @@ const Values = () => {
                     {item.title}
                   </motion.h3>
 
-                  {/* Description */}
                   <motion.p
                     className="text-lg md:text-xl/8 leading-relaxed text-white flex-1 text-justify"
                     initial={{ opacity: 0 }}
@@ -100,7 +96,6 @@ const Values = () => {
                 transition={{ duration: 1.2, ease: "easeInOut" }}
               >
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-                  {/* Left: Text Section */}
                   <motion.div
                     className="lg:w-1/2 w-full"
                     initial={{ x: -50, opacity: 0 }}
@@ -116,7 +111,6 @@ const Values = () => {
                     </p>
                   </motion.div>
 
-                  {/* Right: Image */}
                   <motion.div
                     className="lg:w-1/2 w-full"
                     initial={{ rotateY: 90, opacity: 0 }}

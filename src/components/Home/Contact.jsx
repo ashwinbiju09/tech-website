@@ -1,14 +1,12 @@
 import React from "react";
 import { Mail, Send, User, FileText, MessageSquare } from "lucide-react";
+import Title from "./Title";
 
 const Contact = () => {
   return (
-    <div className="relative z-20 py-20 px-4 ">
-      <h2 className="text-4xl font-semibold tracking-wide md:text-[50px] md:font-[700] pb-4 md:tracking-[-2px] text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-950 to-blue-900">
-        We are here to help you{" "}
-      </h2>
+    <div className="relative z-20 py-12 px-4 ">
+      <Title data={"We are here to help you"} />
       <div className="max-w-6xl mx-auto overflow-hidden flex flex-col md:flex-row">
-        {/* Left Section */}
         <div className=" text-blue-800 p-8 md:p-12 md:w-2/5 flex flex-col justify-between">
           <div>
             <h2 className="text-3xl font-bold mb-4">Let’s Create Together</h2>
@@ -18,7 +16,6 @@ const Contact = () => {
             </p>
 
             <div className="space-y-6">
-              {/* Email */}
               <div className="flex items-center space-x-4">
                 <div className="bg-blue-800 w-12 h-12 flex items-center justify-center rounded-full">
                   <Mail className="w-5 h-5 text-white" />
@@ -37,14 +34,12 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Right Section (Form) */}
         <div className="p-8 md:p-12 md:w-3/5">
           <h3 className="text-2xl font-semibold text-gray-800 mb-6">
             Send us a message
           </h3>
 
           <form className="space-y-6">
-            {/* Name */}
             <div>
               <label className="text-sm text-gray-600 block mb-1">
                 Your Name
@@ -59,7 +54,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Email */}
             <div>
               <label className="text-sm text-gray-600 block mb-1">
                 Email Address
@@ -74,7 +68,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Subject */}
             <div>
               <label className="text-sm text-gray-600 block mb-1">
                 Subject
@@ -89,7 +82,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Message */}
             <div>
               <label className="text-sm text-gray-600 block mb-1">
                 Message
@@ -101,7 +93,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* Submit Button */}
             <button
               type="submit"
               className="w-full rounded-sm bg-gradient-to-br from-yellow-400 to-yellow-600 px-6 py-2 text-white font-medium hover:bg-yellow-500 flex items-center justify-center space-x-2 transition-colors"

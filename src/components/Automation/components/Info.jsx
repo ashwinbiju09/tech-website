@@ -11,7 +11,6 @@ const Info = ({ data }) => {
       >
         <div className="container mx-auto px-6 lg:px-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            {/* Left Side: Image */}
             <div className="w-full flex justify-center">
               <img
                 src={data.image}
@@ -21,7 +20,6 @@ const Info = ({ data }) => {
               />
             </div>
 
-            {/* Right Side: Text & Features */}
             <div>
               <h2 className="text-3xl font-extrabold text-gray-900">
                 {data.title}

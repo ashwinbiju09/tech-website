@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import Title from "./Title";
 
 const industries = [
   {
@@ -71,10 +72,8 @@ const Industry = () => {
 
   return (
     <div className="relative z-20">
-      <div className="relative z-10 max-w-7xl mx-auto py-28 px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-semibold tracking-wide md:text-[50px] md:font-[700] pb-4 md:tracking-[-2px] text-center bg-clip-text text-transparent bg-gradient-to-b from-blue-950 to-blue-900">
-          Driving transformation across Industries
-        </h2>
+      <div className="relative z-10 max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <Title data={"Driving transformation across Industries"} />
         <p className="text-2xl font-medium text-center mb-16 mx-auto text-black">
           Comprehensive solutions tailored to accelerate your digital
           transformation journey
@@ -100,12 +99,15 @@ const Industry = () => {
               <div
                 className="w-24 h-24 rounded-full flex items-center justify-center mb-4 transition-all duration-300 shadow-2xl"
                 style={{
-                  backgroundColor:
-                    hoveredIndex === index ? "#1e3a8a" : "#ffffff",
+                  background:
+                    hoveredIndex === index
+                      ? "linear-gradient(to bottom right, #facc15, #ca8a04)"
+                      : "#ffffff",
                   boxShadow:
                     hoveredIndex === index
-                      ? "0 0 20px rgba(30, 58, 138, 0.3)"
+                      ? "0 0 20px rgba(202, 138, 4, 0.4)"
                       : "0 2px 8px rgba(0, 0, 0, 0.05)",
+                  transition: "all 0.3s ease-in-out",
                 }}
               >
                 <img
@@ -117,6 +119,7 @@ const Industry = () => {
                       hoveredIndex === index
                         ? "brightness(0) invert(1)"
                         : "brightness(0) saturate(100%) invert(12%) sepia(83%) saturate(2169%) hue-rotate(216deg) brightness(95%) contrast(106%)",
+                    transition: "all 0.3s ease-in-out",
                   }}
                 />
               </div>

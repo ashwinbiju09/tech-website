@@ -23,7 +23,7 @@ const Features = ({ data }) => {
         transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
         className="lg:w-2/3 p-8 border border-gray-300"
       >
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 space-y-2">
           {data.features.map((feature, index) => (
             <motion.div
               key={index}

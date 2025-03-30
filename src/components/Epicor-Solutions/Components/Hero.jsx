@@ -5,9 +5,7 @@ import { motion } from "framer-motion";
 const Hero = ({ data }) => {
   return (
     <>
-      {/* Hero Section */}
       <div className="w-full bg-gradient-to-b from-blue-950 to-blue-900 py-16 relative">
-        {/* Text Content Animation */}
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
@@ -28,7 +26,6 @@ const Hero = ({ data }) => {
           </div>
         </motion.div>
 
-        {/* Image Animation - Fades in and out smoothly */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -44,7 +41,6 @@ const Hero = ({ data }) => {
         </motion.div>
       </div>
 
-      {/* Additional Information Section */}
       <motion.div
         initial={{ opacity: 0, x: 100 }}
         animate={{ opacity: 1, x: 0 }}

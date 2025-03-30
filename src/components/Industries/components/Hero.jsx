@@ -5,7 +5,6 @@ import CTAButton from "../../General/CTAButton";
 const Hero = ({ data }) => {
   return (
     <div className="relative w-full h-[550px] overflow-hidden">
-      {/* Fixed Background Image */}
       <div
         className="absolute inset-0 w-full h-full"
         style={{
@@ -13,14 +12,12 @@ const Hero = ({ data }) => {
           backgroundSize: "cover",
           backgroundPosition: "center center",
           backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed", // Keeps the background fixed
+          backgroundAttachment: "fixed",
         }}
       />
 
-      {/* Gradient Overlay for Readability */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/30"></div>
 
-      {/* Static Content */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -30,11 +27,6 @@ const Hero = ({ data }) => {
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold">
           {data.title}
         </h1>
-
-        {/* <p className="mt-4 text-lg sm:text-xl text-gray-300 max-w-2xl">
-          {data.subContent}
-        </p> */}
-
         <div className="mt-8">
           <CTAButton />
         </div>

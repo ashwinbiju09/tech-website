@@ -15,7 +15,6 @@ const FullWidthCTA = ({ data }) => {
       className="w-full py-16 bg-gradient-to-b from-blue-950 to-blue-900 text-center"
     >
       <div className="container mx-auto px-6 lg:px-36 text-white">
-        {/* Description */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -25,7 +24,6 @@ const FullWidthCTA = ({ data }) => {
           {data}
         </motion.p>
 
-        {/* Button */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={isInView ? { opacity: 1, scale: 1 } : {}}

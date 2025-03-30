@@ -9,18 +9,10 @@ import Percentage from "./Components/Percentage";
 const SolutionDetail = ({ data }) => {
   return (
     <>
-      {/* Hero Section */}
       <Hero data={data.heroSection} />
-
-      {/* Features Section */}
       <Features data={data.featuresSection} />
-
       <Percentage data={data.percentageSection} />
-
-      {/* Benefits Section */}
       <Benefits data={data.benefitsSection} />
-
-      {/* CTA Conatiner Section */}
       <InfoBar data={data.containerSection.content} />
     </>
   );

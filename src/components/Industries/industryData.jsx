@@ -1,12 +1,76 @@
-import FAHero from "../../assets/industries-2/retail/fashion-and-apparel/hero.jpg";
-import FAService from "../../assets/industries-2/retail/fashion-and-apparel/services.jpg";
+import FashionHero from "../../assets/Industries/hero/retailfashion_hero-min.jpg";
+import FashionSevice from "../../assets/Industries/services/fashion_services-min.jpg";
+import GroceryHero from "../../assets/Industries/hero/retailfashion_hero-min.jpg";
+import GroceryService from "../../assets/Industries/services/grocery_services-min.jpg";
+import SpecialityHero from "../../assets/Industries/hero/special_hero-min.jpg";
+import SpecialityService from "../../assets/Industries/services/special_services-min.jpg";
+import HealthHero from "../../assets/Industries/hero/retailhealth_hero-min.jpg";
+import HealthService from "../../assets/Industries/services/health_services-min.jpg";
+import DepartmentHero from "../../assets/Industries/hero/retaildepartment_hero-min.jpg";
+import DepartmentService from "../../assets/Industries/services/department_services-min.jpg";
+import WholesaleHero from "../../assets/Industries/hero/retaildepartment_hero-min.jpg";
+import WholesaleService from "../../assets/Industries/services/wholesale_services-min.jpg";
+import GemsHero from "../../assets/Industries/hero/Jewelry_hero-min.jpg";
+import GemsService from "../../assets/Industries/services/jewelry_services-min.jpg";
+import FoodHero from "../../assets/Industries/hero/food-beverages_hero-min.jpg";
+import FoodService from "../../assets/Industries/services/food_services-min.jpg";
+import ConsumerHero from "../../assets/Industries/hero/consumer_hero-min.jpg";
+import ConsumerService from "../../assets/Industries/services/consumer_services-min.jpg";
+import HomeHero from "../../assets/Industries/hero/home_hero-min.jpg";
+import HomeService from "../../assets/Industries/services/home_services-min.jpg";
+import AutoHero from "../../assets/Industries/hero/automotive_hero-min.jpg";
+import AutoService from "../../assets/Industries/services/automotive_services-min.jpg";
+import ProcessHero from "../../assets/Industries/hero/process_hero-min.jpg";
+import ProcessService from "../../assets/Industries/services/process_services-min.jpg";
+import DiscreteHero from "../../assets/Industries/hero/discrete_hero-min.jpg";
+import DiscreteService from "../../assets/Industries/services/discrete_services-min.jpg";
+import EngHero from "../../assets/Industries/hero/discrete_hero-min.jpg";
+import EngService from "../../assets/Industries/services/discrete_services-min.jpg";
+import EstateHero from "../../assets/Industries/hero/real-estate_hero-min.jpg";
+import EstateService from "../../assets/Industries/services/real-estate_services-min.jpg";
+import PowerHero from "../../assets/Industries/hero/power_hero-min.jpg";
+import PowerService from "../../assets/Industries/services/power_services-min.jpg";
+import RenewableHero from "../../assets/Industries/hero/renewable_hero-min.jpg";
+import RenewableService from "../../assets/Industries/services/renewable_services-min.jpg";
+import EnergyHero from "../../assets/Industries/hero/energy-retail_hero-min.jpg";
+import EnergyService from "../../assets/Industries/services/energy-retail_servces-min.jpg";
+import SmartHero from "../../assets/Industries/hero/smart_hero-min.jpg";
+import SmartService from "../../assets/Industries/services/smart_services-min.jpg";
+import TransmissionHero from "../../assets/Industries/hero/transmission_hero-min.jpg";
+import TransmissionService from "../../assets/Industries/services/transmission_services-min.jpg";
+import ITHero from "../../assets/Industries/hero/information_hero-min.jpg";
+import ITService from "../../assets/Industries/services/information_services-min.jpg";
+import TravelHero from "../../assets/Industries/hero/travel_hero-min.jpg";
+import TravelService from "../../assets/Industries/services/travel_services-min.jpg";
+import PharmaHero from "../../assets/Industries/hero/bio_hero-min.jpg";
+import PharmaService from "../../assets/Industries/services/bio_services-min.jpg";
+import MedHero from "../../assets/Industries/hero/medicaldevice_hero-min.jpg";
+import MedService from "../../assets/Industries/services/medicaldevice_services-min.jpg";
+import HospitalHero from "../../assets/Industries/hero/hospital_hero-min.jpg";
+import HospitalService from "../../assets/Industries/services/hospital_services-min.jpg";
+import BankHero from "../../assets/Industries/hero/banking_hero-min.jpg";
+import BankService from "../../assets/Industries/services/banking_services-min.jpg";
+import InsuranceHero from "../../assets/Industries/hero/insurance_hero-min.jpg";
+import InsuranceService from "../../assets/Industries/services/insurance_services-min.jpg";
+import FinancialHero from "../../assets/Industries/hero/financal_hero-min.jpg";
+import FinancialService from "../../assets/Industries/services/financial_services-min.jpg";
+import BISHero from "../../assets/Industries/hero/businessinfo_hero-min.jpg";
+import BISService from "../../assets/Industries/services/businessinfo_services-min.jpg";
+import EnterpriseHero from "../../assets/Industries/hero/enterprise_hero-min.jpg";
+import EnterpriseService from "../../assets/Industries/services/enterprise_services-min.jpg";
+import CompHero from "../../assets/Industries/hero/computer_hero-min.jpg";
+import CompService from "../../assets/Industries/services/computer_services-min.jpg";
+import ContractHero from "../../assets/Industries/hero/contract_hero-min.jpg";
+import ContractService from "../../assets/Industries/services/contract_services-min.jpg";
+import DistributionHero from "../../assets/Industries/hero/distribution_hero-min.jpg";
+import DistributionService from "../../assets/Industries/services/distribution_services-min.jpg";
 
 const industryData = [
   {
     slug: "fashion-and-apparel",
     heroSection: {
       title: "Fashion & Apparel",
-      image: FAHero,
+      image: FashionHero,
     },
     overviewSection: {
       title: "Adapting to Emerging Trends in Fashion and Apparel",
@@ -17,7 +81,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Key Strategic Pillars in Fashion and Apparel Services",
-      image: FAService,
+      image: FashionSevice,
       services: [
         {
           title: "Vertical Integration",
@@ -83,7 +147,7 @@ const industryData = [
     slug: "grocery",
     heroSection: {
       title: "Grocery",
-      image: FAHero,
+      image: GroceryHero,
     },
     overviewSection: {
       title: "Enhancing Customer Experience in Grocery Retail",
@@ -94,7 +158,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Strategic Pillars for Modern Grocery Operations",
-      image: FAService,
+      image: GroceryService,
       services: [
         {
           title: "Optimized Inventory Management",
@@ -160,7 +224,7 @@ const industryData = [
     slug: "specialty-retail",
     heroSection: {
       title: "Specialty Retail",
-      image: FAHero,
+      image: SpecialityHero,
     },
     overviewSection: {
       title: "Adapting to the Evolving Landscape of Specialty Retail",
@@ -171,7 +235,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Key Strategic Initiatives",
-      image: FAService,
+      image: SpecialityService,
       services: [
         {
           title: "Omnichannel Integration",
@@ -232,7 +296,7 @@ const industryData = [
     slug: "healthcare-wellness",
     heroSection: {
       title: "Healthcare & Wellness",
-      image: FAHero,
+      image: HealthHero,
     },
     overviewSection: {
       title: "Revolutionizing Healthcare and Wellness",
@@ -243,7 +307,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Strategic Technological Initiatives",
-      image: FAService,
+      image: HealthService,
       services: [
         {
           title: "Patient-Centric CRM",
@@ -309,7 +373,7 @@ const industryData = [
     slug: "department-stores",
     heroSection: {
       title: "Department Stores",
-      image: FAHero,
+      image: DepartmentHero,
     },
     overviewSection: {
       title: "Expanding Opportunities in the Department Store Market",
@@ -320,7 +384,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Strategic Services for Department Store Excellence",
-      image: FAService,
+      image: DepartmentService,
       services: [
         {
           title: "Retail Analytics and Insights",
@@ -386,7 +450,7 @@ const industryData = [
     slug: "wholesale-distribution",
     heroSection: {
       title: "Wholesale Distribution",
-      image: FAHero,
+      image: WholesaleHero,
     },
     overviewSection: {
       title: "Optimizing Wholesale Distribution Operations",
@@ -397,7 +461,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Strategic Solutions for Wholesale Distribution",
-      image: FAService,
+      image: WholesaleService,
       services: [
         {
           title: "Supply Chain Management",
@@ -463,7 +527,7 @@ const industryData = [
     slug: "gems-jewelry",
     heroSection: {
       title: "Gems & Jewelry",
-      image: FAHero,
+      image: GemsHero,
     },
     overviewSection: {
       title: "Revolutionizing the Gems and Jewelry Sector",
@@ -473,7 +537,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Strategic Initiatives for Modern Jewelers",
-      image: FAService,
+      image: GemsService,
       services: [
         {
           title: "Advanced Inventory Management",
@@ -539,7 +603,7 @@ const industryData = [
     slug: "food-beverages",
     heroSection: {
       title: "Food & Beverages",
-      image: FAHero,
+      image: FoodHero,
     },
     overviewSection: {
       title: "Adapting to Evolving Consumer Demands in Food and Beverage",
@@ -550,7 +614,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Strategic Services for the Food and Beverage Sector",
-      image: FAService,
+      image: FoodService,
       services: [
         {
           title: "Supply Chain Optimization",
@@ -616,7 +680,7 @@ const industryData = [
     slug: "consumer-durables",
     heroSection: {
       title: "Consumer Durables",
-      image: FAHero,
+      image: ConsumerHero,
     },
     overviewSection: {
       title: "Adding New Business Capabilities for Consumer Durables",
@@ -627,7 +691,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Strategic Consumer Durable Solutions",
-      image: FAService,
+      image: ConsumerService,
       services: [
         {
           title: "Standardization",
@@ -693,7 +757,7 @@ const industryData = [
     slug: "home-personal-care",
     heroSection: {
       title: "Home & Personal Care",
-      image: FAHero,
+      image: HomeHero,
     },
     overviewSection: {
       title: "Meeting the Needs of End Consumers",
@@ -704,7 +768,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Innovative Solutions for Home and Personal Care",
-      image: FAService,
+      image: HomeService,
       services: [
         {
           title: "Inventory Management",
@@ -765,7 +829,7 @@ const industryData = [
     slug: "automotive-manufacturing",
     heroSection: {
       title: "Automotive Manufacturing",
-      image: FAHero,
+      image: AutoHero,
     },
     overviewSection: {
       title: "Empowering the Automotive Manufacturing Sector",
@@ -776,7 +840,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Advanced Automotive Manufacturing Solutions",
-      image: FAService,
+      image: AutoService,
       services: [
         {
           title: "Production Planning and Control",
@@ -842,7 +906,7 @@ const industryData = [
     slug: "process-manufacturing",
     heroSection: {
       title: "Process Manufacturing",
-      image: FAHero,
+      image: ProcessHero,
     },
     overviewSection: {
       title: "Driving Process Manufacturing in the Right Direction",
@@ -853,7 +917,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Advanced Process Manufacturing Solutions",
-      image: FAService,
+      image: ProcessHero,
       services: [
         {
           title: "Production Planning and Execution",
@@ -919,7 +983,7 @@ const industryData = [
     slug: "discrete-manufacturing",
     heroSection: {
       title: "Discrete Manufacturing",
-      image: FAHero, // You can change this if needed
+      image: DiscreteHero,
     },
     overviewSection: {
       title: "Transforming Discrete Manufacturing Processes",
@@ -930,7 +994,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Strategic Solutions for Discrete Manufacturing",
-      image: FAService, // You can change this if needed
+      image: DiscreteService,
       services: [
         {
           title: "Digital Lean Operations",
@@ -996,7 +1060,7 @@ const industryData = [
     slug: "engineering-construction-operations",
     heroSection: {
       title: "Engineering, Construction & Operations",
-      image: FAHero,
+      image: EngHero,
     },
     overviewSection: {
       title: "Navigating the EC&O Industry Towards Success",
@@ -1007,7 +1071,7 @@ const industryData = [
     },
     servicesSection: {
       title: "EC&O Solutions",
-      image: FAService,
+      image: EngService,
       services: [
         {
           title: "Project Systems",
@@ -1073,7 +1137,7 @@ const industryData = [
     slug: "real-estate",
     heroSection: {
       title: "Real Estate",
-      image: FAHero,
+      image: EstateHero,
     },
     overviewSection: {
       title: "Transforming the Real Estate Industry",
@@ -1084,7 +1148,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Real Estate Solutions",
-      image: FAService,
+      image: EstateService,
       services: [
         {
           title: "Assessment",
@@ -1150,7 +1214,7 @@ const industryData = [
     slug: "power-generation",
     heroSection: {
       title: "Power Generation",
-      image: FAHero,
+      image: PowerHero,
     },
     overviewSection: {
       title: "Driving the Power Generation Industry in a New Direction",
@@ -1161,7 +1225,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Power Generation Solutions",
-      image: FAService,
+      image: PowerService,
       services: [
         {
           title: "Asset Management",
@@ -1227,7 +1291,7 @@ const industryData = [
     slug: "renewable-energy",
     heroSection: {
       title: "Renewable Energy",
-      image: FAHero,
+      image: RenewableHero,
     },
     overviewSection: {
       title: "Unlock New Possibilities in the Renewable Energy Sector",
@@ -1238,7 +1302,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Renewable Energy Solutions",
-      image: FAService,
+      image: RenewableService,
       services: [
         {
           title: "SAP Analytics Cloud",
@@ -1304,7 +1368,7 @@ const industryData = [
     slug: "energy-retail",
     heroSection: {
       title: "Energy Retail",
-      image: FAHero,
+      image: EnergyHero,
     },
     overviewSection: {
       title: "Unlock Innovative Methods for Energy Retail",
@@ -1315,7 +1379,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Energy Retail Solutions",
-      image: FAService,
+      image: EnergyService,
       services: [
         {
           title: "Customer Data and Insights",
@@ -1381,7 +1445,7 @@ const industryData = [
     slug: "smart-grid",
     heroSection: {
       title: "Smart Grid",
-      image: FAHero,
+      image: SmartHero,
     },
     overviewSection: {
       title: "Modernizing New-Age Smart Grids",
@@ -1392,7 +1456,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Smart Grid Solutions",
-      image: FAService,
+      image: SmartService,
       services: [
         {
           title: "Asset Lifecycle Management",
@@ -1458,7 +1522,7 @@ const industryData = [
     slug: "transmission-distribution",
     heroSection: {
       title: "Transmission & Distribution",
-      image: FAHero,
+      image: TransmissionHero,
     },
     overviewSection: {
       title: "Navigating the Modern Transmission and Distribution Industry",
@@ -1469,7 +1533,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Transmission and Distribution Solutions",
-      image: FAService,
+      image: TransmissionService,
       services: [
         {
           title: "Construction and Engineering",
@@ -1535,7 +1599,7 @@ const industryData = [
     slug: "information-technology",
     heroSection: {
       title: "Information Technology",
-      image: FAHero,
+      image: ITHero,
     },
     overviewSection: {
       title: "Transforming the IT Industry for a New Era",
@@ -1546,7 +1610,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Information Technology Solutions",
-      image: FAService,
+      image: ITService,
       services: [
         {
           title: "SAP S/4HANA for IT Operations",
@@ -1612,7 +1676,7 @@ const industryData = [
     slug: "travel-tourism",
     heroSection: {
       title: "Travel & Tourism",
-      image: FAHero,
+      image: TravelHero,
     },
     overviewSection: {
       title:
@@ -1624,7 +1688,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Travel & Tourism Solutions",
-      image: FAService,
+      image: TravelService,
       services: [
         {
           title: "Platform Development",
@@ -1690,7 +1754,7 @@ const industryData = [
     slug: "pharmaceutical-biotech",
     heroSection: {
       title: "Pharmaceutical & Biotech",
-      image: FAHero,
+      image: PharmaHero,
     },
     overviewSection: {
       title: "Empowering Pharma and Biotech Business Performance",
@@ -1701,7 +1765,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Pharmaceutical & Biotech Solutions",
-      image: FAService,
+      image: PharmaService,
       services: [
         {
           title: "Boost R&D",
@@ -1767,7 +1831,7 @@ const industryData = [
     slug: "medical-devices",
     heroSection: {
       title: "Medical Devices",
-      image: FAHero,
+      image: MedHero,
     },
     overviewSection: {
       title: "Transforming the Medical Device Sector",
@@ -1778,7 +1842,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Medical Devices Solutions",
-      image: FAService,
+      image: MedService,
       services: [
         {
           title: "Supply Chain Management",
@@ -1844,7 +1908,7 @@ const industryData = [
     slug: "hospital-clinics",
     heroSection: {
       title: "Hospital & Clinics",
-      image: FAHero,
+      image: HospitalHero,
     },
     overviewSection: {
       title: "Automate Hospital & Clinical Processes",
@@ -1855,7 +1919,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Hospital & Clinics Solutions",
-      image: FAService,
+      image: HospitalService,
       services: [
         {
           title: "Patient-Centric Care Systems",
@@ -1921,7 +1985,7 @@ const industryData = [
     slug: "banking",
     heroSection: {
       title: "Banking",
-      image: FAHero,
+      image: BankHero,
     },
     overviewSection: {
       title: "Navigating Through Excellence in the Banking Landscape",
@@ -1932,7 +1996,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Banking Solutions",
-      image: FAService,
+      image: BankService,
       services: [
         {
           title: "Core Banking Transformation",
@@ -1998,7 +2062,7 @@ const industryData = [
     slug: "insurance",
     heroSection: {
       title: "Insurance",
-      image: FAHero,
+      image: InsuranceHero,
     },
     overviewSection: {
       title: "Addressing New-Age Challenges in the Insurance Sector",
@@ -2009,7 +2073,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Insurance Solutions",
-      image: FAService,
+      image: InsuranceService,
       services: [
         {
           title: "Policy Lifecycle Management",
@@ -2075,7 +2139,7 @@ const industryData = [
     slug: "financial-institutions",
     heroSection: {
       title: "Financial Institutions",
-      image: FAHero,
+      image: FinancialHero,
     },
     overviewSection: {
       title: "Guiding Financial Institutions into a New Direction",
@@ -2086,7 +2150,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Financial Institutions Solutions",
-      image: FAService,
+      image: FinancialService,
       services: [
         {
           title: "Core Banking Transformation",
@@ -2152,7 +2216,7 @@ const industryData = [
     slug: "business-information-services",
     heroSection: {
       title: "Business Information Services",
-      image: FAHero,
+      image: BISHero,
     },
     overviewSection: {
       title: "Driving Innovation in Business Information Services",
@@ -2163,7 +2227,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Business Information Services Solutions",
-      image: FAService,
+      image: BISService,
       services: [
         {
           title: "Enhanced Data Management",
@@ -2229,7 +2293,7 @@ const industryData = [
     slug: "enterprise-services",
     heroSection: {
       title: "Enterprise Services",
-      image: FAHero,
+      image: EnterpriseHero,
     },
     overviewSection: {
       title: "Managing Enterprise Operations",
@@ -2240,7 +2304,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Enterprise Services Offerings",
-      image: FAService,
+      image: EnterpriseService,
       services: [
         {
           title: "Enterprise Resource Planning (ERP)",
@@ -2306,7 +2370,7 @@ const industryData = [
     slug: "computer-peripherals",
     heroSection: {
       title: "Computer Peripherals",
-      image: FAHero,
+      image: CompHero,
     },
     overviewSection: {
       title: "Expanding Capabilities for the Computer Peripherals Industry",
@@ -2317,7 +2381,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Computer Peripherals Offerings",
-      image: FAService,
+      image: CompService,
       services: [
         {
           title: "Supply Chain Optimization",
@@ -2383,7 +2447,7 @@ const industryData = [
     slug: "contract-manufacturers",
     heroSection: {
       title: "Contract Manufacturers",
-      image: FAHero,
+      image: ContractHero,
     },
     overviewSection: {
       title: "Delivering Innovative Solutions",
@@ -2394,7 +2458,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Contract Manufacturers Solutions",
-      image: FAService,
+      image: ContractService,
       services: [
         {
           title: "Supply Chain Optimization",
@@ -2460,7 +2524,7 @@ const industryData = [
     slug: "distribution-companies",
     heroSection: {
       title: "Distribution Companies",
-      image: FAHero,
+      image: DistributionHero,
     },
     overviewSection: {
       title: "Addressing New-Age Distribution Needs",
@@ -2471,7 +2535,7 @@ const industryData = [
     },
     servicesSection: {
       title: "Distribution Companies Solutions",
-      image: FAService,
+      image: DiscreteService,
       services: [
         {
           title: "Integrated ERP for Operations",

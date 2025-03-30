@@ -13,9 +13,7 @@ const OtherServices = ({ navLinks = [] }) => {
       if (item.name === "Services" && item.subMenu) {
         for (const section of item.subMenu) {
           const sectionServices = section.subMenu || [];
-          // Check if current path is in this section
           if (sectionServices.some((service) => service.path === currentPath)) {
-            // Return other services from the same section
             return sectionServices
               .filter((service) => service.path !== currentPath)
               .map((service) => ({
@@ -26,7 +24,6 @@ const OtherServices = ({ navLinks = [] }) => {
         }
       }
     }
-    // If section not found, return first 3 services as fallback
     const allServices = [];
     menu.forEach((item) => {
       if (item.name === "Services") {

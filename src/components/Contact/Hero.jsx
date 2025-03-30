@@ -5,18 +5,15 @@ import BgImage from "../../assets/contact.jpg";
 const Hero = () => {
   return (
     <div className="relative w-full h-[500px] overflow-hidden">
-      {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <img
           src={BgImage}
           alt="Contact Us"
           className="object-cover w-full h-full"
         />
-        {/* Dark overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/30"></div>
       </div>
 
-      {/* Text Content */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}

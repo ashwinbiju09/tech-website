@@ -22,7 +22,6 @@ const Insights = ({ data }) => {
           {data.description}
         </div>
 
-        {/* Cards Container */}
         <div className="flex items-center justify-center pt-12">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 justify-center max-w-5xl mx-auto">
             {data.benefits.map((benefit, index) => (
@@ -41,12 +40,10 @@ const Insights = ({ data }) => {
                 }}
                 className="relative bg-white py-8 px-8 w-96 md:w-full shadow-xl rounded-sm flex flex-row items-center space-x-4"
               >
-                {/* Icon Container */}
                 <div className="text-white flex items-center justify-center rounded-full p-4 shadow-xl bg-blue-900 w-16 h-16">
                   {benefit.icon}
                 </div>
 
-                {/* Text Content */}
                 <div className="text-left">
                   <p className="text-md font-semibold text-gray-600">
                     {benefit.description}

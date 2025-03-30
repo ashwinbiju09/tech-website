@@ -12,7 +12,6 @@ const Hero = ({ data }) => {
       >
         <div className="relative mx-auto max-w-screen-xl px-4 pb-12 pt-24 lg:pt-20 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left Side: Text Content */}
             <div className="text-center lg:text-left text-white">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
                 {data.heroTitle}
@@ -27,7 +26,6 @@ const Hero = ({ data }) => {
               </div>
             </div>
 
-            {/* Right Side: Image */}
             <div className="w-full flex justify-center">
               <img
                 src={data.image}

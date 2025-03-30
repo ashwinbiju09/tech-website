@@ -14,7 +14,6 @@ const DesktopNav = ({
       className="hidden lg:flex items-center justify-between w-full relative"
       onMouseLeave={handleMouseLeave}
     >
-      {/* Middle: Main nav links + dropdown */}
       <div className="relative flex items-center mx-auto">
         {/* Top-level desktop links */}
         <div className="flex space-x-6">
@@ -67,10 +66,10 @@ const DesktopNav = ({
                               }
                               className="group relative cursor-pointer px-4 py-2 ml-2 text-sm font-semibold text-black overflow-hidden"
                             >
-                              <span className="relative z-10 group-hover:text-blue-800">
+                              <span className="relative z-10 group-hover:text-white">
                                 {child.name}
                               </span>
-                              <span className="absolute inset-0 bg-white scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0"></span>
+                              <span className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-sm scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0"></span>
                             </div>
                           ))}
                         </div>
@@ -81,10 +80,10 @@ const DesktopNav = ({
                       <div
                         key={subIndex}
                         onMouseEnter={() => handleSubMouseEnter(subIndex)}
-                        className="group relative cursor-pointer px-2 py-2 text-sm font-semibold text-black hover:text-blue-800 overflow-hidden"
+                        className="group relative cursor-pointer px-2 py-2 text-sm font-semibold text-black hover:text-white overflow-hidden"
                       >
                         <span className="relative z-10">{sub.name}</span>
-                        <span className="absolute inset-0 bg-white scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0"></span>
+                        <span className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-sm scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0"></span>
                       </div>
                     );
                   })}
@@ -174,7 +173,6 @@ const DesktopNav = ({
           )}
       </div>
 
-      {/* Right: Contact button */}
       <a
         href="/contact"
         className={`ml-4 px-4 py-2 font-semibold tracking-wide rounded transition-all ${

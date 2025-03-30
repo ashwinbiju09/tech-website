@@ -7,6 +7,7 @@ import googleCloud from "../../assets/logos/5-Google-Cloud.png";
 import serviceNow from "../../assets/logos/6-Service.png";
 import aws from "../../assets/logos/7-aws.png";
 import sapLogo from "../../assets/logos/sap-logo-1.png";
+import Title from "./Title";
 
 const logos = [
   azure,
@@ -22,38 +23,36 @@ const logos = [
 const Scroll = () => {
   return (
     <div className="relative w-full z-20 md:py-12 lg:pb-16 lg:pt-4">
-      <h2 className="text-4xl font-semibold tracking-wide md:text-[50px] md:font-[700] pb-4 md:tracking-[-2px] text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-950 to-blue-900">
-        Technology Offerings
-      </h2>
+      <Title data={"Technology Offerings"} />
       <div className="w-full py-2 lg:py-8 px-4 md:px-24">
-        <div className="flex overflow-hidden space-x-12 group h-14">
-          {/* First set of scrolling logos */}
-          <div className="flex space-x-12 animate-loop-scroll group-hover:paused">
-            {logos.map((logo, index) => (
-              <img
-                key={index}
-                loading="lazy"
-                src={logo}
-                className="max-w-none h-8 md:h-14"
-                alt={`Logo ${index + 1}`}
-              />
-            ))}
-          </div>
+        <div className="border-b-2 px-4 py-6 rounded-md shadow-xl">
+          <div className="flex overflow-hidden space-x-12 group h-14">
+            <div className="flex space-x-12 animate-loop-scroll group-hover:paused">
+              {logos.map((logo, index) => (
+                <img
+                  key={index}
+                  loading="lazy"
+                  src={logo}
+                  className="max-w-none h-8 md:h-14"
+                  alt={`Logo ${index + 1}`}
+                />
+              ))}
+            </div>
 
-          {/* Duplicate set for seamless scrolling effect */}
-          <div
-            className="flex space-x-12 animate-loop-scroll group-hover:paused"
-            aria-hidden="true"
-          >
-            {logos.map((logo, index) => (
-              <img
-                key={`duplicate-${index}`}
-                loading="lazy"
-                src={logo}
-                className="max-w-none h-8 md:h-14"
-                alt={`Logo ${index + 1}`}
-              />
-            ))}
+            <div
+              className="flex space-x-12 animate-loop-scroll group-hover:paused"
+              aria-hidden="true"
+            >
+              {logos.map((logo, index) => (
+                <img
+                  key={`duplicate-${index}`}
+                  loading="lazy"
+                  src={logo}
+                  className="max-w-none h-8 md:h-14"
+                  alt={`Logo ${index + 1}`}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>

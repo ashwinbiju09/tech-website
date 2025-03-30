@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import navLinks from "../General/NavBar/navData";
-// Function to transform navLinks into footer menu items
 const transformNavLinksToFooterMenu = (navLinks) => {
   const footerMenuItems = [];
 
@@ -42,7 +41,6 @@ const Footer = () => {
 
   const menuItems = transformNavLinksToFooterMenu(navLinks);
 
-  // Function to toggle "Show More" for a specific menu
   const toggleShowMore = (title) => {
     setExpandedMenus((prev) => ({
       ...prev,
@@ -84,7 +82,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-5 lg:col-span-4 md:grid-cols-4">
             {menuItems.map(({ title, links }) => {
               const isExpanded = expandedMenus[title];
-              const visibleLinks = isExpanded ? links : links.slice(0, 5); // Show only 5 links initially
+              const visibleLinks = isExpanded ? links : links.slice(0, 5);
               const hasMoreLinks = links.length > 5;
 
               return (

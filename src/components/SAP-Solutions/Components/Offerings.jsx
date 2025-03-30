@@ -17,7 +17,6 @@ const Offerings = ({ data }) => {
       className="w-full pt-10 pb-16 bg-gradient-to-b from-blue-950 to-blue-900 text-white"
     >
       <div className="container mx-auto px-6 lg:px-16">
-        {/* Title Centered */}
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -28,8 +27,7 @@ const Offerings = ({ data }) => {
         </motion.h2>
 
         <div className="flex flex-col lg:flex-row bg-gray-100 text-gray-900 rounded-sm shadow-lg">
-          {/* Left Side - Department List */}
-          <div className="lg:w-72 py-6 space-y-4 border-r border-gray-300">
+          <div className="lg:w-72 py-6 space-y-1 border-r border-gray-300">
             {data.departments.map((department, index) => (
               <motion.button
                 key={index}
@@ -53,9 +51,8 @@ const Offerings = ({ data }) => {
             ))}
           </div>
 
-          {/* Right Side - Features Display */}
           <motion.div
-            key={selectedDepartment.title} // Key ensures re-animation on content switch
+            key={selectedDepartment.title}
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
@@ -68,7 +65,6 @@ const Offerings = ({ data }) => {
               {selectedDepartment.content}
             </p>
 
-            {/* Features List */}
             <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
               {selectedDepartment.features.map((feature, i) => (
                 <motion.li
@@ -82,16 +78,11 @@ const Offerings = ({ data }) => {
                   }}
                   className="flex items-start space-x-3"
                 >
-                  {/* Feature Icon */}
-                  {/* <span className="w-12 h-12 flex items-center justify-center bg-blue-600 rounded-full p-2 text-white">
-                    {feature.icon}
-                  </span> */}
-                  {/* Feature Text */}
                   <div>
-                    <h4 className="font-semibold text-gray-900">
+                    <h4 className="font-semibold text-lg text-gray-900">
                       {feature.title}
                     </h4>
-                    <p className="text-sm text-gray-700">
+                    <p className="text-md text-gray-700">
                       {feature.description}
                     </p>
                   </div>

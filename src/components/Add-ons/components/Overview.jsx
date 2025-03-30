@@ -3,11 +3,7 @@ import { motion, AnimatePresence, useInView } from "framer-motion";
 
 const Overview = ({ data }) => {
   const [hoveredStage, setHoveredStage] = useState(null);
-
-  // Create a ref for the wrapper
   const ref = useRef(null);
-
-  // Detect when the section is in view
   const isInView = useInView(ref, { triggerOnce: true, threshold: 0.1 });
 
   return (
@@ -18,7 +14,6 @@ const Overview = ({ data }) => {
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8"
     >
-      {/* Title */}
       <h2 className="text-center text-2xl lg:text-4xl font-bold text-blue-900 tracking-wide">
         {data.title}
       </h2>
@@ -26,7 +21,6 @@ const Overview = ({ data }) => {
         {data.subContent}
       </p>
 
-      {/* Features Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-5xl mt-6">
         {data.features.map((item, index) => (
           <div

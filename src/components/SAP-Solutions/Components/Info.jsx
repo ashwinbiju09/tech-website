@@ -11,7 +11,6 @@ const Info = ({ data }) => {
       >
         <div className="container mx-auto px-6 lg:px-16">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            {/* Left Side: Image */}
             <div className="w-full flex justify-center">
               <img
                 src={data.image}
@@ -21,7 +20,6 @@ const Info = ({ data }) => {
               />
             </div>
 
-            {/* Right Side: Text & Features */}
             <div>
               <h2 className="text-3xl font-extrabold text-gray-900">
                 {data.infoTitle}
@@ -34,12 +32,10 @@ const Info = ({ data }) => {
                     key={index}
                     className="grid grid-cols-[auto_1fr] gap-6 items-start"
                   >
-                    {/* Feature Icon - Fixed Size */}
                     <div className="w-12 h-12 flex items-center justify-center bg-blue-600 rounded-full p-2 shrink-0">
                       {feature.icon}
                     </div>
 
-                    {/* Feature Text - Uniform Height */}
                     <div className="flex flex-col min-h-[64px]">
                       <h3 className="text-lg font-semibold text-gray-900">
                         {feature.title}

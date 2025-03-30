@@ -5,7 +5,6 @@ const Expertise = ({ data }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { triggerOnce: true, threshold: 0.2 });
 
-  // Add a check for data
   if (!data || !Array.isArray(data)) {
     return null;
   }
@@ -20,12 +19,10 @@ const Expertise = ({ data }) => {
         }
         transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
       >
-        {/* Title */}
         <div className="text-center text-2xl lg:text-4xl pb-6 font-bold text-white tracking-wide">
           Our Expertise
         </div>
 
-        {/* Single Row with 3 items */}
         <div className="flex items-center justify-center pt-8 px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 justify-items-center">
             {data.map((item, index) => (

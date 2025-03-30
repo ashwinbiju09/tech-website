@@ -25,7 +25,6 @@ const Methodology = () => {
         </motion.h2>
 
         <div className="flex flex-col lg:flex-row gap-16 items-center justify-center">
-          {/* Left Section */}
           <motion.div
             className="lg:w-1/2 space-y-8 flex flex-col items-center"
             initial={{ opacity: 0, x: -80 }}
@@ -45,7 +44,6 @@ const Methodology = () => {
             />
           </motion.div>
 
-          {/* Right Section */}
           <motion.div
             className="w-full lg:w-1/2 space-y-10 flex flex-col"
             initial={{ opacity: 0, x: 80 }}

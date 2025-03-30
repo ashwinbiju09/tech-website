@@ -16,7 +16,6 @@ const Process = () => {
     >
       <div className="container mx-auto px-6 lg:px-16">
         <div className="flex flex-col lg:flex-row rounded-xl overflow-hidden border shadow-lg bg-white text-gray-900">
-          {/* Left Side - Static Visual Section */}
           <div className="lg:w-1/3 bg-gradient-to-b from-blue-950 to-blue-900 text-white flex items-center justify-center p-10">
             <h2 className="text-4xl md:text-6xl font-bold text-center leading-tight">
               <span className="block text-sm md:text-lg mb-2 font-semibold tracking-wide">
@@ -26,7 +25,6 @@ const Process = () => {
             </h2>
           </div>
 
-          {/* Right Side - Steps List with Framer Motion */}
           <motion.div
             className="lg:w-2/3 p-10 space-y-6"
             initial={{ opacity: 0, x: 40 }}
@@ -41,7 +39,6 @@ const Process = () => {
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
               >
-                {/* Step Title */}
                 <div
                   className={`text-xl font-medium transition-colors duration-300 ${
                     hoveredIndex === index ? "text-blue-700" : "text-gray-900"
@@ -50,7 +47,6 @@ const Process = () => {
                   {step.title}
                 </div>
 
-                {/* Animated Description */}
                 <AnimatePresence>
                   {hoveredIndex === index && (
                     <motion.div

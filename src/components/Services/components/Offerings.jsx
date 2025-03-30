@@ -21,13 +21,13 @@ const Offerings = ({ data }) => {
           initial={{ opacity: 0, y: -20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.4, ease: "easeOut" }}
-          className="text-3xl font-extrabold text-blue-900 mb-8 text-center"
+          className="text-3xl font-extrabold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text mb-8 text-center"
         >
           Offerings
         </motion.h2>
 
         <div className="flex flex-col lg:flex-row bg-gray-100 text-gray-900 rounded-sm shadow-lg">
-          <div className="lg:w-72 py-6 space-y-1 border-r border-gray-300">
+          <div className="lg:w-72 py-4 border-r border-gray-300">
             {data.departments.map((department, index) => (
               <motion.button
                 key={index}

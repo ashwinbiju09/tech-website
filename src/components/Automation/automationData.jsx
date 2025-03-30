@@ -1,188 +1,888 @@
-import Hero_AI from "../../assets/automation/ai-agent/Hero.jpg";
-import Info_AI from "../../assets/automation/ai-agent/info.jpg";
-
-const featureIcon = (
-  <img
-    className="h-8 w-8"
-    src="https://img.icons8.com/pastel-glyph/100/FFFFFF/intelligent-person.png"
-    alt="intelligent-person"
-  />
-);
+import AIHero from "../../assets/automation/Hero/ai-agents_hero-min.jpg";
+import AIInfo from "../../assets/automation/Services/ai-agents_overview-min.jpg";
+import WorkHero from "../../assets/automation/Hero/workflow_hero-min.jpg";
+import WorkInfo from "../../assets/automation/Services/workflow_overview-min.jpg";
+import IDPHero from "../../assets/automation/Hero/document_hero-min.jpg";
+import IDPInfo from "../../assets/automation/Services/document_overview-min.jpg";
+import PIHero from "../../assets/automation/Hero/process-opportunities_hero-min.jpg";
+import PIInfo from "../../assets/automation/Services/process-opportunities_overview-min.jpg";
+import AOHero from "../../assets/automation/Hero/end-to-end_hero-min.jpg";
+import AOInfo from "../../assets/automation/Services/end-to-end_overview-min.jpg";
 
 const automationData = [
   {
     slug: "ai-agents",
     heroSection: {
-      image: Hero_AI,
-      title: "Smart. Team player. Can-do attitude.",
+      image: AIHero,
+      title: "Development and Integration of AI Agents",
       description:
-        "The perfect AI agent starts here. Easily build and manage safe, secure AI agents to automate any process, anywhere.",
+        "Build, deploy, and manage adaptive AI agents that enhance workflows, automate complex tasks, and generate real-time insights—without draining human resources.",
     },
     infoSection: {
-      image: Info_AI,
-      title: "AI agents you can trust ? You got it.",
+      image: AIInfo,
+      title: "What Is Development and Integration of AI Agents?",
       description:
-        "Real-world operations demand AI agents that operate responsibly. Close the trust gap with built-in AI governance and complete traceability of everything your AI does.",
+        "Development and Integration of AI Agent is a solution that empowers businesses with intelligent, data-driven agents to automate routine tasks, optimize resource use, and speed up decision-making through customized workflows and integrated governance.",
     },
     featuresSection: {
-      title: "Features of AI Agents ",
+      title: "Standout Features",
       description:
-        "Streamline operations, boost decision-making, and drive personalized growth with SAP S/4HANA transformation.",
+        "Leverage powerful AI tools to drive automation, enhance collaboration, and maintain compliance with seamless integration into your current systems.",
       benefits: [
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/stamp/32/FFFFFF/cloud.png"
-              alt="cloud"
+              src="https://img.icons8.com/external-ddara-lineal-ddara/64/FFFFFF/external-decision-making-managements-ddara-lineal-ddara.png"
+              alt="external-decision-making-managements-ddara-lineal-ddara"
             />
           ),
-          title: "Cloud Readiness",
+          title: "Adaptive Decision-Making",
           description:
-            "The platform enables scalable, flexible cloud deployment, adapting efficiently to evolving business requirements.",
+            "Handle nuanced tasks like recommending product replacements or processing requests, allowing teams to focus on high-value projects.",
         },
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/FFFFFF/external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks.png"
-              alt="external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks"
+              src="https://img.icons8.com/ios-filled/64/FFFFFF/collaborating-in-circle.png"
+              alt="collaborating-in-circle"
             />
           ),
-          title: "Enhanced Forecasting",
+          title: "Cross-Department Collaboration",
           description:
-            "Advanced analytics ensure precise demand forecasting, optimizing inventory, production planning, and overall efficiency.",
+            "Integrate AI agents across departments and platforms to unify data usage, streamline processes, and drive synchronized performance.",
         },
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/workflow.png"
-              alt="workflow"
+              src="https://img.icons8.com/ios-filled/64/FFFFFF/invisible.png"
+              alt="invisible"
             />
           ),
-          title: "Integrated Workflows",
+          title: "End-to-End Visibility & Governance",
           description:
-            "Processes integrate seamlessly, fostering smooth operations and enhancing collaboration across all departments involved.",
+            "Ensure full traceability of AI actions with detailed logs and audit trails to support compliance, privacy, and accountability.",
         },
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/material-outlined/24/FFFFFF/user--v1.png"
-              alt="user--v1"
+              src="https://img.icons8.com/fluency-systems-regular/64/FFFFFF/fingerprint-accepted.png"
+              alt="fingerprint-accepted"
             />
           ),
-          title: "Intuitive User Interface",
+          title: "Built-In Security & Privacy Controls",
           description:
-            "A user-friendly interface simplifies tasks, improves user experience, and minimizes extensive training needs.",
+            "Utilize encryption and permission-based access to maintain confidentiality while maximizing AI capabilities across your organization.",
         },
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-black-m-oki-orlando/32/FFFFFF/external-data-processing-data-engineering-outline-outline-black-m-oki-orlando.png"
-              alt="external-data-processing-data-engineering-outline-outline-black-m-oki-orlando"
+              src="https://img.icons8.com/fluency-systems-regular/64/FFFFFF/globe--v1.png"
+              alt="globe--v1"
             />
           ),
-          title: "Data Processing and Automation",
+          title: "Real-World Training & Grounding",
           description:
-            "Routine tasks are automated, boosting efficiency, minimizing errors, and enhancing overall operational reliability.",
+            "Train AI agents using your company’s data for contextual accuracy and alignment with business goals.",
         },
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/66/FFFFFF/external-data-management-networking-smashingstocks-detailed-outline-smashing-stocks-2.png"
-              alt="external-data-management-networking-smashingstocks-detailed-outline-smashing-stocks-2"
+              src="https://img.icons8.com/external-others-pike-picture/64/FFFFFF/external-System-Integration-system-others-pike-picture.png"
+              alt="external-System-Integration-system-others-pike-picture"
             />
           ),
-          title: "Data Management and Decision-Making",
+          title: "Seamless System Integration",
           description:
-            "Real-time data processing empowers strategic planning, supporting well-informed and timely decisions consistently.",
+            "Connect with your internal models, databases, and workflows for uninterrupted performance and real-time operational support.",
         },
       ],
     },
     benefitsSection: {
-      title: "Key Benefits",
+      title: "Advantages Gained",
       benefits: [
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/down3.png"
-              alt="down3"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/external-efficiency-workation-outline-wichaiwi.png"
+              alt="external-efficiency-workation-outline-wichaiwi"
             />
           ),
-          title: "Improve lead times and decision-making",
+          title: "Greater Operational Efficiency",
           description:
-            "Enjoy day-to-day control and long-range planning with powerful forecasting.",
+            "Delegate repetitive, decision-heavy tasks to AI, freeing teams to focus on strategic growth initiatives.",
         },
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pulsar-line/48/FFFFFF/requirement.png"
-              alt="requirement"
+              src="https://img.icons8.com/ios-filled/64/collaboration.png"
+              alt="collaboration"
             />
           ),
-          title: "Enhance demand planning",
+          title: "Enhanced Collaboration",
           description:
-            "Leverage AI-driven insights to make better forecasting decisions.",
+            "Enable cross-functional teams like sales, logistics, and support to work under a unified AI infrastructure.",
         },
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/move-by-trolley.png"
-              alt="move-by-trolley"
+              src="https://img.icons8.com/material-outlined/64/trust--v1.png"
+              alt="trust--v1"
             />
           ),
-          title: "Reduce inventory costs",
+          title: "Unparalleled Compliance & Trust",
           description:
-            "Optimize inventory levels to avoid overstocking and shortages.",
+            "Operate securely with robust privacy measures and transparent, auditable AI governance.",
         },
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/hatch/64/FFFFFF/electricity.png"
-              alt="electricity"
+              src="https://img.icons8.com/external-outline-geotatah/64/external-competitive-sustainable-competitive-advantage-outline-geotatah.png"
+              alt="external-competitive-sustainable-competitive-advantage-outline-geotatah"
             />
           ),
-          title: "Boost operational efficiency",
+          title: "Competitive Edge & Scalability",
           description:
-            "Streamline workflows and reduce inefficiencies in scheduling.",
+            "Evolve with the market by scaling your AI agents in line with business growth and changing demands.",
         },
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-design-circle/66/FFFFFF/external-Satisfaction-customer-service-outline-design-circle.png"
-              alt="external-Satisfaction-customer-service-outline-design-circle"
+              src="https://img.icons8.com/windows/64/decision-making.png"
+              alt="decision-making"
             />
           ),
-          title: "Increase customer satisfaction",
+          title: "Faster Decision-Making",
           description:
-            "Deliver on-time with optimized production planning and scheduling.",
+            "Use real-time insights from trained AI agents to drive confident, data-backed decisions instantly.",
         },
         {
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/change.png"
-              alt="change"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/64/external-Resource-human-resources-smashingstocks-mixed-smashing-stocks.png"
+              alt="external-Resource-human-resources-smashingstocks-mixed-smashing-stocks"
             />
           ),
-          title: "Adapt to changing market demands",
+          title: "Optimized Resource Allocation",
           description:
-            "Quickly adjust to fluctuations in customer needs and industry trends.",
+            "Streamline operations by letting AI manage routine tasks, reducing overhead and increasing productivity.",
         },
       ],
     },
     ctaSection: {
       description:
-        "Transform your enterprise with Accely’s SAP S/4HANA solutions and enhance operational efficiency, optimize processes, and drive sustainable growth through innovative, data-driven decision-making for future success.",
+        "Let’s build intelligent, adaptive solutions tailored to your business needs. Start automating smarter today.Contact our experts today to Get Started with AI Agents.",
+    },
+  },
+  {
+    slug: "workflow-optimization",
+    heroSection: {
+      image: WorkHero,
+      title: "Workflow Optimization",
+      description:
+        "Automate, connect, and optimize your end-to-end processes with a user-friendly platform that minimizes manual tasks, accelerates development, and delivers consistent, accurate results across your enterprise.",
+    },
+    infoSection: {
+      image: WorkInfo,
+      title: "What Is Workflow Optimization?",
+      description:
+        "Workflow Optimization is an intelligent automation solution that enables both business and technical users to design, orchestrate, and secure complex workflows. With pre-built integrations, custom APIs, and robust governance, it transforms manual tasks into efficient automations that drive productivity and scalability.",
+    },
+    featuresSection: {
+      title: "Standout Features",
+      description:
+        "Leverage intuitive design tools, flexible integrations, and built-in security to build resilient, scalable workflows that align with your business needs.",
+      benefits: [
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/FFFFFF/process.png"
+              alt="process"
+            />
+          ),
+          title: "Process Composer",
+          description:
+            "Create and manage workflows using a visual drag-and-drop interface that simplifies complex process design across departments.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/FFFFFF/cloud-database.png"
+              alt="cloud-database"
+            />
+          ),
+          title: "Cloud-Enabled Integrations",
+          description:
+            "Deploy and manage automations anytime, anywhere with pre-built or custom APIs, ensuring speed and reliability at scale.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/quill/64/FFFFFF/backend-development.png"
+              alt="backend-development"
+            />
+          ),
+          title: "Open Development Environment",
+          description:
+            "Use popular scripting languages like .NET, Python, Java, and JS for custom logic, offering full flexibility from concept to deployment.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/FFFFFF/settings-3.png"
+              alt="settings-3"
+            />
+          ),
+          title: "Resilient Automation Framework",
+          description:
+            "Automate interactions across applications and devices with features like built-in pop-up handling for uninterrupted performance.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/FFFFFF/cyber-security.png"
+              alt="cyber-security"
+            />
+          ),
+          title: "Built-In Security and Compliance",
+          description:
+            "Apply role-based access controls and track all workflow changes to maintain enterprise-grade security and regulatory compliance.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/FFFFFF/bullet-camera.png"
+              alt="bullet-camera"
+            />
+          ),
+          title: "Real-Time Monitoring & Optimization",
+          description:
+            "Continuously improve operations with actionable analytics, allowing teams to monitor, analyze, and optimize workflows over time.",
+        },
+      ],
+    },
+    benefitsSection: {
+      title: "Advantages Gained",
+      benefits: [
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/gears.png"
+              alt="gears"
+            />
+          ),
+          title: "Faster Automation Deployment",
+          description:
+            "Accelerate automation initiatives with ready-to-use tools that minimize the need for extensive coding and setup time.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/define-location--v1.png"
+              alt="define-location--v1"
+            />
+          ),
+          title: "Higher Accuracy and Reliability",
+          description:
+            "Reduce human error and ensure quality outcomes with pre-validated processes and structured automation flows.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/external-productivity-soft-skills-parzival-1997-detailed-outline-parzival-1997.png"
+              alt="external-productivity-soft-skills-parzival-1997-detailed-outline-parzival-1997"
+            />
+          ),
+          title: "Improved Productivity",
+          description:
+            "Free teams from repetitive manual tasks so they can focus on innovation and strategic growth initiatives.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/external-operational-business-risks-outline-wichaiwi.png"
+              alt="external-operational-business-risks-outline-wichaiwi"
+            />
+          ),
+          title: "Lower Operational Costs",
+          description:
+            "Reduce overhead by eliminating labor-intensive processes and maximizing the efficiency of your workforce.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/glyph-neue/64/settings-3.png"
+              alt="settings-3"
+            />
+          ),
+          title: "Scalable Automation Architecture",
+          description:
+            "Adapt workflows quickly as business demands evolve, with no need for major development cycles or overhauls.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/sf-black/64/collaboration.png"
+              alt="collaboration"
+            />
+          ),
+          title: "Unified Collaboration Platform",
+          description:
+            "Empower both technical and non-technical users to contribute to workflow design and execution through a shared automation hub.",
+        },
+      ],
+    },
+    ctaSection: {
+      description:
+        "Discover how automation can reduce errors, boost productivity, and accelerate your business growth. Contact out support team to Optimize My Workflow",
+    },
+  },
+  {
+    slug: "intelligent-document-processing",
+    heroSection: {
+      image: IDPHero,
+      title: "Intelligent Document Processing and Automation",
+      description:
+        "Reimagine how your organization handles large volumes of paperwork. Harness AI to classify, extract, and validate data—delivering accurate information faster and with fewer errors.",
+    },
+    infoSection: {
+      image: IDPInfo,
+      title: "What Is Intelligent Document Processing and Automation?",
+      description:
+        "Intelligent Document Processing and Automation is a service that streamlines data extraction and validation from documents like invoices, contracts, and shipping forms. By replacing manual entry with AI-driven automation, it enhances speed, accuracy, and compliance across your workflows.",
+    },
+    featuresSection: {
+      title: "Standout Features",
+      description:
+        "Automate end-to-end document handling using pre-processing tools, intelligent extraction, and secure integration—ensuring high data quality and operational efficiency.",
+      benefits: [
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/FFFFFF/external-data-preprocessing-data-engineering-outline-outline-black-m-oki-orlando.png"
+              alt="external-data-preprocessing-data-engineering-outline-outline-black-m-oki-orlando"
+            />
+          ),
+          title: "Pre-Processing Tools",
+          description:
+            "Improve document clarity with automated noise reduction, binarization, and image correction.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/FFFFFF/add-rule.png"
+              alt="add-rule"
+            />
+          ),
+          title: "Document Classification & Splitting",
+          description:
+            "Automatically separate and categorize documents to streamline downstream processing.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/FFFFFF/external-data-extraction-data-engineering-solid-solidglyph-m-oki-orlando.png"
+              alt="external-data-extraction-data-engineering-solid-solidglyph-m-oki-orlando"
+            />
+          ),
+          title: "Advanced Data Extraction",
+          description:
+            "Capture precise data fields using AI trained to recognize and extract content from any document type.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/FFFFFF/external-data-validation-data-engineering-outline-outline-black-m-oki-orlando.png"
+              alt="external-data-validation-data-engineering-outline-outline-black-m-oki-orlando"
+            />
+          ),
+          title: "Flexible Data Validation",
+          description:
+            "Apply custom rules and AI logic to validate extracted data for improved accuracy and control.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/FFFFFF/sync-settings.png"
+              alt="sync-settings"
+            />
+          ),
+          title: "AI-Driven Workflow Integration",
+          description:
+            "Incorporate extracted data into enterprise systems quickly through seamless cloud or on-prem integration.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/FFFFFF/private2.png"
+              alt="private2"
+            />
+          ),
+          title: "Secure Deployment Options",
+          description:
+            "Deploy in private or public cloud environments while maintaining compliance and data protection standards.",
+        },
+      ],
+    },
+    benefitsSection: {
+      title: "Advantages Gained",
+      benefits: [
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pulsar-line/64/conference.png"
+              alt="conference"
+            />
+          ),
+          title: "Faster Business Processes",
+          description:
+            "Accelerate document handling and minimize delays in mission-critical workflows.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pulsar-line/64/accuracy.png"
+              alt="accuracy"
+            />
+          ),
+          title: "Improved Accuracy",
+          description:
+            "Reduce costly errors through automated extraction, real-time validation, and quality control.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/64/test-passed.png"
+              alt="test-passed"
+            />
+          ),
+          title: "Enhanced Compliance & Security",
+          description:
+            "Ensure secure processing of sensitive data and maintain adherence to regulatory standards.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/dotty/64/low-price.png"
+              alt="low-price"
+            />
+          ),
+          title: "Reduced Total Costs",
+          description:
+            "Lower manual effort and setup expenses using pre-trained AI models and simplified deployment.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/gears--v1.png"
+              alt="gears--v1"
+            />
+          ),
+          title: "Scalable Automation",
+          description:
+            "Expand document processing capabilities easily to meet evolving business demands.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-filled/64/merge-arrow.png"
+              alt="merge-arrow"
+            />
+          ),
+          title: "Seamless Integration",
+          description:
+            "Connect effortlessly with existing enterprise applications for uninterrupted data flow and operations.",
+        },
+      ],
+    },
+    ctaSection: {
+      description:
+        "Automate data extraction and validation to save time, reduce errors, and improve compliance across your workflows. Contact our team to automate your document processing",
+    },
+  },
+  {
+    slug: "process-intelligence",
+    heroSection: {
+      image: PIHero,
+      title: "Process Intelligence and Opportunity Discovery",
+      description:
+        "Gain in-depth visibility into your workflows, uncover inefficiencies, and identify areas for automation using AI-powered process analysis and real-time insights.",
+    },
+    infoSection: {
+      image: PIInfo,
+      title: "What Is Process Intelligence and Opportunity Discovery?",
+      description:
+        "Process Intelligence and Opportunity Discovery is an AI-driven analysis tool that captures operational data across systems like mainframes and virtual desktops. It transforms complex workflows into intuitive maps, helping organizations pinpoint automation opportunities while ensuring security and compliance.",
+    },
+    featuresSection: {
+      title: "Standout Features",
+      description:
+        "Capture, analyze, and visualize real-time process data across platforms to uncover automation potential and ensure compliance with built-in privacy controls.",
+      benefits: [
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/FFFFFF/external-classification-data-science-outline-outline-black-m-oki-orlando.png"
+              alt="external-classification-data-science-outline-outline-black-m-oki-orlando"
+            />
+          ),
+          title: "Comprehensive Capture & Classification",
+          description:
+            "Collect and classify process data from VDIs, mainframes, and other applications to enable thorough and scalable analysis.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/FFFFFF/process--v1.png"
+              alt="process--v1"
+            />
+          ),
+          title: "Clear Process Mapping",
+          description:
+            "Visualize workflows through intuitive flow graphs that simplify complex operations for better understanding and optimization.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/FFFFFF/for-experienced.png"
+              alt="for-experienced"
+            />
+          ),
+          title: "Advanced Process Intelligence",
+          description:
+            "Leverage AI and computer vision to detect process inefficiencies, anomalies, and automation opportunities in real time.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/64/FFFFFF/side-gate-closed.png"
+              alt="side-gate-closed"
+            />
+          ),
+          title: "Privacy Enhanced Gateway (PEG)",
+          description:
+            "Protect sensitive information using built-in tools that redact data and maintain compliance with privacy regulations.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/64/FFFFFF/external-social-social-media-basic-others-anggara-putra-36.png"
+              alt="external-social-social-media-basic-others-anggara-putra-36"
+            />
+          ),
+          title: "Real-Time Operational Insight",
+          description:
+            "Gain actionable insights into key performance metrics, enabling data-driven decisions and faster improvements.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/64/FFFFFF/private-lock.png"
+              alt="private-lock"
+            />
+          ),
+          title: "End-to-End Security & Compliance",
+          description:
+            "Enforce strict privacy protocols and monitor data access across workflows to reduce legal and compliance risks.",
+        },
+      ],
+    },
+    benefitsSection: {
+      title: "Advantages Gained",
+      benefits: [
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/64/performance-macbook.png"
+              alt="performance-macbook"
+            />
+          ),
+          title: "Enhanced Efficiency",
+          description:
+            "Reduce onboarding times by up to 70% and manual data entry by 40%, accelerating your key business processes.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/64/visible--v1.png"
+              alt="visible--v1"
+            />
+          ),
+          title: "Clear Visibility",
+          description:
+            "Map over 200 end-to-end processes to build a comprehensive understanding of current workflows before automating.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/64/requirements.png"
+              alt="requirements"
+            />
+          ),
+          title: "Stronger Compliance",
+          description:
+            "Ensure data protection and privacy with advanced redaction and access control features.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/external-roi-digital-marketing-outline-outline-black-m-oki-orlando-2.png"
+              alt="external-roi-digital-marketing-outline-outline-black-m-oki-orlando-2"
+            />
+          ),
+          title: "Rapid ROI on Automation",
+          description:
+            "Identify and prioritize high-impact automation opportunities, delivering faster results and measurable value.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/external-optimization-marketing-seo-flatart-icons-solid-flatarticons.png"
+              alt="external-optimization-marketing-seo-flatart-icons-solid-flatarticons"
+            />
+          ),
+          title: "Scalable Optimization",
+          description:
+            "Continuously analyze and refine processes as your business grows and requirements evolve.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/material-outlined/64/for-experienced.png"
+              alt="for-experienced"
+            />
+          ),
+          title: "Unified Process Intelligence",
+          description:
+            "Centralize insights from diverse systems and platforms to create a single source of operational truth.",
+        },
+      ],
+    },
+    ctaSection: {
+      description:
+        "Discover automation opportunities with real-time insights and drive smarter, faster decisions across your organization. Contact our team to Explore Process Intelligence",
+    },
+  },
+  {
+    slug: "automation-orchestration",
+    heroSection: {
+      image: AOHero,
+      title: "End-to-End Automation Orchestration",
+      description:
+        "Unlock enterprise-wide efficiency by combining generative AI with intelligent automation tools to fast-track development, reduce coding errors, and streamline process execution.",
+    },
+    infoSection: {
+      image: AOInfo,
+      title: "What Is End-to-End Automation Orchestration?",
+      description:
+        "End-to-End Automation Orchestration is a powerful solution that transforms process documentation into API-driven, ready-to-deploy workflows. By using AI-driven tools, it enables both developers and business teams to accelerate automation, minimize manual coding, and scale operations seamlessly.",
+    },
+    featuresSection: {
+      title: "Standout Features",
+      description:
+        "Combine AI guidance with automation technology to rapidly convert ideas into scalable, resilient workflows that adapt to change and drive sustainable growth.",
+      benefits: [
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/windows/64/FFFFFF/autopilot.png"
+              alt="autopilot"
+            />
+          ),
+          title: "Autopilot for Instant Transformation",
+          description:
+            "Instantly convert documented processes into automation workflows without manual coding—accelerating time to deployment.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/FFFFFF/automatic.png"
+              alt="automatic"
+            />
+          ),
+          title: "Automation Co-Pilot for Developers",
+          description:
+            "Get AI-driven recommendations and best practices to speed development and focus on value-adding coding tasks.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/FFFFFF/fliki.png"
+              alt="fliki"
+            />
+          ),
+          title: "Generative Recorder for Self-Healing Automations",
+          description:
+            "Create adaptive workflows that detect and adjust to system and application changes automatically.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/FFFFFF/ai-chatting.png"
+              alt="ai-chatting"
+            />
+          ),
+          title: "AI-Assisted Workflows",
+          description:
+            "Leverage ML insights to uncover optimization opportunities and future-proof your automation strategy.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/FFFFFF/external-scalable-start-it-up-parzival-1997-detailed-outline-parzival-1997.png"
+              alt="external-scalable-start-it-up-parzival-1997-detailed-outline-parzival-1997"
+            />
+          ),
+          title: "Scalable Architecture",
+          description:
+            "Deploy and manage automation at scale with reusable templates and governance built in.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-ddara-lineal-ddara/64/FFFFFF/external-resilience-leadership-success-business-skill-reaction-strong-life-skills-ddara-lineal-ddara.png"
+              alt="external-resilience-leadership-success-business-skill-reaction-strong-life-skills-ddara-lineal-ddara"
+            />
+          ),
+          title: "End-to-End Resilience",
+          description:
+            "Ensure stability and uptime with automation systems that dynamically adjust to change.",
+        },
+      ],
+    },
+    benefitsSection: {
+      title: "Advantages Gained",
+      benefits: [
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/delivery--v1.png"
+              alt="delivery--v1"
+            />
+          ),
+          title: "Accelerated Project Delivery",
+          description:
+            "Speed up development timelines by up to 30% with AI-powered guidance and automation design tools.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-resource-talent-management-flatart-icons-outline-flatarticons.png"
+              alt="external-resource-talent-management-flatart-icons-outline-flatarticons"
+            />
+          ),
+          title: "Improved Resource Allocation",
+          description:
+            "Allow teams to focus on strategic initiatives by minimizing time spent on repetitive coding and maintenance.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-yogi-aprelliyanto-glyph-yogi-aprelliyanto/64/external-quality-online-marketing-yogi-aprelliyanto-glyph-yogi-aprelliyanto.png"
+              alt="external-quality-online-marketing-yogi-aprelliyanto-glyph-yogi-aprelliyanto"
+            />
+          ),
+          title: "Higher Quality & Reliability",
+          description:
+            "Build robust, self-healing automation systems that adapt to changes and reduce maintenance efforts.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/64/piece-of-evidence.png"
+              alt="piece-of-evidence"
+            />
+          ),
+          title: "Future-Proof Scalability",
+          description:
+            "Confidently scale automation across departments with evolving AI capabilities and reusable workflows.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/64/external-download-video-and-movie-tanah-basah-basic-outline-tanah-basah.png"
+              alt="external-download-video-and-movie-tanah-basah-basic-outline-tanah-basah"
+            />
+          ),
+          title: "Reduced Downtime",
+          description:
+            "Ensure business continuity with systems that self-adjust to application or API changes in real time.",
+        },
+        {
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/64/settings-3.png"
+              alt="settings-3"
+            />
+          ),
+          title: "Unified Automation Strategy",
+          description:
+            "Enable business and technical teams to collaborate on a single platform with clear governance and oversight.",
+        },
+      ],
+    },
+    ctaSection: {
+      description:
+        "Transform documentation into resilient, AI-powered workflows and scale automation across your entire organization. Contact our team to Start Automating Smarter",
     },
   },
 ];

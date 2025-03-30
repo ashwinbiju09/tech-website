@@ -76,7 +76,7 @@ const Offerings = ({ data }) => {
                     ease: "easeOut",
                     delay: i * 0.1,
                   }}
-                  className="flex items-start space-x-3"
+                  className="flex items-start space-x-3 border-2 p-4 rounded-md shadow-md bg-slate-100"
                 >
                   <div>
                     <h4 className="font-semibold text-lg text-gray-900">

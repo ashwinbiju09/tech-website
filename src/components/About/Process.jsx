@@ -44,7 +44,7 @@ const Process = () => {
                     hoveredIndex === index ? "text-blue-700" : "text-gray-900"
                   }`}
                 >
-                  {step.title}
+                  {step.title} &#11167;
                 </div>
 
                 <AnimatePresence>

@@ -103,7 +103,7 @@ const Values = () => {
                     viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 0.2 }}
                   >
-                    <h3 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
+                    <h3 className="text-4xl md:text-6xl font-bold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text mb-6 leading-tight">
                       {item.title}
                     </h3>
                     <p className="text-gray-600 text-lg leading-loose">

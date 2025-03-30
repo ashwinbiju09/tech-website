@@ -14,7 +14,7 @@ const Overview = ({ data }) => {
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="flex flex-col items-center justify-center py-12 px-4 sm:px-6 lg:px-8"
     >
-      <h2 className="text-center text-2xl lg:text-4xl font-bold text-blue-900 tracking-wide">
+      <h2 className="text-center text-2xl lg:text-4xl font-bold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text tracking-wide">
         {data.title}
       </h2>
       <p className="text-center text-lg text-gray-600 max-w-5xl mt-4">

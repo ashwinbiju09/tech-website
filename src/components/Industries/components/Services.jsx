@@ -15,7 +15,7 @@ const Services = ({ data }) => {
       className="relative w-full py-16 px-6 bg-white"
     >
       <div className="relative max-w-screen-xl mx-auto text-gray-900">
-        <h2 className="text-center text-2xl lg:text-4xl font-bold">
+        <h2 className="text-center text-2xl lg:text-4xl font-bold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text">
           {data.title}
         </h2>
         <p className="text-center text-lg text-gray-600 mt-2">

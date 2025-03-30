@@ -159,10 +159,22 @@ const navLinks = [
             name: "Build AI Agents",
             path: "/ai-automation/ai-agents",
           },
-          { name: "Streamline workflows", path: "#" },
-          { name: "Process complex documents", path: "#" },
-          { name: "Discover opportunities", path: "#" },
-          { name: "Orchestrate automations", path: "#" },
+          {
+            name: "Workflow Optimization",
+            path: "/ai-automation/workflow-optimization",
+          },
+          {
+            name: "Intelligent Document Processing and Automation",
+            path: "/ai-automation/intelligent-document-processing",
+          },
+          {
+            name: "Process Intelligence and Opportunity Discovery",
+            path: "/ai-automation/process-intelligence",
+          },
+          {
+            name: "End-to-End Automation Orchestration",
+            path: "/ai-automation/automation-orchestration",
+          },
         ],
       },
     ],

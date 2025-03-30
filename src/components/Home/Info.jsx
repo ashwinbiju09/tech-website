@@ -47,14 +47,14 @@ const Info = () => {
 
           {/* Descriptive Text */}
           <div className="text-center lg:text-justify text-lg text-white/80 leading-relaxed">
-            Synapse delivers enterprise transformation through intelligent
-            automation, backed by over 10 years of industry expertise. Our
-            advanced solutions liberate businesses from legacy constraints.
-            Renowned for technical excellence and rapid ROI, we serve businesses
-            of all sizes with tailored ERP enhancements. We build custom
-            AI-powered solutions that eliminate bottlenecks and create
-            sustainable competitive advantages across all major platforms
-            including SAP and Epicor.
+            Standard ERP holds you back. At Synapse, we help businesses work
+            smarter using AI-powered automation. With over a decade of
+            industry-leading expertise, we overcome the limitations of
+            traditional ERP systems with tailored solutions that integrate
+            smoothly with platforms like SAP, Epicor, and more. Our refined
+            approach streamlines intricate workflows, enabling organizations to
+            achieve unparalleled efficiency and secure a competitive edge in
+            today’s dynamic market.
           </div>
         </div>
 

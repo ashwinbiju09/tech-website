@@ -13,8 +13,10 @@ const Contact = () => {
           <div>
             <h2 className="text-3xl font-bold mb-4">Let’s Create Together</h2>
             <p className="text-white text-lg mb-10">
-              Have a big idea or brand to develop? We’re excited to hear about
-              your project and help bring it to life.
+              Struggling with intricate system integrations, aiming to
+              streamline enterprise workflows, or imagining a smarter business
+              landscape? We're your bridge from where you are to
+              where you want to be.
             </p>
 
             <div className="space-y-6">
@@ -83,7 +85,7 @@ const Contact = () => {
             <div>
               <label className="text-sm text-white block mb-1">Message</label>
               <textarea
-                placeholder="Tell us about your project or inquiry..."
+                placeholder="TTell us about your enterprise integration needs, challenges, or project vision..."
                 rows={1}
                 className="w-full p-4 rounded-sm border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
               />

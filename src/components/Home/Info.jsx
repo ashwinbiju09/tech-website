@@ -1,83 +1,114 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const Info = () => {
-  const titles = ["Automate.", "Optimize.", "Grow."];
+  const keywords = ["Automate.", "Optimize.", "Grow."];
 
-  const containerVariants = {
-    hidden: {},
-    visible: {
-      transition: {
-        staggerChildren: 0.5,
-      },
+  const testimonials = [
+    {
+      quote:
+        "Ladera Technology's automation solutions transformed our operations. We've seen a 40% reduction in processing time and eliminated most manual errors.",
+      name: "Sarah Johnson",
+      role: "CIO, Global Finance Corp",
     },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 1.0 } },
-  };
-
-  const paragraphVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        delay: titles.length * 0.4,
-        duration: 0.6,
-      },
+    {
+      quote:
+        "Thanks to Ladera, our digital transformation roadmap is now 2 years ahead. Their AI-powered integrations are unmatched.",
+      name: "Michael Chen",
+      role: "CTO, CoreSoft Solutions",
     },
-  };
+    {
+      quote:
+        "From onboarding to deployment, Ladera delivered a seamless ERP enhancement that improved our ROI significantly.",
+      name: "Alicia Patel",
+      role: "VP Operations, GreenTech Group",
+    },
+  ];
 
   return (
-    <div className="relative w-full flex flex-col md:flex-col items-center md:px-12 md:py-16 lg:py-20">
-      <motion.div
-        className="w-full py-4 md:py-0 md:w-1/2 flex flex-row justify-center px-8"
-        variants={containerVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
-      >
-        <div className="text-4xl md:text-5xl lg:text-7xl font-bold text-center md:text-end flex flex-row space-x-16">
-          <motion.div
-            className="bg-clip-text text-transparent bg-gradient-to-br from-blue-950 to-blue-900"
-            variants={itemVariants}
-          >
-            Automate.
-          </motion.div>
-          <motion.div
-            className="bg-clip-text text-transparent bg-gradient-to-r from-blue-900 to-blue-800"
-            variants={itemVariants}
-          >
-            Optimize.
-          </motion.div>
-          <motion.div
-            className="bg-clip-text text-transparent bg-gradient-to-br from-yellow-900 via-yellow-600 to-yellow-300 animate-text"
-            variants={itemVariants}
-          >
-            Grow.
-          </motion.div>
-        </div>
-      </motion.div>
+    <section className="relative flex flex-col justify-center items-center bg-midnight overflow-hidden px-6 py-24">
+      <div className="relative z-10 max-w-7xl w-full flex flex-col lg:flex-row justify-between items-center gap-12 text-white">
+        {/* Left Column */}
+        <div className="w-full lg:w-1/2 flex flex-col space-y-8">
+          {/* Keywords */}
+          <div className="flex flex-col items-center lg:items-start space-y-4 text-4xl md:text-5xl lg:text-6xl font-light">
+            {keywords.map((word, index) => (
+              <span
+                key={index}
+                className="font-bold inline-block relative after:absolute after:left-0 after:-bottom-2 after:w-full after:h-[3px] after:bg-gradient-to-r after:from-yellow-400 after:to-transparent"
+              >
+                {word}
+              </span>
+            ))}
+          </div>
 
-      <motion.div
-        className="w-full md:w-3/4 px-8 md:px-0 pb-4 md:pb-0 md:pt-8 text-center text-base md:font-medium md:text-xl/relaxed lg:text-2xl/loose"
-        variants={paragraphVariants}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, margin: "-100px" }}
-      >
-        Synapse delivers enterprise transformation through intelligent
-        automation, backed by over 10 years of industry expertise. Standard ERP
-        holds you back. Our advanced solutions liberate businesses from legacy
-        constraints. Renowned for technical excellence and rapid ROI, we serve
-        businesses of all sizes with tailored ERP enhancements. We build custom
-        AI powered solutions that eliminate bottlenecks and create sustainable
-        competitive advantages across all major platforms
-        including SAP and Epicor.
-      </motion.div>
-    </div>
+          {/* Descriptive Text */}
+          <div className="text-center lg:text-justify text-lg text-white/80 leading-relaxed">
+            Synapse delivers enterprise transformation through intelligent
+            automation, backed by over 10 years of industry expertise. Our
+            advanced solutions liberate businesses from legacy constraints.
+            Renowned for technical excellence and rapid ROI, we serve businesses
+            of all sizes with tailored ERP enhancements. We build custom
+            AI-powered solutions that eliminate bottlenecks and create
+            sustainable competitive advantages across all major platforms
+            including SAP and Epicor.
+          </div>
+        </div>
+
+        {/* Right Column - Swiper Testimonial Slider */}
+        <div className="w-full lg:w-1/2 flex justify-center">
+          <Swiper
+            slidesPerView={1}
+            loop={true}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            pagination={{ clickable: true }}
+            modules={[Autoplay, Pagination]}
+            className="w-full max-w-[500px]"
+          >
+            {testimonials.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div className="relative h-[400px] flex flex-col justify-center items-center pb-2">
+                  <div className="bg-white bg-opacity-5 backdrop-blur-lg rounded-xl p-10 pt-12 border border-white border-opacity-10 shadow-2xl relative w-full">
+                    <div className="absolute top-5 left-8 text-6xl text-[#e9c46a] opacity-40 font-serif leading-none">
+                      &quot;
+                    </div>
+                    <p className="text-white text-lg leading-relaxed my-8 relative z-10">
+                      {item.quote}
+                    </p>
+                    <div className="flex items-center border-t border-white border-opacity-10 pt-5">
+                      <div className="flex-1">
+                        <div className="text-white font-bold text-base mb-1">
+                          {item.name}
+                        </div>
+                        <div className="text-white text-opacity-60 text-sm">
+                          {item.role}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      </div>
+
+      {/* Centered Button */}
+      <div className="pt-16 z-10">
+        <a
+          href="#"
+          className="inline-block px-10 py-4 border-2 border-yellow-400 text-yellow-400 font-semibold rounded-sm relative overflow-hidden hover:text-[#0a1f36] transition-all duration-300 z-10 before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:bg-yellow-400 hover:before:w-full before:transition-all before:duration-300 before:z-[-1]"
+        >
+          Discover Our Solutions
+        </a>
+      </div>
+    </section>
   );
 };
 

@@ -1,4 +1,16 @@
-import fieldService from "../../assets/solutions/addons/field-service.jpg";
+import ams from "../../assets/Addons/asset-management_hero-min.jpg";
+import drp from "../../assets/Addons/digital-retail_hero-min.jpg";
+import dms from "../../assets/Addons/distribution-management_hero-min.jpg";
+import fms from "../../assets/Addons/field-service_hero-min.jpg";
+import rems from "../../assets/Addons/real-estate_hero-min.jpg";
+import sfa from "../../assets/Addons/salesforce_hero-min.jpg";
+import sbm from "../../assets/Addons/subscritpion_hero-min.jpg";
+import vms from "../../assets/Addons/vendor_hero-min.jpg";
+import dda from "../../assets/Addons/document_hero-min.jpg";
+import cms from "../../assets/Addons/compilance_hero-min.jpg";
+import ncwp from "../../assets/Addons/no-code_hero-min.jpg";
+import ps from "../../assets/Addons/procurement_hero-min.jpg";
+import pms from "../../assets/Addons/project-management_hero-min.jpg";
 
 const featureIcon = (
   <img
@@ -15,7 +27,7 @@ const addonsData = [
       title: "Asset Management System",
       subContent:
         "Empower your enterprise with a comprehensive asset management system that enhances operational efficiency, improves resource utilization, and ensures long-term financial stability.",
-      image: fieldService,
+      image: ams,
     },
     overviewSection: {
       title: "What is Asset Management?",
@@ -150,7 +162,7 @@ const addonsData = [
       title: "Digital Retail & Platform",
       subContent:
         "Empower your business with next-generation digital retail platforms that drive engagement, boost sales, and deliver seamless experiences across all channels—from web to mobile and beyond.",
-      image: fieldService,
+      image: drp,
     },
     overviewSection: {
       title: "What is Digital Retail?",
@@ -284,7 +296,7 @@ const addonsData = [
       title: "Distribution Management System",
       subContent:
         "Empower your supply chain with a cutting-edge distribution management system that enhances control, streamlines workflows, and drives growth through predictive analytics and end-to-end transparency.",
-      image: fieldService, // replace with your appropriate image variable
+      image: dms,
     },
     overviewSection: {
       title: "What is a Distribution Management System?",
@@ -419,7 +431,7 @@ const addonsData = [
       title: "Field Service Management",
       subContent:
         "Boost service efficiency, empower mobile teams, and deliver exceptional customer experiences with an all-in-one field service management solution—designed for real-time control, faster resolution, and scalable success.",
-      image: fieldService, // replace with your actual image reference
+      image: fms,
     },
     overviewSection: {
       title: "What is Field Service Management?",
@@ -554,7 +566,7 @@ const addonsData = [
       title: "Real Estate Management & Systems",
       subContent:
         "Manage leases, portfolios, tenants, and financials all in one place. Our real estate management solution empowers property managers and investors to operate efficiently, stay compliant, and drive value from every asset.",
-      image: fieldService, // replace with the appropriate image asset
+      image: rems,
     },
     overviewSection: {
       title: "What is Real Estate Management Software?",
@@ -689,7 +701,7 @@ const addonsData = [
       title: "Sales Force Automation",
       subContent:
         "Unleash sales team potential with AI-powered automation that simplifies workflows, enhances customer engagement, and boosts conversion rates—giving you the competitive edge in today’s fast-paced sales environment.",
-      image: fieldService, // replace with your actual image reference
+      image: sfa,
     },
     overviewSection: {
       title: "What is Sales Force Automation?",
@@ -823,7 +835,7 @@ const addonsData = [
       title: "Subscription Billing & Management",
       subContent:
         "Drive predictable income and long-term customer relationships with an intelligent subscription billing platform—automating recurring payments, lifecycle changes, and financial reporting at scale.",
-      image: fieldService, // replace with your actual image reference
+      image: sbm,
     },
     overviewSection: {
       title: "What is Subscription Billing Management?",
@@ -958,7 +970,7 @@ const addonsData = [
       title: "Vendor Management Solution",
       subContent:
         "Centralize vendor oversight, reduce procurement risk, and enhance collaboration with a unified solution designed to streamline onboarding, compliance, and contract management at scale.",
-      image: fieldService, // replace with your actual image asset
+      image: vms,
     },
     overviewSection: {
       title: "What is Vendor Management Software?",
@@ -1092,7 +1104,7 @@ const addonsData = [
       title: "Document Delivery Automation Services",
       subContent:
         "Replace manual bottlenecks with intelligent, secure document automation—streamline workflows, reduce delivery time, and ensure compliant communication across channels and geographies.",
-      image: fieldService, // replace with appropriate image reference
+      image: dda,
     },
     overviewSection: {
       title: "What is Document Delivery Automation?",
@@ -1227,7 +1239,7 @@ const addonsData = [
       title: "Compliance Management Software",
       subContent:
         "Simplify complex compliance processes, reduce risk, and ensure continuous regulatory alignment with a centralized platform designed to automate tasks, track obligations, and future-proof governance.",
-      image: fieldService, // replace with your actual image asset
+      image: cms,
     },
     overviewSection: {
       title: "What is Compliance Management?",
@@ -1362,7 +1374,7 @@ const addonsData = [
       title: "No-Code Work Platform",
       subContent:
         "Unlock agility and innovation by allowing non-technical teams to create, automate, and manage workflows—without writing a single line of code. Build faster, scale smarter, and adapt seamlessly to change.",
-      image: fieldService, // replace with your actual image reference
+      image: ncwp,
     },
     overviewSection: {
       title: "What is a No-Code Work Platform?",
@@ -1495,7 +1507,7 @@ const addonsData = [
       title: "Procurement Software",
       subContent:
         "Digitize procurement end-to-end—from requisition to payment—on one unified platform. Boost transparency, reduce manual effort, and drive cost efficiency while building strong supplier partnerships.",
-      image: fieldService, // replace with your actual image reference
+      image: ps,
     },
     overviewSection: {
       title: "What is Procurement Software?",
@@ -1629,7 +1641,7 @@ const addonsData = [
       title: "Project Management Software",
       subContent:
         "Streamline project execution with a collaborative platform that aligns teams, tracks progress in real time, and keeps every task, timeline, and budget on track—no matter the project size.",
-      image: fieldService, // replace with your actual image reference
+      image: pms,
     },
     overviewSection: {
       title: "What is Project Management Software?",

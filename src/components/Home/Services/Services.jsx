@@ -19,7 +19,7 @@ const Services = () => {
           {cardsData.map((card, index) => (
             <motion.div
               key={card.id}
-              className="relative bg-white py-6 px-6 w-full max-w-sm sm:w-full my-4 shadow-xl rounded-xl mx-auto"
+              className="relative bg-[#e9f0f6] py-6 px-6 w-full max-w-sm sm:w-full my-4 shadow-xl rounded-xl mx-auto"
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, amount: 0.2 }}
@@ -31,13 +31,13 @@ const Services = () => {
                 damping: 18,
               }}
             >
-              <div className="text-white flex items-center absolute rounded-full py-4 px-4 shadow-xl bg-blue-900 left-4 -top-6">
+              <div className="text-white flex items-center absolute rounded-full py-4 px-4 shadow-xl bg-midnight left-4 -top-6">
                 {card.icon}
               </div>
 
               <div className="mt-6">
                 <p className="text-xl font-semibold">{card.title}</p>
-                <p className="text-md text-blue-900 font-medium mb-4">
+                <p className="text-md text-gray-700 font-medium mb-4">
                   {card.subtitle}
                 </p>
                 <div className="border-t border-gray-300 my-2"></div>

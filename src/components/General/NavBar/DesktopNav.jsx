@@ -21,7 +21,7 @@ const DesktopNav = ({
             <div
               key={topIndex}
               onMouseEnter={() => handleMouseEnter(topIndex)}
-              className={`cursor-pointer px-3 text-md font-semibold tracking-wide transition-all ${
+              className={`cursor-pointer px-4 text-md font-semibold tracking-wide transition-all ${
                 isScrolled ? "hover:text-gray-700" : "hover:text-gray-200"
               }`}
             >
@@ -177,7 +177,7 @@ const DesktopNav = ({
         href="/contact"
         className={`ml-4 px-4 py-2 font-semibold tracking-wide rounded transition-all ${
           isScrolled
-            ? "text-white bg-gradient-to-br from-yellow-400 to-yellow-600"
+            ? "text-white bg-yellow-400 hover:bg-yellow-500 hover:text-midnight"
             : "text-white hover:bg-white hover:text-blue-800 hover:rounded-sm"
         }`}
       >

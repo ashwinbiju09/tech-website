@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import navLinks from "./navData"; // your nav data
-import Logo from "../../../assets/logo.png"; // your logo
+import navLinks from "./navData";
+import Logo from "../../../assets/logo.png";
 import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
 

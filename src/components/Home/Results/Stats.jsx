@@ -48,7 +48,7 @@ const Stats = () => {
                       className="w-6 h-6 object-contain"
                     />
                   </div>
-                  <div className="text-5xl md:text-6xl font-bold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text">
+                  <div className="text-5xl md:text-6xl font-bold text-midnight">
                     <CountUp
                       start={0}
                       end={stat.number}
@@ -78,7 +78,7 @@ const Stats = () => {
                       className="w-6 h-6 object-contain"
                     />
                   </div>
-                  <div className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-blue-800 to-blue-500 text-transparent bg-clip-text">
+                  <div className="text-5xl md:text-6xl font-extrabold text-midnight">
                     <CountUp
                       start={0}
                       end={stat.number}

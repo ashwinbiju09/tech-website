@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        midnight: "#0a1f36",
+      },
       fontFamily: {
         sans: ["Questrial", "sans-serif"],
       },

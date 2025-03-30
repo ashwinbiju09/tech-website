@@ -6,7 +6,7 @@ const cardsData = [
     icon: (
       <img
         className="h-8 w-8"
-        src="https://img.icons8.com/ios-filled/50/FFFFFF/database.png"
+        src="https://img.icons8.com/ios-filled/50/fcc800/database.png"
         alt="foundation"
       />
     ),
@@ -26,7 +26,7 @@ const cardsData = [
     icon: (
       <img
         className="h-8 w-8"
-        src="https://img.icons8.com/ios-filled/50/FFFFFF/business.png"
+        src="https://img.icons8.com/ios-filled/50/fcc800/business.png"
         alt="specialized"
       />
     ),
@@ -46,7 +46,7 @@ const cardsData = [
     icon: (
       <img
         className="h-8 w-8"
-        src="https://img.icons8.com/ios-filled/50/FFFFFF/artificial-intelligence.png"
+        src="https://img.icons8.com/ios-filled/50/fcc800/artificial-intelligence.png"
         alt="intelligence"
       />
     ),

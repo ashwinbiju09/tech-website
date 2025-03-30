@@ -48,7 +48,7 @@ const Home = () => {
       <div className="relative bg-white z-30">
         <Services />
       </div>
-      <div className="relative bg-slate-100 z-30">
+      <div className="relative bg-midnight z-30">
         <Contact />
       </div>
       <Footer />

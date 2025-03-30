@@ -5,7 +5,7 @@ const CTAButton = () => {
     <div>
       <a
         href="/contact"
-        className="rounded-sm bg-gradient-to-br from-yellow-400 to-yellow-600 px-6 py-3 text-white font-medium hover:bg-yellow-500 antialiased"
+        className="rounded-sm bg-yellow-400 border-yellow-400 px-6 py-3 text-white font-medium hover:bg-yellow-500 antialiased hover:text-midnight transition-all duration-300"
       >
         Connect with an Expert Today &#8594;
       </a>

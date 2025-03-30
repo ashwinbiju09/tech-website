@@ -16,6 +16,9 @@ const Hero = ({ data }) => {
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
                 {data.title}
               </h1>
+              <p className="mt-4 text-base text-justify sm:text-lg md:text-xl text-gray-300 leading-relaxed">
+                {data.subContent}
+              </p>
 
               <div className="mt-8 flex justify-center lg:justify-start">
                 <CTAButton />

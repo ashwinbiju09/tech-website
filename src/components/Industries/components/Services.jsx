@@ -15,7 +15,7 @@ const Services = ({ data }) => {
       className="relative w-full py-16 px-6 bg-white"
     >
       <div className="relative max-w-screen-xl mx-auto text-gray-900">
-        <h2 className="text-center text-2xl lg:text-4xl font-bold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text">
+        <h2 className="text-center text-2xl lg:text-4xl font-bold text-midnight">
           {data.title}
         </h2>
         <p className="text-center text-lg text-gray-600 mt-2">
@@ -31,11 +31,13 @@ const Services = ({ data }) => {
           >
             {data.services.slice(0, 3).map((service, index) => (
               <div key={index} className="w-full px-4 py-3">
-                <h3 className="text-lg font-semibold">{service.title}</h3>
+                <h3 className="text-lg font-semibold text-midnight">
+                  {service.title}
+                </h3>
                 <p className="text-sm text-gray-600 mt-2">
                   {service.description}
                 </p>
-                <hr className="mt-3 border-gray-300 opacity-50" />
+                <hr className="mt-3 border-yellow-400 opacity-50" />
               </div>
             ))}
           </motion.div>
@@ -61,11 +63,13 @@ const Services = ({ data }) => {
           >
             {data.services.slice(3, 6).map((service, index) => (
               <div key={index} className="w-full px-4 py-3">
-                <h3 className="text-lg font-semibold">{service.title}</h3>
+                <h3 className="text-lg font-semibold text-midnight">
+                  {service.title}
+                </h3>
                 <p className="text-sm text-gray-600 mt-2">
                   {service.description}
                 </p>
-                <hr className="mt-3 border-gray-300 opacity-50" />
+                <hr className="mt-3 border-yellow-400 opacity-50" />
               </div>
             ))}
           </motion.div>

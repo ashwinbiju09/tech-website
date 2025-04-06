@@ -6,7 +6,7 @@ const FAQ = ({ data }) => {
   const isInView = useInView(ref, { triggerOnce: true, threshold: 0.2 });
 
   return (
-    <div className="w-full py-16 bg-gradient-to-b from-blue-950 to-blue-900 text-white">
+    <div className="w-full py-16 bg-midnight text-white">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, x: -100 }}
@@ -54,6 +54,7 @@ const FAQItem = ({ question, answer }) => {
           }`}
           viewBox="0 0 16 16"
           xmlns="http://www.w3.org/2000/svg"
+          fill="white"
         >
           <rect y="7" width="16" height="2" rx="1"></rect>
           <rect

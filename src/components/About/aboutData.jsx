@@ -6,7 +6,7 @@ import Expertise from "../../assets/values/expertise.jpg";
 const featureIcon = (
   <img
     className="h-8 w-8"
-    src="https://img.icons8.com/pastel-glyph/100/FFFFFF/intelligent-person.png"
+    src="https://img.icons8.com/pastel-glyph/100/0a1f36/intelligent-person.png"
     alt="intelligent-person"
   />
 );

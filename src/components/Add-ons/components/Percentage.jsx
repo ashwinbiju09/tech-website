@@ -9,7 +9,7 @@ const Percentage = ({ data }) => {
   return (
     <section className="w-full py-16 bg-white">
       <div className="container mx-auto px-6 lg:px-16 max-w-7xl text-center">
-        <h2 className="text-3xl md:text-4xl font-extrabold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text mb-10">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-midnight mb-10">
           {data.title}
         </h2>
 
@@ -19,7 +19,7 @@ const Percentage = ({ data }) => {
         >
           {data.stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center space-y-6">
-              <p className="text-5xl md:text-6xl lg:text-7xl font-extrabold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text">
+              <p className="text-5xl md:text-6xl lg:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-midnight via-blue-800 to-blue-600">
                 {isInView ? (
                   <CountUp start={0} end={stat.number} duration={3} />
                 ) : (

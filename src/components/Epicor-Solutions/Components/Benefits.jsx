@@ -14,7 +14,7 @@ const Benefits = ({ data }) => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4, ease: "easeOut" }}
-          className="text-center text-4xl font-extrabold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text mb-12"
+          className="text-center text-4xl font-extrabold text-midnight mb-12"
         >
           {data.title}
         </motion.h2>

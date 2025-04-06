@@ -12,7 +12,7 @@ const Features = ({ data }) => {
         initial={{ opacity: 0, x: -100 }}
         animate={isInView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="lg:w-1/3 bg-gradient-to-b from-blue-950 to-blue-900 text-white p-8 flex items-center"
+        className="lg:w-1/3 bg-midnight text-yellow-400 p-8 flex items-center"
       >
         <h2 className="text-2xl font-extrabold">{data.title}</h2>
       </motion.div>
@@ -36,7 +36,7 @@ const Features = ({ data }) => {
               }}
               className="flex flex-col items-center text-center"
             >
-              <div className="w-14 h-14 flex items-center justify-center bg-gray-300 rounded-full mb-3">
+              <div className="w-14 h-14 flex items-center justify-center bg-yellow-400 rounded-full mb-3">
                 {feature.icon}
               </div>
               <p className="text-gray-700 font-medium">{feature.name}</p>

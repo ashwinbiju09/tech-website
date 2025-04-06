@@ -72,11 +72,7 @@ const Navigation = () => {
             <li key={item.id}>
               <button
                 onClick={() => scrollToSection(item.id)}
-                className={`px-4 py-1 transition-all duration-300 ${
-                  activeSection === item.id
-                    ? "text-blue-900 border-blue-900"
-                    : "hover:text-blue-700"
-                }`}
+                className="px-4 py-1 transition-all duration-300 hover:text-yellow-400"
               >
                 {item.label}
               </button>

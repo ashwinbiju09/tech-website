@@ -37,7 +37,7 @@ const DesktopNav = ({
               className="
                 absolute top-full left-1/2
                 -translate-x-1/2
-                bg-gradient-to-br from-slate-100 to-slate-300
+              bg-midnight
                 shadow-lg pointer-events-auto
                 min-w-[60rem]
                 max-h-[600px]
@@ -52,7 +52,7 @@ const DesktopNav = ({
                     if (sub.Heading) {
                       return (
                         <div key={subIndex} className="px-2">
-                          <div className="py-2 text-sm font-extrabold text-black border-slate-300">
+                          <div className="py-2 text-sm font-medium text-white border-slate-300 ">
                             {sub.Heading}
                           </div>
                           {sub.subMenu?.map((child, childIndex) => (
@@ -64,12 +64,11 @@ const DesktopNav = ({
                                   child: childIndex,
                                 })
                               }
-                              className="group relative cursor-pointer px-4 py-2 ml-2 text-sm font-semibold text-black overflow-hidden"
+                              className="group relative cursor-pointer px-4 py-2 ml-2 text-sm font-medium text-white hover:text-blue-800 hover:bg-yellow-400 hover:font-semibold"
                             >
-                              <span className="relative z-10 group-hover:text-white">
+                              <span className="relative z-10">
                                 {child.name}
                               </span>
-                              <span className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-sm scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0"></span>
                             </div>
                           ))}
                         </div>
@@ -80,10 +79,10 @@ const DesktopNav = ({
                       <div
                         key={subIndex}
                         onMouseEnter={() => handleSubMouseEnter(subIndex)}
-                        className="group relative cursor-pointer px-2 py-2 text-sm font-semibold text-black hover:text-white overflow-hidden"
+                        className="group relative cursor-pointer px-2 py-2 text-sm font-medium text-white hover:text-blue-800 hover:bg-yellow-400 hover:font-semibold overflow-hidden"
                       >
                         <span className="relative z-10">{sub.name}</span>
-                        <span className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-sm scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0"></span>
+                        {/* <span className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-sm scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0"></span> */}
                       </div>
                     );
                   })}
@@ -130,7 +129,7 @@ const DesktopNav = ({
                                   <a
                                     key={i}
                                     href={item.path || "#"}
-                                    className="block px-4 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-slate-200 whitespace-nowrap"
+                                    className="block px-4 py-2 text-sm font-medium text-white hover:text-blue-800 hover:bg-yellow-400 hover:font-semibold whitespace-nowrap"
                                   >
                                     {item.name || item}
                                   </a>
@@ -141,7 +140,7 @@ const DesktopNav = ({
                                   <a
                                     key={i}
                                     href={item.path || "#"}
-                                    className="block px-4 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-slate-200 whitespace-nowrap"
+                                    className="block px-4 py-2 text-sm font-medium text-white hover:text-blue-800 hover:bg-yellow-400 hover:font-semibold whitespace-nowrap"
                                   >
                                     {item.name || item}
                                   </a>
@@ -157,7 +156,7 @@ const DesktopNav = ({
                               <a
                                 key={i}
                                 href={item.path || "#"}
-                                className="block px-4 py-2 text-sm font-semibold text-black hover:text-blue-800 hover:bg-slate-200 whitespace-nowrap"
+                                className="block px-4 py-2 text-sm font-medium text-white hover:text-blue-800 hover:bg-yellow-400 hover:font-semibold whitespace-nowrap"
                               >
                                 {item.name || item}
                               </a>
@@ -175,11 +174,19 @@ const DesktopNav = ({
 
       <a
         href="/contact"
-        className={`ml-4 px-4 py-2 font-semibold tracking-wide rounded transition-all ${
-          isScrolled
-            ? "text-white bg-yellow-400 hover:bg-yellow-500 hover:text-midnight"
-            : "text-white hover:bg-white hover:text-blue-800 hover:rounded-sm"
-        }`}
+        className={`ml-4 px-4 py-2 font-semibold tracking-wide rounded-sm relative overflow-hidden transition-all duration-300 z-10
+    ${
+      isScrolled
+        ? "text-yellow-400 border-2 border-yellow-400 hover:text-midnight"
+        : "text-white hover:text-blue-800"
+    }
+    before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:transition-all before:duration-300 before:z-[-1]
+    ${
+      isScrolled
+        ? "before:bg-yellow-400 hover:before:w-full"
+        : "hover:before:bg-white hover:before:w-full"
+    }
+  `}
       >
         Contact Us
       </a>

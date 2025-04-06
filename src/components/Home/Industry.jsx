@@ -99,36 +99,19 @@ const Industry = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 200 }}
               >
-                {/* Icon Circle */}
-                <div
-                  className={`w-24 h-24 rounded-full flex items-center justify-center mb-4 transition-all duration-300 ${
-                    isHovered
-                      ? "bg-white border border-yellow-500 shadow-yellow-500 shadow-lg"
-                      : "bg-white border border-transparent shadow-sm"
-                  }`}
-                  style={{
-                    boxShadow: isHovered
-                      ? "0 0 20px rgba(234, 179, 8, 0.6)" // yellow-500 glow
-                      : "0 2px 8px rgba(0, 0, 0, 0.05)",
-                  }}
-                >
-                  {/* Icon */}
+                <div className="w-24 h-24 rounded-full flex items-center justify-center mb-4 transition-all duration-300 bg-white">
                   <img
                     src={industry.icon}
                     alt={industry.title}
                     className="h-10 w-10 transition-all duration-300"
                     style={{
                       filter: isHovered
-                        ? // yellow-500
-                          "brightness(0) saturate(100%) invert(74%) sepia(68%) saturate(4662%) hue-rotate(360deg) brightness(99%) contrast(100%)"
-                        : // midnight color approx
-                          "brightness(0) saturate(100%) invert(8%) sepia(20%) saturate(2000%) hue-rotate(185deg) brightness(100%) contrast(90%)",
+                        ? "brightness(0) saturate(100%) invert(9%) sepia(91%) saturate(461%) hue-rotate(183deg) brightness(97%) contrast(96%)"
+                        : "brightness(0) saturate(100%) invert(74%) sepia(68%) saturate(4662%) hue-rotate(360deg) brightness(99%) contrast(100%)",
                     }}
                   />
                 </div>
-
-                {/* Title */}
-                <h3 className="text-sm md:text-lg font-semibold text-black px-2 min-h-[40px] flex items-center justify-center">
+                <h3 className="text-sm md:text-lg font-semibold text-midnight px-2 min-h-[40px] flex items-center justify-center">
                   {industry.title}
                 </h3>
               </motion.div>

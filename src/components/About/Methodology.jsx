@@ -63,7 +63,7 @@ const Methodology = () => {
                 </h4>
                 <h3
                   className={`text-2xl font-bold transition-colors duration-300 ${
-                    hoveredLayer === index ? "text-blue-700" : "text-gray-800"
+                    hoveredLayer === index ? "text-yellow-400" : "text-gray-800"
                   }`}
                 >
                   {layer.heading}

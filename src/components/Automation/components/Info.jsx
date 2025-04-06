@@ -21,7 +21,7 @@ const Info = ({ data }) => {
             </div>
 
             <div>
-              <h2 className="text-3xl font-extrabold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text">
+              <h2 className="text-3xl font-extrabold text-midnight">
                 {data.title}
               </h2>
               <p className="mt-4 text-gray-600">{data.description}</p>

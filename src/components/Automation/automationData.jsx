@@ -33,7 +33,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-ddara-lineal-ddara/64/FFFFFF/external-decision-making-managements-ddara-lineal-ddara.png"
+              src="https://img.icons8.com/external-ddara-lineal-ddara/64/0a1f36/external-decision-making-managements-ddara-lineal-ddara.png"
               alt="external-decision-making-managements-ddara-lineal-ddara"
             />
           ),
@@ -45,7 +45,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/FFFFFF/collaborating-in-circle.png"
+              src="https://img.icons8.com/ios-filled/64/0a1f36/collaborating-in-circle.png"
               alt="collaborating-in-circle"
             />
           ),
@@ -57,7 +57,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/FFFFFF/invisible.png"
+              src="https://img.icons8.com/ios-filled/64/0a1f36/invisible.png"
               alt="invisible"
             />
           ),
@@ -69,7 +69,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/FFFFFF/fingerprint-accepted.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/0a1f36/fingerprint-accepted.png"
               alt="fingerprint-accepted"
             />
           ),
@@ -81,7 +81,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/FFFFFF/globe--v1.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/0a1f36/globe--v1.png"
               alt="globe--v1"
             />
           ),
@@ -93,7 +93,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-others-pike-picture/64/FFFFFF/external-System-Integration-system-others-pike-picture.png"
+              src="https://img.icons8.com/external-others-pike-picture/64/0a1f36/external-System-Integration-system-others-pike-picture.png"
               alt="external-System-Integration-system-others-pike-picture"
             />
           ),
@@ -208,7 +208,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/FFFFFF/process.png"
+              src="https://img.icons8.com/ios-filled/64/0a1f36/process.png"
               alt="process"
             />
           ),
@@ -220,7 +220,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/FFFFFF/cloud-database.png"
+              src="https://img.icons8.com/ios-filled/64/0a1f36/cloud-database.png"
               alt="cloud-database"
             />
           ),
@@ -232,7 +232,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/quill/64/FFFFFF/backend-development.png"
+              src="https://img.icons8.com/quill/64/0a1f36/backend-development.png"
               alt="backend-development"
             />
           ),
@@ -244,7 +244,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/FFFFFF/settings-3.png"
+              src="https://img.icons8.com/ios-filled/64/0a1f36/settings-3.png"
               alt="settings-3"
             />
           ),
@@ -256,7 +256,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/FFFFFF/cyber-security.png"
+              src="https://img.icons8.com/ios-filled/64/0a1f36/cyber-security.png"
               alt="cyber-security"
             />
           ),
@@ -268,7 +268,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/FFFFFF/bullet-camera.png"
+              src="https://img.icons8.com/ios-filled/64/0a1f36/bullet-camera.png"
               alt="bullet-camera"
             />
           ),
@@ -383,7 +383,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/FFFFFF/external-data-preprocessing-data-engineering-outline-outline-black-m-oki-orlando.png"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/0a1f36/external-data-preprocessing-data-engineering-outline-outline-black-m-oki-orlando.png"
               alt="external-data-preprocessing-data-engineering-outline-outline-black-m-oki-orlando"
             />
           ),
@@ -395,7 +395,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/FFFFFF/add-rule.png"
+              src="https://img.icons8.com/ios-filled/64/0a1f36/add-rule.png"
               alt="add-rule"
             />
           ),
@@ -407,7 +407,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/FFFFFF/external-data-extraction-data-engineering-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/0a1f36/external-data-extraction-data-engineering-solid-solidglyph-m-oki-orlando.png"
               alt="external-data-extraction-data-engineering-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -419,7 +419,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/FFFFFF/external-data-validation-data-engineering-outline-outline-black-m-oki-orlando.png"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/0a1f36/external-data-validation-data-engineering-outline-outline-black-m-oki-orlando.png"
               alt="external-data-validation-data-engineering-outline-outline-black-m-oki-orlando"
             />
           ),
@@ -431,7 +431,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/FFFFFF/sync-settings.png"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/sync-settings.png"
               alt="sync-settings"
             />
           ),
@@ -443,7 +443,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/FFFFFF/private2.png"
+              src="https://img.icons8.com/ios-filled/64/0a1f36/private2.png"
               alt="private2"
             />
           ),
@@ -558,7 +558,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/FFFFFF/external-classification-data-science-outline-outline-black-m-oki-orlando.png"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/0a1f36/external-classification-data-science-outline-outline-black-m-oki-orlando.png"
               alt="external-classification-data-science-outline-outline-black-m-oki-orlando"
             />
           ),
@@ -570,7 +570,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/FFFFFF/process--v1.png"
+              src="https://img.icons8.com/ios/64/0a1f36/process--v1.png"
               alt="process--v1"
             />
           ),
@@ -582,7 +582,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/FFFFFF/for-experienced.png"
+              src="https://img.icons8.com/ios-filled/64/0a1f36/for-experienced.png"
               alt="for-experienced"
             />
           ),
@@ -594,7 +594,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/FFFFFF/side-gate-closed.png"
+              src="https://img.icons8.com/ios-glyphs/64/0a1f36/side-gate-closed.png"
               alt="side-gate-closed"
             />
           ),
@@ -606,7 +606,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/64/FFFFFF/external-social-social-media-basic-others-anggara-putra-36.png"
+              src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/64/0a1f36/external-social-social-media-basic-others-anggara-putra-36.png"
               alt="external-social-social-media-basic-others-anggara-putra-36"
             />
           ),
@@ -618,7 +618,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/FFFFFF/private-lock.png"
+              src="https://img.icons8.com/ios-glyphs/64/0a1f36/private-lock.png"
               alt="private-lock"
             />
           ),
@@ -733,7 +733,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/FFFFFF/autopilot.png"
+              src="https://img.icons8.com/windows/64/0a1f36/autopilot.png"
               alt="autopilot"
             />
           ),
@@ -745,7 +745,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/FFFFFF/automatic.png"
+              src="https://img.icons8.com/ios/64/0a1f36/automatic.png"
               alt="automatic"
             />
           ),
@@ -757,7 +757,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/FFFFFF/fliki.png"
+              src="https://img.icons8.com/ios/64/0a1f36/fliki.png"
               alt="fliki"
             />
           ),
@@ -769,7 +769,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/FFFFFF/ai-chatting.png"
+              src="https://img.icons8.com/ios/64/0a1f36/ai-chatting.png"
               alt="ai-chatting"
             />
           ),
@@ -781,7 +781,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/FFFFFF/external-scalable-start-it-up-parzival-1997-detailed-outline-parzival-1997.png"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/0a1f36/external-scalable-start-it-up-parzival-1997-detailed-outline-parzival-1997.png"
               alt="external-scalable-start-it-up-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
@@ -793,7 +793,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-ddara-lineal-ddara/64/FFFFFF/external-resilience-leadership-success-business-skill-reaction-strong-life-skills-ddara-lineal-ddara.png"
+              src="https://img.icons8.com/external-ddara-lineal-ddara/64/0a1f36/external-resilience-leadership-success-business-skill-reaction-strong-life-skills-ddara-lineal-ddara.png"
               alt="external-resilience-leadership-success-business-skill-reaction-strong-life-skills-ddara-lineal-ddara"
             />
           ),

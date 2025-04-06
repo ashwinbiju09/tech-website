@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Hero = ({ data }) => {
   return (
     <>
-      <div className="w-full bg-gradient-to-b from-blue-950 to-blue-900 py-16 relative">
+      <div className="w-full bg-midnight py-16 relative">
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}

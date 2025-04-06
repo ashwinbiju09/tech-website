@@ -85,7 +85,7 @@ const Contact = () => {
             <div>
               <label className="text-sm text-white block mb-1">Message</label>
               <textarea
-                placeholder="TTell us about your enterprise integration needs, challenges, or project vision..."
+                placeholder="Tell us about your enterprise integration needs, challenges, or project vision..."
                 rows={1}
                 className="w-full p-4 rounded-sm border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
               />

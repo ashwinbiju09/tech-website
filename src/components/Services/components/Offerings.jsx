@@ -21,7 +21,7 @@ const Offerings = ({ data }) => {
           initial={{ opacity: 0, y: -20 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.4, ease: "easeOut" }}
-          className="text-3xl font-extrabold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text mb-8 text-center"
+          className="text-3xl font-extrabold text-midnight mb-8 text-center"
         >
           Offerings
         </motion.h2>
@@ -40,8 +40,8 @@ const Offerings = ({ data }) => {
                 }}
                 className={`w-full py-2 text-lg font-medium text-left transition-all ${
                   selectedDepartment.title === department.title
-                    ? "text-blue-900 font-semibold border-l-4 border-blue-700 pl-3"
-                    : "text-gray-700 hover:text-blue-700 pl-3"
+                    ? "text-midnight font-semibold border-l-4 border-midnight pl-3"
+                    : "text-gray-700 hover:text-midnight pl-3"
                 }`}
                 onClick={() => setSelectedDepartment(department)}
                 onMouseEnter={() => setSelectedDepartment(department)}
@@ -58,7 +58,7 @@ const Offerings = ({ data }) => {
             transition={{ duration: 0.5, ease: "easeOut" }}
             className="lg:w-3/4 p-8"
           >
-            <h3 className="text-2xl font-bold text-blue-900">
+            <h3 className="text-2xl font-bold text-midnight">
               {selectedDepartment.title}
             </h3>
             <p className="mt-2 text-lg text-gray-700">

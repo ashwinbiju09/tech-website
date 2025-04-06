@@ -21,7 +21,7 @@ const Info = ({ data }) => {
             </div>
 
             <div>
-              <h2 className="text-3xl font-extrabold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text">
+              <h2 className="text-3xl font-extrabold bg-midnight text-transparent bg-clip-text">
                 {data.infoTitle}
               </h2>
               <p className="mt-4 text-gray-600">{data.subContent}</p>
@@ -32,7 +32,7 @@ const Info = ({ data }) => {
                     key={index}
                     className="grid grid-cols-[auto_1fr] gap-6 items-start"
                   >
-                    <div className="w-12 h-12 flex items-center justify-center bg-blue-600 rounded-full p-2 shrink-0">
+                    <div className="w-12 h-12 flex items-center justify-center bg-midnight rounded-full p-2 shrink-0">
                       {feature.icon}
                     </div>
 

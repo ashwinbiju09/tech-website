@@ -10,7 +10,7 @@ const Expertise = ({ data }) => {
   }
 
   return (
-    <div className="pt-6 pb-10 bg-gradient-to-b from-blue-950 to-blue-900">
+    <div className="pt-6 pb-10 bg-midnight">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, scale: 0.9 }}
@@ -41,7 +41,7 @@ const Expertise = ({ data }) => {
                 }}
                 className="relative bg-white py-6 px-6 w-full max-w-md my-4 shadow-xl rounded-md"
               >
-                <div className="text-white flex items-center absolute rounded-full py-4 px-4 shadow-xl bg-blue-900 left-4 -top-6">
+                <div className="text-white flex items-center absolute rounded-full py-4 px-4 shadow-xl bg-yellow-400 left-4 -top-6">
                   {item.icon}
                 </div>
                 <div className="mt-8">

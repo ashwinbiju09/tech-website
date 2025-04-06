@@ -4,7 +4,7 @@ import CTAButton from "../../General/CTAButton";
 
 const Hero = ({ data }) => {
   return (
-    <div className="relative w-full bg-gradient-to-b from-blue-950 to-blue-900">
+    <div className="relative w-full bg-midnight">
       <motion.div
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}

@@ -47,7 +47,7 @@ const OtherServices = ({ data, currentService, navLinks }) => {
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
             className="mt-16"
           >
-            <h3 className="text-center text-3xl font-bold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text mb-8">
+            <h3 className="text-center text-3xl font-bold text-midnight mb-8">
               Explore Other Services
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -62,14 +62,14 @@ const OtherServices = ({ data, currentService, navLinks }) => {
                     delay: index * 0.1,
                   }}
                   whileHover={{ scale: 1.05 }}
-                  className="p-6 border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition"
+                  className="p-6 border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition bg-slate-100"
                 >
-                  <div className="text-blue-900 text-2xl font-semibold mb-3">
+                  <div className="text-midnight text-2xl font-semibold mb-3">
                     {service.name}
                   </div>
                   <a
                     href={service.path}
-                    className="text-blue-600 font-semibold hover:underline"
+                    className="text-yellow-400 font-semibold hover:underline"
                   >
                     Learn More →
                   </a>

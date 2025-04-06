@@ -20,11 +20,8 @@ const Values = () => {
                 transition={{ duration: 1.2, ease: "easeInOut" }}
               >
                 <div className="flex-1">
-                  <h2 className="text-4xl md:text-7xl font-bold text-gray-500 mb-6">
-                    Who{" "}
-                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-950 to-blue-700">
-                      we
-                    </span>{" "}
+                  <h2 className="text-4xl md:text-7xl font-bold text-midnight mb-6">
+                    Who <span className="bg-clip-text text-yellow-400">we</span>{" "}
                     are
                     <span className="text-gray-500"> ?</span>
                   </h2>
@@ -52,7 +49,7 @@ const Values = () => {
             return (
               <motion.div
                 key={index}
-                className="w-full py-16 px-6 lg:px-28 bg-gradient-to-r from-blue-950 to-blue-900 text-white"
+                className="w-full py-16 px-6 lg:px-28 bg-midnight text-white"
                 initial={{ opacity: 0, y: 100 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
@@ -60,7 +57,7 @@ const Values = () => {
               >
                 <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
                   <motion.h3
-                    className="text-4xl md:text-7xl font-bold text-white flex-1 text-center"
+                    className="text-4xl md:text-7xl font-bold text-yellow-400 flex-1 text-center"
                     initial={{ scale: 0.8, opacity: 0 }}
                     whileInView={{ scale: 1, opacity: 1 }}
                     viewport={{ once: true, amount: 0.3 }}
@@ -103,7 +100,7 @@ const Values = () => {
                     viewport={{ once: true, amount: 0.3 }}
                     transition={{ duration: 1, ease: "easeInOut", delay: 0.2 }}
                   >
-                    <h3 className="text-4xl md:text-6xl font-bold bg-gradient-to-b from-blue-800 to-blue-500 text-transparent bg-clip-text mb-6 leading-tight">
+                    <h3 className="text-4xl md:text-6xl font-bold text-midnight mb-6 leading-tight">
                       {item.title}
                     </h3>
                     <p className="text-gray-600 text-lg leading-loose">

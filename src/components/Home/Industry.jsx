@@ -6,50 +6,52 @@ const industries = [
   {
     title: "Retail",
     icon: "https://img.icons8.com/ios-filled/50/FFFFFF/shopping-bag.png",
+    path: "/industries/fashion-and-apparel",
   },
   {
     title: "Consumer Products",
     icon: "https://img.icons8.com/ios-filled/50/FFFFFF/product.png",
-  },
-  {
-    title: "Engineering & Construction",
-    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/engineering.png",
-  },
-  {
-    title: "Healthcare",
-    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/stethoscope.png",
-  },
-  {
-    title: "Professional Services",
-    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/conference.png",
+    path: "/industries/food-beverages",
   },
   {
     title: "Manufacturing",
     icon: "https://img.icons8.com/ios-filled/50/FFFFFF/factory.png",
+    path: "/industries/automotive-manufacturing",
   },
   {
-    title: "Energy",
+    title: "Engineering & Construction",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/engineering.png",
+    path: "/industries/engineering-construction-operations",
+  },
+  {
+    title: "Oil, Gas, & Energy",
     icon: "https://img.icons8.com/ios-filled/50/FFFFFF/electricity.png",
+    path: "/industries/power-generation",
   },
   {
-    title: "Automotive",
-    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/car--v1.png",
+    title: "Professional Services",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/conference.png",
+    path: "/industries/information-technology",
   },
   {
-    title: "Government",
-    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/city-hall.png",
+    title: "Life Sciences & Healthcare",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/stethoscope.png",
+    path: "/industries/pharmaceutical-biotech",
   },
   {
-    title: "Telecom",
-    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/phone.png",
+    title: "Banking & Financial Services",
+    icon: "https://img.icons8.com/ios-filled/50/FFFFFF/money-bag.png",
+    path: "/industries/banking",
   },
   {
     title: "Education",
     icon: "https://img.icons8.com/ios-filled/50/FFFFFF/graduation-cap.png",
+    path: "/industries/business-information-services",
   },
   {
-    title: "Technology",
+    title: "High-Tech",
     icon: "https://img.icons8.com/ios-filled/50/FFFFFF/processor.png",
+    path: "/industries/computer-peripherals",
   },
 ];
 
@@ -80,7 +82,7 @@ const Industry = () => {
         </p>
 
         <motion.div
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 place-items-start"
+          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 place-items-start"
           variants={containerVariants}
           initial="hidden"
           whileInView="show"
@@ -100,16 +102,18 @@ const Industry = () => {
                 transition={{ type: "spring", stiffness: 200 }}
               >
                 <div className="w-24 h-24 rounded-full flex items-center justify-center mb-4 transition-all duration-300 bg-white">
-                  <img
-                    src={industry.icon}
-                    alt={industry.title}
-                    className="h-10 w-10 transition-all duration-300"
-                    style={{
-                      filter: isHovered
-                        ? "brightness(0) saturate(100%) invert(9%) sepia(91%) saturate(461%) hue-rotate(183deg) brightness(97%) contrast(96%)"
-                        : "brightness(0) saturate(100%) invert(74%) sepia(68%) saturate(4662%) hue-rotate(360deg) brightness(99%) contrast(100%)",
-                    }}
-                  />
+                  <a href={industry.path}>
+                    <img
+                      src={industry.icon}
+                      alt={industry.title}
+                      className="h-10 w-10 transition-all duration-300"
+                      style={{
+                        filter: isHovered
+                          ? "brightness(0) saturate(100%) invert(9%) sepia(91%) saturate(461%) hue-rotate(183deg) brightness(97%) contrast(96%)"
+                          : "brightness(0) saturate(100%) invert(74%) sepia(68%) saturate(4662%) hue-rotate(360deg) brightness(99%) contrast(100%)",
+                      }}
+                    />
+                  </a>
                 </div>
                 <h3 className="text-sm md:text-lg font-semibold text-midnight px-2 min-h-[40px] flex items-center justify-center">
                   {industry.title}

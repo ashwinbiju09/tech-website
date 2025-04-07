@@ -7,11 +7,26 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
+    const MIN_LOADING_TIME = 1000;
+    const startTime = Date.now();
 
-    return () => clearTimeout(timer);
+    const handlePageLoad = () => {
+      const elapsed = Date.now() - startTime;
+      const remainingTime = MIN_LOADING_TIME - elapsed;
+
+      if (remainingTime > 0) {
+        setTimeout(() => setIsLoading(false), remainingTime);
+      } else {
+        setIsLoading(false);
+      }
+    };
+
+    if (document.readyState === "complete") {
+      handlePageLoad();
+    } else {
+      window.addEventListener("load", handlePageLoad);
+      return () => window.removeEventListener("load", handlePageLoad);
+    }
   }, []);
 
   return (

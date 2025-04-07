@@ -33,15 +33,15 @@ const Stats = () => {
   return (
     <motion.div
       ref={statsRef}
-      className="w-full py-12 px-16"
+      className="w-full py-12 px-4 lg:px-16"
       initial={{ opacity: 0, y: 100 }}
       animate={controls}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <div className="grid grid-cols-5 gap-2 bg-gradient-t from bg-slate-200 to-slate-100 rounded-2xl shadow-md py-10">
+      <div className="grid grid-cols-5 gap-2 bg-ice rounded-md shadow-xl py-10">
         {statsData.map((stat) => (
           <div key={stat.id} className="flex flex-col items-center text-center">
-            <div className="text-7xl font-semibold bg-clip-text text-transparent bg-gradient-to-b from-midnight via-blue-800 to-blue-600">
+            <div className="text-2xl md:text-5xl lg:text-7xl font-semibold bg-clip-text text-transparent bg-gradient-to-b from-midnight via-blue-800 to-blue-600">
               <CountUp
                 start={0}
                 end={stat.number}
@@ -52,13 +52,13 @@ const Stats = () => {
               {stat.symbol}
             </div>
             <div className="flex items-center justify-center text-xs text-gray-500 font-medium pt-2 space-x-1">
-              <span className="text-xl font-medium text-midnight pr-1">
+              <span className="text-md md:text-lg lg:text-xl font-medium text-midnight pr-1">
                 {stat.title}
               </span>
               <img
                 src={stat.icon}
                 alt={stat.title}
-                className="w-4 h-4 object-contain"
+                className="hidden lg:block w-4 h-4 object-contain"
               />
             </div>
           </div>

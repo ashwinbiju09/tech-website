@@ -24,10 +24,10 @@ const Scroll = () => {
   return (
     <div className="relative w-full z-20 md:py-12 lg:pb-16 lg:pt-4">
       <Title data={"Technology Offerings"} />
-      <div className="w-full py-2 lg:py-8 px-4 md:px-24">
+      <div className="w-full py-2 lg:py-8 px-4 lg:px-16">
         <div className="border-b-2 px-4 py-6 rounded-md shadow-xl">
           <div className="flex overflow-hidden space-x-12 group h-14">
-            <div className="flex space-x-12 animate-loop-scroll group-hover:paused">
+            <div className="flex space-x-4 md:space-x-12 animate-loop-scroll group-hover:paused">
               {logos.map((logo, index) => (
                 <img
                   key={index}
@@ -40,7 +40,7 @@ const Scroll = () => {
             </div>
 
             <div
-              className="flex space-x-12 animate-loop-scroll group-hover:paused"
+              className="flex space-x-4 md:space-x-12 animate-loop-scroll group-hover:paused"
               aria-hidden="true"
             >
               {logos.map((logo, index) => (

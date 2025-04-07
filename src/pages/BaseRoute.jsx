@@ -9,6 +9,7 @@ import Addons from "./Addons";
 import Automation from "./Automation";
 import Services from "./Services";
 import Contact from "./Contact";
+import Privacy from "./Privacy";
 
 const BaseRoute = () => {
   return (
@@ -17,6 +18,7 @@ const BaseRoute = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<Privacy />} />
 
         <Route path="/industries/:slug" element={<Industries />} />
 

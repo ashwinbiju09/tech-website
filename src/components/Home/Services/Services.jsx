@@ -19,7 +19,7 @@ const Services = () => {
           {cardsData.map((card, index) => (
             <motion.div
               key={card.id}
-              className="relative bg-[#e9f0f6] py-6 px-6 w-full max-w-sm sm:w-full my-4 shadow-xl rounded-xl mx-auto"
+              className="relative bg-ice py-6 px-6 w-full max-w-sm sm:w-full my-4 shadow-xl rounded-xl mx-auto"
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, amount: 0.2 }}

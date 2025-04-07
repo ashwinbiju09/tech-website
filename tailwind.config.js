@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         midnight: "#0a1f36",
+        ice: "#e9f0f6",
       },
       fontFamily: {
         sans: ["Questrial", "sans-serif"],

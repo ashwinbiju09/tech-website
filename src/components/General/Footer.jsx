@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 import navLinks from "../General/NavBar/navData";
+
+const footerLinkPaths = {
+  "Why Us": "/about",
+  "Privacy Policy": "/privacy-policy",
+};
+
 const transformNavLinksToFooterMenu = (navLinks) => {
   const footerMenuItems = [];
 
   navLinks.forEach((link) => {
+    if (link.name === "Why Us") return;
+
+    const links = [];
+
     if (link.subMenu) {
-      const links = [];
       link.subMenu.forEach((subLink) => {
         if (subLink.subMenu) {
           subLink.subMenu.forEach((nestedSubLink) => {
@@ -21,36 +30,52 @@ const transformNavLinksToFooterMenu = (navLinks) => {
           links.push(subLink.name);
         }
       });
-      footerMenuItems.push({
-        title: link.name,
-        links: links,
-      });
     } else {
-      footerMenuItems.push({
-        title: link.name,
-        links: [link.name],
-      });
+      links.push(link.name);
     }
+
+    footerMenuItems.push({
+      title: link.name,
+      links: links,
+    });
+  });
+
+  footerMenuItems.push({
+    title: "Quick Links",
+    links: ["Why Us", "Privacy Policy"],
   });
 
   return footerMenuItems;
 };
 
 const Footer = () => {
-  const [expandedMenus, setExpandedMenus] = useState({});
+  const [linkCountByMenu, setLinkCountByMenu] = useState({});
 
   const menuItems = transformNavLinksToFooterMenu(navLinks);
 
-  const toggleShowMore = (title) => {
-    setExpandedMenus((prev) => ({
-      ...prev,
-      [title]: !prev[title],
-    }));
+  const toggleShowMore = (title, totalLinks) => {
+    setLinkCountByMenu((prev) => {
+      const currentCount = prev[title] || 5;
+      let newCount = currentCount + 5;
+
+      if (newCount >= totalLinks) {
+        newCount = totalLinks;
+      }
+
+      if (currentCount === totalLinks) {
+        newCount = 5;
+      }
+
+      return {
+        ...prev,
+        [title]: newCount,
+      };
+    });
   };
 
   return (
     <div className="relative z-20">
-      <footer className="px-4 pt-8 pb-8 bg-gradient-to-br from-slate-100 to-slate-300 text-gray-800">
+      <footer className="px-4 pt-8 pb-8 bg-ice text-gray-800">
         <div className="container mx-auto grid gap-10 lg:grid-cols-6">
           <div className="lg:col-span-2 pl-4">
             <a href="/" className="inline-flex items-center">
@@ -79,10 +104,11 @@ const Footer = () => {
               </a>
             </div>
           </div>
+
           <div className="grid grid-cols-2 gap-5 lg:col-span-4 md:grid-cols-4">
             {menuItems.map(({ title, links }) => {
-              const isExpanded = expandedMenus[title];
-              const visibleLinks = isExpanded ? links : links.slice(0, 5);
+              const currentCount = linkCountByMenu[title] || 5;
+              const visibleLinks = links.slice(0, currentCount);
               const hasMoreLinks = links.length > 5;
 
               return (
@@ -94,7 +120,10 @@ const Footer = () => {
                     {visibleLinks.map((link) => (
                       <li key={link}>
                         <a
-                          href={link}
+                          href={
+                            footerLinkPaths[link] ||
+                            `/${link.toLowerCase().replace(/\s+/g, "-")}`
+                          }
                           className="text-gray-600 transition-colors duration-300 hover:text-blue-900"
                         >
                           {link}
@@ -104,10 +133,12 @@ const Footer = () => {
                     {hasMoreLinks && (
                       <li>
                         <button
-                          onClick={() => toggleShowMore(title)}
+                          onClick={() => toggleShowMore(title, links.length)}
                           className="text-blue-600 hover:text-blue-900 focus:outline-none"
                         >
-                          {isExpanded ? "Show Less" : "Show More"}
+                          {currentCount >= links.length
+                            ? "Show Less"
+                            : "Show More"}
                         </button>
                       </li>
                     )}

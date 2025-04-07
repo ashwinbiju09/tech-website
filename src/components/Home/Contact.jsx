@@ -1,18 +1,18 @@
 import React from "react";
-import { Mail, Send, User, FileText, MessageSquare } from "lucide-react";
-import Title from "./Title";
+import { Mail, Send, User, FileText } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="relative z-20 py-12 px-4 ">
-      <h2 className="text-4xl font-semibold tracking-wide md:text-[45px] md:font-[600] py-4 md:tracking-[-2px] text-center text-white">
+    <div className="relative z-20 py-12 px-4 bg-midnight text-white">
+      <h2 className="text-3xl sm:text-4xl md:text-[45px] font-semibold tracking-wide md:font-[600] py-4 md:tracking-[-2px] text-center">
         We are here to help you
       </h2>
-      <div className="max-w-6xl mx-auto overflow-hidden flex flex-col md:flex-row">
-        <div className=" text-white p-8 md:p-12 md:w-2/5 flex flex-col justify-between">
+
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 md:gap-20 px-2">
+        <div className="p-4 md:p-8 md:w-2/5 flex flex-col justify-between">
           <div>
-            <h2 className="text-3xl font-bold mb-4">Let’s Create Together</h2>
-            <p className="text-white text-lg mb-10">
+            <h3 className="text-2xl font-bold mb-4">Let’s Create Together</h3>
+            <p className="text-white text-base md:text-lg mb-10">
               Struggling with intricate system integrations, aiming to
               streamline enterprise workflows, or imagining a smarter business
               landscape? We're your bridge from where you are to
@@ -38,56 +38,54 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="p-8 md:p-12 md:w-3/5">
-          <h3 className="text-2xl font-semibold text-white mb-6">
+        <div className="p-4 md:p-8 md:w-3/5">
+          <h3 className="text-xl sm:text-2xl font-semibold text-white mb-6">
             Send us a message
           </h3>
 
           <form className="space-y-6">
             <div>
-              <label className="text-sm text-white block mb-1">Your Name</label>
+              <label className="text-sm block mb-1">Your Name</label>
               <div className="relative">
                 <input
                   type="text"
                   placeholder="John Smith"
-                  className="w-full pl-12 pr-4 py-2 rounded-sm border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full pl-12 pr-4 py-2 rounded-sm bg-white text-gray-900 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 />
-                <User className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+                <User className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 w-5 h-5" />
               </div>
             </div>
 
             <div>
-              <label className="text-sm text-white block mb-1">
-                Email Address
-              </label>
+              <label className="text-sm block mb-1">Email Address</label>
               <div className="relative">
                 <input
                   type="email"
                   placeholder="your@email.com"
-                  className="w-full pl-12 pr-4 py-2 rounded-sm border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full pl-12 pr-4 py-2 rounded-sm bg-white text-gray-900 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 />
-                <Mail className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
+                <Mail className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 w-5 h-5" />
               </div>
             </div>
 
             <div>
-              <label className="text-sm text-white block mb-1">Subject</label>
+              <label className="text-sm block mb-1">Subject</label>
               <div className="relative">
                 <input
                   type="text"
                   placeholder="How can we help you?"
-                  className="w-full pl-12 pr-4 py-2 rounded-sm border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full pl-12 pr-4 py-2 rounded-sm bg-white text-gray-900 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                 />
-                <FileText className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white w-5 h-5" />
+                <FileText className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 w-5 h-5" />
               </div>
             </div>
 
             <div>
-              <label className="text-sm text-white block mb-1">Message</label>
+              <label className="text-sm block mb-1">Message</label>
               <textarea
                 placeholder="Tell us about your enterprise integration needs, challenges, or project vision..."
-                rows={1}
-                className="w-full p-4 rounded-sm border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                rows={4}
+                className="w-full p-4 rounded-sm bg-white text-gray-900 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
               />
             </div>
 

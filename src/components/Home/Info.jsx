@@ -29,11 +29,9 @@ const Info = () => {
   ];
 
   return (
-    <section className="relative flex flex-col justify-center items-center bg-midnight overflow-hidden px-6 py-24">
+    <section className="relative flex flex-col justify-center items-center bg-midnight overflow-hidden px-6 py-12 lg:py-24">
       <div className="relative z-10 max-w-7xl w-full flex flex-col lg:flex-row justify-between items-center gap-12 text-white">
-        {/* Left Column */}
         <div className="w-full lg:w-1/2 flex flex-col space-y-8">
-          {/* Keywords */}
           <div className="flex flex-col items-center lg:items-start space-y-4 text-4xl md:text-5xl lg:text-6xl font-light">
             {keywords.map((word, index) => (
               <span
@@ -45,7 +43,6 @@ const Info = () => {
             ))}
           </div>
 
-          {/* Descriptive Text */}
           <div className="text-center lg:text-justify text-lg text-white/80 leading-relaxed">
             Standard ERP holds you back. At Synapse, we help businesses work
             smarter using AI-powered automation. With over a decade of
@@ -58,7 +55,6 @@ const Info = () => {
           </div>
         </div>
 
-        {/* Right Column - Swiper Testimonial Slider */}
         <div className="w-full lg:w-1/2 flex justify-center">
           <Swiper
             slidesPerView={1}
@@ -99,7 +95,6 @@ const Info = () => {
         </div>
       </div>
 
-      {/* Centered Button */}
       <div className="pt-16 z-10">
         <a
           href="#"

@@ -1,6 +1,6 @@
 import FashionHero from "../../assets/Industries/hero/retailfashion_hero-min.jpg";
 import FashionSevice from "../../assets/Industries/services/fashion_services-min.jpg";
-import GroceryHero from "../../assets/Industries/hero/retailfashion_hero-min.jpg";
+import GroceryHero from "../../assets/Industries/hero/retailgrocery_hero-min.jpg";
 import GroceryService from "../../assets/Industries/services/grocery_services-min.jpg";
 import SpecialityHero from "../../assets/Industries/hero/special_hero-min.jpg";
 import SpecialityService from "../../assets/Industries/services/special_services-min.jpg";
@@ -8,7 +8,7 @@ import HealthHero from "../../assets/Industries/hero/retailhealth_hero-min.jpg";
 import HealthService from "../../assets/Industries/services/health_services-min.jpg";
 import DepartmentHero from "../../assets/Industries/hero/retaildepartment_hero-min.jpg";
 import DepartmentService from "../../assets/Industries/services/department_services-min.jpg";
-import WholesaleHero from "../../assets/Industries/hero/retaildepartment_hero-min.jpg";
+import WholesaleHero from "../../assets/Industries/hero/wholesale_hero-min.jpg";
 import WholesaleService from "../../assets/Industries/services/wholesale_services-min.jpg";
 import GemsHero from "../../assets/Industries/hero/Jewelry_hero-min.jpg";
 import GemsService from "../../assets/Industries/services/jewelry_services-min.jpg";
@@ -24,8 +24,10 @@ import ProcessHero from "../../assets/Industries/hero/process_hero-min.jpg";
 import ProcessService from "../../assets/Industries/services/process_services-min.jpg";
 import DiscreteHero from "../../assets/Industries/hero/discrete_hero-min.jpg";
 import DiscreteService from "../../assets/Industries/services/discrete_services-min.jpg";
-import EngHero from "../../assets/Industries/hero/discrete_hero-min.jpg";
-import EngService from "../../assets/Industries/services/discrete_services-min.jpg";
+
+import EngHero from "../../assets/Industries/hero/eco_hero-min.jpg";
+import EngService from "../../assets/Industries/services/eco_services-min.jpg";
+
 import EstateHero from "../../assets/Industries/hero/real-estate_hero-min.jpg";
 import EstateService from "../../assets/Industries/services/real-estate_services-min.jpg";
 import PowerHero from "../../assets/Industries/hero/power_hero-min.jpg";

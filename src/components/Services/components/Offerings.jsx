@@ -27,7 +27,7 @@ const Offerings = ({ data }) => {
         </motion.h2>
 
         <div className="flex flex-col lg:flex-row bg-gray-100 text-gray-900 rounded-sm shadow-lg">
-          <div className="lg:w-72 py-4 border-r border-gray-300">
+          <div className="lg:w-80 py-4 px-1 border-r border-gray-300">
             {data.departments.map((department, index) => (
               <motion.button
                 key={index}

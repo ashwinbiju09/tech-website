@@ -21,11 +21,17 @@ const Percentage = ({ data }) => {
             <div key={index} className="flex flex-col items-center space-y-6">
               <p className="text-5xl md:text-6xl lg:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-midnight via-blue-800 to-blue-600">
                 {isInView ? (
-                  <CountUp start={0} end={stat.number} duration={3} />
+                  <CountUp
+                    start={0}
+                    end={stat.number}
+                    duration={3}
+                    prefix={stat.prefix || ""}
+                    decimals={stat.number % 1 !== 0 ? 1 : 0}
+                  />
                 ) : (
-                  0
+                  `${stat.prefix || ""}0`
                 )}
-                %
+                {stat.symbol || "%"}
               </p>
 
               <p className="text-lg md:text-xl font-semibold text-gray-800">

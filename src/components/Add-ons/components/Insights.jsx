@@ -23,7 +23,7 @@ const Insights = ({ data }) => {
         </div>
 
         <div className="flex items-center justify-center pt-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 justify-center max-w-6xl mx-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 justify-center max-w-7xl mx-12">
             {data.benefits.map((benefit, index) => (
               <motion.div
                 key={index}
@@ -38,9 +38,9 @@ const Insights = ({ data }) => {
                   ease: "easeOut",
                   delay: index * 0.15,
                 }}
-                className="relative bg-white py-8 px-8 w-96 md:w-full shadow-xl rounded-sm flex flex-row items-center space-x-4"
+                className="relative bg-white py-6 px-8 w-96 md:w-full shadow-xl rounded-sm flex flex-row items-center space-x-4"
               >
-                <div className="text-white flex items-center justify-center rounded-full p-4 shadow-xl bg-blue-900 w-16 h-16">
+                <div className="flex items-center justify-center w-14 h-14 rounded-full p-2 shadow-xl bg-midnight shrink-0">
                   {benefit.icon}
                 </div>
 

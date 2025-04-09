@@ -33,18 +33,7 @@ const DesktopNav = ({
         {/* Dropdown container */}
         {openDropdown !== null &&
           navLinks[openDropdown]?.subMenu?.length > 0 && (
-            <div
-              className="
-                absolute top-full left-1/2
-                -translate-x-1/2
-              bg-midnight
-                shadow-lg pointer-events-auto
-                min-w-[60rem]
-                max-h-[600px]
-                overflow-auto
-                p-4
-              "
-            >
+            <div className="absolute top-full left-1/2 -translate-x-1/2 bg-midnight shadow-lg pointer-events-auto min-w-[60rem] max-h-[600px] overflow-auto p-4">
               <div className="flex">
                 {/* Left column (headings & sub items) */}
                 <div className="border-r w-60">
@@ -52,7 +41,7 @@ const DesktopNav = ({
                     if (sub.Heading) {
                       return (
                         <div key={subIndex} className="px-2">
-                          <div className="py-2 text-sm font-medium text-white border-slate-300 ">
+                          <div className="py-2 text-sm font-medium text-white border-slate-300">
                             {sub.Heading}
                           </div>
                           {sub.subMenu?.map((child, childIndex) => (
@@ -64,8 +53,19 @@ const DesktopNav = ({
                                   child: childIndex,
                                 })
                               }
-                              className="group relative cursor-pointer px-4 py-2 ml-2 text-sm font-medium text-white hover:text-blue-800 hover:bg-yellow-400 hover:font-semibold"
+                              className="group relative cursor-pointer px-4 py-2 ml-2 text-sm font-medium text-white transition-colors"
                             >
+                              {/* Hover effect background */}
+                              <div
+                                className="absolute inset-0 transition-opacity duration-200 opacity-0 group-hover:opacity-100"
+                                style={{
+                                  background:
+                                    "linear-gradient(to right, #FACC1520, transparent)",
+                                  borderLeft: "4px solid #FACC15",
+                                  borderRadius: "2px",
+                                }}
+                              ></div>
+
                               <span className="relative z-10">
                                 {child.name}
                               </span>
@@ -79,10 +79,20 @@ const DesktopNav = ({
                       <div
                         key={subIndex}
                         onMouseEnter={() => handleSubMouseEnter(subIndex)}
-                        className="group relative cursor-pointer px-2 py-2 text-sm font-medium text-white hover:text-blue-800 hover:bg-yellow-400 hover:font-semibold overflow-hidden"
+                        className="group relative cursor-pointer px-2 py-2 text-sm font-medium text-white transition-colors"
                       >
+                        {/* Hover effect background */}
+                        <div
+                          className="absolute inset-0 transition-opacity duration-200 opacity-0 group-hover:opacity-100"
+                          style={{
+                            background:
+                              "linear-gradient(to right, #FACC1520, transparent)",
+                            borderLeft: "4px solid #FACC15",
+                            borderRadius: "2px",
+                          }}
+                        ></div>
+
                         <span className="relative z-10">{sub.name}</span>
-                        {/* <span className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-sm scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0"></span> */}
                       </div>
                     );
                   })}
@@ -129,9 +139,20 @@ const DesktopNav = ({
                                   <a
                                     key={i}
                                     href={item.path || "#"}
-                                    className="block px-4 py-2 text-sm font-medium text-white hover:text-blue-800 hover:bg-yellow-400 hover:font-semibold whitespace-nowrap"
+                                    className="group relative block px-4 py-2 text-sm font-medium text-white transition-colors whitespace-nowrap"
                                   >
-                                    {item.name || item}
+                                    <div
+                                      className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                                      style={{
+                                        background:
+                                          "linear-gradient(to right, #FACC1520, transparent)",
+                                        borderLeft: "4px solid #FACC15",
+                                        borderRadius: "2px",
+                                      }}
+                                    ></div>
+                                    <span className="relative z-10">
+                                      {item.name || item}
+                                    </span>
                                   </a>
                                 ))}
                               </div>
@@ -140,9 +161,20 @@ const DesktopNav = ({
                                   <a
                                     key={i}
                                     href={item.path || "#"}
-                                    className="block px-4 py-2 text-sm font-medium text-white hover:text-blue-800 hover:bg-yellow-400 hover:font-semibold whitespace-nowrap"
+                                    className="group relative block px-4 py-2 text-sm font-medium text-white transition-colors whitespace-nowrap"
                                   >
-                                    {item.name || item}
+                                    <div
+                                      className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                                      style={{
+                                        background:
+                                          "linear-gradient(to right, #FACC1520, transparent)",
+                                        borderLeft: "4px solid #FACC15",
+                                        borderRadius: "2px",
+                                      }}
+                                    ></div>
+                                    <span className="relative z-10">
+                                      {item.name || item}
+                                    </span>
                                   </a>
                                 ))}
                               </div>
@@ -156,9 +188,20 @@ const DesktopNav = ({
                               <a
                                 key={i}
                                 href={item.path || "#"}
-                                className="block px-4 py-2 text-sm font-medium text-white hover:text-blue-800 hover:bg-yellow-400 hover:font-semibold whitespace-nowrap"
+                                className="group relative block px-4 py-2 text-sm font-medium text-white transition-colors whitespace-nowrap"
                               >
-                                {item.name || item}
+                                <div
+                                  className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                                  style={{
+                                    background:
+                                      "linear-gradient(to right, #FACC1520, transparent)",
+                                    borderLeft: "4px solid #FACC15",
+                                    borderRadius: "2px",
+                                  }}
+                                ></div>
+                                <span className="relative z-10">
+                                  {item.name || item}
+                                </span>
                               </a>
                             ))}
                           </div>

@@ -1446,6 +1446,7 @@ const solutionData = [
         },
         {
           number: 230,
+          symbol: "+",
           label: "Technological Advancements",
           content:
             "technological advancements delivered in the latest platform release, encompassing process optimization, analytical capabilities, security enhancements, and intuitive user experiences for comprehensive enterprise transformation.",
@@ -1850,6 +1851,7 @@ const solutionData = [
         },
         {
           number: 8.5,
+          symbol: "x",
           label: "Return on Investment",
           content:
             "8.5x return on investment documented by organizations leveraging predictive workforce analytics to optimize resource allocation, enhance development pathways, and improve retention strategies.",
@@ -2236,6 +2238,7 @@ const solutionData = [
         },
         {
           number: 3.2,
+          symbol: "x",
           label: "Return on Investment",
           content:
             "3.2x return on investment realized through enhanced strategic decision-making capabilities powered by comprehensive financial analytics and predictive modeling capabilities.",
@@ -2726,6 +2729,7 @@ const solutionData = [
         },
         {
           number: 3.7,
+          symbol: "x",
           label: "Return on Investment",
           content:
             "3.7x return on investment documented through enhanced resource optimization, improved strategic alignment, and accelerated growth initiatives within the first 24 months of implementation.",
@@ -3155,6 +3159,7 @@ const solutionData = [
         },
         {
           number: 4.2,
+          symbol: "x",
           label: "Increase in Finance Team Productivity",
           content:
             "4.2x increase in finance team productivity realized through intelligent automation of routine consolidation tasks, enabling reallocation of resources toward strategic financial analysis.",
@@ -3689,6 +3694,7 @@ const solutionData = [
         },
         {
           number: 6.8,
+          symbol: "x",
           label: "Return on Investment",
           content:
             "6.8x return on investment documented within 24 months through optimized pricing strategies, enhanced resource allocation, and identification of previously hidden profit opportunities.",
@@ -4169,6 +4175,7 @@ const solutionData = [
         },
         {
           number: 8.3,
+          symbol: "x",
           label: "Acceleration in Complex Decision Cycles",
           content:
             "8.3x acceleration in complex decision cycles through integrated intelligence capabilities, transforming analysis that previously required weeks into near real-time strategic insights.",
@@ -4575,6 +4582,8 @@ const solutionData = [
         },
         {
           number: 186,
+          symbol: "M",
+          prefix: "$",
           label: "Peak Transaction Processing Capacity",
           content:
             "$186M peak transaction processing capacity per hour attained by large-scale enterprise implementations, fueling revenue growth during high-traffic periods.",
@@ -5383,13 +5392,15 @@ const solutionData = [
             "79% faster resolution cycles, reducing customer effort and elevating satisfaction across service channels.",
         },
         {
-          number: 185,
+          number: 1.85,
+          symbol: "x",
           label: "Increase in Customer Retention Rates (%)",
           content:
             "185% surge in retention through personalized engagements and consistent service excellence.",
         },
         {
-          number: 412,
+          number: 4.1,
+          symbol: "x",
           label: "Return on Investment",
           content:
             "412% ROI realized via optimized service operations, enhanced resource utilization, and increased customer lifetime value.",
@@ -5775,7 +5786,8 @@ const solutionData = [
             "87% faster time-to-market, reducing weeks of planning to days while preserving strategic precision.",
         },
         {
-          number: 129,
+          number: 1.29,
+          symbol: "x",
           label: "Improvement in Customer Relationship Relevance",
           content:
             "129% boost in engagement effectiveness and conversion performance across all segments.",
@@ -6332,12 +6344,14 @@ const solutionData = [
         },
         {
           number: 27,
+          symbol: "M",
           label: "Million EVs",
           content:
             "27M electric vehicles projected to enter global markets annually by 2027, representing nearly one-third of all vehicle sales.",
         },
         {
-          number: 780000,
+          number: 780,
+          symbol: "K+",
           label: "charging points",
           content:
             "780,000+ charging points now accessible through strategic partnerships, forming extensive managed networks with seamless cross-border capabilities.",
@@ -6658,6 +6672,8 @@ const solutionData = [
         },
         {
           number: 1.7,
+          symbol: "T",
+          prefix: "$",
           label: "Trillion USD value",
           content:
             "$1.7T projected economic value creation through intelligent connectivity by 2027, with organizations leveraging SAP CPI positioned to capture significant opportunities.",
@@ -6982,6 +6998,7 @@ const solutionData = [
         },
         {
           number: 720,
+          symbol: "°",
           label: "° Comprehensive Application Lifecycle",
           content:
             "720° comprehensive lifecycle support enables diverse developers—from business users to professionals—to collaborate effectively and accelerate digital transformation initiatives.",

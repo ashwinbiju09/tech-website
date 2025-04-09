@@ -10,6 +10,7 @@ import Automation from "./Automation";
 import Services from "./Services";
 import Contact from "./Contact";
 import Privacy from "./Privacy";
+import Disclaimer from "./Disclaimer";
 
 const BaseRoute = () => {
   return (
@@ -19,6 +20,7 @@ const BaseRoute = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<Privacy />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
 
         <Route path="/industries/:slug" element={<Industries />} />
 

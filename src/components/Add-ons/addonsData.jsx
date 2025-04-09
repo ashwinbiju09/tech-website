@@ -66,22 +66,46 @@ const addonsData = [
         "Revolutionize Asset Management with End-to-End Visibility and Control",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/FACC15/external-return-on-investment-business-and-teamwork-flatart-icons-solid-flatarticons.png"
+              alt="external-return-on-investment-business-and-teamwork-flatart-icons-solid-flatarticons"
+            />
+          ),
           description:
             "Manage assets from procurement to disposal for maximum ROI.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-vectorslab-glyph-vectorslab/53/FACC15/external-Ai-Chip-artificial-and-intelligence-vectorslab-glyph-vectorslab.png"
+              alt="external-Ai-Chip-artificial-and-intelligence-vectorslab-glyph-vectorslab"
+            />
+          ),
           description:
             "Leverage AI-powered analytics for proactive management.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/FACC15/order-on-the-way.png"
+              alt="order-on-the-way"
+            />
+          ),
           description:
             "Identify and reduce risks through real-time tracking and insights.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-others-nixx-design/67/FACC15/external-documentation-icon-web-design-solid-others-nixx-design.png"
+              alt="external-documentation-icon-web-design-solid-others-nixx-design"
+            />
+          ),
           description:
             "Ensure audit readiness with accurate, automated documentation.",
         },
@@ -91,37 +115,73 @@ const addonsData = [
       title: "Key Benefits of Asset Management System ",
       benefits: [
         {
-          icon: featureIcon,
-          title: "Preemptive Downtime Control",
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/down3.png"
+              alt="down3"
+            />
+          ),
+          title: "Preventive Downtime Control",
           description:
             "Detect early warning signs to prevent disruptions and enhance continuity.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/work.png"
+              alt="work"
+            />
+          ),
           title: "Structured Maintenance Scheduling",
           description:
             "Maximize asset longevity with planned, proactive service routines.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/dashboard.png"
+              alt="dashboard"
+            />
+          ),
           title: "Comprehensive Performance Evaluation",
           description:
             "Gain insights into asset utilization and identify improvement opportunities.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/appointment-reminders--v1.png"
+              alt="appointment-reminders--v1"
+            />
+          ),
           title: "Automated Notifications",
           description:
             "Stay updated with alerts that reduce reaction time and operational lag.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-others-pike-picture/8/0a1f36/external-regulations-policies-data-process-others-pike-picture-2.png"
+              alt="external-regulations-policies-data-process-others-pike-picture-2"
+            />
+          ),
           title: "Standards and Regulations Adherence",
           description:
             "Align with industry mandates via reliable, audit-friendly records.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/0a1f36/external-lifecycle-traditional-marketing-flatart-icons-outline-flatarticons.png"
+              alt="external-lifecycle-traditional-marketing-flatart-icons-outline-flatarticons"
+            />
+          ),
           title: "Lifecycle Maximization",
           description:
             "Extend asset usefulness through strategic upgrades and timely replacements.",
@@ -135,19 +195,19 @@ const addonsData = [
           number: 42,
           label: "Operational Efficiency",
           content:
-            "42% improvement in operational efficiency via unified asset workflows.",
+            "Improvement in operational efficiency via unified asset workflows.",
         },
         {
           number: 58,
           label: "Compliance Hurdles",
           content:
-            "58% reduction in compliance hurdles through transparent, real-time tracking.",
+            "eduction in compliance hurdles through transparent, real-time tracking.",
         },
         {
           number: 82,
           label: "Cost Savings",
           content:
-            "82% cost savings achieved through preventive strategies and lifecycle insight.",
+            "Cost savings achieved through preventive strategies and lifecycle insight.",
         },
       ],
     },
@@ -200,22 +260,46 @@ const addonsData = [
       description: "Reimagine Retail with Scalable Digital Commerce Solutions",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/FACC15/external-user-experience-digital-marketing-smashingstocks-mixed-smashing-stocks.png"
+              alt="external-user-experience-digital-marketing-smashingstocks-mixed-smashing-stocks"
+            />
+          ),
           description:
             "Deliver a consistent, engaging customer experience across web, mobile, in-store, and third-party platforms.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/FACC15/external-trending-influencer-marketing-wanicon-lineal-wanicon.png"
+              alt="external-trending-influencer-marketing-wanicon-lineal-wanicon"
+            />
+          ),
           description:
             "Rapidly respond to consumer trends and demands with modular, scalable platforms.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/FACC15/shopping-cart-loaded--v1.png"
+              alt="shopping-cart-loaded--v1"
+            />
+          ),
           description:
             "Use behavioral analytics to personalize experiences and predict future buying patterns.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/FACC15/external-AI-artificial-intelligence-solidglyph-m-oki-orlando.png"
+              alt="external-AI-artificial-intelligence-solidglyph-m-oki-orlando"
+            />
+          ),
           description:
             "Streamline backend operations through AI-driven tools for efficiency and agility.",
         },
@@ -225,37 +309,73 @@ const addonsData = [
       title: "Key Benefits of Digital Retail & Platform",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/centralized-network.png"
+              alt="centralized-network"
+            />
+          ),
           title: "Strategic Channel Convergence",
           description:
             "Unify digital and physical retail experiences to build stronger brand trust and customer loyalty.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/bearish.png"
+              alt="bearish"
+            />
+          ),
           title: "Reduced Operational Costs",
           description:
             "Lower marketing and logistics costs through intelligent automation and smart workflows.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-soleicons-line-amoghdesign/17/external-adaptation-soleicons-line-vol-2-soleicons-line-amoghdesign.png"
+              alt="external-adaptation-soleicons-line-vol-2-soleicons-line-amoghdesign"
+            />
+          ),
           title: "Data-Driven Adaptation",
           description:
             "Stay ahead with actionable insights that support quicker, smarter business decisions.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/process.png"
+              alt="process"
+            />
+          ),
           title: "Process Streamlining",
           description:
             "Eliminate bottlenecks and manual tasks to free up teams for strategic innovation.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/external-resource-digital-globalization-parzival-1997-detailed-outline-parzival-1997.png"
+              alt="external-resource-digital-globalization-parzival-1997-detailed-outline-parzival-1997"
+            />
+          ),
           title: "Resource Utilization Efficiency",
           description:
             "Optimize internal resources to balance quality, speed, and performance.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/light-automation.png"
+              alt="light-automation"
+            />
+          ),
           title: "Automated Innovations",
           description:
             "Introduce smart technologies to enhance customer satisfaction and boost team productivity.",
@@ -269,19 +389,19 @@ const addonsData = [
           number: 45,
           label: "Lead Conversion",
           content:
-            "45% improvement in lead conversion via personalized recommendations.",
+            "Improvement in lead conversion via personalized recommendations.",
         },
         {
           number: 60,
           label: "Delivery Speed",
           content:
-            "60% faster delivery times with integrated sales channel analytics.",
+            "Faster delivery times with integrated sales channel analytics.",
         },
         {
           number: 75,
           label: "Revenue Growth",
           content:
-            "75% revenue increase driven by omnichannel alignment and smart forecasting.",
+            "Increase in revenue driven by omnichannel alignment and smart forecasting.",
         },
       ],
     },
@@ -335,22 +455,46 @@ const addonsData = [
         "Maximize Distribution Efficiency with Real-Time Intelligence and Automation",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pulsar-line/48/FACC15/pickup-point.png"
+              alt="pickup-point"
+            />
+          ),
           description:
             "Centralize critical distribution functions for faster, error-free execution.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/FACC15/data-backup.png"
+              alt="data-backup"
+            />
+          ),
           description:
             "Leverage data to anticipate demand, avoid shortages, and maximize resource efficiency.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-others-pike-picture/50/FACC15/external-order-buyer-customer-journey-others-pike-picture-2.png"
+              alt="external-order-buyer-customer-journey-others-pike-picture-2"
+            />
+          ),
           description:
             "Unify external partner coordination for seamless order-to-delivery workflows.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pastel-glyph/64/FACC15/atm-approve.png"
+              alt="atm-approve"
+            />
+          ),
           description:
             "Automate routine tasks and expand operational capacity without increasing overhead.",
         },
@@ -360,37 +504,73 @@ const addonsData = [
       title: "Key Benefits of Distribution Management System",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/0a1f36/error--v1.png"
+              alt="error--v1"
+            />
+          ),
           title: "Process Automation and Error Reduction",
           description:
             "Automate repetitive tasks to minimize mistakes and enhance delivery accuracy.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/0a1f36/external-operation-digital-transformation-parzival-1997-detailed-outline-parzival-1997.png"
+              alt="external-operation-digital-transformation-parzival-1997-detailed-outline-parzival-1997"
+            />
+          ),
           title: "Live Operational Oversight",
           description:
             "Monitor every distribution stage in real-time for agile response and efficiency.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/0a1f36/external-customer-satisfaction-data-science-smashingstocks-mixed-smashing-stocks.png"
+              alt="external-customer-satisfaction-data-science-smashingstocks-mixed-smashing-stocks"
+            />
+          ),
           title: "Elevated Customer Satisfaction",
           description:
             "Deliver faster and more reliably, strengthening client trust and loyalty.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/cost.png"
+              alt="cost"
+            />
+          ),
           title: "Cost-Effective Route Optimization",
           description:
             "Cut transportation costs and improve sustainability through smart routing.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/big-data.png"
+              alt="big-data"
+            />
+          ),
           title: "Data-Driven Decision-Making",
           description:
             "Make proactive changes using real-time analytics to stay ahead of market shifts.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-jumpicon-line-ayub-irawan/32/0a1f36/external-agility-success-jumpicon-(line)-jumpicon-line-ayub-irawan.png"
+              alt="external-agility-success-jumpicon-(line)-jumpicon-line-ayub-irawan"
+            />
+          ),
           title: "Agility and Expansion",
           description:
             "Quickly scale distribution capacity and respond to changing customer demands.",
@@ -404,19 +584,19 @@ const addonsData = [
           number: 45,
           label: "Order Value Growth",
           content:
-            "45% growth in average order value with intelligent distribution strategies.",
+            "Growth in average order value with intelligent distribution strategies.",
         },
         {
           number: 70,
           label: "Productivity Increase",
           content:
-            "70% increase in productivity after automating distribution workflows.",
+            "Increase in productivity after automating distribution workflows.",
         },
         {
           number: 95,
           label: "On-Time Delivery",
           content:
-            "95% on-time delivery rate achieved via predictive logistics and smart routing.",
+            "Predictive logistics and smart routing made on-time delivery rate possible",
         },
       ],
     },
@@ -470,22 +650,46 @@ const addonsData = [
         "Transform Field Operations with Intelligent Service Management",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/facc15/management.png"
+              alt="management"
+            />
+          ),
           description:
             "Streamline task assignment, tracking, and closure within one platform.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/fluency-systems-regular/48/facc15/team-goal.png"
+              alt="team-goal"
+            />
+          ),
           description:
             "Optimize team performance through smart planning and dynamic rescheduling.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/facc15/youtube-live.png"
+              alt="youtube-live"
+            />
+          ),
           description:
             "Access live updates on progress, delays, and technician availability.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/facc15/external-data-tools-data-engineering-solid-solidglyph-m-oki-orlando.png"
+              alt="external-data-tools-data-engineering-solid-solidglyph-m-oki-orlando"
+            />
+          ),
           description:
             "Equip field personnel with tools and data to resolve issues faster and more accurately.",
         },
@@ -495,37 +699,73 @@ const addonsData = [
       title: "Key Benefits of Field Service Management",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/0a1f36/error--v1.png"
+              alt="error--v1"
+            />
+          ),
           title: "Error Reduction & Efficiency Gains",
           description:
             "Eliminate manual entry and optimize task flow with intelligent automation.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/invisible.png"
+              alt="invisible"
+            />
+          ),
           title: "Visibility & Control in Real Time",
           description:
             "Get instant access to field activity, technician location, and task status.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/32/0a1f36/external-customer-experience-digital-marketing-outline-outline-black-m-oki-orlando-2.png"
+              alt="external-customer-experience-digital-marketing-outline-outline-black-m-oki-orlando-2"
+            />
+          ),
           title: "Elevated Customer Experience",
           description:
             "Deliver fast, informed service and real-time updates to exceed expectations.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-tulpahn-detailed-outline-tulpahn/64/0a1f36/external-productivity-work-from-home-tulpahn-detailed-outline-tulpahn.png"
+              alt="external-productivity-work-from-home-tulpahn-detailed-outline-tulpahn"
+            />
+          ),
           title: "Productivity Boost",
           description:
             "Enable technicians with all required data to close jobs faster and smarter.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/0a1f36/get-revenue.png"
+              alt="get-revenue"
+            />
+          ),
           title: "Revenue Expansion",
           description:
             "Complete more tasks in less time and improve customer retention for revenue growth.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/data-backup.png"
+              alt="data-backup"
+            />
+          ),
           title: "Data-Driven Improvements",
           description:
             "Leverage analytics to refine workflows, measure performance, and scale operations.",
@@ -539,19 +779,19 @@ const addonsData = [
           number: 45,
           label: "Cost Reduction",
           content:
-            "45% decrease in operational costs through automation and reduced errors.",
+            "Decrease in operational costs through automation and reduced errors.",
         },
         {
           number: 60,
           label: "Customer Satisfaction",
           content:
-            "60% improvement in customer satisfaction with faster service and communication.",
+            "Improvement in customer satisfaction with faster service and communication.",
         },
         {
           number: 75,
           label: "Response Time",
           content:
-            "75% quicker service response times using real-time tracking and smart scheduling.",
+            "Quicker service response times using real-time tracking and smart scheduling.",
         },
       ],
     },
@@ -605,22 +845,46 @@ const addonsData = [
         "Modernize Property Operations with Smart Real Estate Management Solutions",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/FACC15/control-panel--v2.png"
+              alt="control-panel--v2"
+            />
+          ),
           description:
             "Oversee multiple properties, leases, and maintenance activities from a single dashboard.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/FACC15/workflow.png"
+              alt="workflow"
+            />
+          ),
           description:
             "Reduce manual work with workflows for rent collection, repairs, and renewals.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pastel-glyph/64/FACC15/customer-insights-manager.png"
+              alt="customer-insights-manager"
+            />
+          ),
           description:
             "Generate insights from real-time reports and historical data for better forecasting.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/FACC15/order-shipped.png"
+              alt="order-shipped"
+            />
+          ),
           description:
             "Simplify document tracking and ensure legal requirements are always met.",
         },
@@ -630,37 +894,73 @@ const addonsData = [
       title: "Key Benefits of Real Estate Management",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/0a136/external-optimize-customer-relationship-and-employee-benefits-flatart-icons-outline-flatarticons.png"
+              alt="external-optimize-customer-relationship-and-employee-benefits-flatart-icons-outline-flatarticons"
+            />
+          ),
           title: "Maximized Rental Potential",
           description:
             "Optimize pricing strategies and increase occupancy for consistent cash flow.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/work.png"
+              alt="work"
+            />
+          ),
           title: "Proactive Maintenance Oversight",
           description:
             "Avoid costly breakdowns with preventive service scheduling and asset monitoring.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/scales--v1.png"
+              alt="scales--v1"
+            />
+          ),
           title: "Reduced Legal Vulnerabilities",
           description:
             "Stay compliant with leasing laws and property regulations across locations.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-ddara-fill-ddara/64/0a1f36/external-cost-control-business-management-ddara-fill-ddara.png"
+              alt="external-cost-control-business-management-ddara-fill-ddara"
+            />
+          ),
           title: "Cost Control & Efficiency",
           description:
             "Track expenses in detail and identify savings across your property lifecycle.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/order-shipped.png"
+              alt="order-shipped"
+            />
+          ),
           title: "Transparent Financial Tracking",
           description:
             "Maintain real-time visibility into revenue, operating costs, and ROI.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/medium-risk.png"
+              alt="medium-risk"
+            />
+          ),
           title: "Risk Mitigation",
           description:
             "Detect and address issues early to preserve property value and reduce liability.",
@@ -674,19 +974,19 @@ const addonsData = [
           number: 85,
           label: "Inspection Speed",
           content:
-            "85% faster property inspections through mobile-enabled, data-rich evaluations.",
+            "Faster property inspections through mobile-enabled, data-rich evaluations.",
         },
         {
           number: 88,
           label: "Maintenance Efficiency",
           content:
-            "88% increase in efficiency of maintenance workflows, reducing response time.",
+            "Increase in efficiency of maintenance workflows, reducing response time.",
         },
         {
           number: 90,
           label: "Data Accuracy",
           content:
-            "90% improvement in accuracy and accessibility of critical property data.",
+            "Improvement in accuracy and accessibility of critical property data.",
         },
       ],
     },
@@ -739,24 +1039,48 @@ const addonsData = [
       description: "Accelerate Revenue with Smart Sales Force Automation",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/FACC15/atm-approve.png"
+              alt="atm-approve"
+            />
+          ),
           description:
             "Eliminate manual tasks to speed up lead handling, follow-ups, and order processing.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/FACC15/external-strategies-digital-marketing-solid-solidglyph-m-oki-orlando.png"
+              alt="external-strategies-digital-marketing-solid-solidglyph-m-oki-orlando"
+            />
+          ),
           description:
             "Leverage real-time analytics and historical trends to fine-tune strategies.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/FACC15/invisible.png"
+              alt="invisible"
+            />
+          ),
           description:
             "Maintain full visibility into the sales funnel and deal progress.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/FACC15/external-connected-networking-tanah-basah-basic-outline-tanah-basah.png"
+              alt="external-connected-networking-tanah-basah-basic-outline-tanah-basah"
+            />
+          ),
           description:
-            "Keep reps connected and informed, no matter where they are.",
+            "Keep representatives connected and informed, no matter where they are.",
         },
       ],
     },
@@ -764,37 +1088,73 @@ const addonsData = [
       title: "Key Benefits of Sales Force Automation",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/0a1f36/external-customer-engagement-network-and-communication-smashingstocks-glyph-smashing-stocks.png"
+              alt="external-customer-engagement-network-and-communication-smashingstocks-glyph-smashing-stocks"
+            />
+          ),
           title: "Enhanced Customer Engagement",
           description:
             "Deliver personalized, consistent communication that nurtures loyalty and trust.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/0a1f36/sales-performance.png"
+              alt="sales-performance"
+            />
+          ),
           title: "Simplified Sales Processes",
           description:
             "Eliminate manual steps for faster deal closure and reduced cycle times.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/0a1f36/commercial-development-management.png"
+              alt="commercial-development-management"
+            />
+          ),
           title: "Informed Team Oversight",
           description:
             "Gain visibility into sales activities to better coach, support, and scale teams.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/32/0a1f36/external-data-driven-data-science-outline-outline-black-m-oki-orlando.png"
+              alt="external-data-driven-data-science-outline-outline-black-m-oki-orlando"
+            />
+          ),
           title: "Data-Driven Decision-Making",
           description:
             "Use real-time analytics to identify trends, measure performance, and pivot strategies.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/0a1f36/external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks.png"
+              alt="external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks"
+            />
+          ),
           title: "Accurate Forecasting & Lead Management",
           description:
             "Predict pipeline outcomes and allocate efforts toward high-value opportunities.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-goofy-line-kerismaker/96/0a1f36/external-Opportunities-business-goofy-line-kerismaker.png"
+              alt="external-Opportunities-business-goofy-line-kerismaker"
+            />
+          ),
           title: "Opportunities for Cross-Selling & Up-Selling",
           description:
             "Maximize deal value by aligning customer needs with tailored product recommendations.",
@@ -808,19 +1168,19 @@ const addonsData = [
           number: 45,
           label: "Win Rate Increase",
           content:
-            "45% increase in win rates through intelligent automation and streamlined lead flow.",
+            "Increase in win rates through intelligent automation and streamlined lead flow.",
         },
         {
           number: 60,
           label: "Lead Conversion Boost",
           content:
-            "60% jump in lead conversion rates with smarter engagement and insights.",
+            "Jump in lead conversion rates with smarter engagement and insights.",
         },
         {
           number: 70,
           label: "Productivity Gain",
           content:
-            "70% productivity boost driven by mobile access and workflow automation.",
+            "Productivity boost driven by mobile access and workflow automation.",
         },
       ],
     },
@@ -874,22 +1234,46 @@ const addonsData = [
         "Simplify Billing, Maximize Revenue with Subscription Management",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/FACC15/gender-neutral-user.png"
+              alt="gender-neutral-user"
+            />
+          ),
           description:
             "Customize billing frequencies and tiers to align with customer needs.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/0a1f36/admin-settings-male.png"
+              alt="admin-settings-male"
+            />
+          ),
           description:
             "Manage upgrades, downgrades, renewals, and cancellations with full transparency.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/general-ledger.png"
+              alt="general-ledger"
+            />
+          ),
           description:
             "Ensure compliance and accuracy in financial reporting for all billing scenarios.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pulsar-line/48/0a1f36/group.png"
+              alt="group"
+            />
+          ),
           description:
             "Provide users control over their subscriptions, reducing churn and support demand.",
         },
@@ -899,37 +1283,73 @@ const addonsData = [
       title: "Key Benefits of Subscription Billing & Management",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/0a1f36/external-cash-flow-money-kmg-design-glyph-kmg-design-3.png"
+              alt="external-cash-flow-money-kmg-design-glyph-kmg-design-3"
+            />
+          ),
           title: "Improved Cash Flow Automation",
           description:
             "Automate recurring revenue and enhance forecasting accuracy with stable inflows.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/dotty/80/0a1f36/service.png"
+              alt="service"
+            />
+          ),
           title: "Enhanced Self-Service Options",
           description:
             "Empower users to manage subscriptions, reducing overhead and boosting satisfaction.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/0a1f36/external-retention-banking-and-finance-smashingstocks-glyph-smashing-stocks.png"
+              alt="external-retention-banking-and-finance-smashingstocks-glyph-smashing-stocks"
+            />
+          ),
           title: "Customer Retention & Growth",
           description:
             "Identify churn risks and proactively engage customers with timely solutions.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/bearish.png"
+              alt="bearish"
+            />
+          ),
           title: "Cost Reductions & Efficiency",
           description:
             "Cut operational costs by replacing manual workflows with intelligent automation.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/0a1f36/data-migration.png"
+              alt="data-migration"
+            />
+          ),
           title: "Data-Driven Decision Making",
           description:
             "Use advanced analytics to refine pricing, forecast revenue, and improve CX.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/0a1f36/external-financial-finance-smashingstocks-glyph-smashing-stocks-3.png"
+              alt="external-financial-finance-smashingstocks-glyph-smashing-stocks-3"
+            />
+          ),
           title: "Financial Accuracy & Compliance",
           description:
             "Handle revenue recognition and audit trails with confidence and precision.",
@@ -943,19 +1363,19 @@ const addonsData = [
           number: 45,
           label: "Productivity Increase",
           content:
-            "45% increase in productivity from reduced manual billing tasks.",
+            "Increase in productivity from reduced manual billing tasks.",
         },
         {
           number: 70,
           label: "Customer Satisfaction",
           content:
-            "70% boost in customer satisfaction through smoother billing and transparency.",
+            "Boost in customer satisfaction through smoother billing and transparency.",
         },
         {
           number: 80,
           label: "Financial Cycle Cost Reduction",
           content:
-            "80% decrease in financial cycle costs using automated recognition and collection.",
+            "Decrease in financial cycle costs using automated recognition and collection.",
         },
       ],
     },
@@ -1009,21 +1429,45 @@ const addonsData = [
         "Optimize Supplier Relationships with Intelligent Vendor Management",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/FACC15/request-service.png"
+              alt="request-service"
+            />
+          ),
           description: "Manage the entire vendor lifecycle from one platform.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-smashingstocks-hand-drawn-black-smashing-stocks/99/FACC15/external-monitoring-business-smashingstocks-hand-drawn-black-smashing-stocks.png"
+              alt="external-monitoring-business-smashingstocks-hand-drawn-black-smashing-stocks"
+            />
+          ),
           description:
             "Monitor contracts and regulations to prevent disruptions.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/FACC15/economic-improvement.png"
+              alt="economic-improvement"
+            />
+          ),
           description:
             "Drive profitability by eliminating overspending and inefficiencies.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/FACC15/external-kpi-product-management-solid-solidglyph-m-oki-orlando.png"
+              alt="external-kpi-product-management-solid-solidglyph-m-oki-orlando"
+            />
+          ),
           description:
             "Use KPIs to evaluate vendors and ensure high service standards.",
         },
@@ -1033,37 +1477,73 @@ const addonsData = [
       title: "Key Benefits of Vendor Management Solution",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-only-li-kalash/48/0a1f36/external-business-business-management-only-li-kalash-3.png"
+              alt="external-business-business-management-only-li-kalash-3"
+            />
+          ),
           title: "Robust Partnerships",
           description:
             "Build trust with top-performing vendors aligned to your business goals.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/carbon-copy/100/0a1f36/bearish.png"
+              alt="bearish"
+            />
+          ),
           title: "Cost Reduction",
           description:
             "Minimize excess spending through smarter procurement and vendor selection.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/0a1f36/external-operational-business-risks-outline-wichaiwi.png"
+              alt="external-operational-business-risks-outline-wichaiwi"
+            />
+          ),
           title: "Operational Improvements",
           description:
             "Reduce onboarding time, eliminate bottlenecks, and improve service delivery.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/medium-risk.png"
+              alt="medium-risk"
+            />
+          ),
           title: "Risk Prevention",
           description:
             "Avoid service interruptions with proactive monitoring and regulatory alignment.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/0a1f36/collaboration.png"
+              alt="collaboration"
+            />
+          ),
           title: "Stronger Collaboration",
           description:
             "Foster productive, transparent communication and continuous improvement.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/carbon-copy/100/0a1f36/economic-improvement.png"
+              alt="economic-improvement"
+            />
+          ),
           title: "Profit Boost",
           description:
             "Streamlined vendor processes contribute directly to stronger financial outcomes.",
@@ -1077,19 +1557,19 @@ const addonsData = [
           number: 80,
           label: "Revenue Control",
           content:
-            "80% improvement in revenue control due to vendor process transparency.",
+            "Improvement in revenue control due to vendor process transparency.",
         },
         {
           number: 85,
           label: "Vendor Oversight",
           content:
-            "85% smoother tracking of vendor activities and contractual obligations.",
+            "Smoother tracking of vendor activities and contractual obligations.",
         },
         {
           number: 90,
           label: "Onboarding Speed",
           content:
-            "90% faster and more intuitive onboarding with centralized vendor management tools.",
+            "Faster and more intuitive onboarding with centralized vendor management tools.",
         },
       ],
     },
@@ -1143,22 +1623,46 @@ const addonsData = [
         "Automate Document Delivery for Speed, Accuracy, and Compliance",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pastel-glyph/64/FACC15/atm-approve.png"
+              alt="atm-approve"
+            />
+          ),
           description:
             "Automate document delivery via email, fax, or mail directly from core business systems.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/FACC15/invisible.png"
+              alt="invisible"
+            />
+          ),
           description:
             "Gain real-time visibility into document statuses to ensure reliable communication.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/FACC15/add-rule.png"
+              alt="add-rule"
+            />
+          ),
           description:
             "Trigger document dispatch based on defined rules, approvals, or system events.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/FACC15/expeditedssl.png"
+              alt="expeditedssl"
+            />
+          ),
           description:
             "Encrypt files and maintain audit trails to meet strict regulatory standards.",
         },
@@ -1168,37 +1672,73 @@ const addonsData = [
       title: "Key Benefits of Document Delivery Automation",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/0a1f36/good-quality--v1.png"
+              alt="good-quality--v1"
+            />
+          ),
           title: "Accelerated Approval Workflows",
           description:
             "Expedite document-driven decisions and minimize process delays.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-ddara-lineal-ddara/64/0a1f36/external-cost-control-business-management-ddara-lineal-ddara.png"
+              alt="external-cost-control-business-management-ddara-lineal-ddara"
+            />
+          ),
           title: "Cost Savings & Resource Efficiency",
           description:
             "Replace paper-based routines with automated digital processes.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-others-pike-picture/50/0a1f36/external-regulations-policies-data-process-others-pike-picture-2.png"
+              alt="external-regulations-policies-data-process-others-pike-picture-2"
+            />
+          ),
           title: "Regulatory Confidence",
           description:
             "Protect sensitive data with encryption, access controls, and full audit trails.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/0a1f36/external-experience-shopstreaming-parzival-1997-detailed-outline-parzival-1997.png"
+              alt="external-experience-shopstreaming-parzival-1997-detailed-outline-parzival-1997"
+            />
+          ),
           title: "Improved Customer Experience",
           description:
             "Deliver timely, accurate communications that build trust and responsiveness.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/invisible.png"
+              alt="invisible"
+            />
+          ),
           title: "Operational Visibility",
           description:
             "Track performance metrics and identify bottlenecks in real time.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/0a1f36/external-scalable-data-science-and-cyber-security-flatart-icons-solid-flatarticons.png"
+              alt="external-scalable-data-science-and-cyber-security-flatart-icons-solid-flatarticons"
+            />
+          ),
           title: "Scalable Communication",
           description:
             "Handle high-volume delivery needs across global regions and channels.",
@@ -1212,19 +1752,18 @@ const addonsData = [
           number: 45,
           label: "Manual Task Reduction",
           content:
-            "45% fewer manual tasks due to automated validation and routing.",
+            "Fewer manual tasks due to automated validation and routing.",
         },
         {
           number: 60,
           label: "Faster Delivery",
           content:
-            "60% faster document delivery, freeing teams to focus on strategic work.",
+            "Faster document delivery, freeing teams to focus on strategic work.",
         },
         {
           number: 75,
           label: "Cost Reduction",
-          content:
-            "75% reduction in print, postage, and manual processing costs.",
+          content: "Reduction in print, postage, and manual processing costs.",
         },
       ],
     },
@@ -1278,22 +1817,46 @@ const addonsData = [
         "Stay Ahead of Regulations with Smarter Compliance Management",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-juicy-fish/60/FACC15/external-business-digital-nomad-outline-outline-juicy-fish-2.png"
+              alt="external-business-digital-nomad-outline-outline-juicy-fish-2"
+            />
+          ),
           description:
             "Eliminate manual steps in filings, renewals, and audits.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/sf-black/64/FACC15/accessibility2.png"
+              alt="accessibility2"
+            />
+          ),
           description:
             "Store and retrieve compliance documents securely in one place.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/FACC15/external-antivirus-software-scanning-is-been-scheduled-for-later-security-bold-tal-revivo.png"
+              alt="external-antivirus-software-scanning-is-been-scheduled-for-later-security-bold-tal-revivo"
+            />
+          ),
           description:
             "Proactively identify vulnerabilities and enforce safeguards.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/FACC15/external-consistency-database-solid-solidglyph-m-oki-orlando.png"
+              alt="external-consistency-database-solid-solidglyph-m-oki-orlando"
+            />
+          ),
           description:
             "Ensure global consistency with local adaptability across business units.",
         },
@@ -1303,37 +1866,73 @@ const addonsData = [
       title: "Key Benefits of Compliance Management Software",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/0a1f36/test-passed--v1.png"
+              alt="test-passed--v1"
+            />
+          ),
           title: "Sustained Operational Integrity",
           description:
             "Avoid disruptions and legal setbacks by maintaining compliance continuity.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-ddara-fill-ddara/64/0a1f36/external-cost-control-business-management-ddara-fill-ddara.png"
+              alt="external-cost-control-business-management-ddara-fill-ddara"
+            />
+          ),
           title: "Optimized Cost Control",
           description:
             "Minimize penalties, streamline audits, and reduce overhead.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/0a1f36/external-Accountability-core-values-smashingstocks-mixed-smashing-stocks.png"
+              alt="external-Accountability-core-values-smashingstocks-mixed-smashing-stocks"
+            />
+          ),
           title: "Enhanced Organizational Accountability",
           description:
             "Ensure every team understands and owns their compliance roles and timelines.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/future.png"
+              alt="future"
+            />
+          ),
           title: "Future-Proof Governance",
           description:
             "Adapt quickly to evolving regulations with flexible, scalable compliance infrastructure.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/assignment-turned-in.png"
+              alt="assignment-turned-in"
+            />
+          ),
           title: "Improved Audit Readiness",
           description:
             "Generate real-time reports, maintain audit trails, and respond swiftly to regulatory reviews.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-glyph-wichaiwi/64/0a1f36/external-transparency-general-data-protection-regulation-gdpr-glyph-wichaiwi.png"
+              alt="external-transparency-general-data-protection-regulation-gdpr-glyph-wichaiwi"
+            />
+          ),
           title: "Increased Transparency",
           description:
             "Provide leadership with a clear view of compliance health and performance metrics.",
@@ -1347,19 +1946,19 @@ const addonsData = [
           number: 40,
           label: "Manual Effort Reduction",
           content:
-            "40% reduction in manual effort via automated compliance task execution.",
+            "Reduction in manual effort via automated compliance task execution.",
         },
         {
           number: 70,
           label: "Deadline Performance",
           content:
-            "70% improvement in meeting deadlines thanks to proactive alerts.",
+            "Improvement in meeting deadlines thanks to proactive alerts.",
         },
         {
           number: 80,
           label: "Risk Cost Reduction",
           content:
-            "80% drop in compliance-related risk costs with early detection and response.",
+            "Drop in compliance-related risk costs with early detection and response.",
         },
       ],
     },
@@ -1412,21 +2011,45 @@ const addonsData = [
       description: "Empower Teams to Build with a No-Code Work Platform",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/wired/64/FACC15/plus.png"
+              alt="plus"
+            />
+          ),
           description:
             "Create and launch business processes using a visual interface.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/FACC15/settings-3--v1.png"
+              alt="settings-3--v1"
+            />
+          ),
           description: "Turn manual steps into rule-based automation.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/FACC15/share-2.png"
+              alt="share-2"
+            />
+          ),
           description:
             "Connect to databases, CRMs, and other business systems without development effort.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-those-icons-lineal-those-icons/24/FACC15/external-scale-selection-cursors-those-icons-lineal-those-icons.png"
+              alt="external-scale-selection-cursors-those-icons-lineal-those-icons"
+            />
+          ),
           description:
             "From simple tasks to enterprise-wide workflows, scale without complexity.",
         },
@@ -1436,37 +2059,73 @@ const addonsData = [
       title: "Key Benefits of No-Code Work Platform",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/0a1f36/cheap-2.png"
+              alt="cheap-2"
+            />
+          ),
           title: "Reduced Operational Costs",
           description:
             "Eliminate the need for developers and reduce software dependency with self-serve tools.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/workflow.png"
+              alt="workflow"
+            />
+          ),
           title: "Accelerated Time-to-Market",
           description:
             "Quickly build and modify workflows to respond to changing business needs.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/conference-background-selected.png"
+              alt="conference-background-selected"
+            />
+          ),
           title: "Enhanced Cross-Department Alignment",
           description:
             "Empower all teams to work from unified, consistent workflows.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/0a1f36/external-busness-due-diligence-icongeek26-glyph-icongeek26.png"
+              alt="external-busness-due-diligence-icongeek26-glyph-icongeek26"
+            />
+          ),
           title: "Improved Business Resilience",
           description:
             "Quickly adapt workflows to organizational shifts or external disruptions.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/glyph-neue/64/0a1f36/collaboration.png"
+              alt="collaboration"
+            />
+          ),
           title: "Frictionless Collaboration",
           description:
             "Enable shared visibility, ownership, and input across departments.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/0a1f36/innovation.png"
+              alt="innovation"
+            />
+          ),
           title: "Scalable Innovation",
           description:
             "Expand usage across teams and functions without losing performance or control.",
@@ -1480,19 +2139,19 @@ const addonsData = [
           number: 50,
           label: "Faster Setup Time",
           content:
-            "50% faster setup time compared to traditional development methods.",
+            "Reduced tme for setting up compared to traditional development methods.",
         },
         {
           number: 70,
           label: "Operational Agility",
           content:
-            "70% increase in operational agility from quick, self-serve workflow changes.",
+            "Increase in operational agility from quick, self-serve workflow changes.",
         },
         {
           number: 80,
           label: "Employee Engagement",
           content:
-            "80% rise in employee engagement due to intuitive, user-friendly design.",
+            "Rise in employee engagement due to intuitive, user-friendly design.",
         },
       ],
     },
@@ -1545,22 +2204,46 @@ const addonsData = [
       description: "Simplify and Streamline Your Source-to-Pay Process",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/wired/64/FACC15/admin-settings-male.png"
+              alt="admin-settings-male"
+            />
+          ),
           description:
             "Digitally manage requisitions, quotations, orders, and payments.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/64/FACC15/external-evaluate-market-research-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png"
+              alt="external-evaluate-market-research-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto"
+            />
+          ),
           description:
             "Onboard, evaluate, and collaborate with suppliers through structured workflows.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pastel-glyph/64/FACC15/track-order.png"
+              alt="track-order"
+            />
+          ),
           description:
             "Track procurement progress, vendor performance, and financial approvals at every stage.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pastel-glyph/64/FACC15/track-order.png"
+              alt="track-order"
+            />
+          ),
           description:
             "Ensure tax compliance, audit readiness, and error-free processing.",
         },
@@ -1570,37 +2253,73 @@ const addonsData = [
       title: "Key Benefits of Procurement Software",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-outline-juicy-fish/60/0a1f36/external-operations-devops-outline-outline-juicy-fish.png"
+              alt="external-operations-devops-outline-outline-juicy-fish"
+            />
+          ),
           title: "Streamlined Operations",
           description:
             "Manage all procurement workflows from one platform for increased efficiency.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/0a1f36/get-cash--v1.png"
+              alt="get-cash--v1"
+            />
+          ),
           title: "Significant Cost Savings",
           description:
             "Control spending, eliminate financial leaks, and negotiate better vendor terms.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/medium-risk.png"
+              alt="medium-risk"
+            />
+          ),
           title: "Reduced Risk & Liability",
           description:
             "Maintain detailed records, enforce compliance, and prevent legal issues.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/0a1f36/collaboration.png"
+              alt="collaboration"
+            />
+          ),
           title: "Better Vendor Collaboration",
           description:
             "Foster transparent communication and efficient coordination with suppliers.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/accuracy.png"
+              alt="accuracy"
+            />
+          ),
           title: "Enhanced Accuracy & Speed",
           description:
             "Automate approvals, tax calculations, and payment processing for smoother transactions.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/assignment-turned-in.png"
+              alt="assignment-turned-in"
+            />
+          ),
           title: "Audit-Ready Procurement",
           description:
             "Secure digital trails for every transaction support accountability and governance.",
@@ -1614,19 +2333,19 @@ const addonsData = [
           number: 60,
           label: "Manual Input Reduction",
           content:
-            "60% less manual input through vendor portals and process automation.",
+            "Less manual input through vendor portals and process automation.",
         },
         {
           number: 70,
           label: "Faster Cycles",
           content:
-            "70% faster turnaround on requests, approvals, and payment cycles.",
+            "Faster turnaround on requests, approvals, and payment cycles.",
         },
         {
           number: 80,
           label: "Real-Time Visibility",
           content:
-            "80% improvement in visibility and response time via real-time tracking and alerts.",
+            "Improvement in visibility and response time via real-time tracking and alerts.",
         },
       ],
     },
@@ -1680,21 +2399,45 @@ const addonsData = [
         "Manage Projects Smarter with Centralized Planning and Execution",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/FACC15/admin-settings-male.png"
+              alt="admin-settings-male"
+            />
+          ),
           description:
             "Manage every stage from kickoff to completion in one platform.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-nawicon-detailed-outline-nawicon/64/FACC15/external-Monitoring-business-management-nawicon-detailed-outline-nawicon.png"
+              alt="external-Monitoring-business-management-nawicon-detailed-outline-nawicon"
+            />
+          ),
           description: "Monitor milestones, time, and costs in real time.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/FACC15/centralized-network.png"
+              alt="centralized-network"
+            />
+          ),
           description:
             "Centralize communication, updates, and approvals across teams.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pulsar-line/48/FACC15/customer-insights-manager.png"
+              alt="customer-insights-manager"
+            />
+          ),
           description:
             "Use insights to predict project outcomes, manage resources, and maximize ROI.",
         },
@@ -1704,37 +2447,73 @@ const addonsData = [
       title: "Key Benefits of Project Management Software",
       benefits: [
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-vectorslab-glyph-vectorslab/53/0a1f36/external-resource-management-seo-and-marketing-vectorslab-glyph-vectorslab.png"
+              alt="external-resource-management-seo-and-marketing-vectorslab-glyph-vectorslab"
+            />
+          ),
           title: "Improved Resource Management",
           description:
             "Distribute workloads effectively and monitor capacity across departments.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/0a1f36/estimate.png"
+              alt="estimate"
+            />
+          ),
           title: "Real-Time Budget Control",
           description:
             "Track costs as they occur and prevent overspending before it happens.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-filled/50/0a1f36/medium-risk.png"
+              alt="medium-risk"
+            />
+          ),
           title: "Reduced Risks & Delays",
           description:
             "Spot timeline or task issues early and resolve them proactively.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/0a1f36/commercial-development-management.png"
+              alt="commercial-development-management"
+            />
+          ),
           title: "Enhanced Team Accountability",
           description:
             "Keep everyone aligned with shared visibility and transparent reporting.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios-glyphs/30/0a1f36/order-on-the-way.png"
+              alt="order-on-the-way"
+            />
+          ),
           title: "Better Forecasting & Profitability Tracking",
           description:
             "Estimate margins and cost-to-completion with AI-driven projections.",
         },
         {
-          icon: featureIcon,
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/ios/50/0a1f36/batch-assign.png"
+              alt="batch-assign"
+            />
+          ),
           title: "Unified Collaboration",
           description:
             "Centralize updates, files, and feedback with integrated communication tools.",
@@ -1747,20 +2526,19 @@ const addonsData = [
         {
           number: 65,
           label: "Faster Planning",
-          content:
-            "65% faster project planning using templates and automation.",
+          content: "Faster project planning using templates and automation.",
         },
         {
           number: 70,
           label: "On-Time Delivery",
           content:
-            "70% improvement in on-time delivery from real-time tracking and alerts.",
+            "Improvement in on-time delivery from real-time tracking and alerts.",
         },
         {
           number: 80,
           label: "Reduced Manual Effort",
           content:
-            "80% less manual effort through workflow automation and centralized task management.",
+            "Less manual effort through workflow automation and centralized task management.",
         },
       ],
     },

@@ -88,8 +88,16 @@ const navLinks = [
                 path: "/epicor-solutions/epicor-service-asset-management",
               },
               {
+                name: "Epicor Sales Management",
+                path: "/epicor-solutions/epicor-sales-management",
+              },
+              {
                 name: "Epicor Kinetic CRM",
                 path: "/epicor-solutions/epicor-kinetic-crm",
+              },
+              {
+                name: "Epicor Planning & Scheduling",
+                path: "/epicor-solutions/epicor-planning-scheduling",
               },
             ],
           },
@@ -156,7 +164,7 @@ const navLinks = [
         name: "AI Automation",
         subMenu: [
           {
-            name: "Build AI Agents",
+            name: "AI Agents",
             path: "/ai-automation/ai-agents",
           },
           {

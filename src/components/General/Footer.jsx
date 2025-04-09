@@ -4,6 +4,7 @@ import navLinks from "../General/NavBar/navData";
 const footerLinkPaths = {
   "Why Us": "/about",
   "Privacy Policy": "/privacy-policy",
+  Disclaimer: "/disclaimer",
 };
 
 const transformNavLinksToFooterMenu = (navLinks) => {
@@ -42,7 +43,7 @@ const transformNavLinksToFooterMenu = (navLinks) => {
 
   footerMenuItems.push({
     title: "Quick Links",
-    links: ["Why Us", "Privacy Policy"],
+    links: ["Why Us", "Privacy Policy", "Disclaimer"],
   });
 
   return footerMenuItems;

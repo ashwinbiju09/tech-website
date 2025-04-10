@@ -60,7 +60,7 @@ const DesktopNav = ({
                                 className="absolute inset-0 transition-opacity duration-200 opacity-0 group-hover:opacity-100"
                                 style={{
                                   background:
-                                    "linear-gradient(to right, #FACC1520, transparent)",
+                                    "linear-gradient(to right, #FACC1566, transparent)",
                                   borderLeft: "4px solid #FACC15",
                                   borderRadius: "2px",
                                 }}
@@ -86,7 +86,7 @@ const DesktopNav = ({
                           className="absolute inset-0 transition-opacity duration-200 opacity-0 group-hover:opacity-100"
                           style={{
                             background:
-                              "linear-gradient(to right, #FACC1520, transparent)",
+                              "linear-gradient(to right, #FACC1566, transparent)",
                             borderLeft: "4px solid #FACC15",
                             borderRadius: "2px",
                           }}
@@ -145,7 +145,7 @@ const DesktopNav = ({
                                       className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
                                       style={{
                                         background:
-                                          "linear-gradient(to right, #FACC1520, transparent)",
+                                          "linear-gradient(to right, #FACC1566, transparent)",
                                         borderLeft: "4px solid #FACC15",
                                         borderRadius: "2px",
                                       }}
@@ -167,7 +167,7 @@ const DesktopNav = ({
                                       className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
                                       style={{
                                         background:
-                                          "linear-gradient(to right, #FACC1520, transparent)",
+                                          "linear-gradient(to right, #FACC1566, transparent)",
                                         borderLeft: "4px solid #FACC15",
                                         borderRadius: "2px",
                                       }}
@@ -194,7 +194,7 @@ const DesktopNav = ({
                                   className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
                                   style={{
                                     background:
-                                      "linear-gradient(to right, #FACC1520, transparent)",
+                                      "linear-gradient(to right, #FACC1566, transparent)",
                                     borderLeft: "4px solid #FACC15",
                                     borderRadius: "2px",
                                   }}

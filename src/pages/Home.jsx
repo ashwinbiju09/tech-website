@@ -1,4 +1,5 @@
 import React from "react";
+import { useRef } from "react";
 import { motion } from "framer-motion";
 import NavBar from "../components/General/NavBar/NavBar";
 import Footer from "../components/General/Footer";
@@ -21,6 +22,14 @@ const sectionVariants = {
 };
 
 const Home = () => {
+  const scrollRef = useRef(null);
+
+  const scrollToSection = () => {
+    scrollRef.current?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <NavBar />
@@ -31,7 +40,7 @@ const Home = () => {
         variants={heroVariant}
         viewport={{ once: true }}
       >
-        <Hero />
+        <Hero onDiscoverClick={scrollToSection} />
       </motion.div>
 
       <div className="relative bg-slate-100 z-30">
@@ -45,7 +54,7 @@ const Home = () => {
       <div className="relative bg-slate-100 z-30">
         <Industry />
       </div>
-      <div className="relative bg-white z-30">
+      <div id="services" ref={scrollRef} className="relative bg-white z-30">
         <Services />
       </div>
       <div className="relative bg-midnight z-30">

@@ -166,7 +166,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-others-pike-picture/8/0a1f36/external-regulations-policies-data-process-others-pike-picture-2.png"
+              src="https://img.icons8.com/external-others-pike-picture/64/0a1f36/external-regulations-policies-data-process-others-pike-picture-2.png"
               alt="external-regulations-policies-data-process-others-pike-picture-2"
             />
           ),
@@ -336,7 +336,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-soleicons-line-amoghdesign/17/external-adaptation-soleicons-line-vol-2-soleicons-line-amoghdesign.png"
+              src="https://img.icons8.com/external-soleicons-line-amoghdesign/64/external-adaptation-soleicons-line-vol-2-soleicons-line-amoghdesign.png"
               alt="external-adaptation-soleicons-line-vol-2-soleicons-line-amoghdesign"
             />
           ),
@@ -1186,7 +1186,7 @@ const addonsData = [
     },
     ctaSection: {
       description:
-        "Transform your sales function with Raapyd’s Sales Force Automation simplify processes, empower your team, and unlock consistent revenue growth with smarter, faster selling. Future-proof your sales strategy and stay ahead in every deal, every time.",
+        "Transform your sales function with our Sales Force Automation simplify processes, empower your team, and unlock consistent revenue growth with smarter, faster selling. Future-proof your sales strategy and stay ahead in every deal, every time.",
     },
   },
   {
@@ -1248,7 +1248,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/0a1f36/admin-settings-male.png"
+              src="https://img.icons8.com/ios/50/FACC15/admin-settings-male.png"
               alt="admin-settings-male"
             />
           ),
@@ -1259,7 +1259,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/general-ledger.png"
+              src="https://img.icons8.com/ios-filled/50/FACC15/general-ledger.png"
               alt="general-ledger"
             />
           ),
@@ -1270,7 +1270,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pulsar-line/48/0a1f36/group.png"
+              src="https://img.icons8.com/pulsar-line/48/FACC15/group.png"
               alt="group"
             />
           ),

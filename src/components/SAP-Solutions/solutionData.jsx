@@ -64,7 +64,7 @@ const solutionData = [
               alt="business-management"
             />
           ),
-          title: "Modernize Your Business",
+          title: "Modernize your business",
           description:
             "Accelerate transformation through industry-specific best practices and integrated sustainability frameworks that strengthen your competitive position and support long-term strategic objectives.",
         },
@@ -88,7 +88,7 @@ const solutionData = [
               alt="external-approved-approved-and-rejected-bearicons-detailed-outline-bearicons-8"
             />
           ),
-          title: "Run On Your Standard",
+          title: "Run on your standard",
           description:
             "Implement SAP S/4HANA according to your unique business requirements, enabling strategic differentiation with flexible deployment options including on-premise, private cloud, and public cloud solutions.",
         },
@@ -115,13 +115,13 @@ const solutionData = [
             },
             {
               icon: featureIcon,
-              title: "Lifecycle Management",
+              title: "Lifecycle management",
               description:
                 "Facilitates end-to-end asset lifecycle management, from acquisition to disposal.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Maintenance",
+              title: "Predictive maintenance",
               description:
                 "Enables predictive maintenance, reducing costs and boosting asset reliability.",
             },
@@ -134,7 +134,7 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Workforce Planning",
+              title: "Workforce planning",
               description:
                 " Optimizes workforce planning by aligning HR strategies with business goals.",
             },
@@ -152,7 +152,7 @@ const solutionData = [
             },
             {
               icon: featureIcon,
-              title: "Talent Management",
+              title: "Talent management",
               description:
                 "Provides real-time workforce insights, enabling data-driven talent management.",
             },
@@ -165,25 +165,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Production Planning",
+              title: "Production planning",
               description:
                 "Enhances production planning, optimizing resource utilization and reducing waste.",
             },
             {
               icon: featureIcon,
-              title: "Optimizing Efficiency",
+              title: "Optimizing efficiency",
               description:
                 "Improves shop floor efficiency with IoT-enabled real-time monitoring and automation.",
             },
             {
               icon: featureIcon,
-              title: "Product Quality",
+              title: "Product quality",
               description:
                 "Ensures product quality through AI-powered quality control and defect detection.",
             },
             {
               icon: featureIcon,
-              title: "agile manufacturing",
+              title: "Agile manufacturing",
               description:
                 "Supports agile manufacturing, enabling quick adaptation to market demands.",
             },
@@ -196,13 +196,13 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Financial Clarity",
+              title: "Financial clarity",
               description:
                 "Enhances financial reporting and compliance, ensuring transparency.",
             },
             {
               icon: featureIcon,
-              title: "Finance Foresight",
+              title: "Finance foresight",
               description:
                 "Provides predictive analytics for cash flow and risk management.",
             },
@@ -214,7 +214,7 @@ const solutionData = [
             },
             {
               icon: featureIcon,
-              title: "United Finance",
+              title: "United finance",
               description:
                 "Integrates with other business functions, enabling seamless financial operations.",
             },
@@ -227,25 +227,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Precision Outreach",
+              title: "Precision outreach",
               description:
                 "Enables personalized marketing through AI-driven customer insights.",
             },
             {
               icon: featureIcon,
-              title: "Optimize Transactions",
+              title: "Optimize transactions",
               description:
                 "Improves e-commerce operations, ensuring seamless transactions.",
             },
             {
               icon: featureIcon,
-              title: "Improving Performance",
+              title: "Improving performance",
               description:
                 "Enhances campaign performance with real-time data analytics.",
             },
             {
               icon: featureIcon,
-              title: "Customer Management",
+              title: "Customer management",
               description:
                 "Optimizes customer journey management, driving better conversions.",
             },
@@ -258,25 +258,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Auto Procure",
+              title: "Auto procure",
               description:
                 "Automates procurement workflows, reducing manual intervention.",
             },
             {
               icon: featureIcon,
-              title: "Supplier Sync",
+              title: "Supplier sync",
               description:
                 "Enhances supplier collaboration, ensuring timely deliveries and quality assurance.",
             },
             {
               icon: featureIcon,
-              title: "Cost Optimization",
+              title: "Cost optimization",
               description:
                 "Improves costcontrol through AI-powered spend analytics.",
             },
             {
               icon: featureIcon,
-              title: "Inventory Management",
+              title: "Inventory management",
               description:
                 "Integrates procurement with inventory, optmizin stock levels.",
             },
@@ -289,25 +289,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Production Planning",
+              title: "Production planning",
               description:
                 "Enhances production planning, optimizing resource utilization and reducing waste.",
             },
             {
               icon: featureIcon,
-              title: "Optimizing Efficiency",
+              title: "Optimizing efficiency",
               description:
                 "Improves shop floor efficiency with IoT-enabled real-time monitoring and automation.",
             },
             {
               icon: featureIcon,
-              title: "Product Quality",
+              title: "Product quality",
               description:
                 "Ensures product quality through AI-powered quality control and defect detection.",
             },
             {
               icon: featureIcon,
-              title: "Agile Manufacturing",
+              title: "Agile manufacturing",
               description:
                 "Supports agile manufacturing, enabling quick adaptation to market demands.",
             },
@@ -332,13 +332,13 @@ const solutionData = [
             },
             {
               icon: featureIcon,
-              title: "Pricing Optimization",
+              title: "Pricing optimization",
               description:
                 "Optimizes pricing strategies based on market trends and historical data.",
             },
             {
               icon: featureIcon,
-              title: "Sales Insights Analysis",
+              title: "Sales insights analysis",
               description:
                 "Provides sales performance insights, enabling data-driven decision-making.",
             },
@@ -347,25 +347,25 @@ const solutionData = [
       ],
     },
     percentageSection: {
-      title: "Making a Difference with SAP S/4HANA",
+      title: "Driving transformation with SAP S/4HANA",
       stats: [
         {
           number: 45,
           label: "Adoption Rate",
           content:
-            "45% of organizations report being live on SAP S/4HANA or actively migrating, demonstrating significant momentum toward digital transformation across industries.",
+            "Organizations are either live or actively migrating, signaling strong momentum in digital transformation across industries.",
         },
         {
           number: 84,
           label: "Growth in Cloud Adoption",
           content:
-            "84% increase in SAP S/4HANA's cloud backlog reflects the growing global demand for intelligent, cloud-based ERP solutions.",
+            "Increase in SAP S/4HANA's cloud backlog reflects the growing global demand for intelligent, cloud-based ERP solutions.",
         },
         {
           number: 28,
           label: "Migration Success Rate",
           content:
-            "28% of original SAP ECC customers have successfully transitioned to SAP S/4HANA, highlighting the substantial migration progress within the SAP ecosystem.",
+            "A substantial portion of original SAP ECC customers have successfully transitioned to SAP S/4HANA, highlighting the migration progress within the SAP ecosystem.",
         },
       ],
     },
@@ -374,7 +374,7 @@ const solutionData = [
         "Transform your enterprise with SAP S/4HANA solutions to enhance operational efficiency, optimize key processes, and drive sustainable growth through innovative, data-driven decision-making. Contact our experts today to begin your transformation journey.",
     },
     benefitsSection: {
-      title: "Key Benefits of SAP S/4HANA Implementation",
+      title: "Key benefits of SAP S/4HANA implementation",
       description: "Enhance your business processes with SAP S/4HANA",
       benefits: [
         {
@@ -385,7 +385,7 @@ const solutionData = [
               alt="delivery-time--v1"
             />
           ),
-          title: "Real-time Insights",
+          title: "Real-time insights",
           description:
             "Access comprehensive analytics instantaneously, enabling data-driven decision-making and enhanced forecasting for strategic planning and operational improvements.",
         },
@@ -507,7 +507,7 @@ const solutionData = [
               alt="external-key-communication-roondy-lafs"
             />
           ),
-          title: "Architect Your Innovations",
+          title: "Architect your innovations",
           description:
             "Organizations can dynamically reconfigure business processes and operational frameworks with SAP S/4HANA Public Cloud, enabling continuous evolution while maintaining operational stability.",
         },
@@ -519,7 +519,7 @@ const solutionData = [
               alt="strategy-game"
             />
           ),
-          title: "Expand Strategically",
+          title: "Expand strategically",
           description:
             "The public cloud framework accommodates business diversification by supporting new customer segments, geographic expansion, and product portfolio growth without architectural constraints.",
         },
@@ -531,7 +531,7 @@ const solutionData = [
               alt="external-launch-space-icongeek26-outline-icongeek26-1"
             />
           ),
-          title: "Deploy With Precision",
+          title: "Deploy with precision",
           description:
             "Strategic implementation within the SAP cloud environment delivers specialized guidance, balancing implementation efficiency with operational flexibility for maximum business impact.",
         },
@@ -552,7 +552,7 @@ const solutionData = [
                   alt="external-financial-web-seo-prettycons-solid-prettycons"
                 />
               ),
-              title: "Financial Reporting",
+              title: "Financial reporting",
               description:
                 "Empowers accurate financial reporting and streamlines global financial consolidations.",
             },
@@ -564,7 +564,7 @@ const solutionData = [
                   alt="british-pound"
                 />
               ),
-              title: "Integrated Finance",
+              title: "Integrated finance",
               description:
                 "Facilitates seamless integration of financial processes across departments.",
             },
@@ -576,7 +576,7 @@ const solutionData = [
                   alt="external-regulation-project-management-kmg-design-glyph-kmg-design"
                 />
               ),
-              title: "Regulatory Compliance",
+              title: "Regulatory compliance",
               description:
                 "Enhances regulatory compliance, reducing reporting cycles and ensuring transparency.",
             },
@@ -588,7 +588,7 @@ const solutionData = [
                   alt="marketing"
                 />
               ),
-              title: "Advanced Analytics",
+              title: "Advanced analytics",
               description:
                 "Uses advanced analytics to identify cost-saving opportunities and optimize financial planning.",
             },
@@ -607,7 +607,7 @@ const solutionData = [
                   alt="external-Order-Management-logistic-outline-design-circle"
                 />
               ),
-              title: "Automated Order Management",
+              title: "Automated order management",
               description:
                 "Automates order management, improving processing speed and accuracy.",
             },
@@ -619,7 +619,7 @@ const solutionData = [
                   alt="external-planning-finances-inipagistudio-mixed-inipagistudio"
                 />
               ),
-              title: "Optimized Inventory Planning",
+              title: "Optimized inventory planning",
               description:
                 "Optimizes inventory and demand planning, reducing stock shortages and excess.",
             },
@@ -631,7 +631,7 @@ const solutionData = [
                   alt="customer-insight"
                 />
               ),
-              title: "Real-time Customer Insights",
+              title: "Real-time customer insights",
               description:
                 "Provides real-time insights into customer preferences and sales performance.",
             },
@@ -643,7 +643,7 @@ const solutionData = [
                   alt="external-supply-chain-supply-chain-management-solid-solidglyph-m-oki-orlando-2"
                 />
               ),
-              title: "Supply Chain Coordination",
+              title: "Supply chain coordination",
               description:
                 "Enhances supply chain coordination, ensuring faster and more efficient deliveries.",
             },
@@ -662,7 +662,7 @@ const solutionData = [
                   alt="external-resource-digital-globalization-parzival-1997-outline-color-parzival-1997"
                 />
               ),
-              title: "Resource Utilization",
+              title: "Resource utilization",
               description:
                 "Improves resource utilization, reducing waste and enhancing productivity.",
             },
@@ -674,7 +674,7 @@ const solutionData = [
                   alt="external-scheduling-project-management-outline-black-m-oki-orlando"
                 />
               ),
-              title: "Automated Scheduling",
+              title: "Automated scheduling",
               description:
                 "Automates scheduling and capacity planning, ensuring timely production.",
             },
@@ -686,7 +686,7 @@ const solutionData = [
                   alt="bullet-camera"
                 />
               ),
-              title: "Integrated Production Monitoring",
+              title: "Integrated production monitoring",
               description:
                 "Integrates real-time production monitoring, enhancing quality control.",
             },
@@ -698,7 +698,7 @@ const solutionData = [
                   alt="external-agile-web-design-and-development-flatart-icons-solid-flatarticons"
                 />
               ),
-              title: "Agile Manufacturing",
+              title: "Agile manufacturing",
               description:
                 "Supports agile manufacturing, adapting to market and customer demands quickly.",
             },
@@ -717,7 +717,7 @@ const solutionData = [
                   alt="procurement"
                 />
               ),
-              title: "Procurement Optimization",
+              title: "Procurement optimization",
               description:
                 "Optimizes procurement workflows, improving supplier collaboration.",
             },
@@ -729,7 +729,7 @@ const solutionData = [
                   alt="move-by-trolley"
                 />
               ),
-              title: "Real-time Inventory",
+              title: "Real-time inventory",
               description:
                 "Provides real-time inventory tracking, reducing stockouts and excess inventory.",
             },
@@ -741,7 +741,7 @@ const solutionData = [
                   alt="depreciation"
                 />
               ),
-              title: "Cost Efficiency",
+              title: "Cost efficiency",
               description:
                 "Enhances cost efficiency by identifying optimal sourcing strategies.",
             },
@@ -753,7 +753,7 @@ const solutionData = [
                   alt="test-passed"
                 />
               ),
-              title: "Regulatory Compliance",
+              title: "Regulatory compliance",
               description:
                 "Ensures regulatory compliance, streamlining reporting and auditing processes.",
             },
@@ -772,7 +772,7 @@ const solutionData = [
                   alt="external-ai-digital-business-photo3ideastudio-lineal-photo3ideastudio"
                 />
               ),
-              title: "AI-Driven Recruitment",
+              title: "AI-driven recruitment",
               description:
                 "Enhances talent acquisition with AI-driven recruitment and onboarding.",
             },
@@ -784,7 +784,7 @@ const solutionData = [
                   alt="payroll"
                 />
               ),
-              title: "Payroll Automation",
+              title: "Payroll automation",
               description:
                 "Automates payroll and benefits management, reducing errors and compliance risks.",
             },
@@ -796,7 +796,7 @@ const solutionData = [
                   alt="external-Employee-Engagement-business-communication-filled-color-icons-papa-vector"
                 />
               ),
-              title: "Employee Engagement",
+              title: "Employee engagement",
               description:
                 "Improves employee engagement through self-service portals and personalized experiences.",
             },
@@ -808,14 +808,14 @@ const solutionData = [
                   alt="external-workforce-data-analytics-smashingstocks-hand-drawn-black-smashing-stocks"
                 />
               ),
-              title: "Workforce Analytics",
+              title: "Workforce analytics",
               description:
                 "Provides workforce analytics, enabling data-driven HR decision-making.",
             },
           ],
         },
         {
-          title: "Supply Chain Management",
+          title: "Supply chain management",
           content:
             "SAP S/4HANA Public Cloud streamlines supply chain operations for efficiency and resilience.",
           features: [
@@ -827,7 +827,7 @@ const solutionData = [
                   alt="track-order"
                 />
               ),
-              title: "Real-time Logistics Tracking",
+              title: "Real-time logistics tracking",
               description:
                 "Enhances real-time logistics tracking, reducing delays and inefficiencies.",
             },
@@ -839,7 +839,7 @@ const solutionData = [
                   alt="external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks"
                 />
               ),
-              title: "AI-Driven Demand Forecasting",
+              title: "AI-driven demand forecasting",
               description:
                 "Uses AI-driven demand forecasting, optimizing inventory levels.",
             },
@@ -851,7 +851,7 @@ const solutionData = [
                   alt="supplier"
                 />
               ),
-              title: "Supplier Collaboration",
+              title: "Supplier collaboration",
               description:
                 "Improves supplier collaboration, ensuring timely deliveries and reduced costs.",
             },
@@ -863,7 +863,7 @@ const solutionData = [
                   alt="external-warehouse-food-delivery-vitaliy-gorbachev-fill-vitaly-gorbachev"
                 />
               ),
-              title: "Warehouse Automation",
+              title: "Warehouse automation",
               description:
                 "Automates warehouse operations, improving order fulfillment and stock accuracy.",
             },
@@ -882,7 +882,7 @@ const solutionData = [
                   alt="customer-insight"
                 />
               ),
-              title: "AI-Powered Customer Insights",
+              title: "AI-powered customer insights",
               description:
                 "Provides AI-powered customer insights, personalizing interactions.",
             },
@@ -894,7 +894,7 @@ const solutionData = [
                   alt="external-lead-generation-content-creator-tanah-basah-basic-outline-tanah-basah"
                 />
               ),
-              title: "Lead Automation",
+              title: "Lead automation",
               description:
                 "Automates lead and opportunity management, increasing sales efficiency.",
             },
@@ -906,7 +906,7 @@ const solutionData = [
                   alt="performance-macbook"
                 />
               ),
-              title: "Marketing Optimization",
+              title: "Marketing optimization",
               description:
                 "Optimizes marketing campaigns, improving customer engagement and conversions.",
             },
@@ -918,7 +918,7 @@ const solutionData = [
                   alt="omnichannel-1"
                 />
               ),
-              title: "Omnichannel Integration",
+              title: "Omnichannel integration",
               description:
                 "Integrates with omnichannel sales, ensuring a seamless customer experience.",
             },
@@ -937,7 +937,7 @@ const solutionData = [
                   alt="work"
                 />
               ),
-              title: "Predictive Maintenance",
+              title: "Predictive maintenance",
               description:
                 "Enables predictive maintenance, reducing unexpected breakdowns.",
             },
@@ -949,7 +949,7 @@ const solutionData = [
                   alt="external-shop-money-education-outline-berkahicon"
                 />
               ),
-              title: "Optimized Asset Utilization",
+              title: "Optimized asset utilization",
               description:
                 "Optimizes asset utilization, extending equipment life.",
             },
@@ -961,7 +961,7 @@ const solutionData = [
                   alt="system-task"
                 />
               ),
-              title: "Real-time Monitoring",
+              title: "Real-time monitoring",
               description:
                 "Provides real-time monitoring, ensuring operational efficiency.",
             },
@@ -973,7 +973,7 @@ const solutionData = [
                   alt="purchase-order"
                 />
               ),
-              title: "Automated Work Order Management",
+              title: "Automated work order management",
               description:
                 "Automates work order management, improving maintenance response times.",
             },
@@ -982,25 +982,25 @@ const solutionData = [
       ],
     },
     percentageSection: {
-      title: "Making a Difference with SAP S/4HANA Public Cloud",
+      title: "Unlocking Business Value with SAP S/4HANA Public Cloud",
       stats: [
         {
           number: 37,
-          label: "Reduction in Financial Close Processing Time",
+          label: "Faster Financial Close",
           content:
-            "37% reduction in financial close processing time achieved by organizations implementing SAP S/4HANA Public Cloud, accelerating critical business reporting cycles.",
+            "Reduction in financial close processing time achieved by organizations implementing SAP S/4HANA Public Cloud, accelerating critical business reporting cycles.",
         },
         {
           number: 68,
-          label: "Improved Decision-Making",
+          label: "Smarter Decision-Making",
           content:
-            "68% of IT leaders report improved decision-making capabilities within six months of deployment, citing real-time analytics as the primary driver of enhanced business intelligence.",
+            "IT leaders report improved decision-making capabilities within six months of deployment, citing real-time analytics as the primary driver of enhanced business intelligence.",
         },
         {
           number: 92,
-          label: "Increased Operational Agility",
+          label: "Greater Operational Agility",
           content:
-            "92% of surveyed enterprises experience increased operational agility, allowing them to respond to market changes three times faster than with legacy systems.",
+            "Surveyed enterprises experience increased operational agility, allowing them to respond to market changes three times faster than with legacy systems.",
         },
       ],
     },
@@ -1009,7 +1009,7 @@ const solutionData = [
         "Accelerate your organization's capabilities through SAP S/4HANA Public Cloud frameworks to enhance process efficiency and establish new performance benchmarks with a dynamically scalable enterprise platform engineered for sustained innovation and competitive advantage.",
     },
     benefitsSection: {
-      title: "Experience New Potential with SAP S/4HANA Public Cloud",
+      title: "Experience new potential with SAP S/4HANA Public Cloud",
       description:
         "Customize technology frameworks to organizational requirements, optimize business workflows, and implement enterprise-grade security through SAP S/4HANA Public Cloud.",
       benefits: [
@@ -1147,7 +1147,7 @@ const solutionData = [
               alt="warranty"
             />
           ),
-          title: "Run On Your Standard",
+          title: "Run on your standard",
           description:
             "Architect your enterprise foundation according to precise organizational specifications, maximizing competitive differentiation while navigating transformation at a pace aligned with strategic priorities.",
         },
@@ -1159,7 +1159,7 @@ const solutionData = [
               alt="business-group"
             />
           ),
-          title: "Modernize Your Business",
+          title: "Modernize your business",
           description:
             "Catalyze organizational evolution through sector-specific operational frameworks and embedded sustainability mechanisms designed to support enduring strategic objectives and market leadership.",
         },
@@ -1186,25 +1186,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Global Financial Data",
+              title: "Global financial data",
               description:
                 "Enhances financial reporting and consolidates global financial data.",
             },
             {
               icon: featureIcon,
-              title: "Advanced Analytics",
+              title: "Advanced analytics",
               description:
                 "Provides advanced analytics for actionable insights into financial planning and cost optimization.",
             },
             {
               icon: featureIcon,
-              title: "Regulatory Compliance",
+              title: "Regulatory compliance",
               description:
                 "Supports faster, accurate regulatory compliance and reduces reporting cycles.",
             },
             {
               icon: featureIcon,
-              title: "Process Integration",
+              title: "Process integration",
               description:
                 "Integrates financial processes across departments to improve efficiency.",
             },
@@ -1217,25 +1217,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Workflow Automation",
+              title: "Workflow automation",
               description:
                 "Automates procurement workflows, improving supplier collaboration.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Spend Analytics",
+              title: "Real-time spend analytics",
               description:
                 "Enhances cost control by providing real-time spend analytics.",
             },
             {
               icon: featureIcon,
-              title: "Cycle Time Reduction",
+              title: "Cycle time reduction",
               description:
                 "Reduces procurement cycle times, ensuring timely material availability.",
             },
             {
               icon: featureIcon,
-              title: "Compliance Assurance",
+              title: "Compliance assurance",
               description:
                 "Ensures compliance with regulatory and contract requirements.",
             },
@@ -1248,56 +1248,56 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "AI-Powered Insights",
+              title: "AI-powered insights",
               description:
                 "Enables AI-powered customer insights for personalized marketing strategies.",
             },
             {
               icon: featureIcon,
-              title: "Sales Order Automation",
+              title: "Sales order automation",
               description:
                 "Automates sales order processing, reducing manual effort and errors.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Sales Analytics",
+              title: "Real-time sales analytics",
               description:
                 "Provides real-time sales analytics to optimize pricing and demand forecasting.",
             },
             {
               icon: featureIcon,
-              title: "Omnichannel Integration",
+              title: "Omnichannel integration",
               description:
                 "Integrates with multiple sales channels, ensuring a seamless customer experience.",
             },
           ],
         },
         {
-          title: "Enterprise Portfolio & Project Management",
+          title: "Enterprise portfolio & project management",
           content:
             "SAP S/4HANA Private Cloud enables efficient project planning and execution.",
           features: [
             {
               icon: featureIcon,
-              title: "Budget & Resource Tracking",
+              title: "Budget & resource tracking",
               description:
                 "Provides real-time tracking of project budgets and resources.",
             },
             {
               icon: featureIcon,
-              title: "Team Collaboration",
+              title: "Team collaboration",
               description:
                 "Enhances collaboration across teams with centralized project management tools.",
             },
             {
               icon: featureIcon,
-              title: "Automated Scheduling",
+              title: "Automated scheduling",
               description:
                 "Optimizes project timelines with automated scheduling and milestone tracking.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Analytics",
+              title: "Predictive analytics",
               description:
                 "Reduces risks by identifying potential bottlenecks through predictive analytics.",
             },
@@ -1310,25 +1310,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Automated Scheduling",
+              title: "Automated scheduling",
               description:
                 "Automates production scheduling to meet demand fluctuations.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Shop Floor Visibility",
+              title: "Real-time shop floor visibility",
               description:
                 "Provides real-time shop floor visibility, improving operational efficiency.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Maintenance",
+              title: "Predictive maintenance",
               description:
                 "Reduces production downtime through predictive maintenance strategies.",
             },
             {
               icon: featureIcon,
-              title: "Quality Control",
+              title: "Quality control",
               description:
                 "Ensures quality control with advanced monitoring and analytics.",
             },
@@ -1341,25 +1341,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Lifecycle Management",
+              title: "Lifecycle management",
               description:
                 "Streamlines product lifecycle management from design to delivery.",
             },
             {
               icon: featureIcon,
-              title: "IoT Integration",
+              title: "IoT integration",
               description:
                 "Integrates IoT-enabled smart manufacturing for real-time monitoring.",
             },
             {
               icon: featureIcon,
-              title: "Resource Allocation",
+              title: "Resource allocation",
               description:
                 "Optimizes resource allocation, reducing production waste.",
             },
             {
               icon: featureIcon,
-              title: "Regulatory Compliance",
+              title: "Regulatory compliance",
               description:
                 "Ensures compliance with industry regulations and quality standards.",
             },
@@ -1372,25 +1372,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Logistics Tracking",
+              title: "Logistics tracking",
               description:
                 "Enhances real-time logistics tracking for better coordination.",
             },
             {
               icon: featureIcon,
-              title: "AI-Driven Forecasting",
+              title: "AI-driven forecasting",
               description:
                 "Uses AI-driven demand forecasting to optimize inventory levels.",
             },
             {
               icon: featureIcon,
-              title: "Supplier Collaboration",
+              title: "Supplier collaboration",
               description:
                 "Improves supplier collaboration, ensuring timely deliveries and cost efficiency.",
             },
             {
               icon: featureIcon,
-              title: "Warehouse Automation",
+              title: "Warehouse automation",
               description:
                 "Automates warehouse operations for faster order fulfillment.",
             },
@@ -1403,25 +1403,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Predictive Maintenance",
+              title: "Predictive maintenance",
               description:
                 "Enables predictive maintenance to reduce unexpected downtime.",
             },
             {
               icon: featureIcon,
-              title: "Lifecycle Management",
+              title: "Lifecycle management",
               description:
                 "Optimizes asset utilization and lifecycle management.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Monitoring",
+              title: "Real-time monitoring",
               description:
                 "Provides real-time monitoring for proactive issue resolution.",
             },
             {
               icon: featureIcon,
-              title: "Maintenance Workflows",
+              title: "Maintenance workflows",
               description:
                 "Automates maintenance workflows for improved operational efficiency.",
             },
@@ -1430,26 +1430,26 @@ const solutionData = [
       ],
     },
     percentageSection: {
-      title: "Making a Difference with SAP S/4HANA Private Cloud",
+      title: "Driving Business Excellence with SAP S/4HANA Private Cloud",
       stats: [
         {
           number: 63,
           label: "Efficiency Improvement",
           content:
-            "efficiency improvement in cross-functional business processes documented by enterprises implementing intelligent automation frameworks, dramatically enhancing productivity across departmental boundaries.",
+            "Documented improvement in cross-functional business processes through intelligent automation frameworks, dramatically enhancing productivity across departmental boundaries.",
         },
         {
           number: 99.95,
           label: "System Reliability",
           content:
-            "system reliability achieved through advanced infrastructure redundancy and proactive monitoring protocols, ensuring continuous availability for mission-critical enterprise operations.",
+            "Complete system reliability achieved through advanced infrastructure redundancy and proactive monitoring protocols, ensuring continuous availability for mission-critical enterprise operations.",
         },
         {
           number: 230,
           symbol: "+",
           label: "Technological Advancements",
           content:
-            "technological advancements delivered in the latest platform release, encompassing process optimization, analytical capabilities, security enhancements, and intuitive user experiences for comprehensive enterprise transformation.",
+            "Significant performance gains with faster processing, enhanced analytics, security, and user experience for enterprise transformation.",
         },
       ],
     },
@@ -1602,7 +1602,7 @@ const solutionData = [
               alt="brain-3--v2"
             />
           ),
-          title: "Harness Intelligence",
+          title: "Harness intelligence",
           description:
             "Deploy sophisticated AI frameworks to revolutionize workforce interactions, learning pathways, performance optimization, and operational workflows for unprecedented efficiency.",
         },
@@ -1614,7 +1614,7 @@ const solutionData = [
               alt="external-talent-new-product-development-npd-glyph-glyph-geotatah"
             />
           ),
-          title: "Unify Talent Intelligence",
+          title: "Unify talent intelligence",
           description:
             "Consolidate comprehensive workforce data and competency frameworks to identify high-potential talent, critical skill gaps, and strategic development opportunities across your organization.",
         },
@@ -1626,7 +1626,7 @@ const solutionData = [
               alt="external-ic_governance-dao-and-tocenomics-outline-lafs"
             />
           ),
-          title: "Ensure Governance",
+          title: "Ensure governance",
           description:
             "Maintain continuous regulatory alignment through dynamic compliance updates calibrated to regional requirements, minimizing risk exposure across global operations.",
         },
@@ -1638,7 +1638,7 @@ const solutionData = [
               alt="change"
             />
           ),
-          title: "Accelerate Transformation",
+          title: "Accelerate transformation",
           description:
             "Implement rapidly through pre-configured industry frameworks and strategic implementation alliances, reducing time-to-value and maximizing return on investment.",
         },
@@ -1647,31 +1647,31 @@ const solutionData = [
     offeringsSection: {
       departments: [
         {
-          title: "Core HR and Payroll",
+          title: "Core HR and [ayroll",
           content:
             "Automate payroll processing and centralize employee data for accurate compensation, reduced administrative workload, and seamless compliance management.",
           features: [
             {
               icon: featureIcon,
-              title: "Timely & Accurate Compensation",
+              title: "Timely & accurate compensation",
               description:
                 "Automate payroll processing, ensuring on-time, accurate payments across regions.",
             },
             {
               icon: featureIcon,
-              title: "Global Compliance",
+              title: "Global compliance",
               description:
                 "Stay updated with local labor laws and regulations for risk-free payroll operations worldwide.",
             },
             {
               icon: featureIcon,
-              title: "Unified Employee Data",
+              title: "Unified employee data",
               description:
                 "Centralize all employee information, reducing duplication and administrative overhead.",
             },
             {
               icon: featureIcon,
-              title: "Finance Integration",
+              title: "Finance integration",
               description:
                 "Integrate with finance systems to streamline compensation, deductions, and reporting.",
             },
@@ -1684,87 +1684,87 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "AI-Driven Recruitment",
+              title: "AI-driven recruitment",
               description:
                 "Streamline candidate matching and hiring processes with intelligent algorithms.",
             },
             {
               icon: featureIcon,
-              title: "Personalized Learning & Development",
+              title: "Personalized learning & development",
               description:
                 "Enable employee growth with tailored training programs and continuous feedback loops.",
             },
             {
               icon: featureIcon,
-              title: "Performance Reviews",
+              title: "Performance reviews",
               description:
                 "Automate evaluations and provide real-time feedback to enhance individual and team outcomes.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Succession Planning",
+              title: "Predictive succession planning",
               description:
                 "Identify high-potential talent and proactively address critical skill gaps.",
             },
           ],
         },
         {
-          title: "Employee Experience Management",
+          title: "Employee experience management",
           content:
             "Cultivate a positive workplace by gathering continuous feedback, providing self-service tools, and fostering personalized career paths.",
           features: [
             {
               icon: featureIcon,
-              title: "Intuitive Self-Service",
+              title: "Intuitive self-service",
               description:
                 "Offer employee portals for streamlined HR requests and information updates.",
             },
             {
               icon: featureIcon,
-              title: "Real-Time Engagement",
+              title: "Real-time engagement",
               description:
                 "Collect ongoing employee feedback to improve workplace satisfaction and culture.",
             },
             {
               icon: featureIcon,
-              title: "Personalized Career Paths",
+              title: "Personalized career paths",
               description:
                 "Map individual skills and aspirations to customized development plans.",
             },
             {
               icon: featureIcon,
-              title: "Data-Driven Insights",
+              title: "Data-driven insights",
               description:
                 "Leverage analytics to pinpoint improvement areas and elevate employee experience.",
             },
           ],
         },
         {
-          title: "HR Analytics and Workforce Planning",
+          title: "HR Analytics and workforce planning",
           content:
             "Optimize resource allocation and productivity with predictive analytics and real-time performance monitoring.",
           features: [
             {
               icon: featureIcon,
-              title: "Predictive Analytics",
+              title: "Predictive analytics",
               description:
                 "Forecast workforce trends and align staffing with business objectives.",
             },
             {
               icon: featureIcon,
-              title: "Performance Dashboards",
+              title: "Performance dashboards",
               description:
                 "Track key HR metrics and KPIs with intuitive, real-time dashboards.",
             },
             {
               icon: featureIcon,
-              title: "Data-Driven Decisions",
+              title: "Data-driven decisions",
               description:
                 "Empower leadership with actionable insights for strategic HR initiatives.",
             },
             {
               icon: featureIcon,
-              title: "Productivity Analysis",
+              title: "Productivity analysis",
               description:
                 "Identify performance bottlenecks and optimize workforce distribution.",
             },
@@ -1777,25 +1777,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Automated Compensation",
+              title: "Automated compensation",
               description:
                 "Simplify sales incentive calculations, ensuring accuracy and timeliness.",
             },
             {
               icon: featureIcon,
-              title: "Real-Time Performance Tracking",
+              title: "Real-time performance tracking",
               description:
                 "Monitor individual and team sales metrics to drive continuous improvement.",
             },
             {
               icon: featureIcon,
-              title: "Advanced Forecasting",
+              title: "Advanced forecasting",
               description:
                 "Use predictive models to align sales goals with strategic business targets.",
             },
             {
               icon: featureIcon,
-              title: "Goal Alignment",
+              title: "Goal alignment",
               description:
                 "Link sales activities with broader organizational objectives for maximum impact.",
             },
@@ -1808,25 +1808,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Chatbot Assistance",
+              title: "Chatbot assistance",
               description:
                 "Provide 24/7 support for HR inquiries and common employee questions.",
             },
             {
               icon: featureIcon,
-              title: "Automated HR Tasks",
+              title: "Automated HR tasks",
               description:
                 "Reduce administrative workload by offloading repetitive tasks to AI-powered workflows.",
             },
             {
               icon: featureIcon,
-              title: "Intelligent Candidate Screening",
+              title: "Intelligent candidate screening",
               description:
                 "Leverage AI to quickly identify top candidates, shortening the hiring cycle.",
             },
             {
               icon: featureIcon,
-              title: "Workforce Trend Analysis",
+              title: "Workforce trend analysis",
               description:
                 "Anticipate future skill requirements and retention risks with machine learning models.",
             },
@@ -1839,22 +1839,22 @@ const solutionData = [
       stats: [
         {
           number: 32,
-          label: "Leadership Development Effectiveness",
+          label: "Leadership development effectiveness",
           content:
-            "32% improvement in leadership development effectiveness reported by organizations implementing strategic succession planning and talent analytics capabilities across their workforce ecosystem.",
+            "Improvement in leadership development effectiveness reported by organizations implementing strategic succession planning and talent analytics capabilities across their workforce ecosystem.",
         },
         {
           number: 67,
-          label: "Reduced Compliance Incidents",
+          label: "Reduced compliance incidents",
           content:
-            "67% reduction in compliance-related incidents achieved through automated regulatory monitoring and proactive governance frameworks integrated throughout human capital processes.",
+            "Significant reduction in compliance-related incidents achieved through automated regulatory monitoring and proactive governance frameworks integrated throughout human capital processes.",
         },
         {
           number: 8.5,
           symbol: "x",
-          label: "Return on Investment",
+          label: "Return on investment",
           content:
-            "8.5x return on investment documented by organizations leveraging predictive workforce analytics to optimize resource allocation, enhance development pathways, and improve retention strategies.",
+            "Substantial return on investment documented by organizations leveraging predictive workforce analytics to optimize resource allocation, enhance development pathways, and improve retention strategies.",
         },
       ],
     },
@@ -2001,7 +2001,7 @@ const solutionData = [
               alt="competitive-growth"
             />
           ),
-          title: "Drive Strategic Growth",
+          title: "Drive strategic growth",
           description:
             "Accelerate enterprise expansion through forward-facing financial intelligence that enables proactive strategic decisions and superior market responsiveness.",
         },
@@ -2013,7 +2013,7 @@ const solutionData = [
               alt="external-resource-talent-management-flatart-icons-outline-flatarticons"
             />
           ),
-          title: "Optimize Resource Allocation",
+          title: "Optimize resource allocation",
           description:
             "Enhance operational efficiency and capital stewardship through intelligent automation, redirecting resources toward high-impact strategic fiscal initiatives.",
         },
@@ -2025,7 +2025,7 @@ const solutionData = [
               alt="sustainable-energy"
             />
           ),
-          title: "Ensure Sustainable Performance",
+          title: "Ensure sustainable performance",
           description:
             "Document comprehensive enterprise performance with sustainability metrics embedded throughout financial processes, enabling responsible, enduring organizational growth.",
         },
@@ -2040,25 +2040,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Dynamic Forecasting",
+              title: "Dynamic forecasting",
               description:
                 "Utilize SAP Analytics Cloud for scenario modeling and actionable decision-making insights.",
             },
             {
               icon: featureIcon,
-              title: "Integrated Planning",
+              title: "Integrated planning",
               description:
                 "Align cross-departmental budgeting and forecasting processes to improve efficiency and collaboration.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Data Access",
+              title: "Real-time data access",
               description:
                 "Access up-to-date financial information for rapid adaptation to market shifts.",
             },
             {
               icon: featureIcon,
-              title: "Growth Evaluation",
+              title: "Growth evaluation",
               description:
                 "Evaluate expansion opportunities and manage resources effectively to enhance returns.",
             },
@@ -2071,25 +2071,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Automated Reconciliation",
+              title: "Automated reconciliation",
               description:
                 "Streamline workflows by automating consolidation and compliance tasks.",
             },
             {
               icon: featureIcon,
-              title: "Unified Reporting",
+              title: "Unified reporting",
               description:
                 "Leverage SAP S/4HANA Finance to ensure operational and group reporting accuracy.",
             },
             {
               icon: featureIcon,
-              title: "Advanced Closing",
+              title: "Advanced closing",
               description:
                 "Implement SAP Advanced Financial Closing to manage close cycles seamlessly.",
             },
             {
               icon: featureIcon,
-              title: "Central Finance",
+              title: "Central finance",
               description:
                 "Enable scalable transformation with SAP S/4HANA Central Finance integrations.",
             },
@@ -2102,25 +2102,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Global Compliance",
+              title: "Global compliance",
               description:
                 "Automate regulatory processes for business documents and statutory reporting.",
             },
             {
               icon: featureIcon,
-              title: "Risk Mitigation",
+              title: "Risk mitigation",
               description:
                 "Utilize enterprise control frameworks to minimize non-compliance risks.",
             },
             {
               icon: featureIcon,
-              title: "Sustainability Alignment",
+              title: "Sustainability alignment",
               description:
                 "Support environmental targets by assessing the impact of materials and production.",
             },
             {
               icon: featureIcon,
-              title: "Strategic Simulations",
+              title: "Strategic simulations",
               description:
                 "Evaluate tax implications with accounting data for informed decision-making.",
             },
@@ -2133,25 +2133,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Real-time Visibility",
+              title: "Real-time visibility",
               description:
                 "Monitor cash positions and forecasts for precise liquidity management.",
             },
             {
               icon: featureIcon,
-              title: "Financial Agility",
+              title: "Financial agility",
               description:
                 "Enhance analysis using SAP S/4HANA’s advanced capabilities for treasury operations.",
             },
             {
               icon: featureIcon,
-              title: "Automated Processes",
+              title: "Automated processes",
               description:
                 "Integrate cash and risk management with core financial workflows.",
             },
             {
               icon: featureIcon,
-              title: "Revenue Innovation",
+              title: "Revenue innovation",
               description:
                 "Drive growth through new monetization strategies for products and services.",
             },
@@ -2164,25 +2164,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Automated Billing",
+              title: "Automated billing",
               description:
                 "Minimize errors and accelerate transactions with digitized invoicing and payments.",
             },
             {
               icon: featureIcon,
-              title: "Integrated Sales & Finance",
+              title: "Integrated sales & finance",
               description:
                 "Bridge order processing and fulfillment with real-time financial tracking.",
             },
             {
               icon: featureIcon,
-              title: "Customer Account Insights",
+              title: "Customer account insights",
               description:
                 "Manage credit decisions and account statuses via real-time data.",
             },
             {
               icon: featureIcon,
-              title: "Performance Monitoring",
+              title: "Performance monitoring",
               description:
                 "Gain visibility into sales metrics and identify growth opportunities.",
             },
@@ -2195,25 +2195,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Automated Compliance",
+              title: "Automated compliance",
               description:
                 "Ensure adherence to regulations and mitigate risks with proactive controls.",
             },
             {
               icon: featureIcon,
-              title: "Data Integrity",
+              title: "Data integrity",
               description:
                 "Protect sensitive financial information with robust cybersecurity measures.",
             },
             {
               icon: featureIcon,
-              title: "Enterprise Risk Monitoring",
+              title: "Enterprise risk monitoring",
               description:
                 "Implement controls to identify and address risks across all financial processes.",
             },
             {
               icon: featureIcon,
-              title: "Enhanced Transparency",
+              title: "Enhanced transparency",
               description:
                 "Improve auditability and inspire stakeholder trust through comprehensive reporting.",
             },
@@ -2222,26 +2222,26 @@ const solutionData = [
       ],
     },
     percentageSection: {
-      title: "Making difference with SAP Financial Management",
+      title: "Driving Results with SAP Financial Management",
       stats: [
         {
           number: 47,
           label: "Operational Efficiency Gain",
           content:
-            "47% operational efficiency gain achieved by organizations implementing intelligent financial automation, enabling finance teams to redirect resources from transactional processes to strategic business initiatives.",
+            "Organizations implementing intelligent financial automation achieve significant efficiency gains, enabling finance teams to redirect resources from transactional processes to strategic business initiatives.",
         },
         {
           number: 65,
           label: "Reduction in Financial Close Cycle",
           content:
-            "65% reduction in financial close cycle time reported by enterprises leveraging integrated financial management solutions with real-time data visibility and automated reconciliation frameworks.",
+            "Enterprises leveraging integrated financial management solutions report substantial reductions in close cycle time, enabled by real-time data visibility and automated reconciliation frameworks.",
         },
         {
           number: 3.2,
           symbol: "x",
           label: "Return on Investment",
           content:
-            "3.2x return on investment realized through enhanced strategic decision-making capabilities powered by comprehensive financial analytics and predictive modeling capabilities.",
+            "Organizations realize enhanced returns through improved strategic decision-making capabilities powered by comprehensive financial analytics and predictive modeling tools.",
         },
       ],
     },
@@ -2262,7 +2262,7 @@ const solutionData = [
               alt="for-experienced"
             />
           ),
-          title: "Real-time Financial Intelligence",
+          title: "Real-time financial intelligence",
           description:
             "Implement SAP's financial management system to access instantaneous fiscal intelligence, enabling agile strategic response capabilities throughout your organization.",
         },
@@ -2274,7 +2274,7 @@ const solutionData = [
               alt="strategy-board"
             />
           ),
-          title: "Strategic Resource Planning",
+          title: "Strategic resource planning",
           description:
             "Deploy SAP Analytics Cloud Planning to streamline budgeting frameworks and enhance forecasting precision, optimizing resource allocation across business functions.",
         },
@@ -2286,7 +2286,7 @@ const solutionData = [
               alt="query-inner-join"
             />
           ),
-          title: "Financial Architecture Integration",
+          title: "Financial architecture integration",
           description:
             "Unify financial data across organizational divisions and geographic boundaries, ensuring a comprehensive view of enterprise financial performance and position.",
         },
@@ -2298,7 +2298,7 @@ const solutionData = [
               alt="sales-performance-balance"
             />
           ),
-          title: "Advanced Performance Forecasting",
+          title: "Advanced performance forecasting",
           description:
             "Generate sophisticated financial analysis and predictive models with SAP's finance software, providing strategic intelligence for executive decision-making.",
         },
@@ -2310,7 +2310,7 @@ const solutionData = [
               alt="process"
             />
           ),
-          title: "Intelligent Process Automation",
+          title: "Intelligent process automation",
           description:
             "Streamline critical financial workflows through intelligent automation, minimizing manual intervention, accelerating transaction cycles, and enhancing cash flow optimization.",
         },
@@ -2322,7 +2322,7 @@ const solutionData = [
               alt="overview-pages-4"
             />
           ),
-          title: "Comprehensive Governance Framework",
+          title: "Comprehensive governance framework",
           description:
             "Establish robust governance, risk management, and compliance architecture using SAP's integrated solutions to mitigate exposure and ensure regulatory alignment.",
         },
@@ -2366,6 +2366,7 @@ const solutionData = [
     },
   },
   {
+    
     slug: "sap-analytics-cloud-planning",
     heroSection: {
       image: Sapanalyticscloudhero,
@@ -2387,7 +2388,7 @@ const solutionData = [
               alt="goal--v1"
             />
           ),
-          title: "Resolve Strategic Challenges",
+          title: "Resolve strategic challenges",
           description:
             "Implement advanced analytical frameworks to address fundamental performance obstacles and drive measurable business outcome improvements.",
         },
@@ -2399,7 +2400,7 @@ const solutionData = [
               alt="left-and-right-curved"
             />
           ),
-          title: "Capitalize on Market Differentiation",
+          title: "Capitalize on market differentiation",
           description:
             "Identify and activate untapped competitive advantages to enhance strategic positioning and accelerate sustainable growth trajectories.",
         },
@@ -2411,7 +2412,7 @@ const solutionData = [
               alt="business-goal"
             />
           ),
-          title: "Transform Business Architecture",
+          title: "Transform business architecture",
           description:
             "Modernize, optimize, and digitalize critical business functions to enhance organizational responsiveness and operational resilience.",
         },
@@ -2423,7 +2424,7 @@ const solutionData = [
               alt="external-medal-canada-independence-day-flatart-icons-solid-flatarticons"
             />
           ),
-          title: "Establish Competitive Dominance",
+          title: "Establish competitive dominance",
           description:
             "Deploy actionable intelligence to maintain market leadership and anticipate emerging industry trends with precision.",
         },
@@ -2438,25 +2439,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Advanced Analytics",
+              title: "Advanced analytics",
               description:
                 "Empower deep insights to optimize financial management and strategic operations.",
             },
             {
               icon: featureIcon,
-              title: "Embedded Tools",
+              title: "Embedded tools",
               description:
                 "Facilitate seamless tracking, assessment, and improvement of key business KPIs.",
             },
             {
               icon: featureIcon,
-              title: "SAP Group Reporting Integration",
+              title: "SAP group reporting integration",
               description:
                 "Enhance financial consolidation accuracy and transparency within SAC.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Evaluation",
+              title: "Real-time evaluation",
               description:
                 "Enable swift adaptation to evolving market conditions through immediate data visibility.",
             },
@@ -2469,25 +2470,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Dynamic Forecasting",
+              title: "Dynamic forecasting",
               description:
                 "Deliver accurate financial and operational projections with SAC planning.",
             },
             {
               icon: featureIcon,
-              title: "AI-powered Insights",
+              title: "AI-powered insights",
               description:
                 "Support agile strategic adjustments through predictive analytics.",
             },
             {
               icon: featureIcon,
-              title: "Enterprise Consistency",
+              title: "Enterprise consistency",
               description:
                 "Integrate financial forecasting with SAP S/4HANA for unified data.",
             },
             {
               icon: featureIcon,
-              title: "Profitability Analysis",
+              title: "Profitability analysis",
               description:
                 "Refine cost forecasts to align with business goals through SAP PaPM.",
             },
@@ -2500,25 +2501,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Adaptable Platform",
+              title: "Adaptable platform",
               description:
                 "Address diverse financial and operational planning needs within a single solution.",
             },
             {
               icon: featureIcon,
-              title: "Synchronized Deployment",
+              title: "Synchronized deployment",
               description:
                 "Seamlessly integrate with SAP S/4HANA for resource and financial synergy.",
             },
             {
               icon: featureIcon,
-              title: "Collaborative Strategy",
+              title: "Collaborative strategy",
               description:
                 "Develop data-driven strategic plans with input from cross-functional teams.",
             },
             {
               icon: featureIcon,
-              title: "Interactive Dashboards",
+              title: "Interactive dashboards",
               description:
                 "Monitor and adjust planning processes in real time for optimal results.",
             },
@@ -2531,25 +2532,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "SAP S/4HANA Alignment",
+              title: "SAP S/4HANA alignment",
               description:
                 "Ensure consistency in financial management and reporting through real-time synchronization.",
             },
             {
               icon: featureIcon,
-              title: "SAP Group Reporting Support",
+              title: "SAP group reporting support",
               description:
                 "Simplify consolidated financial analysis with direct connectivity.",
             },
             {
               icon: featureIcon,
-              title: "SAP PaPM Connectivity",
+              title: "SAP PaPM connectivity",
               description:
                 "Enhance profitability insights and scenario analysis for informed decision-making.",
             },
             {
               icon: featureIcon,
-              title: "External Data Integration",
+              title: "External data integration",
               description:
                 "Deliver a well-rounded data perspective by incorporating non-SAP sources.",
             },
@@ -2562,25 +2563,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Shared Planning Sessions",
+              title: "Shared planning sessions",
               description:
                 "Align financial and operational strategies with integrated collaboration tools.",
             },
             {
               icon: featureIcon,
-              title: "Built-in Communication",
+              title: "Built-in communication",
               description:
                 "Enable instant discussions and teamwork through chat and collaborative features.",
             },
             {
               icon: featureIcon,
-              title: "Secure Workspaces",
+              title: "Secure workspaces",
               description:
                 "Provide transparency and efficiency in planning and forecasting activities.",
             },
             {
               icon: featureIcon,
-              title: "Cross-functional Alignment",
+              title: "Cross-functional alignment",
               description:
                 "Bridge finance and operations for a unified, organization-wide strategy.",
             },
@@ -2593,25 +2594,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Real-time Analytics",
+              title: "Real-time analytics",
               description:
                 "Access critical business data instantly to drive faster responses.",
             },
             {
               icon: featureIcon,
-              title: "Pre-built Planning Models",
+              title: "Pre-built planning models",
               description:
                 "Implement solutions swiftly and adapt quickly to shifting market conditions.",
             },
             {
               icon: featureIcon,
-              title: "Automated Data Refreshes",
+              title: "Automated data refreshes",
               description:
                 "Ensure continuous updates for the latest business performance metrics.",
             },
             {
               icon: featureIcon,
-              title: "Interactive Visualization",
+              title: "Interactive visualization",
               description:
                 "Leverage dashboards for immediate, informed decision-making.",
             },
@@ -2624,25 +2625,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Seamless Connection",
+              title: "Seamless connection",
               description:
                 "Integrate on-premise and cloud data sources for a unified hybrid environment.",
             },
             {
               icon: featureIcon,
-              title: "SAP S/4HANA Integration",
+              title: "SAP S/4HANA integration",
               description:
                 "Leverage existing infrastructure for coherent, hybrid data management.",
             },
             {
               icon: featureIcon,
-              title: "Customizable Data Access",
+              title: "Customizable data access",
               description:
                 "Tailor data storage and retrieval to match specific organizational requirements.",
             },
             {
               icon: featureIcon,
-              title: "Unified Data Consolidation",
+              title: "Unified data consolidation",
               description:
                 "Deliver reliable planning insights through hybrid data synchronization.",
             },
@@ -2655,25 +2656,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Industry-specific Models",
+              title: "Industry-specific models",
               description:
                 "Ensure relevance across varied sectors through specialized planning frameworks.",
             },
             {
               icon: featureIcon,
-              title: "Scalable Architecture",
+              title: "Scalable architecture",
               description:
                 "Support organizational growth with infrastructure that expands seamlessly.",
             },
             {
               icon: featureIcon,
-              title: "Advanced Scenario Planning",
+              title: "Advanced scenario planning",
               description:
                 "Model and analyze multiple strategic pathways for agile decision-making.",
             },
             {
               icon: featureIcon,
-              title: "Modular Approach",
+              title: "Modular approach",
               description:
                 "Customize functionality to meet shifting operational and strategic goals.",
             },
@@ -2686,25 +2687,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Powerful Modeling Tools",
+              title: "Powerful modeling tools",
               description:
                 "Integrate forecasting and risk analysis into financial operations for precision.",
             },
             {
               icon: featureIcon,
-              title: "SAP Financial Management Link",
+              title: "SAP Financial management link",
               description:
                 "Combine advanced financial modeling with organizational data for accuracy.",
             },
             {
               icon: featureIcon,
-              title: "Scenario Testing",
+              title: "Scenario testing",
               description:
                 "Compare multiple 'what-if' situations to inform data-driven decisions.",
             },
             {
               icon: featureIcon,
-              title: "Intuitive Interface",
+              title: "Intuitive interface",
               description:
                 "Create and refine operational plans using a straightforward modeling workspace.",
             },
@@ -2713,26 +2714,26 @@ const solutionData = [
       ],
     },
     percentageSection: {
-      title: "Making difference with SAP Analytics Cloud Planning",
+      title: "Delivering Impact with SAP Analytics Cloud Planning",
       stats: [
         {
           number: 82,
           label: "Acceleration in Strategic Decision Cycles",
           content:
-            "82% of organizations implementing SAP Analytics Cloud achieve substantial acceleration in strategic decision cycles, enabling exceptional business responsiveness in dynamic market environments.",
+            "Organizations implementing SAP Analytics Cloud achieve substantial acceleration in strategic decision cycles, enabling exceptional business responsiveness in dynamic market environments.",
         },
         {
           number: 94,
           label: "Forecast Accuracy Improvement",
           content:
-            "94% improvement in forecast accuracy realized through advanced predictive algorithms and integrated planning methodologies across financial and operational domains.",
+            "Improvement in forecast accuracy realized through advanced predictive algorithms and integrated planning methodologies across financial and operational domains.",
         },
         {
           number: 3.7,
           symbol: "x",
           label: "Return on Investment",
           content:
-            "3.7x return on investment documented through enhanced resource optimization, improved strategic alignment, and accelerated growth initiatives within the first 24 months of implementation.",
+            "Increased ROI documented through enhanced resource optimization, improved strategic alignment, and accelerated growth initiatives within the first 24 months of implementation.",
         },
       ],
     },
@@ -2879,7 +2880,7 @@ const solutionData = [
               alt="external-financial-finance-flatart-icons-outline-flatarticons"
             />
           ),
-          title: "Comprehensive Financial Visibility",
+          title: "Comprehensive financial visibility",
           description:
             "Navigate consolidated financial structures with granular supporting documentation directly from general ledger systems for unparalleled analytical depth.",
         },
@@ -2891,7 +2892,7 @@ const solutionData = [
               alt="topup-payment"
             />
           ),
-          title: "Continuous Financial Operations",
+          title: "Continuous financial operations",
           description:
             "Implement perpetual accounting methodologies with sophisticated consolidation frameworks for frictionless financial operations and reporting excellence.",
         },
@@ -2903,7 +2904,7 @@ const solutionData = [
               alt="external-data-integration-data-engineering-solid-solidglyph-m-oki-orlando"
             />
           ),
-          title: "Universal Data Integration",
+          title: "Universal data integration",
           description:
             "Assimilate and harmonize external financial information beyond native SAP environments for comprehensive enterprise reporting capabilities.",
         },
@@ -2915,7 +2916,7 @@ const solutionData = [
               alt="external-flexible-arrows-outline-outline-juicy-fish-2"
             />
           ),
-          title: "Architectural Flexibility",
+          title: "Architectural flexibility",
           description:
             "Select optimal deployment configurations across on-premises, cloud, or hybrid infrastructures to align with strategic organizational requirements.",
         },
@@ -2930,25 +2931,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Consolidation Tools",
+              title: "Consolidation tools",
               description:
                 "Leverage SAP S/4HANA Group Reporting for standardized, accurate, and reliable financial consolidation.",
             },
             {
               icon: featureIcon,
-              title: "Integrated Forecasting",
+              title: "Integrated forecasting",
               description:
                 "Enhance planning and decision-making with SAP Analytics Cloud Planning across multiple entities.",
             },
             {
               icon: featureIcon,
-              title: "Live Dashboards",
+              title: "Live dashboards",
               description:
                 "Provide real-time updates to stakeholders, ensuring transparency and streamlined close processes.",
             },
             {
               icon: featureIcon,
-              title: "Accurate Insights",
+              title: "Accurate insights",
               description:
                 "Combine entity and group performance data for consolidated, actionable intelligence.",
             },
@@ -2961,25 +2962,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Continuous Data Insights",
+              title: "Continuous data insights",
               description:
                 "Deliver ongoing visibility into financial transactions to minimize month-end bottlenecks.",
             },
             {
               icon: featureIcon,
-              title: "AI-driven Automation",
+              title: "AI-driven automation",
               description:
                 "Reduce manual workloads and enhance compliance accuracy for critical finance tasks.",
             },
             {
               icon: featureIcon,
-              title: "Reduced Errors",
+              title: "Reduced errors",
               description:
                 "Leverage intelligent workflows to minimize human intervention and manual adjustments.",
             },
             {
               icon: featureIcon,
-              title: "Strategic Focus",
+              title: "Strategic focus",
               description:
                 "Allow finance teams to concentrate on high-value initiatives rather than administrative tasks.",
             },
@@ -2992,25 +2993,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Intercompany Eliminations",
+              title: "Intercompany eliminations",
               description:
                 "Handle complex eliminations and adjustments for precise group-level reporting.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Consolidation",
+              title: "Real-time consolidation",
               description:
                 "Access up-to-the-minute consolidation data for improved compliance and strategic decisions.",
             },
             {
               icon: featureIcon,
-              title: "Geographic Coverage",
+              title: "Geographic coverage",
               description:
                 "Support multinational operations with currency translation and localized reporting standards.",
             },
             {
               icon: featureIcon,
-              title: "Analytics Cloud Integration",
+              title: "Analytics cloud integration",
               description:
                 "Enhance group-wide financial planning and analysis with seamless SAC connectivity.",
             },
@@ -3023,56 +3024,56 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Seamless ERP Connections",
+              title: "Seamless ERP connections",
               description:
                 "Bridge ERP, CRM, and third-party applications for unified data flow.",
             },
             {
               icon: featureIcon,
-              title: "AI-powered Predictive Analytics",
+              title: "AI-powered predictive analytics",
               description:
                 "Strengthen decision-making with advanced forecasting and real-time insights.",
             },
             {
               icon: featureIcon,
-              title: "Unified Data Model",
+              title: "Unified data model",
               description:
                 "Improve reporting accuracy by harmonizing diverse financial datasets.",
             },
             {
               icon: featureIcon,
-              title: "Enhanced Visibility",
+              title: "Enhanced visibility",
               description:
                 "Grant stakeholders 360-degree perspectives on financial performance.",
             },
           ],
         },
         {
-          title: "Global Currency Management",
+          title: "Global currency management",
           content:
             "Automates currency conversions and adjustments based on real-time exchange rates.",
           features: [
             {
               icon: featureIcon,
-              title: "Multi-currency Reporting",
+              title: "Multi-currency reporting",
               description:
                 "Support global operations with accurate financial statements in multiple currencies.",
             },
             {
               icon: featureIcon,
-              title: "Exchange Rate Management",
+              title: "Exchange rate management",
               description:
                 "Mitigate foreign exchange risks through integrated hedging and real-time monitoring.",
             },
             {
               icon: featureIcon,
-              title: "Regulatory Compliance",
+              title: "Regulatory compliance",
               description:
                 "Adhere to international accounting standards for transparent and consistent reporting.",
             },
             {
               icon: featureIcon,
-              title: "Risk Reduction",
+              title: "Risk reduction",
               description:
                 "Implement currency management tools to minimize volatility impact on financial results.",
             },
@@ -3085,25 +3086,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "IFRS and GAAP Compliance",
+              title: "IFRS and GAAP compliance",
               description:
                 "Align reporting with global financial standards for reliable disclosures.",
             },
             {
               icon: featureIcon,
-              title: "Role-based Security",
+              title: "Role-based security",
               description:
                 "Enhance data protection through restricted system access and audit logging.",
             },
             {
               icon: featureIcon,
-              title: "Fraud Detection",
+              title: "Fraud detection",
               description:
                 "Identify anomalies and inconsistencies to secure financial data integrity.",
             },
             {
               icon: featureIcon,
-              title: "Detailed Audit Trails",
+              title: "Detailed audit trails",
               description:
                 "Simplify external reviews and internal audits with comprehensive transaction logs.",
             },
@@ -3116,25 +3117,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "AI-driven Predictive Analytics",
+              title: "AI-driven predictive analytics",
               description:
                 "Improve forecasting accuracy and adaptability to market fluctuations.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Scenario Insights",
+              title: "Real-time scenario insights",
               description:
                 "Modify business strategies dynamically with immediate consolidation feedback.",
             },
             {
               icon: featureIcon,
-              title: "Collaborative Planning",
+              title: "Collaborative planning",
               description:
                 "Integrate with financial planning tools for agile and cross-functional decision-making.",
             },
             {
               icon: featureIcon,
-              title: "Growth-oriented Analysis",
+              title: "Growth-oriented analysis",
               description:
                 "Evaluate expansion strategies, acquisitions, or reorganizations with in-depth forecasting.",
             },
@@ -3147,22 +3148,22 @@ const solutionData = [
       stats: [
         {
           number: 73,
-          label: "Reduction in Financial Close Cycle Time",
+          label: "Reduced Financial Close Cycle Time",
           content:
-            "73% reduction in financial close cycle time achieved by organizations implementing integrated consolidation frameworks, transforming month-end processes from weeks to days.",
+            "Integrated consolidation frameworks shrink month-end timelines, cutting financial close cycles from weeks to just days.",
         },
         {
           number: 89,
-          label: "Improvement in Financial Reporting Accuracy",
+          label: "Increased Financial Reporting Accuracy",
           content:
-            "89% improvement in financial reporting accuracy documented through automated reconciliation and currency translation, dramatically reducing compliance risks and restatement requirements.",
+            "Automated reconciliation and currency conversion boost accuracy while reducing compliance errors and restatements.",
         },
         {
           number: 4.2,
           symbol: "x",
           label: "Increase in Finance Team Productivity",
           content:
-            "4.2x increase in finance team productivity realized through intelligent automation of routine consolidation tasks, enabling reallocation of resources toward strategic financial analysis.",
+            "Routine consolidation tasks are automated, freeing teams to focus on high-impact financial strategy and insights.",
         },
       ],
     },
@@ -3333,7 +3334,7 @@ const solutionData = [
               alt="data-backup"
             />
           ),
-          title: "Enterprise Data Convergence",
+          title: "Enterprise data convergence",
           description:
             "Integrate diverse information assets across SAP and non-SAP environments, establishing a unified foundation for comprehensive analytics and executive intelligence.",
         },
@@ -3345,7 +3346,7 @@ const solutionData = [
               alt="external-modeling-data-science-and-cyber-security-flatart-icons-solid-flatarticons"
             />
           ),
-          title: "Computational Modeling Excellence",
+          title: "Computational modeling excellence",
           description:
             "Deploy sophisticated financial models for complex profitability and cost allocation frameworks precisely calibrated to organizational requirements and industry dynamics.",
         },
@@ -3357,7 +3358,7 @@ const solutionData = [
               alt="external-simulation-business-becris-lineal-becris"
             />
           ),
-          title: "Strategic Decision Simulation",
+          title: "Strategic decision simulation",
           description:
             "Implement dynamic scenario planning and simulation capabilities to evaluate strategic alternatives and optimize resource deployment for enhanced business outcomes.",
         },
@@ -3372,25 +3373,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Unified Data Pipelines",
+              title: "Unified data pipelines",
               description:
                 "Enhance reporting and forecasting by consolidating diverse data sources for optimal integration.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Insights",
+              title: "Real-time insights",
               description:
                 "Aggregate data with SAP Financial Management tools for continuous performance visibility.",
             },
             {
               icon: featureIcon,
-              title: "Comprehensive Consolidation",
+              title: "Comprehensive consolidation",
               description:
                 "Integrate SAP Group Reporting for a holistic view of consolidated financial performance.",
             },
             {
               icon: featureIcon,
-              title: "Streamlined Workflows",
+              title: "Streamlined workflows",
               description:
                 "Improve financial outcomes through end-to-end data harmonization and automation.",
             },
@@ -3403,25 +3404,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Dynamic Cost Structures",
+              title: "Dynamic cost structures",
               description:
                 "Base pricing decisions on real-time market trends and updated cost data.",
             },
             {
               icon: featureIcon,
-              title: "Scenario-based Evaluation",
+              title: "Scenario-based evaluation",
               description:
                 "Simulate various pricing strategies and assess their financial impact.",
             },
             {
               icon: featureIcon,
-              title: "Regulatory Compliance",
+              title: "Regulatory compliance",
               description:
                 "Adhere to pricing regulations and maintain transparent cost structures.",
             },
             {
               icon: featureIcon,
-              title: "Financial Planning Integration",
+              title: "Financial planning integration",
               description:
                 "Optimize pricing models by connecting with enterprise planning and forecasting tools.",
             },
@@ -3434,25 +3435,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Real-time Adjustments",
+              title: "Real-time adjustments",
               description:
                 "Adapt to evolving business scenarios with responsive financial modeling.",
             },
             {
               icon: featureIcon,
-              title: "Minimal Manual Intervention",
+              title: "Minimal manual intervention",
               description:
                 "Leverage predefined calculation models to reduce human error and processing times.",
             },
             {
               icon: featureIcon,
-              title: "Operational Efficiency",
+              title: "Operational efficiency",
               description:
                 "Automate repetitive tasks with advanced algorithms for consistent, reliable results.",
             },
             {
               icon: featureIcon,
-              title: "Standard Compliance",
+              title: "Standard compliance",
               description:
                 "Guarantee alignment with financial reporting requirements and standards.",
             },
@@ -3465,25 +3466,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Real-time Financial Updates",
+              title: "Real-time financial updates",
               description:
                 "Access continuous information for improved decision-making and timely adjustments.",
             },
             {
               icon: featureIcon,
-              title: "Transparent Ledgers",
+              title: "Transparent ledgers",
               description:
                 "Ensure consistency across transactions, statements, and financial records.",
             },
             {
               icon: featureIcon,
-              title: "Audit Risk Mitigation",
+              title: "Audit risk mitigation",
               description:
                 "Rely on automated, traceable reconciliation processes to decrease audit complexities.",
             },
             {
               icon: featureIcon,
-              title: "Error Reduction",
+              title: "Error reduction",
               description:
                 "Minimize discrepancies with integrated data validation protocols.",
             },
@@ -3496,25 +3497,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Comprehensive Cash Flow Analysis",
+              title: "Comprehensive cash flow analysis",
               description:
                 "Optimize investment and funding strategies using accurate data-driven insights.",
             },
             {
               icon: featureIcon,
-              title: "Scenario-based Forecasting",
+              title: "Scenario-based forecasting",
               description:
                 "Proactively manage financial risks through targeted simulations.",
             },
             {
               icon: featureIcon,
-              title: "Capital Management Integration",
+              title: "Capital management integration",
               description:
                 "Align with SAP Financial tools to streamline workflows and maintain balanced liquidity.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Analytics",
+              title: "Predictive analytics",
               description:
                 "Leverage AI-driven insights to refine investment decisions and enhance ROI.",
             },
@@ -3527,25 +3528,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Intercompany Eliminations",
+              title: "Intercompany eliminations",
               description:
                 "Automate eliminations and reporting for consistent group-level financials.",
             },
             {
               icon: featureIcon,
-              title: "Regulatory Alignment",
+              title: "Regulatory alignment",
               description:
                 "Ensure compliance with IFRS and GAAP for transparent, accurate disclosures.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Consolidation",
+              title: "Real-time consolidation",
               description:
                 "Access up-to-date data to drive improved compliance and decision-making.",
             },
             {
               icon: featureIcon,
-              title: "Global Perspective",
+              title: "Global perspective",
               description:
                 "Manage multi-entity structures with confidence and unified visibility.",
             },
@@ -3558,25 +3559,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Regulatory Compliance Frameworks",
+              title: "Regulatory compliance frameworks",
               description:
                 "Maintain solvency and adherence to risk management guidelines.",
             },
             {
               icon: featureIcon,
-              title: "AI-driven Risk Predictions",
+              title: "AI-driven risk predictions",
               description:
                 "Mitigate emerging threats with predictive analytics and real-time alerts.",
             },
             {
               icon: featureIcon,
-              title: "Dynamic Stress Testing",
+              title: "Dynamic stress testing",
               description:
                 "Prepare for market fluctuations by evaluating multi-variable scenarios.",
             },
             {
               icon: featureIcon,
-              title: "Capital Reserve Optimization",
+              title: "Capital reserve optimization",
               description:
                 "Ensure financial stability through proactive resource and liquidity management.",
             },
@@ -3589,25 +3590,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Multi-scenario Testing",
+              title: "Multi-scenario testing",
               description:
                 "Evaluate numerous strategic pathways for more informed decision-making.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Data Integration",
+              title: "Real-time data integration",
               description:
                 "Enhance forecasting accuracy by continuously updating scenario models.",
             },
             {
               icon: featureIcon,
-              title: "Agile Business Planning",
+              title: "Agile business planning",
               description:
                 "Adjust simulations dynamically based on live operational inputs.",
             },
             {
               icon: featureIcon,
-              title: "Enhanced Forecasting Accuracy",
+              title: "Enhanced forecasting accuracy",
               description:
                 "Incorporate machine learning to boost predictive insights.",
             },
@@ -3620,25 +3621,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Cost Allocation Models",
+              title: "Cost allocation models",
               description:
                 "Distribute costs precisely with scenario-based approaches for margin optimization.",
             },
             {
               icon: featureIcon,
-              title: "Profit Margin Analysis",
+              title: "Profit margin analysis",
               description:
                 "Identify underperforming segments and intervene for improved returns.",
             },
             {
               icon: featureIcon,
-              title: "Financial Planning Integration",
+              title: "Financial planning integration",
               description:
                 "Link cost controls with operational strategies to optimize profit generation.",
             },
             {
               icon: featureIcon,
-              title: "Continuous Monitoring",
+              title: "Continuous monitoring",
               description:
                 "Track and adjust profitability dynamics in real time for proactive interventions.",
             },
@@ -3651,25 +3652,25 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "ESG Compliance",
+              title: "ESG compliance",
               description:
                 "Meet evolving environmental, social, and governance standards within financial models.",
             },
             {
               icon: featureIcon,
-              title: "Resource Utilization Metrics",
+              title: "Resource utilization metrics",
               description:
                 "Incorporate sustainability objectives directly into planning and performance tracking.",
             },
             {
               icon: featureIcon,
-              title: "Carbon Footprint Analysis",
+              title: "Carbon footprint analysis",
               description:
                 "Embed environmental impact data into corporate financial planning cycles.",
             },
             {
               icon: featureIcon,
-              title: "Corporate Responsibility Alignment",
+              title: "Corporate responsibility alignment",
               description:
                 "Synchronize profitability goals with ESG mandates for balanced, ethical growth.",
             },
@@ -3678,26 +3679,26 @@ const solutionData = [
       ],
     },
     percentageSection: {
-      title: "Making difference with SAP PaPM",
+      title: "Driving Precision with SAP PaPM",
       stats: [
         {
           number: 85,
           label: "Acceleration in Financial Planning Cycles",
           content:
-            "85% acceleration in financial planning cycles achieved through advanced modeling capabilities, reducing budget preparation and forecasting timelines from months to weeks while improving accuracy.",
+            "Advanced modeling tools cut planning cycles from months to weeks while boosting forecasting precision.",
         },
         {
           number: 97,
           label: "Improvement in Profitability Visibility",
           content:
-            "97% improvement in profitability visibility at customer and product levels through multi-dimensional allocation models, enabling precise intervention in underperforming segments.",
+            "Multi-layer allocations uncover profit drivers across products and customers for smarter decisions.",
         },
         {
           number: 6.8,
           symbol: "x",
           label: "Return on Investment",
           content:
-            "6.8x return on investment documented within 24 months through optimized pricing strategies, enhanced resource allocation, and identification of previously hidden profit opportunities.",
+            "Optimized pricing and resource use unlock high returns and expose hidden profitability in two years.",
         },
       ],
     },
@@ -3718,7 +3719,7 @@ const solutionData = [
               alt="external-modeling-data-science-and-cyber-security-flatart-icons-solid-flatarticons"
             />
           ),
-          title: "Strategic Modeling Architecture",
+          title: "Strategic modeling architecture",
           description:
             "Optimize profitability analysis, cost allocation precision, and operational efficiency through business-centric modeling frameworks.",
         },
@@ -3730,7 +3731,7 @@ const solutionData = [
               alt="learn-more"
             />
           ),
-          title: "Intelligence Amplification",
+          title: "Intelligence amplification",
           description:
             "Harmonize disparate data sources, extend analytical insights, and boost reporting accuracy with PaPM’s integrated intelligence frameworks.",
         },
@@ -3742,7 +3743,7 @@ const solutionData = [
               alt="external-enhanced-business-analysis-becris-lineal-color-becris-3"
             />
           ),
-          title: "Decision Velocity Enhancement",
+          title: "Decision velocity enhancement",
           description:
             "Accelerate strategic cycles via in-memory computation and real-time analytics, enabling immediate responses to market dynamics.",
         },
@@ -3754,7 +3755,7 @@ const solutionData = [
               alt="graduation-cap--v1"
             />
           ),
-          title: "Information Governance Excellence",
+          title: "Information governance excellence",
           description:
             "Deploy robust data protection, role-based access, and audit trails to ensure comprehensive regulatory compliance.",
         },
@@ -3766,7 +3767,7 @@ const solutionData = [
               alt="for-experienced"
             />
           ),
-          title: "Strategic Risk Intelligence",
+          title: "Strategic risk intelligence",
           description:
             "Model potential risk scenarios, evaluate mitigation strategies, and address financial and operational threats proactively.",
         },
@@ -3778,7 +3779,7 @@ const solutionData = [
               alt="spaceship-launch-documentation"
             />
           ),
-          title: "Deployment Flexibility Framework",
+          title: "Deployment flexibility framework",
           description:
             "Select on-premise, cloud, or hybrid architectures to align PaPM with organizational strategy and technology governance policies.",
         },
@@ -3790,7 +3791,7 @@ const solutionData = [
               alt="performance-goal"
             />
           ),
-          title: "Performance Visualization Capabilities",
+          title: "Performance visualization capabilities",
           description:
             "Transform complex data into intuitive dashboards for immediate visibility into profitability drivers and key performance indicators.",
         },
@@ -3798,11 +3799,11 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/8/learning.png"
+              src="https://img.icons8.com/ios-filled/64/learning.png"
               alt="learning"
             />
           ),
-          title: "Continuous Learning Integration",
+          title: "Continuous learning integration",
           description:
             "Leverage machine learning to refine predictive accuracy and identify emerging performance patterns for proactive management.",
         },
@@ -3864,7 +3865,7 @@ const solutionData = [
               alt="shop-department"
             />
           ),
-          title: "Business-Centric Intelligence",
+          title: "Business-centric intelligence",
           description:
             "Achieve immediate operational impact through pervasive intelligence integration across your organization, enhancing process effectiveness and business outcomes.",
         },
@@ -3876,7 +3877,7 @@ const solutionData = [
               alt="company"
             />
           ),
-          title: "Enterprise-Grade Precision",
+          title: "Enterprise-grade precision",
           description:
             "Execute strategic decisions with confidence through AI frameworks grounded in high-integrity enterprise data, ensuring analytical accuracy and consistent performance.",
         },
@@ -3888,7 +3889,7 @@ const solutionData = [
               alt="star--v1"
             />
           ),
-          title: "Governance Excellence",
+          title: "Governance excellence",
           description:
             "Deploy advanced intelligence capabilities within comprehensive ethical, security, and privacy frameworks, preserving organizational trust and regulatory alignment.",
         },
@@ -3897,31 +3898,31 @@ const solutionData = [
     offeringsSection: {
       departments: [
         {
-          title: "AI in ERP and Finance",
+          title: "AI in ERP and finance",
           content:
             "SAP Business AI automates financial tasks, reduces manual effort, and boosts compliance, providing real-time insights for strategic planning.",
           features: [
             {
               icon: featureIcon,
-              title: "Automated Financial Workflows",
+              title: "Automated financial workflows",
               description:
                 "Minimize errors and effort in financial processes through intelligent automation and compliance tools.",
             },
             {
               icon: featureIcon,
-              title: "AI-Powered Risk Detection",
+              title: "AI-Powered risk detection",
               description:
                 "Enhance regulatory adherence and detect anomalies with real-time analytics and alerts.",
             },
             {
               icon: featureIcon,
-              title: "Data-Driven Trend Analysis",
+              title: "Data-driven trend analysis",
               description:
                 "Leverage AI to anticipate financial trends, aiding in strategic decision-making and execution.",
             },
             {
               icon: featureIcon,
-              title: "Conversational Financial Insights",
+              title: "Conversational financial insights",
               description:
                 "Deploy SAP Chatbots to access financial data instantly for timely, informed decision-making.",
             },
@@ -3934,223 +3935,223 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Demand Forecasting",
+              title: "Demand forecasting",
               description:
                 "Predict market fluctuations to balance inventory and reduce stockouts.",
             },
             {
               icon: featureIcon,
-              title: "Automated Logistics",
+              title: "Automated logistics",
               description:
                 "Accelerate shipments and coordinate suppliers with minimal manual intervention.",
             },
             {
               icon: featureIcon,
-              title: "Risk Analysis",
+              title: "Risk analysis",
               description:
                 "Leverage AI to identify supply chain vulnerabilities and ensure resilience.",
             },
             {
               icon: featureIcon,
-              title: "Warehouse Automation",
+              title: "Warehouse automation",
               description:
                 "Integrate AI-powered robotics and process automation for efficient operations.",
             },
           ],
         },
         {
-          title: "AI in Procurement",
+          title: "AI in procurement",
           content:
             "Streamline vendor selection, invoice processing, and spend analytics with AI-driven procurement tools.",
           features: [
             {
               icon: featureIcon,
-              title: "Vendor Selection Automation",
+              title: "Vendor selection automation",
               description:
                 "Evaluate and onboard suppliers based on real-time performance metrics.",
             },
             {
               icon: featureIcon,
-              title: "Invoice Processing",
+              title: "Invoice processing",
               description:
                 "Automate approvals and payment workflows to reduce errors and delays.",
             },
             {
               icon: featureIcon,
-              title: "AI-Driven Spend Analysis",
+              title: "AI-driven spend analysis",
               description:
                 "Identify cost-saving opportunities by analyzing spend patterns and contracts.",
             },
             {
               icon: featureIcon,
-              title: "Compliance Audits",
+              title: "Compliance audits",
               description:
                 "Ensure adherence to procurement policies through AI-driven policy checks.",
             },
           ],
         },
         {
-          title: "AI in Human Resources",
+          title: "AI in human resources",
           content:
             "Hire the right talent and boost employee engagement through AI-driven insights and automation.",
           features: [
             {
               icon: featureIcon,
-              title: "Candidate Screening",
+              title: "Candidate screening",
               description:
                 "Use AI to filter applications and match ideal candidates to open roles.",
             },
             {
               icon: featureIcon,
-              title: "Sentiment Analysis",
+              title: "Sentiment analysis",
               description:
                 "Gauge employee morale and engagement through real-time feedback evaluation.",
             },
             {
               icon: featureIcon,
-              title: "Workforce Trend Predictions",
+              title: "Workforce trend predictions",
               description:
                 "Anticipate talent shortages, attrition risks, and skill gaps with AI-based analytics.",
             },
             {
               icon: featureIcon,
-              title: "Personalized Development",
+              title: "Personalized development",
               description:
                 "Offer targeted learning programs and career growth paths for each employee.",
             },
           ],
         },
         {
-          title: "AI in Sales and Customer Service",
+          title: "AI in sales and customer service",
           content:
             "Enhance lead scoring, forecasting, and customer engagement with AI-powered analytics.",
           features: [
             {
               icon: featureIcon,
-              title: "Automated Lead Scoring",
+              title: "Automated lead scoring",
               description:
                 "Identify high-potential leads faster with AI-driven propensity models.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Sales Forecasting",
+              title: "Predictive sales forecasting",
               description:
                 "Leverage historical data and market signals for accurate sales predictions.",
             },
             {
               icon: featureIcon,
-              title: "Customer Interaction Chatbots",
+              title: "Customer interaction chatbots",
               description:
                 "Provide round-the-clock support and personalized service via AI virtual assistants.",
             },
             {
               icon: featureIcon,
-              title: "Sentiment Analysis",
+              title: "Sentiment analysis",
               description:
                 "Monitor customer feedback for proactive engagement and satisfaction.",
             },
           ],
         },
         {
-          title: "AI in Marketing and Commerce",
+          title: "AI in marketing and commerce",
           content:
             "Personalize customer experiences, optimize campaigns, and leverage dynamic pricing with AI insights.",
           features: [
             {
               icon: featureIcon,
-              title: "Recommendation Engines",
+              title: "Recommendation engines",
               description:
                 "Deliver personalized suggestions based on customer preferences and behaviors.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Campaign Optimization",
+              title: "Predictive campaign optimization",
               description:
                 "Analyze marketing metrics to enhance targeting, timing, and messaging impact.",
             },
             {
               icon: featureIcon,
-              title: "Automated Content Generation",
+              title: "Automated content generation",
               description:
                 "Streamline content creation and social media management through AI algorithms.",
             },
             {
               icon: featureIcon,
-              title: "Dynamic Pricing",
+              title: "Dynamic pricing",
               description:
                 "Use AI to adjust product prices in real time based on demand and competition.",
             },
           ],
         },
         {
-          title: "AI in IT and Platform",
+          title: "AI in IT and platform",
           content:
             "Improve system reliability, security, and cloud operations with predictive AI capabilities.",
           features: [
             {
               icon: featureIcon,
-              title: "AI-driven Threat Detection",
+              title: "AI-driven threat detection",
               description:
                 "Enhance cybersecurity posture by identifying and mitigating advanced threats.",
             },
             {
               icon: featureIcon,
-              title: "Automated IT Operations",
+              title: "Automated IT operations",
               description:
                 "Reduce manual workload with AI that proactively resolves routine system tasks.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Failure Analysis",
+              title: "Predictive failure analysis",
               description:
                 "Use advanced analytics to detect early signs of system degradation or failures.",
             },
             {
               icon: featureIcon,
-              title: "Cloud Optimization",
+              title: "Cloud optimization",
               description:
                 "Employ AI to balance workloads, reducing costs and improving application performance.",
             },
           ],
         },
         {
-          title: "Unleash New Capabilities with Generative AI",
+          title: "Unleash new capabilities with generative AI",
           content:
             "Accelerate innovation and personalize customer experiences through advanced cognitive frameworks and automation.",
           features: [
             {
               icon: featureIcon,
-              title: "Intelligent Content Orchestration",
+              title: "Intelligent content orchestration",
               description:
                 "Automate creation of high-quality, context-specific materials to boost engagement and reduce production time.",
             },
             {
               icon: featureIcon,
-              title: "Hyper-Personalized Experience",
+              title: "Hyper-personalized experience",
               description:
                 "Design individualized journeys by adapting interactions based on real-time behavioral signals.",
             },
             {
               icon: featureIcon,
-              title: "Cognitive Assistance Networks",
+              title: "Cognitive assistance networks",
               description:
                 "Deploy digital copilots for seamless support across all operational touchpoints.",
             },
             {
               icon: featureIcon,
-              title: "Strategic Simulation Architecture",
+              title: "Strategic simulation architecture",
               description:
                 "Leverage AI models to explore complex scenarios and optimize operational parameters.",
             },
             {
               icon: featureIcon,
-              title: "Ethical Intelligence Governance",
+              title: "Ethical intelligence governance",
               description:
                 "Ensure fairness, accountability, and transparency in AI-driven processes.",
             },
             {
               icon: featureIcon,
-              title: "Enterprise Knowledge Acceleration",
+              title: "Enterprise knowledge acceleration",
               description:
                 "Extract and map organizational intelligence for faster decision-making and innovation.",
             },
@@ -4163,22 +4164,22 @@ const solutionData = [
       stats: [
         {
           number: 87,
-          label: "Reduction in Manual Processing Time",
+          label: "Reduction in manual processing time",
           content:
-            "87% reduction in manual processing time achieved through intelligent automation of financial workflows, liberating strategic resources while enhancing transaction accuracy and compliance.",
+            "Achieved through intelligent automation of financial workflows, liberating strategic resources while enhancing transaction accuracy and compliance.",
         },
         {
           number: 94,
-          label: "Improvement in Forecast Precision",
+          label: "Improvement in forecast precision",
           content:
-            "94% improvement in forecast precision documented through AI-powered demand prediction, enabling proactive inventory optimization and dramatic reductions in stockout incidents.",
+            "Through AI-powered demand prediction, enabling proactive inventory optimization and dramatic reductions in stockout incidents.",
         },
         {
           number: 8.3,
           symbol: "x",
-          label: "Acceleration in Complex Decision Cycles",
+          label: "Acceleration in complex decision cycles",
           content:
-            "8.3x acceleration in complex decision cycles through integrated intelligence capabilities, transforming analysis that previously required weeks into near real-time strategic insights.",
+            "Gained through integrated intelligence capabilities, transforming analysis that previously required weeks into near real-time strategic insights.",
         },
       ],
     },
@@ -4345,7 +4346,7 @@ const solutionData = [
               alt="process"
             />
           ),
-          title: "End-to-End Process Orchestration",
+          title: "End-to-End process orchestration",
           description:
             "Synchronize supply networks and demand signals through integrated workflows that optimize the entire commerce lifecycle.",
         },
@@ -4357,7 +4358,7 @@ const solutionData = [
               alt="performance-smartphone"
             />
           ),
-          title: "Performance Intelligence",
+          title: "Performance intelligence",
           description:
             "Access sophisticated analytical frameworks that monitor customer behavior patterns and commerce performance for continuous optimization.",
         },
@@ -4369,7 +4370,7 @@ const solutionData = [
               alt="innovation"
             />
           ),
-          title: "Experience Innovation",
+          title: "Experience innovation",
           description:
             "Customize commerce architecture through modular components and flexible frameworks to create distinctive customer experiences.",
         },
@@ -4378,38 +4379,38 @@ const solutionData = [
     offeringsSection: {
       departments: [
         {
-          title: "Unified Commerce Architecture",
+          title: "Unified commerce architecture",
           content:
             "Integrates digital and physical channels to deliver a seamless and unified shopping experience using SAP Commerce Cloud.",
           features: [
             {
               icon: featureIcon,
-              title: "Real-time Insights",
+              title: "Real-time insights",
               description:
                 "Leverage SAP Hybris Commerce Cloud for dynamic customer engagement and personalized experiences.",
             },
             {
               icon: featureIcon,
-              title: "AI-driven Adaptation",
+              title: "AI-driven adaptation",
               description:
                 "Use AI-driven analytics to tailor e-commerce experiences in real time.",
             },
             {
               icon: featureIcon,
-              title: "Seamless Channel Integration",
+              title: "Seamless channel integration",
               description:
                 "Combine web, mobile, and in-store interactions for consistent brand experiences.",
             },
             {
               icon: featureIcon,
-              title: "Global Scalability",
+              title: "Global scalability",
               description:
                 "Accommodate diverse markets and high-traffic events without sacrificing performance.",
             },
           ],
         },
         {
-          title: "Composable Experience Framework",
+          title: "Composable experience framework",
           content:
             "Empowers businesses to construct modular and flexible commerce architectures.",
           features: [
@@ -4421,131 +4422,131 @@ const solutionData = [
             },
             {
               icon: featureIcon,
-              title: "Rapid Deployment",
+              title: "Rapid deployment",
               description:
                 "Introduce new features quickly without disrupting ongoing operations.",
             },
             {
               icon: featureIcon,
-              title: "Modular Customization",
+              title: "Modular customization",
               description:
                 "Build commerce experiences tailored to shifting customer demands.",
             },
             {
               icon: featureIcon,
-              title: "Future-ready Architecture",
+              title: "Future-ready architecture",
               description:
                 "Adapt your commerce landscape over time with minimal technical friction.",
             },
           ],
         },
         {
-          title: "Intelligence-Driven Commerce",
+          title: "Intelligence-driven commerce",
           content:
             "Employ AI-driven recommendations and predictive analytics to elevate product discovery, pricing, and campaign effectiveness.",
           features: [
             {
               icon: featureIcon,
-              title: "Product Recommendations",
+              title: "Product recommendations",
               description:
                 "Enhance engagement and conversions with personalized product suggestions.",
             },
             {
               icon: featureIcon,
-              title: "AI-driven Support",
+              title: "AI-driven support",
               description:
                 "Automate customer interactions through chatbots and virtual assistants.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Pricing",
+              title: "Predictive pricing",
               description:
                 "Leverage demand forecasting and analytics to optimize pricing and promotions.",
             },
             {
               icon: featureIcon,
-              title: "Behavior-based Campaigns",
+              title: "Behavior-based campaigns",
               description:
                 "Target customers with data-informed marketing initiatives for higher ROI.",
             },
           ],
         },
         {
-          title: "Enterprise Commerce Platform",
+          title: "Enterprise commerce platform",
           content:
             "Delivers specialized solutions for complex B2B purchasing processes, bulk orders, and account management.",
           features: [
             {
               icon: featureIcon,
-              title: "Multi-user Accounts",
+              title: "Multi-user accounts",
               description:
                 "Enable approval workflows and custom pricing for enterprise buying scenarios.",
             },
             {
               icon: featureIcon,
-              title: "ERP Integration",
+              title: "ERP integration",
               description:
                 "Streamline inventory, orders, and logistics with backend system connectivity.",
             },
             {
               icon: featureIcon,
-              title: "Sales Automation",
+              title: "Sales automation",
               description:
                 "Empower B2B teams with AI insights and lead management for efficient conversions.",
             },
             {
               icon: featureIcon,
-              title: "Bulk Order Management",
+              title: "Bulk order management",
               description:
                 "Handle large-volume transactions with precision and real-time updates.",
             },
           ],
         },
         {
-          title: "Content Excellence System",
+          title: "Content excellence system",
           content:
             "Centralizes product data to ensure consistency across all sales channels and regions.",
           features: [
             {
               icon: featureIcon,
-              title: "Unified Catalog Management",
+              title: "Unified catalog management",
               description:
                 "Manage product information seamlessly for accurate, compelling customer experiences.",
             },
             {
               icon: featureIcon,
-              title: "Multilingual Support",
+              title: "Multilingual support",
               description:
                 "Facilitate global commerce with region-specific content and translations.",
             },
             {
               icon: featureIcon,
-              title: "Bulk Editing",
+              title: "Bulk editing",
               description:
                 "Streamline product data updates and publishing for large-scale catalogs.",
             },
             {
               icon: featureIcon,
-              title: "SEO Optimization",
+              title: "SEO optimization",
               description:
                 "Improve product discoverability with metadata, keyword alignment, and content structure.",
             },
           ],
         },
         {
-          title: "Experience Orchestration Framework",
+          title: "Experience orchestration framework",
           content:
             "Delivers personalized shopping experiences tailored to individual customer preferences across channels.",
           features: [
             {
               icon: featureIcon,
-              title: "Omnichannel Engagement",
+              title: "Omnichannel engagement",
               description:
                 "Provide cohesive experiences on web, mobile, and in-store touchpoints.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Customer Insights",
+              title: "Real-time customer insights",
               description:
                 "Leverage data to refine loyalty programs and retention strategies.",
             },
@@ -4557,7 +4558,7 @@ const solutionData = [
             },
             {
               icon: featureIcon,
-              title: "Personalized Offers",
+              title: "Personalized offers",
               description:
                 "Use behavior-based analytics to deliver relevant promotions and experiences.",
             },
@@ -4572,13 +4573,13 @@ const solutionData = [
           number: 78,
           label: "Acceleration in Transaction Volume",
           content:
-            "78% acceleration in transaction volume capacity during peak demand, ensuring seamless scaling and optimal customer satisfaction.",
+            "Significant acceleration in transaction volume capacity during peak demand periods, ensuring seamless scaling and optimal customer satisfaction.",
         },
         {
           number: 165,
           label: "Improvement in Conversion Effectiveness",
           content:
-            "165% improvement in conversion rates through personalized commerce experiences, transforming global browsing interactions into completed transactions.",
+            "Dramatic improvement in conversion rates through personalized commerce experiences, transforming global browsing interactions into completed transactions.",
         },
         {
           number: 186,
@@ -4586,7 +4587,7 @@ const solutionData = [
           prefix: "$",
           label: "Peak Transaction Processing Capacity",
           content:
-            "$186M peak transaction processing capacity per hour attained by large-scale enterprise implementations, fueling revenue growth during high-traffic periods.",
+            "Impressive peak transaction processing capacity per hour attained by large-scale enterprise implementations, fueling revenue growth during high-traffic periods.",
         },
       ],
     },
@@ -4733,7 +4734,7 @@ const solutionData = [
               alt="accessibility2"
             />
           ),
-          title: "Wide Range Accessibility",
+          title: "Wide range accessibility",
           description:
             "Engage with your sales ecosystem anytime, anywhere through secure, cloud-based infrastructure with enterprise-grade reliability and performance.",
         },
@@ -4745,7 +4746,7 @@ const solutionData = [
               alt="gender-neutral-user"
             />
           ),
-          title: "Comprehensive Customer Intelligence",
+          title: "Comprehensive customer intelligence",
           description:
             "Unify fragmented customer information into a cohesive intelligence framework, enabling complete relationship visibility and personalized engagement strategies.",
         },
@@ -4757,7 +4758,7 @@ const solutionData = [
               alt="external-Productivity-office-goofy-solid-kerismaker"
             />
           ),
-          title: "Mobility-Enhanced Productivity",
+          title: "Mobility-enhanced productivity",
           description:
             "Execute customer engagements seamlessly across all environments with an intuitive, mobile-first experience designed for the dynamic sales professional.",
         },
@@ -4769,7 +4770,7 @@ const solutionData = [
               alt="external-Guidance-mentoring-and-training-smashingstocks-hand-drawn-black-smashing-stocks-2"
             />
           ),
-          title: "Intelligence-Driven Guidance",
+          title: "Intelligence-driven guidance",
           description:
             "Harness sophisticated AI capabilities that deliver actionable recommendations and advanced performance analytics to optimize sales effectiveness.",
         },
@@ -4778,217 +4779,217 @@ const solutionData = [
     offeringsSection: {
       departments: [
         {
-          title: "Cognitive Sales Intelligence",
+          title: "Cognitive sales intelligence",
           content:
             "Provides AI-driven recommendations to prioritize leads and sales opportunities, enhancing decision-making with real-time insights.",
           features: [
             {
               icon: featureIcon,
-              title: "Predictive Opportunity Scoring",
+              title: "Predictive opportunity scoring",
               description:
                 "Leverage AI to focus on high-probability deals and streamline the sales cycle.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Sales Analytics",
+              title: "Real-time sales analytics",
               description:
                 "Integrate with SAP Customer Experience solutions for continuous data insights and guided selling features.",
             },
             {
               icon: featureIcon,
-              title: "Accurate Sales Forecasting",
+              title: "Accurate sales forecasting",
               description:
                 "Employ predictive analytics to precisely forecast outcomes and revenue targets.",
             },
             {
               icon: featureIcon,
-              title: "Prioritized Lead Management",
+              title: "Prioritized lead management",
               description:
                 "Automate lead prioritization for timely follow-ups and improved conversion rates.",
             },
           ],
         },
         {
-          title: "Performance Visualization Framework",
+          title: "Performance visualization framework",
           content:
             "Offers a unified view of sales performance, forecasts, and pipeline status in real time.",
           features: [
             {
               icon: featureIcon,
-              title: "Unified Dashboards",
+              title: "Unified dashboards",
               description:
                 "Monitor KPIs and track pipeline activity with customizable dashboards.",
             },
             {
               icon: featureIcon,
-              title: "Seamless Integration",
+              title: "Seamless integration",
               description:
                 "Align with other SAP solutions to deliver a frictionless sales experience.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Data Visibility",
+              title: "Real-time data visibility",
               description:
                 "Access up-to-date metrics for proactive decision-making and strategy refinement.",
             },
             {
               icon: featureIcon,
-              title: "Pipeline Health Insights",
+              title: "Pipeline health insights",
               description:
                 "Identify bottlenecks and address them quickly to maintain momentum.",
             },
           ],
         },
         {
-          title: "Mobility-Enabled Productivity",
+          title: "Mobility-enabled productivity",
           content:
             "Allows sales teams to access customer data, manage deals, and collaborate from anywhere.",
           features: [
             {
               icon: featureIcon,
-              title: "Offline Access",
+              title: "Offline access",
               description:
                 "Remain productive in low-connectivity areas, capturing essential data offline.",
             },
             {
               icon: featureIcon,
-              title: "AI-powered Insights on the Go",
+              title: "AI-powered insights on the go",
               description:
                 "Receive recommendations and performance updates directly on mobile devices.",
             },
             {
               icon: featureIcon,
-              title: "Mobile Collaboration",
+              title: "Mobile collaboration",
               description:
                 "Enhance teamwork through real-time messaging and deal management features.",
             },
             {
               icon: featureIcon,
-              title: "Integrated Customer Views",
+              title: "Integrated customer views",
               description:
                 "Review account history, preferences, and activity logs for better engagement.",
             },
           ],
         },
         {
-          title: "Enterprise Process Automation",
+          title: "Enterprise process automation",
           content:
             "Automates repetitive sales tasks to boost efficiency and enhance lead nurturing strategies.",
           features: [
             {
               icon: featureIcon,
-              title: "AI-driven Workflows",
+              title: "AI-driven workflows",
               description:
                 "Trigger intelligent reminders and follow-ups for timely engagement.",
             },
             {
               icon: featureIcon,
-              title: "CRM & ERP Integration",
+              title: "CRM & ERP integration",
               description:
                 "Streamline lead-to-cash processes by syncing data across key systems.",
             },
             {
               icon: featureIcon,
-              title: "Optimized Resource Allocation",
+              title: "Optimized resource allocation",
               description:
                 "Reduce manual effort to let sales teams focus on strategic customer relationships.",
             },
             {
               icon: featureIcon,
-              title: "Automated Lifecycle Management",
+              title: "Automated lifecycle management",
               description:
                 "Accelerate contract processing and opportunity conversion through efficient task orchestration.",
             },
           ],
         },
         {
-          title: "Field Execution Excellence",
+          title: "Field execution excellence",
           content:
             "Equips field sales teams with real-time access to inventory, pricing, and customer insights.",
           features: [
             {
               icon: featureIcon,
-              title: "Route Optimization",
+              title: "Route optimization",
               description:
                 "Plan efficient sales visits, maximizing opportunities while reducing travel time.",
             },
             {
               icon: featureIcon,
-              title: "Inventory & Pricing Visibility",
+              title: "Inventory & pricing visibility",
               description:
                 "Deliver accurate quotes and handle on-site transactions with confidence.",
             },
             {
               icon: featureIcon,
-              title: "In-store Execution",
+              title: "In-store execution",
               description:
                 "Conduct mobile audits, capture performance data, and offer immediate solutions.",
             },
             {
               icon: featureIcon,
-              title: "Upselling & Cross-Selling Suggestions",
+              title: "Upselling & cross-selling suggestions",
               description:
                 "Capitalize on AI-driven recommendations to enhance revenue per visit.",
             },
           ],
         },
         {
-          title: "Dynamic Resource Optimization",
+          title: "Dynamic resource optimization",
           content:
             "Utilizes AI to prioritize high-value opportunities and optimize field engagements.",
           features: [
             {
               icon: featureIcon,
-              title: "Smart Scheduling",
+              title: "Smart scheduling",
               description:
                 "Proactively organize sales visits based on customer potential and sales objectives.",
             },
             {
               icon: featureIcon,
-              title: "Data-driven Opportunity Selection",
+              title: "Data-driven opportunity selection",
               description:
                 "Maximize ROI by aligning resources with the most promising leads.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Performance Tracking",
+              title: "Real-time performance tracking",
               description:
                 "Assess rep efficiency and customer responsiveness through advanced analytics.",
             },
             {
               icon: featureIcon,
-              title: "Continuous Engagement Feedback",
+              title: "Continuous engagement feedback",
               description:
                 "Refine sales strategies using ongoing, AI-supported performance insights.",
             },
           ],
         },
         {
-          title: "Real-Time Performance Intelligence",
+          title: "Real-Time performance intelligence",
           content:
             "Empowers data-driven decision-making through immediate access to sales metrics.",
           features: [
             {
               icon: featureIcon,
-              title: "Customizable Reporting",
+              title: "Customizable reporting",
               description:
                 "Build reports that address unique sales KPIs and strategic goals.",
             },
             {
               icon: featureIcon,
-              title: "Advanced Analytics Integration",
+              title: "Advanced analytics integration",
               description:
                 "Leverage SAP AI-powered tools to decode sales trends and forecast potential outcomes.",
             },
             {
               icon: featureIcon,
-              title: "Accurate Forecast Adjustments",
+              title: "Accurate forecast adjustments",
               description:
                 "Refine sales predictions continuously as new data flows in.",
             },
             {
               icon: featureIcon,
-              title: "Data-driven Coaching",
+              title: "Data-driven coaching",
               description:
                 "Provide targeted feedback to sales reps using real-time insights.",
             },
@@ -5003,19 +5004,19 @@ const solutionData = [
           number: 83,
           label: "Enhanced Sales Processes",
           content:
-            "83% of sales processes transformed through intelligent automation, dramatically enhancing team productivity while creating exceptional customer experiences.",
+            "Sales processes transformed through intelligent automation, dramatically enhancing team productivity while creating exceptional customer experiences.",
         },
         {
           number: 76,
           label: "Reduction in Contract Cycle Duration",
           content:
-            "76% decrease in contract lifecycle times, freeing resources for deeper relationship building and opportunity development.",
+            "Significant decrease in contract lifecycle times, freeing resources for deeper relationship building and opportunity development.",
         },
         {
           number: 247,
           label: "Five-Year Performance Improvement",
           content:
-            "247% cumulative improvement documented over five years through comprehensive customer intelligence and AI-driven decision support.",
+            "Impressive cumulative improvement documented over five years through comprehensive customer intelligence and AI-driven decision support.",
         },
       ],
     },
@@ -5036,7 +5037,7 @@ const solutionData = [
               alt="external-personalization-customer-relationship-management-solid-solidglyph-m-oki-orlando"
             />
           ),
-          title: "Experience Personalization Framework",
+          title: "Experience personalization framework",
           description:
             "Curate tailored customer journeys using advanced intelligence to maximize satisfaction and loyalty.",
         },
@@ -5048,7 +5049,7 @@ const solutionData = [
               alt="external-opportunity-professional-mentorship-inipagistudio-mixed-inipagistudio"
             />
           ),
-          title: "Opportunity Intelligence System",
+          title: "Opportunity intelligence system",
           description:
             "Predict conversion probability accurately with AI, ensuring better resource allocation and sales results.",
         },
@@ -5060,7 +5061,7 @@ const solutionData = [
               alt="external-collaborative-knowledge-management-glyph-glyph-geotatah"
             />
           ),
-          title: "Collaborative Intelligence Network",
+          title: "Collaborative intelligence network",
           description:
             "Enable fluid information sharing across teams, boosting productivity and compressing sales cycles.",
         },
@@ -5072,7 +5073,7 @@ const solutionData = [
               alt="dashboard"
             />
           ),
-          title: "Dynamic Performance Analytics",
+          title: "Dynamic performance analytics",
           description:
             "Use real-time dashboards for strategic decision-making and rapid operational adjustments.",
         },
@@ -5084,7 +5085,7 @@ const solutionData = [
               alt="refund-2"
             />
           ),
-          title: "Intelligent Transaction Management",
+          title: "Intelligent transaction management",
           description:
             "Optimize pricing and product recommendations through AI-driven frameworks that elevate customer experiences.",
         },
@@ -5096,7 +5097,7 @@ const solutionData = [
               alt="external-execution-merger-and-acquisition-glyph-glyph-geotatah"
             />
           ),
-          title: "Field Execution Optimization",
+          title: "Field execution optimization",
           description:
             "Empower field sales teams with planning tools and live data to enhance customer satisfaction and revenue growth.",
         },
@@ -5162,7 +5163,7 @@ const solutionData = [
               alt="overview-pages-4"
             />
           ),
-          title: "Accelerated Resolution Framework",
+          title: "Accelerated resolution framework",
           description:
             "Empower service professionals with comprehensive tools and intelligence to resolve customer inquiries with unprecedented speed and effectiveness.",
         },
@@ -5174,7 +5175,7 @@ const solutionData = [
               alt="service--v2"
             />
           ),
-          title: "End-to-End Service Transformation",
+          title: "End-to-End service transformation",
           description:
             "Revolutionize service delivery through modernization of the entire service lifecycle, from initial engagement to resolution.",
         },
@@ -5186,7 +5187,7 @@ const solutionData = [
               alt="external-enhanced-business-becris-lineal-becris"
             />
           ),
-          title: "Enhanced Customer Journey Intelligence",
+          title: "Enhanced customer journey intelligence",
           description:
             "Provide continuous guidance and real-time insights that personalize and elevate every service interaction.",
         },
@@ -5195,186 +5196,186 @@ const solutionData = [
     offeringsSection: {
       departments: [
         {
-          title: "Intelligent Case Management",
+          title: "Intelligent case management",
           content:
             "Categorizes emails and social media inquiries to optimize communication, ensuring effective multi-channel engagement.",
           features: [
             {
               icon: featureIcon,
-              title: "Automated Categorization",
+              title: "Automated categorization",
               description:
                 "Leverage AI to classify and prioritize inbound requests, reducing manual effort.",
             },
             {
               icon: featureIcon,
-              title: "Resource Allocation",
+              title: "Resource allocation",
               description:
                 "Match issues to the right agents and teams for faster resolutions.",
             },
             {
               icon: featureIcon,
-              title: "Multi-channel Consistency",
+              title: "Multi-channel consistency",
               description:
                 "Maintain conversation history across email, social, and other touchpoints.",
             },
             {
               icon: featureIcon,
-              title: "Proactive Engagement",
+              title: "Proactive engagement",
               description:
                 "Foster loyalty by reaching out with solutions before customers escalate issues.",
             },
           ],
         },
         {
-          title: "Connected Device Intelligence",
+          title: "Connected device intelligence",
           content:
             "Integrates IoT data for proactive detection and resolution of service issues.",
           features: [
             {
               icon: featureIcon,
-              title: "Real-time Monitoring",
+              title: "Real-time monitoring",
               description:
                 "Analyze device health and performance to trigger service interventions automatically.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Maintenance",
+              title: "Predictive maintenance",
               description:
                 "Preempt failures by identifying anomalies before they impact operations.",
             },
             {
               icon: featureIcon,
-              title: "Automated Service Requests",
+              title: "Automated service requests",
               description:
                 "Generate trouble tickets as IoT sensors detect critical issues in real time.",
             },
             {
               icon: featureIcon,
-              title: "Service Efficiency",
+              title: "Service efficiency",
               description:
                 "Reduce downtime and enhance customer satisfaction through rapid, data-driven responses.",
             },
           ],
         },
         {
-          title: "Proactive Maintenance Orchestration",
+          title: "Proactive maintenance orchestration",
           content:
             "Streamlines service operations with AI-driven maintenance scheduling and continuous monitoring.",
           features: [
             {
               icon: featureIcon,
-              title: "AI-driven Scheduling",
+              title: "AI-driven scheduling",
               description:
                 "Automate maintenance tasks to optimize resource use and minimize disruptions.",
             },
             {
               icon: featureIcon,
-              title: "Continuous Monitoring",
+              title: "Continuous monitoring",
               description:
                 "Provide real-time status of equipment and systems for timely interventions.",
             },
             {
               icon: featureIcon,
-              title: "Reduced Downtime",
+              title: "Reduced downtime",
               description:
                 "Proactively address issues to keep critical assets operational.",
             },
             {
               icon: featureIcon,
-              title: "Compliance Alignment",
+              title: "Compliance alignment",
               description:
                 "Align operations with industry standards and regulations through systematic tracking.",
             },
           ],
         },
         {
-          title: "Asset Performance Optimization",
+          title: "Asset performance optimization",
           content:
             "Centralizes asset data for enhanced visibility and lifecycle management.",
           features: [
             {
               icon: featureIcon,
-              title: "Unified Asset Insights",
+              title: "Unified asset insights",
               description:
                 "Access real-time analytics on asset utilization and health metrics.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Failure Analysis",
+              title: "Predictive failure analysis",
               description:
                 "Forecast potential breakdowns to schedule preventive maintenance.",
             },
             {
               icon: featureIcon,
-              title: "Cost Reduction",
+              title: "Cost reduction",
               description:
                 "Mitigate expensive repairs through proactive asset servicing.",
             },
             {
               icon: featureIcon,
-              title: "Lifecycle Management",
+              title: "Lifecycle management",
               description:
                 "Extend asset longevity with data-driven strategies for upgrades and replacements.",
             },
           ],
         },
         {
-          title: "Strategic Resource Orchestration",
+          title: "Strategic resource orchestration",
           content:
             "Optimizes field service operations by intelligently matching tasks to the right resources.",
           features: [
             {
               icon: featureIcon,
-              title: "Intelligent Dispatching",
+              title: "Intelligent dispatching",
               description:
                 "Ensure the best-qualified technician handles each request based on skill and location.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Collaboration",
+              title: "Real-time collaboration",
               description:
                 "Facilitate communication between field technicians and back-office teams.",
             },
             {
               icon: featureIcon,
-              title: "Performance Monitoring",
+              title: "Performance monitoring",
               description:
                 "Track job progress, technician productivity, and customer satisfaction.",
             },
             {
               icon: featureIcon,
-              title: "Workflow Simplification",
+              title: "Workflow simplification",
               description:
                 "Streamline scheduling and task assignments to reduce administrative overhead.",
             },
           ],
         },
         {
-          title: "Loyalty Enhancement Architecture",
+          title: "Loyalty enhancement architecture",
           content:
             "Elevates customer engagement through personalized service experiences and proactive retention strategies.",
           features: [
             {
               icon: featureIcon,
-              title: "AI-driven Insights",
+              title: "AI-driven insights",
               description:
                 "Identify customer preferences and anticipate needs for tailored service.",
             },
             {
               icon: featureIcon,
-              title: "Multi-channel Support",
+              title: "Multi-channel support",
               description:
                 "Provide seamless assistance via phone, email, chat, and social media.",
             },
             {
               icon: featureIcon,
-              title: "Retention Strategies",
+              title: "Retention strategies",
               description:
                 "Boost loyalty with targeted rewards and specialized engagement programs.",
             },
             {
               icon: featureIcon,
-              title: "Long-term Relationships",
+              title: "Long-term relationships",
               description:
                 "Foster trust by addressing challenges before they escalate.",
             },
@@ -5389,21 +5390,21 @@ const solutionData = [
           number: 79,
           label: "Acceleration in Service Response Time (%)",
           content:
-            "79% faster resolution cycles, reducing customer effort and elevating satisfaction across service channels.",
+            "Significantly faster resolution cycles, reducing customer effort and elevating satisfaction across all service channels.",
         },
         {
           number: 1.85,
           symbol: "x",
           label: "Increase in Customer Retention Rates (%)",
           content:
-            "185% surge in retention through personalized engagements and consistent service excellence.",
+            "Substantial improvement in retention through personalized customer engagements and consistent service excellence.",
         },
         {
           number: 4.1,
           symbol: "x",
           label: "Return on Investment",
           content:
-            "412% ROI realized via optimized service operations, enhanced resource utilization, and increased customer lifetime value.",
+            "Exceptional ROI realized through optimized service operations, enhanced resource utilization, and increased customer lifetime value.",
         },
       ],
     },
@@ -5424,7 +5425,7 @@ const solutionData = [
               alt="inspection"
             />
           ),
-          title: "Governance and Compliance Excellence",
+          title: "Governance and compliance excellence",
           description:
             "Safeguard sensitive data and align operations with global regulations through robust security and data protection frameworks.",
         },
@@ -5436,7 +5437,7 @@ const solutionData = [
               alt="external-Efficiency-stock-market-icons-smashing-stocks"
             />
           ),
-          title: "Operational Efficiency Optimization",
+          title: "Operational Efficiency optimization",
           description:
             "Reduce service costs by intelligently allocating resources and streamlining workflows for higher effectiveness.",
         },
@@ -5448,7 +5449,7 @@ const solutionData = [
               alt="knowledge-sharing"
             />
           ),
-          title: "Knowledge Management Architecture",
+          title: "Knowledge management architecture",
           description:
             "Deploy cohesive information governance systems that capture and disseminate critical service knowledge consistently.",
         },
@@ -5460,7 +5461,7 @@ const solutionData = [
               alt="client-company"
             />
           ),
-          title: "Enterprise System Integration",
+          title: "Enterprise system integration",
           description:
             "Connect seamlessly with core SAP solutions and third-party applications, ensuring consistent data and continuous process flow.",
         },
@@ -5472,7 +5473,7 @@ const solutionData = [
               alt="external-businessman-business-and-management-kiranshastry-lineal-kiranshastry-3"
             />
           ),
-          title: "Workforce Engagement Enhancement",
+          title: "Workforce engagement enhancement",
           description:
             "Empower employees with user-friendly tools and real-time data, boosting productivity, satisfaction, and service quality.",
         },
@@ -5484,7 +5485,7 @@ const solutionData = [
               alt="design"
             />
           ),
-          title: "Experience Design Excellence",
+          title: "Experience design excellence",
           description:
             "Deliver intuitive service interactions and sophisticated self-service options, improving customer satisfaction while optimizing resource utilization.",
         },
@@ -5550,7 +5551,7 @@ const solutionData = [
               alt="client-company"
             />
           ),
-          title: "Enterprise-Grade Architecture",
+          title: "Enterprise-grade architecture",
           description:
             "Implement engagement capabilities with high scalability, flexible customization, seamless integration, and intuitive usability.",
         },
@@ -5562,7 +5563,7 @@ const solutionData = [
               alt="external-behavior-trading-psychology-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
-          title: "Behavioral Intelligence",
+          title: "Behavioral intelligence",
           description:
             "Deploy advanced tracking frameworks that analyze interactions using sophisticated statistical models for deep behavioral insights.",
         },
@@ -5570,11 +5571,11 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-9"
-              src="https://img.icons8.com/external-filled-color-icons-papa-vector/98/fcc800/external-Predicting-Data-Analytics-business-analytics-and-intelligence-filled-color-icons-papa-vector.png"
-              alt="external-Predicting-Data-Analytics-business-analytics-and-intelligence-filled-color-icons-papa-vector"
-            />
+              src="https://img.icons8.com/dotty/80/FACC15/engage.png" 
+              alt="engage"
+              />
           ),
-          title: "Predictive Engagement Optimization",
+          title: "Predictive engagement optimization",
           description:
             "Generate precise forecasting models for contact preferences while identifying optimal content strategies across all channels.",
         },
@@ -5583,186 +5584,186 @@ const solutionData = [
     offeringsSection: {
       departments: [
         {
-          title: "Unified Engagement Architecture",
+          title: "Unified engagement architecture",
           content:
             "Consolidate customer information using open architecture and robust APIs, eliminating data silos and delivering omnichannel engagement.",
           features: [
             {
               icon: featureIcon,
-              title: "Comprehensive Data Synchronization",
+              title: "Comprehensive data synchronization",
               description:
                 "Unify customer profiles from diverse sources into a single, cohesive view.",
             },
             {
               icon: featureIcon,
-              title: "Cross-platform Integration",
+              title: "Cross-platform integration",
               description:
                 "Seamlessly connect with e-commerce systems like Magento 2.0 and Shopify Plus.",
             },
             {
               icon: featureIcon,
-              title: "Personalized Interactions",
+              title: "Personalized interactions",
               description:
                 "Boost retention through relevant, data-driven engagement strategies.",
             },
             {
               icon: featureIcon,
-              title: "Open Architecture",
+              title: "Open architecture",
               description:
                 "Facilitate custom integrations to extend capabilities and data exchange.",
             },
           ],
         },
         {
-          title: "Vertical Market Excellence",
+          title: "Vertical market excellence",
           content:
             "Leverage tailored marketing automation strategies that align with specific industry requirements.",
           features: [
             {
               icon: featureIcon,
-              title: "AI-driven Insights",
+              title: "AI-driven insights",
               description:
                 "Adapt campaigns to unique sector behaviors for optimal impact.",
             },
             {
               icon: featureIcon,
-              title: "Sector-specific Journeys",
+              title: "Sector-specific journeys",
               description:
                 "Refine customer engagement based on industry nuances and patterns.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Analytics",
+              title: "Real-time analytics",
               description:
                 "Continuously measure and improve engagement within specialized markets.",
             },
             {
               icon: featureIcon,
-              title: "Dynamic Campaign Optimization",
+              title: "Dynamic campaign optimization",
               description:
                 "Automate iterative improvements for evolving industry demands.",
             },
           ],
         },
         {
-          title: "Customer-Centric Personalization",
+          title: "Customer-centric personalization",
           content:
             "Deliver hyper-personalized experiences by adapting messaging to real-time customer behaviors and preferences.",
           features: [
             {
               icon: featureIcon,
-              title: "Advanced AI Recommendations",
+              title: "Advanced AI recommendations",
               description:
                 "Provide dynamic content based on individual engagement history and interactions.",
             },
             {
               icon: featureIcon,
-              title: "Targeted Engagement",
+              title: "Targeted engagement",
               description:
                 "Refine communications through precise segmentation and behavioral triggers.",
             },
             {
               icon: featureIcon,
-              title: "Brand Loyalty Reinforcement",
+              title: "Brand loyalty reinforcement",
               description:
                 "Foster deeper connections with relevant, timely messaging that resonates.",
             },
             {
               icon: featureIcon,
-              title: "Automated Personalization",
+              title: "Automated personalization",
               description:
                 "Scale campaigns efficiently while maintaining one-to-one relevance.",
             },
           ],
         },
         {
-          title: "AI-Powered Experience Intelligence",
+          title: "AI-Powered experience intelligence",
           content:
             "Leverage machine learning to forecast behaviors, refine strategies, and personalize multi-channel interactions.",
           features: [
             {
               icon: featureIcon,
-              title: "Predictive Modeling",
+              title: "Predictive modeling",
               description:
                 "Anticipate customer actions and tailor engagements for maximum impact.",
             },
             {
               icon: featureIcon,
-              title: "Automated Workflows",
+              title: "Automated workflows",
               description:
                 "Use AI-driven triggers to streamline marketing operations and improve response rates.",
             },
             {
               icon: featureIcon,
-              title: "Continuous Campaign Refinement",
+              title: "Continuous campaign refinement",
               description:
                 "Enable iterative improvements through actionable analytics and real-time feedback loops.",
             },
             {
               icon: featureIcon,
-              title: "AI-driven Recommendations",
+              title: "AI-driven recommendations",
               description:
                 "Curate offers and content uniquely for each individual across channels.",
             },
           ],
         },
         {
-          title: "Omnichannel Automation Framework",
+          title: "Omnichannel automation framework",
           content:
             "Execute seamless engagement across web, mobile, email, and social channels with consistent, data-driven experiences.",
           features: [
             {
               icon: featureIcon,
-              title: "Unified Touchpoints",
+              title: "Unified touchpoints",
               description:
                 "Maintain consistency and personalization across all customer interactions.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Behavioral Insights",
+              title: "Real-time behavioral insights",
               description:
                 "Collect and act on live customer data to optimize targeting precision.",
             },
             {
               icon: featureIcon,
-              title: "AI-driven Campaign Orchestration",
+              title: "AI-driven campaign orchestration",
               description:
                 "Automate multi-channel outreach with event-based triggers for cohesive engagement.",
             },
             {
               icon: featureIcon,
-              title: "Scalable, Modular Architecture",
+              title: "Scalable, modular architecture",
               description:
                 "Extend capabilities to accommodate evolving channel strategies.",
             },
           ],
         },
         {
-          title: "Authentic Multichannel Engagement",
+          title: "Authentic multichannel engagement",
           content:
             "Integrate diverse marketing channels, from SMS and push notifications to direct mail, ensuring a holistic customer experience.",
           features: [
             {
               icon: featureIcon,
-              title: "Comprehensive Channel Support",
+              title: "Comprehensive channel support",
               description:
                 "Include mobile, email, social media, and offline mediums for maximum reach.",
             },
             {
               icon: featureIcon,
-              title: "Consistent Messaging",
+              title: "Consistent messaging",
               description:
                 "Retain brand identity and personalization across distinct communication methods.",
             },
             {
               icon: featureIcon,
-              title: "Actionable Performance Insights",
+              title: "Actionable performance insights",
               description:
                 "Refine strategies based on real-time metrics for each channel.",
             },
             {
               icon: featureIcon,
-              title: "Personalized Outreach",
+              title: "Personalized outreach",
               description:
                 "Target each customer with relevant, timely messages that reflect their preferences.",
             },
@@ -5777,20 +5778,20 @@ const solutionData = [
           number: 68,
           label: "Increase in Omnichannel Campaign Effectiveness",
           content:
-            "68% rise in campaign impact achieved through integrated engagement strategies delivering consistent, personalized experiences.",
+            "Significant rise in campaign impact achieved through integrated engagement strategies delivering consistent, personalized experiences.",
         },
         {
           number: 87,
           label: "Acceleration in Campaign Deployment",
           content:
-            "87% faster time-to-market, reducing weeks of planning to days while preserving strategic precision.",
+            "Dramatically faster time-to-market, reducing weeks of planning to days while preserving strategic precision.",
         },
         {
           number: 1.29,
           symbol: "x",
           label: "Improvement in Customer Relationship Relevance",
           content:
-            "129% boost in engagement effectiveness and conversion performance across all segments.",
+            "Substantial boost in engagement effectiveness and conversion performance across all customer segments.",
         },
       ],
     },
@@ -5811,7 +5812,7 @@ const solutionData = [
               alt="external-data-architecture-data-engineering-solid-solidglyph-m-oki-orlando"
             />
           ),
-          title: "Unified Data Architecture",
+          title: "Unified data architecture",
           description:
             "Implement a single customer perspective by consolidating data from multiple sources for consistent personalization.",
         },
@@ -5823,7 +5824,7 @@ const solutionData = [
               alt="omnichannel"
             />
           ),
-          title: "Omnichannel Experience Orchestration",
+          title: "Omnichannel experience orchestration",
           description:
             "Coordinate seamless journeys across email, mobile, social, and digital platforms for a cohesive brand presence.",
         },
@@ -5835,7 +5836,7 @@ const solutionData = [
               alt="external-intelligent-back-to-school-tulpahn-basic-outline-tulpahn"
             />
           ),
-          title: "Intelligence-Driven Strategy Framework",
+          title: "Intelligence-driven strategy framework",
           description:
             "Align campaigns with advanced analytics that guide data-informed decisions and measurable business outcomes.",
         },
@@ -5847,7 +5848,7 @@ const solutionData = [
               alt="external-personalization-customer-relationship-management-solid-solidglyph-m-oki-orlando"
             />
           ),
-          title: "Dynamic Experience Personalization",
+          title: "Dynamic experience personalization",
           description:
             "Adapt content in real time based on individual behaviors, ensuring maximum relevance and engagement.",
         },
@@ -5859,7 +5860,7 @@ const solutionData = [
               alt="handshake--v1"
             />
           ),
-          title: "Automated Relationship Lifecycle",
+          title: "Automated relationship lifecycle",
           description:
             "Guide customers from initial acquisition to long-term loyalty with intelligent workflow automation.",
         },
@@ -5867,11 +5868,11 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-advanced-agile-flaticons-lineal-color-flat-icons.png"
-              alt="external-advanced-agile-flaticons-lineal-color-flat-icons"
-            />
+              src="https://img.icons8.com/ios-filled/50/settings-3.png" 
+              alt="settings-3"
+              />
           ),
-          title: "Advanced Intelligence and Automation",
+          title: "Advanced intelligence and automation",
           description:
             "Enhance decision-making with analytics while accelerating execution speed through marketing automation.",
         },
@@ -5936,7 +5937,7 @@ const solutionData = [
               alt="erp-system"
             />
           ),
-          title: "Seamless ERP Integration",
+          title: "Seamless ERP integration",
           description:
             "Synchronize sustainability initiatives with core business operations through native integration with existing SAP ERP environments for real-time intelligence and comprehensive reporting.",
         },
@@ -5948,7 +5949,7 @@ const solutionData = [
               alt="cloud"
             />
           ),
-          title: "Cloud-Enabled Collaboration",
+          title: "Cloud-enabled collaboration",
           description:
             "Leverage advanced cloud architecture to enhance accessibility and cross-functional collaboration throughout your sustainability ecosystem.",
         },
@@ -5960,7 +5961,7 @@ const solutionData = [
               alt="sustainability"
             />
           ),
-          title: "AI-Powered Sustainability Intelligence",
+          title: "AI-Powered sustainability intelligence",
           description:
             "Deploy sophisticated artificial intelligence capabilities that deliver predictive insights and optimize resource allocation across all sustainability dimensions.",
         },
@@ -5969,95 +5970,95 @@ const solutionData = [
     offeringsSection: {
       departments: [
         {
-          title: "Comprehensive ESG Intelligence",
+          title: "Comprehensive ESG intelligence",
           content:
             "Record ESG factors seamlessly with SAP integration, automate reporting to align with global frameworks, and empower strategic planning with actionable insights.",
           features: [
             {
               icon: featureIcon,
-              title: "ESG Data Automation",
+              title: "ESG data automation",
               description:
                 "Automate reporting, ensuring audit-ready metrics supporting a robust sustainable ecosystem.",
             },
             {
               icon: featureIcon,
-              title: "Actionable Insights",
+              title: "Actionable insights",
               description:
                 "Gain precise forecasts and defined targets for strategic ESG decision-making.",
             },
           ],
         },
         {
-          title: "Strategic Carbon Management",
+          title: "Strategic carbon management",
           content:
             "Reduce your carbon footprint with real-time emissions tracking and comprehensive climate risk management strategies.",
           features: [
             {
               icon: featureIcon,
-              title: "Real-time Emissions Tracking",
+              title: "Real-time emissions tracking",
               description:
                 "Monitor energy consumption using AI-driven analytics for efficient carbon management.",
             },
             {
               icon: featureIcon,
-              title: "Automated Carbon Credit Calculation",
+              title: "Automated carbon credit calculation",
               description:
                 "Streamline decarbonization efforts with automated credit and offset calculations.",
             },
           ],
         },
         {
-          title: "Circular Economy Enablement",
+          title: "Circular economy enablement",
           content:
             "Optimize resource utilization and implement waste reduction strategies for a closed-loop supply chain.",
           features: [
             {
               icon: featureIcon,
-              title: "AI-driven Materials Tracking",
+              title: "AI-driven materials tracking",
               description:
                 "Enhance recycling initiatives and material usage with intelligent automation.",
             },
             {
               icon: featureIcon,
-              title: "Sustainability Reporting",
+              title: "Sustainability reporting",
               description:
                 "Improve sustainability reporting tailored to circular economy initiatives.",
             },
           ],
         },
         {
-          title: "Human Impact Governance",
+          title: "Human impact governance",
           content:
             "Ensure ethical labor practices and strengthen diversity and inclusion programs with advanced analytics.",
           features: [
             {
               icon: featureIcon,
-              title: "AI-driven Monitoring",
+              title: "AI-driven monitoring",
               description:
                 "Monitor labor practices and automate corporate social responsibility initiatives.",
             },
             {
               icon: featureIcon,
-              title: "Social Impact Measurement",
+              title: "Social impact measurement",
               description:
                 "Enhance reporting capabilities to drive meaningful change.",
             },
           ],
         },
         {
-          title: "Sustainable Procurement Transformation",
+          title: "Sustainable procurement transformation",
           content:
             "Source eco-friendly and ethical suppliers using AI-based insights, and monitor supplier sustainability compliance in real time.",
           features: [
             {
               icon: featureIcon,
-              title: "Automated Sourcing Decisions",
+              title: "Automated sourcing decisions",
               description:
                 "Optimize value through automated sustainable sourcing and procurement.",
             },
             {
               icon: featureIcon,
-              title: "Greener Supply Chain",
+              title: "Greener supply chain",
               description:
                 "Enhance sustainable logistics and transportation strategies for a cleaner footprint.",
             },
@@ -6070,21 +6071,21 @@ const solutionData = [
       stats: [
         {
           number: 92,
-          label: "% of consumers",
+          label: "Of consumers",
           content:
-            "92% of consumers now consider corporate sustainability practices as a critical factor in purchasing decisions, directly linking sustainability performance to market preference.",
+            "Consider corporate sustainability practices as a critical factor in purchasing decisions, directly linking sustainability performance to market preference.",
         },
         {
           number: 95,
-          label: "% of investors",
+          label: "Of investors",
           content:
-            "95% of institutional investors incorporate comprehensive ESG criteria into investment evaluations, impacting capital access and valuation.",
+            "Institutional investors incorporate comprehensive ESG criteria into investment evaluations, impacting capital access and valuation.",
         },
         {
           number: 97,
-          label: "% of leading enterprises",
+          label: "Of leading enterprises",
           content:
-            "97% of global enterprises now publish sustainability reports aligned with recognized frameworks, making transparent disclosure a competitive necessity.",
+            "Global enterprises now publish sustainability reports aligned with recognized frameworks, making transparent disclosure a competitive necessity.",
         },
       ],
     },
@@ -6223,7 +6224,7 @@ const solutionData = [
               alt="cloud"
             />
           ),
-          title: "Cloud-Native Architecture",
+          title: "Cloud-native architecture",
           description:
             "Deploy scalable, enterprise-grade cloud infrastructure for comprehensive management of electric vehicle charging networks with maximum operational efficiency.",
         },
@@ -6235,7 +6236,7 @@ const solutionData = [
               alt="external-charging-connections-prettycons-lineal-prettycons-1"
             />
           ),
-          title: "Comprehensive Charging Orchestration",
+          title: "Comprehensive charging orchestration",
           description:
             "Implement end-to-end management across diverse charging scenarios including residential, workplace, and public infrastructure.",
         },
@@ -6247,7 +6248,7 @@ const solutionData = [
               alt="advanced-search"
             />
           ),
-          title: "Advanced Network Intelligence",
+          title: "Advanced network intelligence",
           description:
             "Leverage sophisticated remote management capabilities for charging infrastructure, electric fleet optimization, driver analytics, and predictive maintenance to ensure peak performance.",
         },
@@ -6262,70 +6263,70 @@ const solutionData = [
           features: [
             {
               icon: featureIcon,
-              title: "Real-time Monitoring",
+              title: "Real-time monitoring",
               description:
                 "Detect and resolve station issues promptly with continuous oversight.",
             },
             {
               icon: featureIcon,
-              title: "Predictive Maintenance",
+              title: "Predictive maintenance",
               description:
                 "Use analytics to schedule upkeep, reducing downtime and boosting reliability.",
             },
           ],
         },
         {
-          title: "Advanced Session Orchestration",
+          title: "Advanced session orchestration",
           content:
             "Tracks and manages charging sessions in real time, supports dynamic load management, and offers secure authentication for EV users.",
           features: [
             {
               icon: featureIcon,
-              title: "Dynamic Load Management",
+              title: "Dynamic load management",
               description:
                 "Optimize energy consumption across the charging network to prevent overloads.",
             },
             {
               icon: featureIcon,
-              title: "Remote Control",
+              title: "Remote control",
               description:
                 "Start, stop, or adjust charging sessions as needed for efficient operations.",
             },
           ],
         },
         {
-          title: "Dynamic Revenue Management",
+          title: "Dynamic revenue management",
           content:
             "Facilitates flexible pricing models, automates invoicing and billing, and integrates with payment gateways for secure transactions.",
           features: [
             {
               icon: featureIcon,
-              title: "Flexible Pricing",
+              title: "Flexible pricing",
               description:
                 "Offer dynamic rates based on energy consumption, time, or demand fluctuations.",
             },
             {
               icon: featureIcon,
-              title: "Seamless Billing Integration",
+              title: "Seamless billing integration",
               description:
                 "Automate invoicing and payment processes for hassle-free financial oversight.",
             },
           ],
         },
         {
-          title: "Experience Excellence Architecture",
+          title: "Experience excellence architecture",
           content:
             "Delivers an intuitive user interface, supports mobile app integration, and provides personalized notifications for enhanced customer engagement.",
           features: [
             {
               icon: featureIcon,
-              title: "User-Friendly Access",
+              title: "User-friendly access",
               description:
                 "Enable drivers to easily locate and operate charging stations with minimal effort.",
             },
             {
               icon: featureIcon,
-              title: "Personalized Notifications",
+              title: "Personalized notifications",
               description:
                 "Keep users informed about charging progress and station availability in real time.",
             },
@@ -6340,21 +6341,21 @@ const solutionData = [
           number: 214,
           label: "% acceleration",
           content:
-            "214% acceleration in global electric vehicle adoption recorded in recent market analyses, creating strategic opportunities for organizations deploying charging infrastructure.",
+            "Significant acceleration in global electric vehicle adoption recorded in recent market analyses, creating strategic opportunities for organizations deploying charging infrastructure.",
         },
         {
           number: 27,
           symbol: "M",
           label: "Million EVs",
           content:
-            "27M electric vehicles projected to enter global markets annually by 2027, representing nearly one-third of all vehicle sales.",
+            "Electric vehicles projected to enter global markets annually by 2027, representing nearly one-third of all vehicle sales.",
         },
         {
           number: 780,
           symbol: "K+",
           label: "charging points",
           content:
-            "780,000+ charging points now accessible through strategic partnerships, forming extensive managed networks with seamless cross-border capabilities.",
+            "Charging points now accessible through strategic partnerships, forming extensive managed networks with seamless cross-border capabilities.",
         },
       ],
     },
@@ -6375,7 +6376,7 @@ const solutionData = [
               alt="external-charging-furniture-out-line-pongsakorn-tan"
             />
           ),
-          title: "Intelligent Charging Optimization",
+          title: "Intelligent charging optimization",
           description:
             "Orchestrate sophisticated schedules through SAP BTP integration, reducing energy costs and improving grid utilization.",
         },
@@ -6387,7 +6388,7 @@ const solutionData = [
               alt="person-growth"
             />
           ),
-          title: "Sustainability Performance Enhancement",
+          title: "Sustainability performance enhancement",
           description:
             "Leverage comprehensive tools to support eco-friendly practices, reduce carbon footprints, and align with sustainability objectives.",
         },
@@ -6399,7 +6400,7 @@ const solutionData = [
               alt="external-operational-business-risks-outline-wichaiwi"
             />
           ),
-          title: "Operational Excellence Framework",
+          title: "Operational excellence framework",
           description:
             "Streamline charging operations through seamless SAP CPI integration, ensuring frictionless charge point management and outstanding service delivery.",
         },
@@ -6411,7 +6412,7 @@ const solutionData = [
               alt="ecosystem-2"
             />
           ),
-          title: "Partner Ecosystem Advantage",
+          title: "Partner ecosystem advantage",
           description:
             "Implement tailored solutions leveraging an extensive partner network, including SAP Build Apps, to meet diverse organizational needs.",
         },
@@ -6423,7 +6424,7 @@ const solutionData = [
               alt="satisfaction"
             />
           ),
-          title: "Experience Satisfaction Elevation",
+          title: "Experience satisfaction elevation",
           description:
             "Enhance user journeys through intuitive interfaces, real-time updates, and superior customer engagement.",
         },
@@ -6435,7 +6436,7 @@ const solutionData = [
               alt="company"
             />
           ),
-          title: "Enterprise-Grade Security Architecture",
+          title: "Enterprise-grade security architecture",
           description:
             "Safeguard sensitive data and ensure transaction integrity with advanced security frameworks throughout the charging ecosystem.",
         },
@@ -6488,7 +6489,7 @@ const solutionData = [
               alt="external-configure-programming-and-coding-flatart-icons-outline-flatarticons"
             />
           ),
-          title: "Pre-Configured Integration Frameworks",
+          title: "Pre-Configured integration frameworks",
           description:
             "Deploy SAP's managed integration solutions and AI-augmented development capabilities to establish seamless connectivity across your application ecosystem.",
         },
@@ -6500,7 +6501,7 @@ const solutionData = [
               alt="ecosystem"
             />
           ),
-          title: "Third-Party Ecosystem Integration",
+          title: "Third-Party ecosystem integration",
           description:
             "Implement unified access mechanisms for leading cloud applications through standardized interfaces that simplify external system connectivity.",
         },
@@ -6512,7 +6513,7 @@ const solutionData = [
               alt="api-settings"
             />
           ),
-          title: "API Lifecycle Governance",
+          title: "API lifecycle governance",
           description:
             "Orchestrate the comprehensive design, publication, and management of application programming interfaces through SAP's sophisticated API governance tools.",
         },
@@ -6521,133 +6522,133 @@ const solutionData = [
     offeringsSection: {
       departments: [
         {
-          title: "Integration Intelligence Framework",
+          title: "Integration intelligence framework",
           content:
             "Assesses current integration landscapes using SAP CPI's advanced analytical tools to pinpoint optimization opportunities, ensuring seamless compatibility across diverse systems and applications.",
           features: [
             {
               icon: featureIcon,
-              title: "Advanced Analytical Tools",
+              title: "Advanced analytical tools",
               description:
                 "Pinpoint optimization opportunities and ensure interoperability across systems.",
             },
             {
               icon: featureIcon,
-              title: "Integration Best Practices",
+              title: "Integration best practices",
               description:
                 "Follow SAP BTP CPI guidelines for secure, scalable implementations and consistent performance.",
             },
           ],
         },
         {
-          title: "Cloud Integration Architecture",
+          title: "Cloud integration architecture",
           content:
             "Facilitates real-time data exchange between cloud and on-premise systems, delivering secure and reliable integration with intuitive monitoring dashboards.",
           features: [
             {
               icon: featureIcon,
-              title: "Real-time Data Exchange",
+              title: "Real-time data exchange",
               description:
                 "Ensure consistent information flow between systems for streamlined operations.",
             },
             {
               icon: featureIcon,
-              title: "Pre-Configured Content",
+              title: "Pre-configured content",
               description:
                 "Accelerate deployment with predefined integration templates and enterprise-grade security measures.",
             },
           ],
         },
         {
-          title: "Open Connectivity Framework",
+          title: "Open connectivity framework",
           content:
             "Offers standardized connectors for over 160 third-party applications, supporting unified authentication, robust security, and low-code/no-code configurations.",
           features: [
             {
               icon: featureIcon,
-              title: "Pre-built Connectors",
+              title: "Pre-built connectors",
               description:
                 "Simplify integration with popular external services through standardized APIs.",
             },
             {
               icon: featureIcon,
-              title: "Unified Authentication",
+              title: "Unified authentication",
               description:
                 "Provide secure connectivity while reducing complexity and manual setup efforts.",
             },
           ],
         },
         {
-          title: "API Lifecycle Management",
+          title: "API lifecycle management",
           content:
             "Manages secure API exposure, governance, and policy enforcement with advanced design and publication tools for robust performance and collaboration.",
           features: [
             {
               icon: featureIcon,
-              title: "Comprehensive API Governance",
+              title: "Comprehensive API governance",
               description:
                 "Manage the entire API lifecycle, including versioning, analytics, and security policies.",
             },
             {
               icon: featureIcon,
-              title: "Policy-Based Security Control",
+              title: "Policy-based security control",
               description:
                 "Enforce consistent performance and protect critical data across enterprise services.",
             },
           ],
         },
         {
-          title: "Edge Computing Integration",
+          title: "Edge computing ntegration",
           content:
             "Deploys decentralized integration capabilities for real-time data processing closer to the source, minimizing latency and enhancing security.",
           features: [
             {
               icon: featureIcon,
-              title: "Decentralized Processing",
+              title: "Decentralized processing",
               description:
                 "Keep critical data local, reducing transfer times and improving responsiveness.",
             },
             {
               icon: featureIcon,
-              title: "Offline Synchronization",
+              title: "Offline synchronization",
               description:
                 "Maintain process continuity by automatically syncing data once connectivity is restored.",
             },
           ],
         },
         {
-          title: "Intelligent Integration Guidance",
+          title: "Intelligent integration guidance",
           content:
             "Accelerates implementation with machine learning-assisted mapping, predefined templates, and automated document exchange processes.",
           features: [
             {
               icon: featureIcon,
-              title: "ML-Assisted Mapping",
+              title: "ML-assisted mapping",
               description:
                 "Reduce development time and errors with intelligent recommendations.",
             },
             {
               icon: featureIcon,
-              title: "Predefined Templates",
+              title: "Predefined templates",
               description:
                 "Simplify B2B and A2A integration setups, minimizing manual configuration steps.",
             },
           ],
         },
         {
-          title: "Partner Ecosystem Management",
+          title: "Partner ecosystem management",
           content:
             "Streamlines partner interactions with automated EDI processes, real-time visibility, and efficient trading partner management.",
           features: [
             {
               icon: featureIcon,
-              title: "Comprehensive Profile Management",
+              title: "Comprehensive profile management",
               description:
                 "Automate partner onboarding and manage transaction flows in a single platform.",
             },
             {
               icon: featureIcon,
-              title: "Real-time Performance Monitoring",
+              title: "Real-time performance monitoring",
               description:
                 "Gain immediate insight into partner data exchanges for rapid issue resolution.",
             },
@@ -6660,23 +6661,23 @@ const solutionData = [
       stats: [
         {
           number: 68,
-          label: "% reduction",
+          label: "Reduction in Integration Costs",
           content:
-            "68% reduction in integration costs achieved through consolidation of disparate integration technologies into SAP CPI's unified platform.",
+            "Significant reduction achieved through consolidation of disparate integration technologies into SAP CPI's unified platform.",
         },
         {
           number: 92,
-          label: "% improvement",
+          label: "Improvement in Development Velocity",
           content:
-            "92% improvement in integration development velocity enabled by SAP CPI's low-code environment.",
+            "Substantial improvement in integration development velocity enabled by SAP CPI's low-code environment.",
         },
         {
           number: 1.7,
           symbol: "T",
           prefix: "$",
-          label: "Trillion USD value",
+          label: "Projected Economic Value by 2027",
           content:
-            "$1.7T projected economic value creation through intelligent connectivity by 2027, with organizations leveraging SAP CPI positioned to capture significant opportunities.",
+            "Substantial economic value creation projected through intelligent connectivity, with organizations leveraging SAP CPI positioned to capture significant opportunities.",
         },
       ],
     },
@@ -6697,7 +6698,7 @@ const solutionData = [
               alt="external-financial-finance-flatart-icons-outline-flatarticons"
             />
           ),
-          title: "Financial Optimization",
+          title: "Financial optimization",
           description:
             "Reduce costs by consolidating integration technologies and minimizing manual processes.",
         },
@@ -6709,7 +6710,7 @@ const solutionData = [
               alt="external-productivity-productivity-concentration-smashingstocks-mixed-smashing-stocks-4"
             />
           ),
-          title: "Productivity Enhancement",
+          title: "Productivity enhancement",
           description:
             "Automate data transformation and integration, freeing resources for strategic initiatives.",
         },
@@ -6721,7 +6722,7 @@ const solutionData = [
               alt="collaboration"
             />
           ),
-          title: "Cross-Functional Collaboration",
+          title: "Cross-functional collaboration",
           description:
             "Facilitate seamless data flow across departments for data-driven decision making.",
         },
@@ -6733,7 +6734,7 @@ const solutionData = [
               alt="investment"
             />
           ),
-          title: "Investment Protection",
+          title: "Investment protection",
           description:
             "Extend the value of existing applications through synchronized, unified integrations.",
         },
@@ -6745,7 +6746,7 @@ const solutionData = [
               alt="external-scalability-blockchain-outline-outline-black-m-oki-orlando"
             />
           ),
-          title: "Adaptive Scalability",
+          title: "Adaptive scalability",
           description:
             "Accommodate changing business needs and evolving technology landscapes.",
         },
@@ -6757,7 +6758,7 @@ const solutionData = [
               alt="webhook"
             />
           ),
-          title: "Comprehensive Integration Architecture",
+          title: "Comprehensive integration architecture",
           description:
             "Align disparate systems into a single, consistent data framework for streamlined processes.",
         },
@@ -6814,7 +6815,7 @@ const solutionData = [
               alt="customer-insight"
             />
           ),
-          title: "Intuitive Experience Design",
+          title: "Intuitive experience design",
           description:
             "Construct sophisticated user interfaces through an intuitive drag-and-drop environment featuring customizable components and design patterns.",
         },
@@ -6826,7 +6827,7 @@ const solutionData = [
               alt="external-Logic-philosophy-others-pike-picture-2"
             />
           ),
-          title: "Visual Logic Architecture",
+          title: "Visual logic architecture",
           description:
             "Implement complex data models and business rules through comprehensive visual interfaces that eliminate coding requirements while maintaining enterprise functionality.",
         },
@@ -6838,7 +6839,7 @@ const solutionData = [
               alt="client-company"
             />
           ),
-          title: "Enterprise Integration Framework",
+          title: "Enterprise integration framework",
           description:
             "Connect seamlessly with SAP and non-SAP ecosystems through pre-configured components, connectors, and integration patterns that ensure data consistency and process integrity.",
         },
@@ -6847,133 +6848,133 @@ const solutionData = [
     offeringsSection: {
       departments: [
         {
-          title: "Accelerated Development Framework",
+          title: "Accelerated development framework",
           content:
             "Design enterprise applications quickly with SAP Build Apps’ visual interface, eliminating extensive coding. Utilize tailored templates for diverse business scenarios and pre-built components that reduce development time and effort.",
           features: [
             {
               icon: featureIcon,
-              title: "Streamlined Creation",
+              title: "Streamlined creation",
               description:
                 "Design applications intuitively, leveraging ready-to-use templates for faster deployment.",
             },
             {
               icon: featureIcon,
-              title: "Multi-Platform Deployment",
+              title: "Multi-platform deployment",
               description:
                 "Deploy apps seamlessly across various platforms, ensuring broad accessibility and consistent performance.",
             },
           ],
         },
         {
-          title: "Comprehensive Visual Development",
+          title: "Comprehensive visual development",
           content:
             "Create end-to-end applications using a drag-and-drop interface for both frontend UI design and backend logic in a unified environment.",
           features: [
             {
               icon: featureIcon,
-              title: "Unified Environment",
+              title: "Unified environment",
               description:
                 "Support UI design, data modeling, and logic building without switching tools or environments.",
             },
             {
               icon: featureIcon,
-              title: "Seamless Integration",
+              title: "Seamless integration",
               description:
                 "Integrate with external APIs and databases while benefiting from built-in debugging and testing tools.",
             },
           ],
         },
         {
-          title: "Intuitive Component Architecture",
+          title: "Intuitive component architecture",
           content:
             "Leverage visual flow-based design for rapid assembly of application logic, reducing coding complexity and enabling real-time testing and modification.",
           features: [
             {
               icon: featureIcon,
-              title: "Visual Programming",
+              title: "Visual programming",
               description:
                 "Connect pre-built logic blocks to streamline application development and reduce manual scripting.",
             },
             {
               icon: featureIcon,
-              title: "Rapid Iterations",
+              title: "Rapid iterations",
               description:
                 "Modify application behavior on-the-fly and preview changes immediately for faster project turnaround.",
             },
           ],
         },
         {
-          title: "Cloud-Native Foundation",
+          title: "Cloud-native foundation",
           content:
             "Adopt a serverless approach to efficiently manage backend tasks while ensuring data security and scalability within the SAP ecosystem.",
           features: [
             {
               icon: featureIcon,
-              title: "Automated Backend Services",
+              title: "Automated backend services",
               description:
                 "Reduce infrastructure management efforts and costs with built-in data storage and serverless cloud functions.",
             },
             {
               icon: featureIcon,
-              title: "Secure and Scalable",
+              title: "Secure and scalable",
               description:
                 "Enable robust data persistence and smooth performance to meet enterprise security and compliance requirements.",
             },
           ],
         },
         {
-          title: "Enterprise Ecosystem Integration",
+          title: "Enterprise ecosystem integration",
           content:
             "Establish real-time connectivity with SAP and third-party applications, ensuring frictionless data synchronization and streamlined business processes.",
           features: [
             {
               icon: featureIcon,
-              title: "Pre-Configured Connectors",
+              title: "Pre-configured connectors",
               description:
                 "Accelerate integration with native connectors and standardized APIs for both SAP and non-SAP systems.",
             },
             {
               icon: featureIcon,
-              title: "Consistent Data Flow",
+              title: "Consistent data flow",
               description:
                 "Maintain data integrity and synchronization across diverse enterprise applications and workflows.",
             },
           ],
         },
         {
-          title: "Collaborative Governance Framework",
+          title: "Collaborative governance framework",
           content:
             "Enable real-time collaboration among team members and ensure governance policies through role-based access, version control, and project tracking.",
           features: [
             {
               icon: featureIcon,
-              title: "Team Collaboration",
+              title: "Team collaboration",
               description:
                 "Foster transparent development processes with shared resources and real-time coordination.",
             },
             {
               icon: featureIcon,
-              title: "Role-Based Management",
+              title: "Role-based management",
               description:
                 "Implement granular control of projects and resources for secure and compliant operations.",
             },
           ],
         },
         {
-          title: "Real-Time Design Intelligence",
+          title: "Real-Time design intelligence",
           content:
             "Preview application updates instantly and refine UI/UX design without full deployment cycles, accelerating feedback-driven improvements.",
           features: [
             {
               icon: featureIcon,
-              title: "Instant Previews",
+              title: "Instant previews",
               description:
                 "Visualize application changes on multiple devices and screen sizes for immediate validation.",
             },
             {
               icon: featureIcon,
-              title: "Rapid Testing",
+              title: "Rapid testing",
               description:
                 "Shorten development cycles with quick iterations informed by continuous stakeholder feedback.",
             },
@@ -6988,20 +6989,20 @@ const solutionData = [
           number: 74,
           label: "Reduction in Application Development Cycles",
           content:
-            "74% reduction in application development cycles achieved through visual programming and pre-configured templates, dramatically accelerating solution delivery and minimizing technical overhead.",
+            "Significant reduction achieved through visual programming and pre-configured templates, dramatically accelerating solution delivery and minimizing technical overhead.",
         },
         {
           number: 95,
           label: "Integration Effectiveness",
           content:
-            "95% integration success with SAP and non-SAP environments through standardized APIs and native connectors, delivering unmatched interoperability across the enterprise landscape.",
+            "High integration success with SAP and non-SAP environments through standardized APIs and native connectors, delivering unmatched interoperability across the enterprise landscape.",
         },
         {
           number: 720,
           symbol: "°",
           label: "° Comprehensive Application Lifecycle",
           content:
-            "720° comprehensive lifecycle support enables diverse developers—from business users to professionals—to collaborate effectively and accelerate digital transformation initiatives.",
+            "Complete lifecycle support enables diverse developers—from business users to professionals—to collaborate effectively and accelerate digital transformation initiatives.",
         },
       ],
     },
@@ -7022,7 +7023,7 @@ const solutionData = [
               alt="client-company"
             />
           ),
-          title: "Native Enterprise Connectivity",
+          title: "Native enterprise connectivity",
           description:
             "Simplify integration complexity through seamless connectivity to SAP environments, ensuring frictionless data synchronization and optimized workflows.",
         },
@@ -7034,7 +7035,7 @@ const solutionData = [
               alt="merge-docunemts"
             />
           ),
-          title: "Comprehensive Integration Architecture",
+          title: "Comprehensive integration architecture",
           description:
             "Accelerate solution implementation with pre-configured connectors and standardized APIs for both SAP and non-SAP systems.",
         },
@@ -7046,7 +7047,7 @@ const solutionData = [
               alt="overview-pages-4"
             />
           ),
-          title: "Enterprise-Grade Framework",
+          title: "Enterprise-grade framework",
           description:
             "Address complex requirements with robust functionalities designed for governance, compliance, and large-scale enterprise deployments.",
         },
@@ -7058,7 +7059,7 @@ const solutionData = [
               alt="backend-development"
             />
           ),
-          title: "Visual Development Excellence",
+          title: "Visual development excellence",
           description:
             "Empower diverse developer personas through intuitive interfaces that eliminate the need for coding and speed up complex builds.",
         },
@@ -7070,7 +7071,7 @@ const solutionData = [
               alt="external-intelligent-back-to-school-tulpahn-basic-outline-tulpahn"
             />
           ),
-          title: "Intelligent Automation Framework",
+          title: "Intelligent automation framework",
           description:
             "Elevate operations with intelligent workflows, decision support, and seamless system integration for business process transformation.",
         },
@@ -7082,7 +7083,7 @@ const solutionData = [
               alt="project-management"
             />
           ),
-          title: "Enterprise Innovation Acceleration",
+          title: "Enterprise innovation acceleration",
           description:
             "Facilitate rapid prototyping and deployment to significantly reduce time-to-value and stay aligned with evolving business demands.",
         },

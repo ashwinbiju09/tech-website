@@ -124,19 +124,19 @@ const industryData = [
           number: 30,
           label: "Operational Efficiency",
           content:
-            "85% of users return within a month of their first interaction.",
+            "Significant number of users return within a month of their first interaction.",
         },
         {
           number: 40,
           label: "Customer Service and Product Availability",
           content:
-            "Enhanced management practices have led to a 40% increase in product availability and higher customer service levels.",
+            "Enhanced management practices have led to a drastic increase in product availability and higher customer service levels.",
         },
         {
           number: 75,
           label: "Process Simplification",
           content:
-            "Reducing custom developments by 85% has simplified processes and decreased maintenance costs.",
+            "Reducing custom developments has simplified processes and decreased maintenance costs.",
         },
       ],
     },
@@ -201,19 +201,19 @@ const industryData = [
           number: 30,
           label: "Operational Expense Reduction",
           content:
-            "30% reduction in operational expenses through process automation and streamlined workflows, allowing staff to focus on higher-value tasks.",
+            "Reduction in operational expenses through process automation and streamlined workflows, allowing staff to focus on higher-value tasks.",
         },
         {
           number: 40,
           label: "Customer Service Improvement",
           content:
-            "40% improvement in product availability and overall customer service quality.",
+            "Improvement in product availability and overall customer service quality.",
         },
         {
           number: 80,
           label: "Technology Adoption",
           content:
-            "80% of grocery retailers recognize that adopting advanced technologies is crucial for maintaining future competitiveness.",
+            "Grocery retailers recognize that adopting advanced technologies is crucial for maintaining future competitiveness.",
         },
       ],
     },
@@ -273,19 +273,19 @@ const industryData = [
           number: 35,
           label: "Operational Efficiency",
           content:
-            "35% improvement in process automation and overall operational efficiency.",
+            "Improvement in process automation and overall operational efficiency.",
         },
         {
           number: 55,
           label: "Sustainability Integration",
           content:
-            "55% of specialty retailers have successfully integrated sustainability practices into their business models, aligning with growing consumer demand for eco-friendly products.",
+            "Specialty retailers have successfully integrated sustainability practices into their business models, aligning with growing consumer demand for eco-friendly products.",
         },
         {
           number: 65,
           label: "Channel Consistency",
           content:
-            "65% report enhanced consistency in customer interactions across both online and offline channels.",
+            "Enhanced consistency in customer interactions across both online and offline channels.",
         },
       ],
     },
@@ -350,19 +350,19 @@ const industryData = [
           number: 40,
           label: "Operational Efficiency",
           content:
-            "40% enhancement in operational efficiency, streamlining processes such as inventory management, patient scheduling, and billing.",
+            "Enhancement in operational efficiency, streamlining processes such as inventory management, patient scheduling, and billing.",
         },
         {
           number: 70,
           label: "Market Adaptation",
           content:
-            "70% of healthcare retailers have successfully adapted to market changes while maintaining high service quality.",
+            "Healthcare retailers have successfully adapted to market changes while maintaining high service quality.",
         },
         {
           number: 80,
           label: "Regulatory Compliance",
           content:
-            "80% of organizations have achieved improved compliance with key regulations such as HIPAA.",
+            "Organizations have achieved improved compliance with key regulations such as HIPAA.",
         },
       ],
     },
@@ -427,19 +427,19 @@ const industryData = [
           number: 65,
           label: "Customer Engagement",
           content:
-            "65% of department stores report improved consistency in customer engagement across both digital and physical channels.",
+            "Department stores report improved consistency in customer engagement across both digital and physical channels.",
         },
         {
           number: 80,
           label: "Decision-Making Efficiency",
           content:
-            "80% of businesses have found that real-time data access significantly enhances decision-making speed and accuracy.",
+            "Businesses have found that real-time data access significantly enhances decision-making speed and accuracy.",
         },
         {
           number: 85,
           label: "Transactional Security",
           content:
-            "85% of retailers now feel more secure in their transactions and data management after implementing advanced SAP systems.",
+            "Retailers now feel more secure in their transactions and data management after implementing advanced SAP systems.",
         },
       ],
     },
@@ -504,19 +504,19 @@ const industryData = [
           number: 40,
           label: "Supply Chain Visibility",
           content:
-            "40% improvement in supply chain visibility enables distributors to navigate demand fluctuations and supply interruptions more effectively.",
+            "Improvement in supply chain visibility enables distributors to navigate demand fluctuations and supply interruptions more effectively.",
         },
         {
           number: 50,
           label: "Inventory Accuracy",
           content:
-            "50% enhancement in inventory accuracy contributes to significant cost savings and improved stock management.",
+            "Enhancement in inventory accuracy contributes to significant cost savings and improved stock management.",
         },
         {
           number: 80,
           label: "Order Processing",
           content:
-            "80% of distributors report faster order processing and more tailored service offerings, driven by integrated customer data.",
+            "Distributors report faster order processing and more tailored service offerings, driven by integrated customer data.",
         },
       ],
     },
@@ -580,19 +580,19 @@ const industryData = [
           number: 55,
           label: "Sustainability Integration",
           content:
-            "55% of jewelers have integrated sustainable practices into their business models, underscoring a commitment to environmental responsibility.",
+            "Jewelers have integrated sustainable practices into their business models, underscoring a commitment to environmental responsibility.",
         },
         {
           number: 65,
           label: "Channel Consistency",
           content:
-            "65% report enhanced consistency between online and offline channels, leading to a more unified customer experience.",
+            "Enhanced consistency between online and offline channels, leading to a more unified customer experience.",
         },
         {
           number: 75,
           label: "Customer Satisfaction",
           content:
-            "75% of jewelry retailers have experienced a significant boost in customer satisfaction through the integration of comprehensive customer data and analytics.",
+            "Jewelry retailers have experienced a significant boost in customer satisfaction through the integration of comprehensive customer data and analytics.",
         },
       ],
     },
@@ -657,19 +657,19 @@ const industryData = [
           number: 55,
           label: "Sustainability Integration",
           content:
-            "55% of food and beverage companies have successfully integrated sustainability practices into their operations, targeting waste reduction and responsible sourcing.",
+            "Food and beverage companies have successfully integrated sustainability practices into their operations, targeting waste reduction and responsible sourcing.",
         },
         {
           number: 75,
           label: "Supply Chain Traceability",
           content:
-            "75% of businesses report improved traceability through better ingredient monitoring across the supply chain.",
+            "Businesses report improved traceability through better ingredient monitoring across the supply chain.",
         },
         {
           number: 85,
           label: "Decision-Making Efficiency",
           content:
-            "85% of industry executives agree that real-time data access significantly boosts decision-making and enables quicker adaptation to shifting market conditions.",
+            "Industry executives agree that real-time data access significantly boosts decision-making and enables quicker adaptation to shifting market conditions.",
         },
       ],
     },
@@ -734,19 +734,19 @@ const industryData = [
           number: 35,
           label: "Operational Efficiency",
           content:
-            "35% improvement in operational efficiency through streamlined production planning, inventory management, and order fulfillment processes.",
+            "Improvement in operational efficiency through streamlined production planning, inventory management, and order fulfillment processes.",
         },
         {
           number: 45,
           label: "Inventory Accuracy",
           content:
-            "45% increase in inventory accuracy, minimizing shortages and excess stock while ensuring product availability.",
+            "Increase in inventory accuracy, minimizing shortages and excess stock while ensuring product availability.",
         },
         {
           number: 75,
           label: "Customer Satisfaction",
           content:
-            "75% of businesses report significantly enhanced customer satisfaction, driven by quicker order processing and superior service delivery.",
+            "Businesses report significantly enhanced customer satisfaction, driven by quicker order processing and superior service delivery.",
         },
       ],
     },
@@ -806,19 +806,19 @@ const industryData = [
           number: 30,
           label: "Sales Forecasting Accuracy",
           content:
-            "30% improvement in sales forecasting accuracy, enabling more precise planning around consumer demand trends.",
+            "Improvement in sales forecasting accuracy, enabling more precise planning around consumer demand trends.",
         },
         {
           number: 45,
           label: "Inventory Accuracy",
           content:
-            "45% enhancement in inventory accuracy, effectively reducing excess stock and minimizing stockouts.",
+            "Enhancement in inventory accuracy, effectively reducing excess stock and minimizing stockouts.",
         },
         {
           number: 80,
           label: "Supply Chain Profitability",
           content:
-            "80% increase in long-term supply chain profitability, driven by investments in sustainable software tools and agile practices.",
+            "Increase in long-term supply chain profitability, driven by investments in sustainable software tools and agile practices.",
         },
       ],
     },
@@ -883,19 +883,19 @@ const industryData = [
           number: 18,
           label: "Operational Efficiency",
           content:
-            "18% improvement in overall operational efficiency, enabling manufacturers to better meet production targets and adapt to market demands.",
+            "Improvement in overall operational efficiency, enabling manufacturers to better meet production targets and adapt to market demands.",
         },
         {
           number: 32,
           label: "Sales Growth",
           content:
-            "32% increase in sales growth attributed to enhanced operational efficiencies and superior customer service.",
+            "Increase in sales growth attributed to enhanced operational efficiencies and superior customer service.",
         },
         {
           number: 78,
           label: "Satisfaction with Data Synchronization",
           content:
-            "78% of manufacturers report high satisfaction levels, noting significant reductions in financial close cycles thanks to improved data synchronization across systems.",
+            "Manufacturers report high satisfaction levels, noting significant reductions in financial close cycles thanks to improved data synchronization across systems.",
         },
       ],
     },
@@ -960,19 +960,19 @@ const industryData = [
           number: 25,
           label: "Production Cycle Time Reduction",
           content:
-            "25% reduction in production cycle times, enabling faster market responses and improved throughput.",
+            "Reduction in production cycle times, enabling faster market responses and improved throughput.",
         },
         {
           number: 30,
           label: "Operating Cost Reduction",
           content:
-            "30% decrease in operating costs through the automation of repetitive tasks like order processing and procurement, allowing employees to focus on higher-value activities.",
+            "Decrease in operating costs through the automation of repetitive tasks like order processing and procurement, allowing employees to focus on higher-value activities.",
         },
         {
           number: 45,
           label: "Inventory Accuracy",
           content:
-            "45% improvement in inventory accuracy, minimizing waste while ensuring timely availability of raw materials.",
+            "Improvement in inventory accuracy, minimizing waste while ensuring timely availability of raw materials.",
         },
       ],
     },
@@ -1037,19 +1037,19 @@ const industryData = [
           number: 35,
           label: "Supply Chain Visibility",
           content:
-            "35% improvement in supply chain visibility, facilitating better supplier coordination and more effective inventory management.",
+            "Improvement in supply chain visibility, facilitating better supplier coordination and more effective inventory management.",
         },
         {
           number: 50,
           label: "Product Quality & Satisfaction",
           content:
-            "50% increase in product quality and customer satisfaction as reported by leading manufacturers.",
+            "Increase in product quality and customer satisfaction as reported by leading manufacturers.",
         },
         {
           number: 98,
           label: "Inventory Accuracy",
           content:
-            "98% enhancement in inventory accuracy, significantly reducing waste and ensuring raw materials are available when needed.",
+            "Enhancement in inventory accuracy, significantly reducing waste and ensuring raw materials are available when needed.",
         },
       ],
     },
@@ -1114,19 +1114,19 @@ const industryData = [
           number: 30,
           label: "Project Delivery Speed",
           content:
-            "30% improvement in project delivery speed, enabling adherence to tighter deadlines and increased customer satisfaction.",
+            "Improvement in project delivery speed, enabling adherence to tighter deadlines and increased customer satisfaction.",
         },
         {
           number: 55,
           label: "Manual Error Reduction",
           content:
-            "55% reduction in manual errors, resulting in enhanced quality control and substantial cost savings on rework.",
+            "Reduction in manual errors, resulting in enhanced quality control and substantial cost savings on rework.",
         },
         {
           number: 85,
           label: "Real-Time Data Access",
           content:
-            "85% of businesses report significantly improved real-time data access, facilitating more informed and agile decision-making.",
+            "Businesses report significantly improved real-time data access, facilitating more informed and agile decision-making.",
         },
       ],
     },
@@ -1191,19 +1191,19 @@ const industryData = [
           number: 35,
           label: "Asset Utilization",
           content:
-            "35% improvement in asset utilization, ensuring properties are used more effectively throughout their lifecycle.",
+            "Improvement in asset utilization, ensuring properties are used more effectively throughout their lifecycle.",
         },
         {
           number: 50,
           label: "Lease Management Time",
           content:
-            "50% reduction in lease management time, providing real-time visibility into performance and enabling proactive decision-making.",
+            "Reduction in lease management time, providing real-time visibility into performance and enabling proactive decision-making.",
         },
         {
           number: 80,
           label: "Regulatory Compliance",
           content:
-            "80% of firms report stronger compliance with industry regulations as a direct result of integrated compliance features.",
+            "Firms report stronger compliance with industry regulations as a direct result of integrated compliance features.",
         },
       ],
     },
@@ -1268,19 +1268,19 @@ const industryData = [
           number: 40,
           label: "Operational Efficiency",
           content:
-            "40% improvement in operational efficiency, enabling optimized production processes and heightened reliability.",
+            "Improvement in operational efficiency, enabling optimized production processes and heightened reliability.",
         },
         {
           number: 85,
           label: "Decision-Making Capabilities",
           content:
-            "85% of businesses report significantly enhanced decision-making capabilities, allowing agile responses to market fluctuations.",
+            "Businesses report significantly enhanced decision-making capabilities, allowing agile responses to market fluctuations.",
         },
         {
           number: 95,
           label: "Cost Savings",
           content:
-            "95% cost savings realized through streamlined procurement procedures and minimized operational inefficiencies.",
+            "Cost savings realized through streamlined procurement procedures and minimized operational inefficiencies.",
         },
       ],
     },
@@ -1345,19 +1345,19 @@ const industryData = [
           number: 35,
           label: "Maintenance Cost Reduction",
           content:
-            "35% reduction in maintenance costs, extending asset lifecycles and minimizing downtime.",
+            "Reduction in maintenance costs, extending asset lifecycles and minimizing downtime.",
         },
         {
           number: 45,
           label: "Productivity Increase",
           content:
-            "45% increase in productivity, enabling more effective resource allocation and project management.",
+            "Increase in productivity, enabling more effective resource allocation and project management.",
         },
         {
           number: 60,
           label: "Sustainability Metrics Improvement",
           content:
-            "60% improvement in sustainability metrics, helping organizations meet customer demands for green practices and regulatory requirements.",
+            "Improvement in sustainability metrics, helping organizations meet customer demands for green practices and regulatory requirements.",
         },
       ],
     },
@@ -1422,19 +1422,19 @@ const industryData = [
           number: 55,
           label: "Billing Error Reduction",
           content:
-            "55% reduction in billing errors, leading to more accurate invoicing and easier customer account management.",
+            "Reduction in billing errors, leading to more accurate invoicing and easier customer account management.",
         },
         {
           number: 78,
           label: "Digital Technology Performance Gains",
           content:
-            "78% of energy executives report that integrating new digital technologies has significantly enhanced their performance or profitability.",
+            "Energy executives report that integrating new digital technologies has significantly enhanced their performance or profitability.",
         },
         {
           number: 85,
           label: "Decision-Making Improvement",
           content:
-            "85% of users claim improved decision-making capabilities, enabling faster responses to shifting market conditions.",
+            "Users claim improved decision-making capabilities, enabling faster responses to shifting market conditions.",
         },
       ],
     },
@@ -1499,19 +1499,19 @@ const industryData = [
           number: 30,
           label: "Customer Satisfaction",
           content:
-            "30% increase in overall customer satisfaction, driven by more reliable service delivery and personalized engagements.",
+            "Increase in overall customer satisfaction, driven by more reliable service delivery and personalized engagements.",
         },
         {
           number: 50,
           label: "Renewable Energy Integration",
           content:
-            "50% rise in the integration of renewable energy sources—such as solar and wind—resulting in greener power generation.",
+            "Rise in the integration of renewable energy sources—such as solar and wind—resulting in greener power generation.",
         },
         {
           number: 65,
           label: "Power Outage Reduction",
           content:
-            "65% reduction in power outages, aided by real-time grid monitoring and predictive maintenance techniques.",
+            "Reduction in power outages, aided by real-time grid monitoring and predictive maintenance techniques.",
         },
       ],
     },
@@ -1576,19 +1576,19 @@ const industryData = [
           number: 30,
           label: "Project Cycle Time Reduction",
           content:
-            "30% reduction in project cycle time, enabling faster completion of T&D initiatives and quicker returns on investment.",
+            "Reduction in project cycle time, enabling faster completion of T&D initiatives and quicker returns on investment.",
         },
         {
           number: 75,
           label: "Regulatory Compliance",
           content:
-            "75% of T&D organizations report enhanced regulatory compliance through integrated reporting and monitoring features.",
+            "T&D organizations report enhanced regulatory compliance through integrated reporting and monitoring features.",
         },
         {
           number: 85,
           label: "Decision-Making Enhancement",
           content:
-            "85% of businesses experience improved decision-making thanks to the real-time data availability provided by SAP solutions.",
+            "Businesses experience improved decision-making thanks to the real-time data availability provided by SAP solutions.",
         },
       ],
     },
@@ -1653,19 +1653,19 @@ const industryData = [
           number: 30,
           label: "Sales Increase",
           content:
-            "30% increase in sales driven by enhanced customer relationship management and streamlined operational efficiencies.",
+            "Increase in sales driven by enhanced customer relationship management and streamlined operational efficiencies.",
         },
         {
           number: 55,
           label: "Manual Process Reduction",
           content:
-            "55% reduction in manual processes, allowing employees to focus on strategic initiatives and innovation.",
+            "Reduction in manual processes, allowing employees to focus on strategic initiatives and innovation.",
         },
         {
           number: 80,
           label: "Improved Security Posture",
           content:
-            "80% of businesses report a significantly improved security posture, ensuring the protection of critical data and assets.",
+            "Businesses report a significantly improved security posture, ensuring the protection of critical data and assets.",
         },
       ],
     },
@@ -1731,19 +1731,19 @@ const industryData = [
           number: 30,
           label: "Service Integration",
           content:
-            "30% improvement in service integration, enabling seamless coordination across different operational departments.",
+            "Improvement in service integration, enabling seamless coordination across different operational departments.",
         },
         {
           number: 35,
           label: "Marketing Campaign Effectiveness",
           content:
-            "35% boost in marketing campaign effectiveness, with enhanced insights into customer preferences and behaviors.",
+            "Boost in marketing campaign effectiveness, with enhanced insights into customer preferences and behaviors.",
         },
         {
           number: 45,
           label: "Booking Processing Time Reduction",
           content:
-            "45% reduction in booking processing times, leading to greater service efficiency and faster responses to customer inquiries.",
+            "Reduction in booking processing times, leading to greater service efficiency and faster responses to customer inquiries.",
         },
       ],
     },
@@ -1808,19 +1808,19 @@ const industryData = [
           number: 25,
           label: "Quality Control Effectiveness",
           content:
-            "25% increase in quality control effectiveness through improved tracking of raw materials and finished products.",
+            "Increase in quality control effectiveness through improved tracking of raw materials and finished products.",
         },
         {
           number: 35,
           label: "Supply Chain Visibility",
           content:
-            "35% improvement in supply chain visibility, ensuring timely delivery and reducing operational bottlenecks.",
+            "Improvement in supply chain visibility, ensuring timely delivery and reducing operational bottlenecks.",
         },
         {
           number: 75,
           label: "Regulatory Compliance",
           content:
-            "75% of companies report enhanced compliance with stringent industry regulations, reinforcing trust and reliability.",
+            "Companies report enhanced compliance with stringent industry regulations, reinforcing trust and reliability.",
         },
       ],
     },
@@ -1885,19 +1885,19 @@ const industryData = [
           number: 25,
           label: "Quality Control Effectiveness",
           content:
-            "25% improvement in quality control effectiveness, driven by enhanced tracking of raw materials and finished products.",
+            "Improvement in quality control effectiveness, driven by enhanced tracking of raw materials and finished products.",
         },
         {
           number: 30,
           label: "Time-to-Market Reduction",
           content:
-            "30% reduction in time-to-market for new medical devices, enabling faster responses to evolving market demands and regulatory changes.",
+            "Reduction in time-to-market for new medical devices, enabling faster responses to evolving market demands and regulatory changes.",
         },
         {
           number: 75,
           label: "Regulatory Compliance",
           content:
-            "75% of medical device businesses report significantly enhanced compliance with industry regulations, including FDA and ISO standards.",
+            "Medical device businesses report significantly enhanced compliance with industry regulations, including FDA and ISO standards.",
         },
       ],
     },
@@ -1962,19 +1962,19 @@ const industryData = [
           number: 35,
           label: "Team Coordination Improvement",
           content:
-            "35% improvement in team coordination achieved through integrated communication systems.",
+            "Improvement in team coordination achieved through integrated communication systems.",
         },
         {
           number: 45,
           label: "Faster Access to Patient Records",
           content:
-            "45% faster access to patient records, enabling more informed and timely treatment decisions.",
+            "Faster access to patient records, enabling more informed and timely treatment decisions.",
         },
         {
           number: 55,
           label: "Reduction in Medication Errors",
           content:
-            "55% reduction in medication errors, significantly enhancing patient safety and treatment accuracy.",
+            "Reduction in medication errors, significantly enhancing patient safety and treatment accuracy.",
         },
       ],
     },
@@ -2039,19 +2039,19 @@ const industryData = [
           number: 22,
           label: "Customer Satisfaction Boost",
           content:
-            "22% boost in customer satisfaction, driven by individualized service delivery and enhanced relationship management.",
+            "Boost in customer satisfaction, driven by individualized service delivery and enhanced relationship management.",
         },
         {
           number: 32,
           label: "Interdepartmental Collaboration",
           content:
-            "32% improvement in interdepartmental collaboration, facilitating better project management and streamlined information sharing.",
+            "Improvement in interdepartmental collaboration, facilitating better project management and streamlined information sharing.",
         },
         {
           number: 72,
           label: "Regulatory Compliance",
           content:
-            "72% of banks report enhanced regulatory compliance, thanks to integrated risk management capabilities that effectively assess, monitor, and mitigate risks.",
+            "Banks report enhanced regulatory compliance, thanks to integrated risk management capabilities that effectively assess, monitor, and mitigate risks.",
         },
       ],
     },
@@ -2116,19 +2116,19 @@ const industryData = [
           number: 28,
           label: "Decision-Making Accuracy",
           content:
-            "28% increase in decision-making accuracy, enabling better risk assessments and pricing strategies.",
+            "Increase in decision-making accuracy, enabling better risk assessments and pricing strategies.",
         },
         {
           number: 35,
           label: "Processing Time Reduction",
           content:
-            "35% reduction in processing times, allowing insurance professionals to focus on strategic initiatives.",
+            "Reduction in processing times, allowing insurance professionals to focus on strategic initiatives.",
         },
         {
           number: 75,
           label: "Regulatory Compliance",
           content:
-            "75% of insurers report enhanced regulatory compliance, supported by integrated risk management tools that effectively monitor and mitigate risks.",
+            "Insurers report enhanced regulatory compliance, supported by integrated risk management tools that effectively monitor and mitigate risks.",
         },
       ],
     },
@@ -2193,19 +2193,19 @@ const industryData = [
           number: 25,
           label: "Customer Satisfaction Increase",
           content:
-            "25% increase in customer satisfaction, driven by personalized service and optimized interactions.",
+            "Increase in customer satisfaction, driven by personalized service and optimized interactions.",
         },
         {
           number: 40,
           label: "Processing Time Reduction",
           content:
-            "40% reduction in processing times, enabling faster response to consumer requests and transaction execution.",
+            "Reduction in processing times, enabling faster response to consumer requests and transaction execution.",
         },
         {
           number: 45,
           label: "Collaboration Improvement",
           content:
-            "45% improvement in collaboration and information sharing, enhancing project management across departments.",
+            "Improvement in collaboration and information sharing, enhancing project management across departments.",
         },
       ],
     },
@@ -2270,19 +2270,19 @@ const industryData = [
           number: 45,
           label: "Productivity Increase",
           content:
-            "45% increase in productivity, allowing teams to dedicate more time to strategic, high-impact initiatives.",
+            "Increase in productivity, allowing teams to dedicate more time to strategic, high-impact initiatives.",
         },
         {
           number: 70,
           label: "Sales Forecast Accuracy",
           content:
-            "70% improvement in sales forecast accuracy, leading to better inventory management and optimized resource allocation.",
+            "Improvement in sales forecast accuracy, leading to better inventory management and optimized resource allocation.",
         },
         {
           number: 90,
           label: "Decision-Making Speed",
           content:
-            "90% reported enhancements in decision-making speed, enabling quicker adaptations to rapidly shifting market conditions.",
+            "Reported enhancements in decision-making speed, enabling quicker adaptations to rapidly shifting market conditions.",
         },
       ],
     },
@@ -2347,19 +2347,19 @@ const industryData = [
           number: 45,
           label: "Employee Productivity",
           content:
-            "45% increase in employee productivity, enabling teams to refocus on high-impact strategic initiatives.",
+            "Increase in employee productivity, enabling teams to refocus on high-impact strategic initiatives.",
         },
         {
           number: 60,
           label: "Operational Efficiency",
           content:
-            "60% boost in operational efficiency achieved through process optimization and workflow automation.",
+            "Boost in operational efficiency achieved through process optimization and workflow automation.",
         },
         {
           number: 90,
           label: "Regulatory Compliance",
           content:
-            "90% improvement in regulatory compliance reported by organizations using enterprise service solutions.",
+            "Improvement in regulatory compliance reported by organizations using enterprise service solutions.",
         },
       ],
     },
@@ -2424,19 +2424,19 @@ const industryData = [
           number: 45,
           label: "Supply Chain Visibility",
           content:
-            "45% improvement in supply chain visibility, resulting in timely product delivery and optimized inventory control.",
+            "Improvement in supply chain visibility, resulting in timely product delivery and optimized inventory control.",
         },
         {
           number: 60,
           label: "Analytics Capabilities",
           content:
-            "60% enhanced analytics capabilities, allowing for better resource distribution and inventory management.",
+            "Enhanced analytics capabilities, allowing for better resource distribution and inventory management.",
         },
         {
           number: 85,
           label: "Regulatory Compliance",
           content:
-            "85% greater regulatory compliance due to integrated monitoring and reporting tools that simplify adherence and oversight.",
+            "Greater regulatory compliance due to integrated monitoring and reporting tools that simplify adherence and oversight.",
         },
       ],
     },
@@ -2501,19 +2501,19 @@ const industryData = [
           number: 45,
           label: "Customer Satisfaction Growth",
           content:
-            "45% growth in customer satisfaction as a result of integrated systems that streamline services and personalize client interactions.",
+            "Growth in customer satisfaction as a result of integrated systems that streamline services and personalize client interactions.",
         },
         {
           number: 65,
           label: "Operational Efficiency",
           content:
-            "65% increase in operational efficiency through process automation and optimized workflows across multiple production units.",
+            "Increase in operational efficiency through process automation and optimized workflows across multiple production units.",
         },
         {
           number: 85,
           label: "Forecasting Accuracy",
           content:
-            "85% boost in forecasting accuracy, allowing more strategic inventory control and resource allocation.",
+            "Boost in forecasting accuracy, allowing more strategic inventory control and resource allocation.",
         },
       ],
     },
@@ -2578,19 +2578,19 @@ const industryData = [
           number: 45,
           label: "Operating Cost Reduction",
           content:
-            "45% reduction in operating costs reported by organizations that optimize procurement, reduce manual errors, and improve resource allocation.",
+            "Reduction in operating costs reported by organizations that optimize procurement, reduce manual errors, and improve resource allocation.",
         },
         {
           number: 60,
           label: "Sales Growth",
           content:
-            "60% sales growth achieved through advanced CRM tools and streamlined, data-driven operational strategies.",
+            "Sales growth achieved through advanced CRM tools and streamlined, data-driven operational strategies.",
         },
         {
           number: 70,
           label: "Supply Chain Visibility",
           content:
-            "70% increased supply chain visibility, facilitating punctual product delivery and enhanced collaboration with suppliers.",
+            "Increased supply chain visibility, facilitating punctual product delivery and enhanced collaboration with suppliers.",
         },
       ],
     },

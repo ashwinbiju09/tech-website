@@ -43,7 +43,7 @@ const Home = () => {
         <Hero onDiscoverClick={scrollToSection} />
       </motion.div>
 
-      <div className="relative bg-slate-100 z-30">
+      <div ref={scrollRef} className="relative bg-slate-100 z-30">
         <Info />
       </div>
 

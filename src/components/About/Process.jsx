@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import aboutData from "./aboutData";
+import { FaChevronDown } from "react-icons/fa";
 
 const Process = () => {
   const data = aboutData[0].processSection;
@@ -40,11 +41,16 @@ const Process = () => {
                 onMouseLeave={() => setHoveredIndex(null)}
               >
                 <div
-                  className={`text-xl font-medium transition-colors duration-300 ${
+                  className={`flex items-center justify-between w-full text-xl font-medium transition-colors duration-300 ${
                     hoveredIndex === index ? "text-yellow-400" : "text-midnight"
                   }`}
                 >
-                  {step.title} &#11167;
+                  <span>{step.title}</span>
+                  <FaChevronDown
+                    className={`transition-transform duration-300 ${
+                      hoveredIndex === index ? "rotate-180" : ""
+                    }`}
+                  />
                 </div>
 
                 <AnimatePresence>

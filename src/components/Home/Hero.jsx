@@ -2,7 +2,7 @@ import React from "react";
 import { ReactTyped } from "react-typed";
 import CTAButton from "../General/CTAButton";
 
-const Hero = () => {
+const Hero = ({ onDiscoverClick }) => {
   return (
     <div className="relative w-full h-[800px] flex items-center justify-center z-0">
       <div className="fixed top-0 left-0 w-full h-full -z-10">
@@ -29,6 +29,17 @@ const Hero = () => {
           <CTAButton />
         </div>
       </div>
+
+      <button
+        onClick={onDiscoverClick}
+        className="absolute bottom-32 left-1/2 transform -translate-x-1/2 animate-pulse"
+      >
+        <img
+          src="https://img.icons8.com/external-those-icons-fill-those-icons/50/FFFFFF/external-down-arrows-those-icons-fill-those-icons.png"
+          alt="scroll-down"
+          className="w-8 h-8"
+        />
+      </button>
     </div>
   );
 };

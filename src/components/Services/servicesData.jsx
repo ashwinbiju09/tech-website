@@ -251,7 +251,7 @@ const servicesData = [
           features: [],
         },
         {
-          title: "IT Service Management (ITSM)",
+          title: "IT Service Management",
           content:
             "We streamline and automate IT services using modern methodologies. From service catalogs to change management, every process is refined. We support traditional, agile, or hybrid service models. Continuous evaluation keeps your IT services high-performing and aligned.",
           features: [],
@@ -560,25 +560,28 @@ const servicesData = [
     expertiseSection: {
       items: [
         {
-          icon: featureIcon,
+          icon: (<img 
+            className="h-8 w-8" 
+            src="https://img.icons8.com/pastel-glyph/64/0a1f36/financial-analytics.png" 
+            alt="financial-analytics"/>),
           title: "Value Analysis",
           description:
             "We assess the performance and ROI of your existing tech landscape. Our consultants identify areas for improvement across tools, systems, and investments. Value is maximized through cost optimization and capability alignment. You gain clarity on what’s working, what’s not, and what to evolve.",
         },
         {
-          icon: featureIcon,
+          icon: (<img className="h-8 w-8" src="https://img.icons8.com/external-line512-zulfa-mahendra/64/0a1f36/external-asset-management-saving-and-investment-line512-zulfa-mahendra.png" alt="external-asset-management-saving-and-investment-line512-zulfa-mahendra"/>),
           title: "Asset Management",
           description:
             "We ensure IT assets are tracked, optimized, and aligned with your business strategy. From procurement to retirement, assets are managed for cost-efficiency and compliance. We support licensing, utilization, and governance across your tech estate. Control and visibility reduce risk and unnecessary spend.",
         },
         {
-          icon: featureIcon,
+          icon: (<img className="h-8 w-8" src="https://img.icons8.com/dotty/80/0a1f36/product.png" alt="product"/>),
           title: "Product Selection",
           description:
             "We help choose the right technologies for scalability, performance, and ROI. Products are evaluated for security, integration, and long-term value. Our approach minimizes risk and ensures faster implementation cycles. Every tool is selected with future-readiness in mind.",
         },
         {
-          icon: featureIcon,
+          icon: (<img className="h-8 w-8" src="https://img.icons8.com/external-glyph-andi-nur-abdillah/64/0a1f36/external-Data-Privacy-cyber-security-(glyph)-glyph-andi-nur-abdillah.png" alt="external-Data-Privacy-cyber-security-(glyph)-glyph-andi-nur-abdillah"/>),
           title: "Data Privacy & Security",
           description:
             "We build security strategies to protect data from cyber threats and breaches. Our services ensure compliance with global privacy standards and regulations. Security is embedded into infrastructure, applications, and access protocols. You gain peace of mind with end-to-end protection and risk mitigation.",
@@ -602,37 +605,37 @@ const servicesData = [
     offeringsSection: {
       departments: [
         {
-          title: "Infrastructure & Migration Management",
+          title: "Infrastructure Migration",
           content:
             "We oversee SAP environments across cloud, on-premises, and hybrid setups. Our experts ensure smooth migrations with zero business disruption. Infrastructure is continuously optimized for speed, scalability, and uptime. We help build a reliable foundation for innovation and growth.",
           features: [],
         },
         {
-          title: "Performance Monitoring & Auditing",
+          title: "Performance Monitoring",
           content:
             "We implement round-the-clock monitoring with intelligent alert systems. Proactive audits identify bottlenecks and prevent unplanned downtime. Security vulnerabilities and compliance gaps are flagged in real time. You stay ahead of issues before they impact business performance.",
           features: [],
         },
         {
-          title: "Service Management & Quality Assurance",
+          title: "Service Quality",
           content:
             "We take full responsibility for SAP updates, patches, and incident resolution. Automation is used for system health checks and quality control. System configurations are aligned with evolving business needs. Our goal is consistent, high-quality SAP performance across all functions.",
           features: [],
         },
         {
-          title: "Downtime & Continuity Management",
+          title: "Continuity Management",
           content:
             "Our managed disaster recovery and backup services ensure resilience. Planned updates and patches are executed with minimal disruption. We refine processes continually to meet uptime goals and SLAs. Business continuity remains uncompromised, even during transitions.",
           features: [],
         },
         {
-          title: "SAP Implementation & Lifecycle Support",
+          title: "SAP Implementation Support",
           content:
             "We support both new implementations and existing system enhancements. Certified experts manage deployment, testing, and long-term optimization. Post-implementation, we provide rapid issue resolution and system tuning. Your SAP environment evolves alongside your business.",
           features: [],
         },
         {
-          title: "Security & Compliance Management",
+          title: "Security Compliance",
           content:
             "Our SAP security model covers access control, governance, and threat response. Security Operations Centers (SOCs) ensure 24/7 protection and monitoring. We ensure compliance with industry, geographic, and audit-specific standards. Risk is minimized while data integrity and access remain secure.",
           features: [],
@@ -984,31 +987,31 @@ const servicesData = [
     offeringsSection: {
       departments: [
         {
-          title: "S/4HANA Landscape Planning",
+          title: "Landscape Planning",
           content:
             "We assess your current system and design the optimal S/4HANA environment. This includes infrastructure sizing, architecture planning, and deployment options. Cloud, hybrid, or on-prem — we tailor the solution to your needs. A strategic system landscape ensures long-term efficiency and scalability.",
           features: [],
         },
         {
-          title: "Migration Strategy Development",
+          title: "Migration Strategy",
           content:
             "We help choose the right approach — greenfield, brownfield, or bluefield. Detailed pre-migration planning ensures minimal risk and aligned goals. We support deployment flexibility across cloud or on-prem platforms. Post-migration services ensure smooth stabilization and user adoption.",
           features: [],
         },
         {
-          title: "Data Cleaning & Validation",
+          title: "Data Validation",
           content:
             "We identify and retain only essential data to speed up migration. Redundant, obsolete, or inconsistent data is removed or corrected. Data quality is improved before, during, and after migration. Clean data leads to accurate reporting and better system performance.",
           features: [],
         },
         {
-          title: "Implementation Planning & Readiness",
+          title: "Implementation Readiness",
           content:
             "We align migration activities with business timelines and goals. Project scope, resources, and dependencies are clearly defined. System readiness and compatibility are assessed upfront. This structured approach ensures seamless execution and governance.",
           features: [],
         },
         {
-          title: "Proof of Concept (PoC)",
+          title: "Concept Validation",
           content:
             "We conduct a controlled PoC to test scenarios before full rollout. A sandbox environment helps simulate and validate migration flows. Potential challenges are addressed early through real-time testing. PoC builds confidence and ensures stakeholder alignment.",
           features: [],
@@ -1178,43 +1181,43 @@ const servicesData = [
     offeringsSection: {
       departments: [
         {
-          title: "Strategic Solution Mapping",
+          title: "Solution Mapping",
           content:
             "We define how SAP solutions can align with your business priorities and future growth plans. By analyzing goals and operational needs, we outline the best-fit SAP functionalities. High-level planning includes innovation potential, delivery timelines, and success benchmarks. This strategic blueprint provides a clear path forward for your SAP journey.",
           features: [],
         },
         {
-          title: "Investment Justification & ROI Planning",
+          title: "Investment Planning",
           content:
             "We help build a compelling financial case for SAP adoption through detailed cost-benefit analysis. Total Cost of Ownership (TCO) is broken down across implementation, infrastructure, and support. Both tangible and intangible returns—like process efficiency and decision agility—are considered. This empowers leadership to make informed, confident investment decisions.",
           features: [],
         },
         {
-          title: "Process Insight & Optimization Review",
+          title: "Process Optimization",
           content:
             "We examine existing workflows to detect bottlenecks and improvement opportunities. Our analysis translates process performance data into actionable recommendations. Proposed enhancements are mapped against SAP’s capabilities and features. You gain clarity on how SAP will improve efficiency and outcomes.",
           features: [],
         },
         {
-          title: "IT Readiness & System Planning",
+          title: "System Planning",
           content:
             "We evaluate your current IT environment against future SAP infrastructure needs. Gap analysis reveals where upgrades, integrations, or redesigns are required. A future-state architecture plan is developed, fully aligned with business strategy. This ensures IT infrastructure is scalable, secure, and implementation-ready.",
           features: [],
         },
         {
-          title: "Solution Fit Analysis",
+          title: "Fit Analysis",
           content:
             "We assess how SAP solutions align with your current processes and business requirements. Mismatch areas are documented, along with suggestions for standardization or enhancement. Customizations are evaluated for their cost, impact, and necessity. This ensures your chosen SAP path is technically and functionally viable.",
           features: [],
         },
         {
-          title: "Migration & Integration Readiness",
+          title: "Integration Readiness",
           content:
             "We study your existing systems to identify dependencies and migration challenges. Data, applications, and legacy platforms are analyzed for compatibility with SAP. We outline integration pathways that ensure seamless connectivity and data flow. A phased roadmap is created to support smooth, disruption-free migration.",
           features: [],
         },
         {
-          title: "Scope Definition & Resource Estimation",
+          title: "Scope Estimation",
           content:
             "We define the complete project scope including business areas, modules, and system touchpoints. System volumes, data complexity, and process depth are factored into effort estimates. Resource, cost, and timeline forecasts are developed to ensure accurate planning. This groundwork supports effective delivery, budgeting, and stakeholder alignment.",
           features: [],
@@ -1384,37 +1387,37 @@ const servicesData = [
     offeringsSection: {
       departments: [
         {
-          title: "Streamlined Deployment of Complex Architectures",
+          title: "Deployment Support",
           content:
             "We plan and execute SAP configurations for diverse and interconnected operations. Our methods accommodate varying business models while enforcing system integrity. Through careful planning, we reduce delays and prevent costly rework. You get a scalable SAP foundation aligned with enterprise objectives.",
           features: [],
         },
         {
-          title: "Smart Customization Strategies",
+          title: "Smart Customization",
           content:
             "We help strike the right balance between customization and standard SAP best practices. Our team evaluates business needs to avoid unnecessary or costly modifications. This ensures long-term sustainability and simplifies future upgrades. Tailored configurations enhance value without complicating system management.",
           features: [],
         },
         {
-          title: "Accurate Data Transition Planning",
+          title: "Data Transition",
           content:
             "We validate, cleanse, and migrate legacy data into SAP systems with precision. Processes ensure consistency, eliminate duplicates, and retain critical information. Our ETL practices maintain data quality throughout the project lifecycle. The outcome is a reliable and audit-ready SAP environment.",
           features: [],
         },
         {
-          title: "Performance Optimization from Day One",
+          title: "Performance Optimization",
           content:
             "We assess infrastructure and system behavior to ensure optimal runtime performance. Bottlenecks are addressed through proactive tuning and capacity planning. We fine-tune applications like SAP GUI and Fiori for smoother user experience. Long-term performance is sustained with monitoring and growth management.",
           features: [],
         },
         {
-          title: "Integrated Ecosystem Enablement",
+          title: "Ecosystem Enablement",
           content:
             "We enable seamless communication between SAP and third-party or legacy systems. Our team ensures consistent, real-time data exchange across platforms. We manage dependencies and integration priorities to minimize disruption. Robust connectivity supports smoother operations and decision-making.",
           features: [],
         },
         {
-          title: "End-to-End Risk Control Framework",
+          title: "Risk Control",
           content:
             "We proactively identify technical, operational, and financial risks early in the process. Each risk is evaluated, prioritized, and addressed with mitigation plans. We build contingency strategies for issues like system failure or delays. Ongoing reporting ensures accountability and transparency throughout rollout.",
           features: [],
@@ -1584,43 +1587,43 @@ const servicesData = [
     offeringsSection: {
       departments: [
         {
-          title: "Upgrade Assessment & Strategy Planning",
+          title: "Upgrade Strategy",
           content:
             "We evaluate your current SAP environment, enhancement packs, and customizations to define the right upgrade path. Feasibility studies and system readiness checks ensure your upgrade is well-scoped and low-risk. Our roadmap balances technical requirements with business timelines for optimal results. You gain a clear, actionable plan tailored to your organization’s needs.",
           features: [],
         },
         {
-          title: "Custom Code Impact Analysis",
+          title: "Code Analysis",
           content:
             "We identify custom developments that may be affected by the upgrade. Each item is analyzed for compatibility, redundancy, or optimization potential. Recommended adjustments are documented with risk mitigation strategies. This ensures continuity and efficiency post-upgrade.",
           features: [],
         },
         {
-          title: "Technical Upgrade Execution",
+          title: "Technical Execution",
           content:
             "We handle the end-to-end execution of your SAP system upgrade—from sandbox to production. Services include backup, system preparation, technical upgrade, and patch management. Downtime is minimized through proven methodologies and phased rollouts. You benefit from a faster, smoother transition with little to no business disruption.",
           features: [],
         },
         {
-          title: "Functional Validation & Regression Testing",
+          title: "Functional Validation",
           content:
             "We ensure that business processes and workflows perform correctly post-upgrade. Testing covers core modules, custom developments, and integrations. Automated testing tools and real-time feedback reduce manual effort and errors. You gain confidence in your system’s functionality and reliability.",
           features: [],
         },
         {
-          title: "Performance Optimization Post-Upgrade",
+          title: "Post-Upgrade Optimization ",
           content:
             "We fine-tune your upgraded system to enhance performance, stability, and scalability. System monitoring identifies any bottlenecks introduced during the upgrade. Database and infrastructure improvements are implemented where needed. This results in a faster, more responsive SAP environment.",
           features: [],
         },
         {
-          title: "Security & Compliance Enhancements",
+          title: "Security Enhancements",
           content:
             "We apply the latest SAP security patches and updates during the upgrade. Access controls, user roles, and audit logs are reviewed and updated as required. We ensure alignment with data protection and industry-specific compliance standards. Your upgraded system is safer, more compliant, and easier to govern.",
           features: [],
         },
         {
-          title: "Change Management & Knowledge Transfer",
+          title: "Transition Support",
           content:
             "We provide detailed documentation, training sessions, and user enablement plans. Stakeholders and end-users are engaged throughout to ease the transition. Post-upgrade support includes monitoring, troubleshooting, and continuous improvement. Teams are empowered to fully leverage the upgraded SAP capabilities.",
           features: [],

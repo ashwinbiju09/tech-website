@@ -82,18 +82,21 @@ const solutionData = [
       stats: [
         {
           number: 42,
+          label: "Reduction in Inventory Costs",
           description:
-            "Average reduction in inventory costs for organizations implementing integrated supply chain management solutions, leading to significant improvements in working capital.",
+            "Organizations implementing integrated supply chain management solutions report an average 42% decrease in inventory costs, leading to significant improvements in working capital.",
         },
         {
           number: 68,
+          label:"Increase in On-Time Delivery Performance",
           description:
-            "Increase in on-time delivery performance reported by companies with end-to-end supply chain visibility compared to those with fragmented systems.",
+            "Companies with end-to-end supply chain visibility see a 68% increase in on-time delivery performance compared to those using fragmented systems.",
         },
         {
           number: 35,
+          label:"Reduction in Procurement Costs",
           description:
-            "Reduction in procurement costs achieved through supplier relationship management and automated purchasing workflows.",
+            "Enterprises achieve a significant reduction in procurement costs through supplier relationship management and automated purchasing workflows.",
         },
       ],
     },
@@ -256,18 +259,21 @@ const solutionData = [
       stats: [
         {
           number: 89,
+          label:"Project Success Rate",
           description:
-            "Project success rate for organizations with standardized project management practices, compared to just 34% in organizations without standardized processes.",
+            "Organizations with standardized project management practices achieve an 89% project success rate, compared to just 34% in those without standardized processes.",
         },
         {
           number: 28,
+          label:"Reduction in Project Costs",
           description:
-            "Average reduction in project costs through improved resource allocation and reduced workflow inefficiencies with effective project management solutions.",
+            "Companies report a significant average reduction in project costs through improved resource allocation and minimized workflow inefficiencies enabled by effective project management solutions.",
         },
         {
           number: 77,
+          label:"Increase in Stakeholder Satisfaction",
           description:
-            "Higher stakeholder satisfaction rates reported by companies using integrated project management software compared to those using disconnected systems.",
+            "Businesses using integrated project management software see higher stakeholder satisfaction rates compared to those relying on disconnected systems.",
         },
       ],
     },
@@ -431,18 +437,21 @@ const solutionData = [
       stats: [
         {
           number: 63,
+          label:"Improvement in On-Time Delivery Rates",
           description:
-            "Improvement in on-time delivery rates for manufacturers implementing integrated production management systems with real-time scheduling capabilities.",
+            "Manufacturers implementing integrated production management systems with real-time scheduling capabilities see significant gains in meeting delivery commitments.",
         },
         {
           number: 47,
+          label:"Reduction in Production Waste",
           description:
-            "Average reduction in production waste reported by companies adopting lean manufacturing technologies and processes.",
+            "Companies adopting lean manufacturing technologies and processes report less material waste and more efficient operations.",
         },
         {
           number: 31,
+          label:"Increase in Manufacturing Throughput",
           description:
-            "Increase in manufacturing throughput achieved through optimized scheduling and advanced production tracking systems.",
+            "Optimized scheduling and advanced production tracking systems enable higher output with better resource utilization.",
         },
       ],
     },
@@ -606,18 +615,21 @@ const solutionData = [
       stats: [
         {
           number: 41,
+          label:"Reduction in Month-End Close Time",
           description:
-            "Average reduction in month-end close time for organizations implementing integrated financial management systems with automated workflows.",
+            "Organizations implementing integrated financial management systems with automated workflows experience faster closing cycles and improved reporting efficiency.",
         },
         {
           number: 57,
+          label:"Improvement in Cash Flow Management",
           description:
-            "Improvement in cash flow management reported by companies utilizing advanced financial analytics and forecasting capabilities.",
+            "Companies utilizing advanced financial analytics and forecasting capabilities gain better visibility and control over liquidity and working capital.",
         },
         {
           number: 38,
+          label:"Decrease in Compliance-Related Costs",
           description:
-            "Decrease in compliance-related costs through streamlined reporting and automated regulatory controls.",
+            "Streamlined reporting processes and automated regulatory controls help reduce the burden and expense of maintaining compliance.",
         },
       ],
     },
@@ -781,18 +793,21 @@ const solutionData = [
       stats: [
         {
           number: 52,
+          label:"Improvement in Resource Utilization",
           description:
             "Average improvement in resource utilization reported by manufacturers implementing advanced planning and scheduling solutions.",
         },
         {
           number: 44,
+          label:"Reduction in Lead Times",
           description:
             "Reduction in production lead times achieved through constraint-based scheduling and material requirements planning.",
         },
         {
           number: 67,
+          label:"Increase in On-Time Delivery Performance",
           description:
-            "Increase in on-time delivery performance when using integrated demand planning and production scheduling systems.",
+            "Integrated demand and production planning systems align workflows and forecasts, enabling more consistent order fulfillment.",
         },
       ],
     },
@@ -952,22 +967,25 @@ const solutionData = [
       ],
     },
     percentageSection: {
-      title: "Workforce Transformation Data",
+      title: "Key Transformation Insights",
       stats: [
         {
           number: 73,
+          label:"Administrative Efficiency Boost",
           description:
-            "Average time savings on administrative HR tasks for companies implementing self-service employee portals and automated workflows.",
+            "Self-service employee portals and automated workflows drastically reduce time spent on routine HR tasks, freeing up resources for strategic initiatives.",
         },
         {
           number: 49,
+          label:"Talent Engagement & Growth",
           description:
-            "Improvement in employee retention rates reported by organizations with integrated talent management and development programs.",
+            "Organizations with integrated talent management and development programs are seeing stronger employee loyalty and long-term workforce stability.",
         },
         {
           number: 62,
+          label:"Accelerated Recruitment Cycles",
           description:
-            "Reduction in recruitment cycle time achieved through streamlined applicant tracking and digital onboarding processes.",
+            "Streamlined applicant tracking and digital onboarding processes significantly shorten the time required to attract and hire top talent.",
         },
       ],
     },
@@ -1131,18 +1149,21 @@ const solutionData = [
       stats: [
         {
           number: 58,
+          label:"Increase in Sales Conversion Rates",
           description:
-            "Average increase in sales conversion rates for organizations implementing integrated quote-to-cash automation systems.",
+            "Significant increase in sales conversion rates for organizations implementing integrated quote-to-cash automation systems.",
         },
         {
           number: 36,
+          label:"Reduction in Sales Cycle Time",
           description:
-            "Reduction in sales cycle time achieved through streamlined opportunity management and proposal generation processes.",
+            "Streamlined opportunity management and proposal tools eliminate bottlenecks, allowing deals to move faster through the pipeline.",
         },
         {
           number: 65,
+          label:"Improvement in Forecast Accuracy",
           description:
-            "Improvement in forecast accuracy reported by companies utilizing pipeline analytics and confidence-level tracking tools.",
+            "Companies gain greater visibility and reliability in sales projections using pipeline analytics and confidence-level tracking.",
         },
       ],
     },
@@ -1306,16 +1327,19 @@ const solutionData = [
       stats: [
         {
           number: 54,
+          label:"Increase in First-Time Resolution Rates",
           description:
-            "Average improvement in first-time fix rates for organizations implementing integrated field service management solutions with mobile access.",
+            "Integrated field service tools with mobile access empower technicians to resolve issues on the first visit more consistently.",
         },
         {
           number: 41,
+          label:"Reduction in Service Delivery Costs",
           description:
-            "Reduction in service delivery costs through optimized scheduling, routing, and preventive maintenance programs.",
+            "Optimized scheduling, efficient routing, and preventive maintenance significantly cut down on expenses.",
         },
         {
           number: 72,
+          label:"Increase in Service Contract Renewal Rates",
           description:
             "Increase in service contract renewal rates for businesses providing proactive maintenance and high visibility into service performance.",
         },
@@ -1480,18 +1504,21 @@ const solutionData = [
       stats: [
         {
           number: 64,
+          label:"Increase in Customer Retention Rates",
           description:
-            "Average increase in customer retention rates for businesses implementing integrated CRM solutions with complete customer lifecycle management.",
+            "Businesses using CRM systems with comprehensive lifecycle management experience a significant improvement in retaining customers.",
         },
         {
           number: 43,
+          label:"Improvement in Sales Conversion Rates",
           description:
-            "Improvement in sales conversion rates achieved through enhanced lead qualification and opportunity management processes.",
+            "Streamlined lead qualification and opportunity management processes drive higher conversion rates for sales teams.",
         },
         {
           number: 39,
+          label:"Reduction in Customer Service Response Times",
           description:
-            "Reduction in customer service response times reported by companies utilizing integrated case management and communication tools.",
+            "Companies leveraging case management and communication tools can address customer inquiries more swiftly and effectively.",
         },
       ],
     },

@@ -41,31 +41,56 @@ const aboutData = [
     ],
     differentiatorsSection: [
       {
-        icon: featureIcon,
+        icon: (<img 
+          className="h-8 w-8" 
+          src="https://img.icons8.com/external-vectorslab-glyph-vectorslab/100/0a1f36/external-Artificial-Intelligence-education-and-science-vectorslab-glyph-vectorslab.png" 
+          alt="external-Artificial-Intelligence-education-and-science-vectorslab-glyph-vectorslab"
+        />
+        ),
         title: "AI-First Methodology",
         description:
           "Eighty-six percent of CEOs believe that AI is a critical business advantage. We integrate AI into the core of our solutions to embed intelligence throughout your operations, turning data into actionable insights and automating repetitive tasks.",
       },
       {
-        icon: featureIcon,
+        icon: (<img 
+          className="h-8 w-8" 
+          src="https://img.icons8.com/pastel-glyph/64/0a1f36/browser-customization--v1.png" 
+          alt="browser-customization--v1"
+          />
+        ),
         title: "Truly Customized Solutions",
         description:
           "Rejecting the one-size-fits-all approach, we tailor our solutions to your unique industry requirements, business processes, and growth objectives to ensure maximum impact and return on investment.",
       },
       {
-        icon: featureIcon,
+        icon: (<img 
+          className="h-8 w-8" 
+          src="https://img.icons8.com/wired/64/0a1f36/ecosystem.png" 
+          alt="ecosystem"
+          />
+        ),
         title: "Seamless Integration Ecosystem",
         description:
           "Our solutions are built for connectivity. We integrate your core ERP with essential business systems, cloud services, and specialized applications, creating a unified ecosystem that eliminates silos and enables real-time data flow across your organization.",
       },
       {
-        icon: featureIcon,
+        icon: (<img 
+          className="h-8 w-8" 
+          src="https://img.icons8.com/external-itim2101-lineal-itim2101/64/0a1f36/external-implementation-project-management-itim2101-lineal-itim2101.png" 
+          alt="external-implementation-project-management-itim2101-lineal-itim2101"
+        />
+        ),
         title: "End-to-End Implementation Excellence",
         description:
           "From initial assessment to go-live and beyond, we manage every aspect of your implementation with careful attention to detail. Our proven methodology minimizes disruption while maximizing adoption, ensuring your team confidently embraces new systems and processes.",
       },
       {
-        icon: featureIcon,
+        icon: (<img 
+          className="h-8 w-8" 
+          src="https://img.icons8.com/sf-black-filled/64/0a1f36/light-automation.png" 
+          alt="light-automation"
+          />
+        ),
         title: "Continuous Innovation Partnership",
         description:
           "Technology and market conditions evolve rapidly. We establish ongoing partnerships focused on continuous improvement, helping you regularly reassess, optimize, and expand your capabilities to maintain a competitive edge.",

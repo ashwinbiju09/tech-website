@@ -22,10 +22,10 @@ const sectionVariants = {
 };
 
 const Home = () => {
-  const scrollRef = useRef(null);
+  const infoRef = useRef(null); // dedicated ref for Info section
 
-  const scrollToSection = () => {
-    scrollRef.current?.scrollIntoView({
+  const scrollToInfo = () => {
+    infoRef.current?.scrollIntoView({
       behavior: "smooth",
     });
   };
@@ -40,10 +40,10 @@ const Home = () => {
         variants={heroVariant}
         viewport={{ once: true }}
       >
-        <Hero onDiscoverClick={scrollToSection} />
+        <Hero onDiscoverClick={scrollToInfo} />
       </motion.div>
 
-      <div ref={scrollRef} className="relative bg-slate-100 z-30">
+      <div ref={infoRef} className="relative bg-slate-100 z-30">
         <Info />
       </div>
 
@@ -54,9 +54,11 @@ const Home = () => {
       <div className="relative bg-slate-100 z-30">
         <Industry />
       </div>
-      <div id="services" ref={scrollRef} className="relative bg-white z-30">
+
+      <div id="services" className="relative bg-white z-30">
         <Services />
       </div>
+
       <div className="relative bg-midnight z-30">
         <Contact />
       </div>

@@ -5387,14 +5387,14 @@ const solutionData = [
       stats: [
         {
           number: 79,
-          label: "Acceleration in Service Response Time (%)",
+          label: "Acceleration in Service Response Time",
           content:
             "79% faster resolution cycles, reducing customer effort and elevating satisfaction across service channels.",
         },
         {
           number: 1.85,
           symbol: "x",
-          label: "Increase in Customer Retention Rates (%)",
+          label: "Increase in Customer Retention Rates",
           content:
             "185% surge in retention through personalized engagements and consistent service excellence.",
         },
@@ -6338,7 +6338,7 @@ const solutionData = [
       stats: [
         {
           number: 214,
-          label: "% acceleration",
+          label: "Acceleration",
           content:
             "214% acceleration in global electric vehicle adoption recorded in recent market analyses, creating strategic opportunities for organizations deploying charging infrastructure.",
         },
@@ -6352,7 +6352,7 @@ const solutionData = [
         {
           number: 780,
           symbol: "K+",
-          label: "charging points",
+          label: "Charging points",
           content:
             "780,000+ charging points now accessible through strategic partnerships, forming extensive managed networks with seamless cross-border capabilities.",
         },

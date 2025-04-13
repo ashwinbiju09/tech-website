@@ -3,16 +3,18 @@ import { Mail, Send, User, FileText } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className="relative z-20 py-12 px-4 bg-midnight text-white">
-      <h2 className="text-3xl sm:text-4xl md:text-[45px] font-semibold tracking-wide md:font-[600] py-4 md:tracking-[-2px] text-center">
+    <div className="py-20 px-4 bg-midnight text-white">
+      <h2 className="text-3xl sm:text-4xl md:text-[45px] font-semibold tracking-wide md:font-[600] py-4 md:tracking-[-2px] text-center text-yellow-400">
         We are here to help you
       </h2>
-
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 md:gap-20 px-2">
-        <div className="p-4 md:p-8 md:w-2/5 flex flex-col justify-between">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row">
+        {/* Left Info Section */}
+        <div className="p-8 md:p-12 md:w-2/5 flex flex-col justify-between">
           <div>
-            <h3 className="text-2xl font-bold mb-4">Let’s Create Together</h3>
-            <p className="text-white text-base md:text-lg mb-10">
+            <h2 className="text-3xl font-bold mb-4 text-yellow-400">
+              Let’s Create Together
+            </h2>
+            <p className="text-blue-100 text-lg mb-10">
               Struggling with intricate system integrations, aiming to
               streamline enterprise workflows, or imagining a smarter business
               landscape? We're your bridge from where you are to
@@ -30,7 +32,7 @@ const Contact = () => {
                     href="mailto:info@example.com"
                     className="text-white font-medium hover:underline"
                   >
-                    info@example.com
+                    support@arkaglobal.co.uk
                   </a>
                 </div>
               </div>
@@ -38,8 +40,9 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="p-4 md:p-8 md:w-3/5">
-          <h3 className="text-xl sm:text-2xl font-semibold text-white mb-6">
+        {/* Contact Form Section */}
+        <div className="p-8 md:p-12 md:w-3/5">
+          <h3 className="text-2xl font-semibold text-yellow-400 mb-6">
             Send us a message
           </h3>
 
@@ -50,9 +53,9 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="John Smith"
-                  className="w-full pl-12 pr-4 py-2 rounded-sm bg-white text-gray-900 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full pl-12 pr-4 py-2 rounded-sm bg-midnight border border-gray-600 placeholder-gray-400 text-white focus:ring-2 focus:ring-yellow-400 focus:outline-none"
                 />
-                <User className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 w-5 h-5" />
+                <User className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               </div>
             </div>
 
@@ -62,9 +65,9 @@ const Contact = () => {
                 <input
                   type="email"
                   placeholder="your@email.com"
-                  className="w-full pl-12 pr-4 py-2 rounded-sm bg-white text-gray-900 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full pl-12 pr-4 py-2 rounded-sm bg-midnight border border-gray-600 placeholder-gray-400 text-white focus:ring-2 focus:ring-yellow-400 focus:outline-none"
                 />
-                <Mail className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 w-5 h-5" />
+                <Mail className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               </div>
             </div>
 
@@ -74,9 +77,9 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="How can we help you?"
-                  className="w-full pl-12 pr-4 py-2 rounded-sm bg-white text-gray-900 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full pl-12 pr-4 py-2 rounded-sm bg-midnight border border-gray-600 placeholder-gray-400 text-white focus:ring-2 focus:ring-yellow-400 focus:outline-none"
                 />
-                <FileText className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-500 w-5 h-5" />
+                <FileText className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
               </div>
             </div>
 
@@ -85,7 +88,7 @@ const Contact = () => {
               <textarea
                 placeholder="Tell us about your enterprise integration needs, challenges, or project vision..."
                 rows={4}
-                className="w-full p-4 rounded-sm bg-white text-gray-900 border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                className="w-full p-4 rounded-sm bg-midnight border border-gray-600 placeholder-gray-400 text-white focus:ring-2 focus:ring-yellow-400 focus:outline-none"
               />
             </div>
 

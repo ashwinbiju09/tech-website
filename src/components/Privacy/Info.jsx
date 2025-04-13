@@ -103,15 +103,11 @@ const data = [
     list: [
       {
         subTitle: "Email",
-        content: "[Insert Contact Email]",
+        content: "support@arkaglobal.co.uk",
       },
       {
         subTitle: "Address",
         content: "[Insert Physical Address, United Kingdom]",
-      },
-      {
-        subTitle: "Phone",
-        content: "[Insert Phone Number]",
       },
     ],
     paraTwo:

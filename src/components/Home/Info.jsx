@@ -10,19 +10,19 @@ const Info = () => {
   const testimonials = [
     {
       quote:
-        "Ladera Technology's automation solutions transformed our operations. We've seen a 40% reduction in processing time and eliminated most manual errors.",
+        "Arka's automation solutions transformed our operations. We've seen a 40% reduction in processing time and eliminated most manual errors.",
       name: "Sarah Johnson",
       role: "CIO, Global Finance Corp",
     },
     {
       quote:
-        "Thanks to Ladera, our digital transformation roadmap is now 2 years ahead. Their AI-powered integrations are unmatched.",
+        "Thanks to Arka, our digital transformation roadmap is now 2 years ahead. Their AI-powered integrations are unmatched.",
       name: "Michael Chen",
       role: "CTO, CoreSoft Solutions",
     },
     {
       quote:
-        "From onboarding to deployment, Ladera delivered a seamless ERP enhancement that improved our ROI significantly.",
+        "From onboarding to deployment, Arka's delivered a seamless ERP enhancement that improved our ROI significantly.",
       name: "Alicia Patel",
       role: "VP Operations, GreenTech Group",
     },
@@ -44,7 +44,7 @@ const Info = () => {
           </div>
 
           <div className="text-center lg:text-justify text-lg text-white/80 leading-relaxed">
-            Standard ERP holds you back. At Synapse, we help businesses work
+            Standard ERP holds you back. At Arka Global, we help businesses work
             smarter using AI-powered automation. With over a decade of
             industry-leading expertise, we overcome the limitations of
             traditional ERP systems with tailored solutions that integrate

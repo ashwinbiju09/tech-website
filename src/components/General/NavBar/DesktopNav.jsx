@@ -66,9 +66,14 @@ const DesktopNav = ({
                                 }}
                               ></div>
 
-                              <span className="relative z-10">
-                                {child.name}
-                              </span>
+                              <div className="relative z-10 flex items-center justify-between">
+                                <span>{child.name}</span>
+                                <img
+                                  src="https://img.icons8.com/ios-filled/50/facc15/circled-chevron-right.png"
+                                  alt="chevron-right"
+                                  className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                                />
+                              </div>
                             </div>
                           ))}
                         </div>
@@ -92,7 +97,14 @@ const DesktopNav = ({
                           }}
                         ></div>
 
-                        <span className="relative z-10">{sub.name}</span>
+                        <div className="relative z-10 flex items-center justify-between">
+                          <span>{sub.name}</span>
+                          <img
+                            src="https://img.icons8.com/ios-filled/50/facc15/circled-chevron-right.png"
+                            alt="chevron-right"
+                            className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                          />
+                        </div>
                       </div>
                     );
                   })}

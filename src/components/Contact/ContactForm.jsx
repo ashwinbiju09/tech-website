@@ -12,8 +12,10 @@ const ContactForm = () => {
               Let’s Create Together
             </h2>
             <p className="text-blue-100 text-lg mb-10">
-              Have a big idea or brand to develop? We’re excited to hear about
-              your project and help bring it to life.
+              Struggling with intricate system integrations, aiming to
+              streamline enterprise workflows, or imagining a smarter business
+              landscape? We're your bridge from where you are to
+              where you want to be.
             </p>
 
             <div className="space-y-6">
@@ -27,7 +29,7 @@ const ContactForm = () => {
                     href="mailto:info@example.com"
                     className="text-white font-medium hover:underline"
                   >
-                    info@example.com
+                    support@arkaglobal.co.uk
                   </a>
                 </div>
               </div>

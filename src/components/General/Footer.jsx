@@ -15,24 +15,20 @@ const transformNavLinksToFooterMenu = (navLinks) => {
 
     const links = [];
 
-    if (link.subMenu) {
-      link.subMenu.forEach((subLink) => {
-        if (subLink.subMenu) {
-          subLink.subMenu.forEach((nestedSubLink) => {
-            if (nestedSubLink.subMenu) {
-              nestedSubLink.subMenu.forEach((deepNestedSubLink) => {
-                links.push(deepNestedSubLink.name);
-              });
-            } else {
-              links.push(nestedSubLink.name);
-            }
-          });
-        } else {
-          links.push(subLink.name);
+    const collectLinks = (items) => {
+      items.forEach((item) => {
+        if (item.subMenu) {
+          collectLinks(item.subMenu);
+        } else if (item.name && item.path) {
+          links.push({ name: item.name, path: item.path });
         }
       });
-    } else {
-      links.push(link.name);
+    };
+
+    if (link.subMenu) {
+      collectLinks(link.subMenu);
+    } else if (link.name && link.path) {
+      links.push({ name: link.name, path: link.path });
     }
 
     footerMenuItems.push({
@@ -43,7 +39,11 @@ const transformNavLinksToFooterMenu = (navLinks) => {
 
   footerMenuItems.push({
     title: "Quick Links",
-    links: ["Why Us", "Privacy Policy", "Disclaimer"],
+    links: [
+      { name: "Why Us", path: "/about" },
+      { name: "Privacy Policy", path: "/privacy-policy" },
+      { name: "Disclaimer", path: "/disclaimer" },
+    ],
   });
 
   return footerMenuItems;
@@ -95,15 +95,12 @@ const Footer = () => {
                   </h3>
                   <ul className="mt-2 space-y-2">
                     {visibleLinks.map((link) => (
-                      <li key={link}>
+                      <li key={link.name}>
                         <a
-                          href={
-                            footerLinkPaths[link] ||
-                            `/${link.toLowerCase().replace(/\s+/g, "-")}`
-                          }
+                          href={link.path}
                           className="text-gray-600 transition-colors duration-300 hover:text-blue-900"
                         >
-                          {link}
+                          {link.name}
                         </a>
                       </li>
                     ))}

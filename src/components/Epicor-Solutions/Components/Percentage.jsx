@@ -15,7 +15,7 @@ const Percentage = ({ data }) => {
 
         <div
           ref={ref}
-          className="grid grid-cols-1 sm:grid-cols-3 gap-x-28 gap-y-10 text-center"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-x-12 lg:gap-x-28 gap-y-10 text-center"
         >
           {data.stats.map((stat, index) => (
             <div key={index} className="flex flex-col items-center space-y-6">

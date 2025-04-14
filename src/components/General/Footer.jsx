@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import navLinks from "../General/NavBar/navData";
 
 const footerLinkPaths = {
@@ -50,29 +50,7 @@ const transformNavLinksToFooterMenu = (navLinks) => {
 };
 
 const Footer = () => {
-  const [linkCountByMenu, setLinkCountByMenu] = useState({});
-
   const menuItems = transformNavLinksToFooterMenu(navLinks);
-
-  const toggleShowMore = (title, totalLinks) => {
-    setLinkCountByMenu((prev) => {
-      const currentCount = prev[title] || 5;
-      let newCount = currentCount + 5;
-
-      if (newCount >= totalLinks) {
-        newCount = totalLinks;
-      }
-
-      if (currentCount === totalLinks) {
-        newCount = 5;
-      }
-
-      return {
-        ...prev,
-        [title]: newCount,
-      };
-    });
-  };
 
   return (
     <div className="relative z-20">
@@ -108,9 +86,7 @@ const Footer = () => {
 
           <div className="grid grid-cols-2 gap-5 lg:col-span-4 md:grid-cols-4">
             {menuItems.map(({ title, links }) => {
-              const currentCount = linkCountByMenu[title] || 5;
-              const visibleLinks = links.slice(0, currentCount);
-              const hasMoreLinks = links.length > 5;
+              const visibleLinks = links.slice(0, 6);
 
               return (
                 <div key={title}>
@@ -131,18 +107,6 @@ const Footer = () => {
                         </a>
                       </li>
                     ))}
-                    {hasMoreLinks && (
-                      <li>
-                        <button
-                          onClick={() => toggleShowMore(title, links.length)}
-                          className="text-blue-600 hover:text-blue-900 focus:outline-none"
-                        >
-                          {currentCount >= links.length
-                            ? "Show Less"
-                            : "Show More"}
-                        </button>
-                      </li>
-                    )}
                   </ul>
                 </div>
               );

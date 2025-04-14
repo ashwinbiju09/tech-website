@@ -41,7 +41,7 @@ const Stats = () => {
       <div className="grid grid-cols-5 gap-2 bg-ice rounded-md shadow-xl py-10">
         {statsData.map((stat) => (
           <div key={stat.id} className="flex flex-col items-center text-center">
-            <div className="text-2xl md:text-5xl font-semibold bg-clip-text text-transparent bg-gradient-to-b from-midnight via-blue-800 to-blue-600">
+            <div className="text-2xl md:text-3xl lg:text-5xl font-semibold bg-clip-text text-transparent bg-gradient-to-b from-midnight via-blue-800 to-blue-600">
               <CountUp
                 start={0}
                 end={stat.number}

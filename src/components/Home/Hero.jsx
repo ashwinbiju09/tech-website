@@ -32,13 +32,16 @@ const Hero = ({ onDiscoverClick }) => {
 
       <button
         onClick={onDiscoverClick}
-        className="absolute bottom-32 left-1/2 transform -translate-x-1/2 animate-pulse"
+        className="absolute bottom-32 left-1/2 transform -translate-x-1/2 animate-pulse border-yellow-400 rounded-full"
       >
-        <img
-          src="https://img.icons8.com/external-those-icons-fill-those-icons/50/FFFFFF/external-down-arrows-those-icons-fill-those-icons.png"
-          alt="scroll-down"
-          className="w-8 h-8"
-        />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="#facc15"
+          className="w-10 h-10"
+        >
+          <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6z" />
+        </svg>
       </button>
     </div>
   );

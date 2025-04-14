@@ -22,8 +22,8 @@ const Contact = () => {
             </p>
 
             <div className="space-y-6">
-              <div className="flex items-center space-x-4">
-                <div className="bg-yellow-400 w-12 h-12 flex items-center justify-center rounded-full">
+              <div className="flex items-center space-x-0 lg:space-x-4">
+                <div className="hidden lg:flex bg-yellow-400 w-12 h-12 items-center justify-center rounded-full">
                   <Mail className="w-5 h-5 text-white" />
                 </div>
                 <div>

@@ -6,7 +6,7 @@ const Insights = ({ data }) => {
   const isInView = useInView(ref, { triggerOnce: true, threshold: 0.2 });
 
   return (
-    <div className="pt-6 pb-10 px-8 md:px-16 lg:px-12 bg-midnight">
+    <div className="pt-6 pb-10 px-4 sm:px-6 md:px-6 lg:px-12 bg-midnight">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, scale: 0.9 }}
@@ -23,7 +23,7 @@ const Insights = ({ data }) => {
         </div>
 
         <div className="flex items-center justify-center pt-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 justify-center max-w-7xl mx-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-7xl px-2 sm:px-4">
             {data.benefits.map((benefit, index) => (
               <motion.div
                 key={index}
@@ -38,7 +38,7 @@ const Insights = ({ data }) => {
                   ease: "easeOut",
                   delay: index * 0.15,
                 }}
-                className="relative bg-white py-6 px-8 w-96 md:w-full shadow-xl rounded-sm flex flex-row items-center space-x-4"
+                className="relative bg-white py-6 px-6 w-full shadow-xl rounded-sm flex flex-row items-center space-x-4"
               >
                 <div className="flex items-center justify-center w-14 h-14 rounded-full p-2 shadow-xl bg-midnight shrink-0">
                   {benefit.icon}

@@ -55,59 +55,6 @@ const industries = [
   },
 ];
 
-// const industries = [
-//   {
-//     title: "Retail",
-//     icon: "https://img.icons8.com/ios-filled/50/ffffff/shopping-bag.png",
-//     path: "/industries/fashion-and-apparel",
-//   },
-//   {
-//     title: "Consumer Products",
-//     icon: "https://img.icons8.com/ios-filled/50/ffffff/product.png",
-//     path: "/industries/food-beverages",
-//   },
-//   {
-//     title: "Manufacturing",
-//     icon: "https://img.icons8.com/ios-filled/50/ffffff/factory.png",
-//     path: "/industries/automotive-manufacturing",
-//   },
-//   {
-//     title: "Engineering & Construction",
-//     icon: "https://img.icons8.com/ios-filled/50/ffffff/engineering.png",
-//     path: "/industries/engineering-construction-operations",
-//   },
-//   {
-//     title: "Oil, Gas, & Energy",
-//     icon: "https://img.icons8.com/ios-filled/50/ffffff/electricity.png",
-//     path: "/industries/power-generation",
-//   },
-//   {
-//     title: "Professional Services",
-//     icon: "https://img.icons8.com/ios-filled/50/ffffff/conference.png",
-//     path: "/industries/information-technology",
-//   },
-//   {
-//     title: "Life Sciences & Healthcare",
-//     icon: "https://img.icons8.com/ios-filled/50/ffffff/stethoscope.png",
-//     path: "/industries/pharmaceutical-biotech",
-//   },
-//   {
-//     title: "Banking & Financial Services",
-//     icon: "https://img.icons8.com/ios-filled/50/ffffff/money-bag.png",
-//     path: "/industries/banking",
-//   },
-//   {
-//     title: "Education",
-//     icon: "https://img.icons8.com/ios-filled/50/ffffff/graduation-cap.png",
-//     path: "/industries/business-information-services",
-//   },
-//   {
-//     title: "High-Tech",
-//     icon: "https://img.icons8.com/ios-filled/50/ffffff/processor.png",
-//     path: "/industries/computer-peripherals",
-//   },
-// ];
-
 const containerVariants = {
   hidden: {},
   show: {
@@ -154,17 +101,18 @@ const Industry = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 200 }}
               >
-                <div className="w-24 h-24 rounded-full flex items-center justify-center mb-4 transition-all duration-300 bg-white">
+                <div
+                  className={`w-24 h-24 rounded-full flex items-center justify-center mb-4 transition-all duration-300 ${
+                    isHovered ? "bg-[#fc8d00]" : "bg-white"
+                  }`}
+                >
                   <a href={industry.path}>
                     <img
                       src={industry.icon}
                       alt={industry.title}
-                      className="h-10 w-10 transition-all duration-300"
-                      // style={{
-                      //   filter: isHovered
-                      //     ? "brightness(0) saturate(100%) invert(9%) sepia(91%) saturate(461%) hue-rotate(183deg) brightness(97%) contrast(96%)"
-                      //     : "brightness(0) saturate(100%) invert(74%) sepia(68%) saturate(4662%) hue-rotate(360deg) brightness(99%) contrast(100%)",
-                      // }}
+                      className={`h-10 w-10 transition-all duration-300 ${
+                        isHovered ? "brightness-0 invert" : ""
+                      }`}
                     />
                   </a>
                 </div>

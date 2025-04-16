@@ -19,9 +19,9 @@ const ContactForm = () => {
             </p>
 
             <div className="space-y-6">
-              <div className="flex items-center space-x-4">
-                <div className="bg-yellow-400 w-12 h-12 flex items-center justify-center rounded-full">
-                  <Mail className="w-5 h-5 text-white" />
+              <div className="flex items-center lg:space-x-4">
+                <div className="hidden bg-yellow-400 w-12 h-12 lg:flex items-center justify-center rounded-full">
+                  <Mail className="w-5 h-5 text-midnight" />
                 </div>
                 <div>
                   <p className="text-sm text-white">Email</p>
@@ -91,7 +91,7 @@ const ContactForm = () => {
 
             <button
               type="submit"
-              className="w-full rounded-sm bg-yellow-400 hover:text-midnight px-6 py-2 text-white font-medium hover:bg-yellow-500 flex items-center justify-center space-x-2 transition-colors"
+              className="w-48 rounded-sm bg-yellow-400 text-midnight px-6 py-2 font-medium hover:bg-yellow-500 flex items-center justify-center space-x-2 transition-colors"
             >
               <span>Send Message</span>
               <Send className="w-4 h-4" />

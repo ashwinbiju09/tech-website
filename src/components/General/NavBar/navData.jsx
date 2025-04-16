@@ -8,22 +8,25 @@ const navLinks = [
           {
             name: "SAP Consulting",
             subMenu: [
-              { name: "SAP S/4HANA", path: "/sap-solutions/sap-s4-hana" },
-              {
-                name: "SAP S/4HANA Public Cloud",
-                path: "/sap-solutions/sap-s4hana-public-cloud",
-              },
-              {
-                name: "SAP S/4HANA Private Cloud",
-                path: "/sap-solutions/sap-s4hana-private-cloud",
-              },
-              {
-                name: "SAP Financial Management",
-                path: "/sap-solutions/sap-financial-management",
-              },
               {
                 name: "SAP Analytics Cloud Planning",
                 path: "/sap-solutions/sap-analytics-cloud-planning",
+              },
+              { name: "SAP Build Apps", path: "/sap-solutions/sap-build-apps" },
+              {
+                name: "SAP Business AI",
+                path: "/sap-solutions/sap-business-ai",
+              },
+              {
+                name: "SAP Commerce Cloud",
+                path: "/sap-solutions/sap-commerce-cloud",
+              },
+              { name: "SAP CPI", path: "/sap-solutions/sap-cpi" },
+              { name: "SAP E-Mobility", path: "/sap-solutions/sap-e-mobility" },
+              { name: "SAP Emarsys", path: "/sap-solutions/sap-emarsys" },
+              {
+                name: "SAP Financial Management",
+                path: "/sap-solutions/sap-financial-management",
               },
               {
                 name: "SAP Group Reporting",
@@ -33,9 +36,14 @@ const navLinks = [
                 name: "SAP PaPM",
                 path: "/sap-solutions/sap-profitability-and-performance-management",
               },
+              { name: "SAP S/4HANA", path: "/sap-solutions/sap-s4-hana" },
               {
-                name: "SAP Commerce Cloud",
-                path: "/sap-solutions/sap-commerce-cloud",
+                name: "SAP S/4HANA Private Cloud",
+                path: "/sap-solutions/sap-s4hana-private-cloud",
+              },
+              {
+                name: "SAP S/4HANA Public Cloud",
+                path: "/sap-solutions/sap-s4hana-public-cloud",
               },
               {
                 name: "SAP Sales Cloud",
@@ -45,36 +53,19 @@ const navLinks = [
                 name: "SAP Service Cloud",
                 path: "/sap-solutions/sap-service-cloud",
               },
-              { name: "SAP Emarsys", path: "/sap-solutions/sap-emarsys" },
-              {
-                name: "SAP Sustainability",
-                path: "/sap-solutions/sap-sustainability",
-              },
-              { name: "SAP E-Mobility", path: "/sap-solutions/sap-e-mobility" },
-              { name: "SAP CPI", path: "/sap-solutions/sap-cpi" },
-              { name: "SAP Build Apps", path: "/sap-solutions/sap-build-apps" },
               {
                 name: "SAP SuccessFactors HCM",
                 path: "/sap-solutions/sap-successfactors",
               },
               {
-                name: "SAP Business AI",
-                path: "/sap-solutions/sap-business-ai",
+                name: "SAP Sustainability",
+                path: "/sap-solutions/sap-sustainability",
               },
             ],
           },
           {
             name: "Epicor Consulting",
             subMenu: [
-              { name: "Supply Chain", path: "/epicor-solutions/supply-chain" },
-              {
-                name: "Epicor Project Management",
-                path: "/epicor-solutions/epicor-project-management",
-              },
-              {
-                name: "Epicor Production Management",
-                path: "/epicor-solutions/epicor-production-management",
-              },
               {
                 name: "Epicor Financial Management",
                 path: "/epicor-solutions/epicor-financial-management",
@@ -84,20 +75,32 @@ const navLinks = [
                 path: "/epicor-solutions/epicor-hr-management",
               },
               {
-                name: "Epicor Service Asset Management",
-                path: "/epicor-solutions/epicor-service-asset-management",
-              },
-              {
-                name: "Epicor Sales Management",
-                path: "/epicor-solutions/epicor-sales-management",
-              },
-              {
                 name: "Epicor Kinetic CRM",
                 path: "/epicor-solutions/epicor-kinetic-crm",
               },
               {
                 name: "Epicor Planning & Scheduling",
                 path: "/epicor-solutions/epicor-planning-scheduling",
+              },
+              {
+                name: "Epicor Production Management",
+                path: "/epicor-solutions/epicor-production-management",
+              },
+              {
+                name: "Epicor Project Management",
+                path: "/epicor-solutions/epicor-project-management",
+              },
+              {
+                name: "Epicor Sales Management",
+                path: "/epicor-solutions/epicor-sales-management",
+              },
+              {
+                name: "Epicor Service Asset Management",
+                path: "/epicor-solutions/epicor-service-asset-management",
+              },
+              {
+                name: "Epicor Supply Chain Management",
+                path: "/epicor-solutions/supply-chain",
               },
             ],
           },
@@ -111,6 +114,10 @@ const navLinks = [
             path: "/enhanced-addons/asset-management-system",
           },
           {
+            name: "Compliance Management Software",
+            path: "/enhanced-addons/compliance-management-software",
+          },
+          {
             name: "Digital Retail & Platform",
             path: "/enhanced-addons/digital-retail-platform",
           },
@@ -119,8 +126,24 @@ const navLinks = [
             path: "/enhanced-addons/distribution-management-system",
           },
           {
+            name: "Document Delivery Automation Services",
+            path: "/enhanced-addons/document-delivery-automation",
+          },
+          {
             name: "Field Service Management",
             path: "/enhanced-addons/field-service-management",
+          },
+          {
+            name: "No-Code Work Platform",
+            path: "/enhanced-addons/no-code-work-platform",
+          },
+          {
+            name: "Procurement Software",
+            path: "/enhanced-addons/procurement-software",
+          },
+          {
+            name: "Project Management Software",
+            path: "/enhanced-addons/project-management-software",
           },
           {
             name: "Real Estate Management & Systems",
@@ -138,26 +161,6 @@ const navLinks = [
             name: "Vendor Management Solution",
             path: "/enhanced-addons/vendor-management-solution",
           },
-          {
-            name: "Document Delivery Automation Services",
-            path: "/enhanced-addons/document-delivery-automation",
-          },
-          {
-            name: "Compliance Management Software",
-            path: "/enhanced-addons/compliance-management-software",
-          },
-          {
-            name: "No-Code Work Platform",
-            path: "/enhanced-addons/no-code-work-platform",
-          },
-          {
-            name: "Procurement Software",
-            path: "/enhanced-addons/procurement-software",
-          },
-          {
-            name: "Project Management Software",
-            path: "/enhanced-addons/project-management-software",
-          },
         ],
       },
       {
@@ -168,8 +171,8 @@ const navLinks = [
             path: "/ai-automation/ai-agents",
           },
           {
-            name: "Workflow Optimization",
-            path: "/ai-automation/workflow-optimization",
+            name: "End-to-End Automation Orchestration",
+            path: "/ai-automation/automation-orchestration",
           },
           {
             name: "Intelligent Document Processing and Automation",
@@ -180,8 +183,8 @@ const navLinks = [
             path: "/ai-automation/process-intelligence",
           },
           {
-            name: "End-to-End Automation Orchestration",
-            path: "/ai-automation/automation-orchestration",
+            name: "Workflow Optimization",
+            path: "/ai-automation/workflow-optimization",
           },
         ],
       },
@@ -190,6 +193,35 @@ const navLinks = [
   {
     name: "Services",
     subMenu: [
+      {
+        name: "SAP Support",
+        subMenu: [
+          {
+            name: "SAP AMS",
+            path: "/services/application-management-services",
+          },
+          {
+            name: "SAP Discovery & Evaluation",
+            path: "/services/sap-discovery-evaluation-services",
+          },
+          {
+            name: "SAP Implementation & Rollout",
+            path: "/services/sap-implementation-rollout-services",
+          },
+          {
+            name: "SAP Managed Services",
+            path: "/services/sap-managed-services",
+          },
+          {
+            name: "SAP S/4HANA Migration",
+            path: "/services/sap-s4-hana-migration-services",
+          },
+          {
+            name: "SAP Upgrade Services",
+            path: "/services/sap-upgrade-services",
+          },
+        ],
+      },
       {
         name: "Strategy and Consulting",
         subMenu: [
@@ -207,66 +239,27 @@ const navLinks = [
           },
         ],
       },
-      {
-        name: "SAP Support",
-        subMenu: [
-          {
-            name: "SAP Managed Services",
-            path: "/services/sap-managed-services",
-          },
-          {
-            name: "SAP AMS",
-            path: "/services/application-management-services",
-          },
-          {
-            name: "SAP S/4HANA Migration",
-            path: "/services/sap-s4-hana-migration-services",
-          },
-          {
-            name: "SAP Discovery & Evaluation",
-            path: "/services/sap-discovery-evaluation-services",
-          },
-          {
-            name: "SAP Implementation & Rollout",
-            path: "/services/sap-implementation-rollout-services",
-          },
-          {
-            name: "SAP Upgrade Services",
-            path: "/services/sap-upgrade-services",
-          },
-        ],
-      },
     ],
   },
   {
     name: "Industries",
     subMenu: [
       {
-        name: "Retail",
+        name: "Banking & Financial Services",
         subMenu: [
+          { name: "Banking", path: "/industries/banking" },
           {
-            name: "Fashion & Apparel",
-            path: "/industries/fashion-and-apparel",
+            name: "Financial Institutions",
+            path: "/industries/financial-institutions",
           },
-          { name: "Grocery", path: "/industries/grocery" },
-          { name: "Specialty Retail", path: "/industries/specialty-retail" },
-          {
-            name: "Healthcare & Wellness",
-            path: "/industries/healthcare-wellness",
-          },
-          { name: "Department Stores", path: "/industries/department-stores" },
-          {
-            name: "Wholesale Distribution",
-            path: "/industries/wholesale-distribution",
-          },
-          { name: "Gems & Jewelry", path: "/industries/gems-jewelry" },
+          { name: "Insurance", path: "/industries/insurance" },
         ],
       },
       {
         name: "Consumer Products",
         subMenu: [
-          { name: "Food & Beverage", path: "/industries/food-beverages" },
           { name: "Consumer Durables", path: "/industries/consumer-durables" },
+          { name: "Food & Beverage", path: "/industries/food-beverages" },
           {
             name: "Home & Personal Care",
             path: "/industries/home-personal-care",
@@ -274,19 +267,15 @@ const navLinks = [
         ],
       },
       {
-        name: "Manufacturing",
+        name: "Education",
         subMenu: [
           {
-            name: "Automotive Manufacturing",
-            path: "/industries/automotive-manufacturing",
+            name: "Business Information Services",
+            path: "/industries/business-information-services",
           },
           {
-            name: "Process Manufacturing",
-            path: "/industries/process-manufacturing",
-          },
-          {
-            name: "Discrete Manufacturing",
-            path: "/industries/discrete-manufacturing",
+            name: "Enterprise Services",
+            path: "/industries/enterprise-services",
           },
         ],
       },
@@ -301,11 +290,56 @@ const navLinks = [
         ],
       },
       {
+        name: "High-Tech",
+        subMenu: [
+          {
+            name: "Computer Peripherals",
+            path: "/industries/computer-peripherals",
+          },
+          {
+            name: "Contract Manufacturers",
+            path: "/industries/contract-manufacturers",
+          },
+          {
+            name: "Distribution Companies",
+            path: "/industries/distribution-companies",
+          },
+        ],
+      },
+      {
+        name: "Life Sciences & Healthcare",
+        subMenu: [
+          { name: "Hospital & Clinics", path: "/industries/hospital-clinics" },
+          { name: "Medical Devices", path: "/industries/medical-devices" },
+          {
+            name: "Pharmaceutical & Biotech",
+            path: "/industries/pharmaceutical-biotech",
+          },
+        ],
+      },
+      {
+        name: "Manufacturing",
+        subMenu: [
+          {
+            name: "Automotive Manufacturing",
+            path: "/industries/automotive-manufacturing",
+          },
+          {
+            name: "Discrete Manufacturing",
+            path: "/industries/discrete-manufacturing",
+          },
+          {
+            name: "Process Manufacturing",
+            path: "/industries/process-manufacturing",
+          },
+        ],
+      },
+      {
         name: "Oil, Gas, & Energy",
         subMenu: [
+          { name: "Energy Retail", path: "/industries/energy-retail" },
           { name: "Power Generation", path: "/industries/power-generation" },
           { name: "Renewable Energy", path: "/industries/renewable-energy" },
-          { name: "Energy Retail", path: "/industries/energy-retail" },
           { name: "Smart Grid", path: "/industries/smart-grid" },
           {
             name: "Transmission & Distribution",
@@ -324,54 +358,23 @@ const navLinks = [
         ],
       },
       {
-        name: "Life Sciences & Healthcare",
+        name: "Retail",
         subMenu: [
+          { name: "Department Stores", path: "/industries/department-stores" },
           {
-            name: "Pharmaceutical & Biotech",
-            path: "/industries/pharmaceutical-biotech",
+            name: "Fashion & Apparel",
+            path: "/industries/fashion-and-apparel",
           },
-          { name: "Medical Devices", path: "/industries/medical-devices" },
-          { name: "Hospital & Clinics", path: "/industries/hospital-clinics" },
-        ],
-      },
-      {
-        name: "Banking & Financial Services",
-        subMenu: [
-          { name: "Banking", path: "/industries/banking" },
-          { name: "Insurance", path: "/industries/insurance" },
+          { name: "Gems & Jewelry", path: "/industries/gems-jewelry" },
+          { name: "Grocery", path: "/industries/grocery" },
           {
-            name: "Financial Institutions",
-            path: "/industries/financial-institutions",
+            name: "Healthcare & Wellness",
+            path: "/industries/healthcare-wellness",
           },
-        ],
-      },
-      {
-        name: "Education",
-        subMenu: [
+          { name: "Specialty Retail", path: "/industries/specialty-retail" },
           {
-            name: "Business Information Services",
-            path: "/industries/business-information-services",
-          },
-          {
-            name: "Enterprise Services",
-            path: "/industries/enterprise-services",
-          },
-        ],
-      },
-      {
-        name: "High-Tech",
-        subMenu: [
-          {
-            name: "Computer Peripherals",
-            path: "/industries/computer-peripherals",
-          },
-          {
-            name: "Contract Manufacturers",
-            path: "/industries/contract-manufacturers",
-          },
-          {
-            name: "Distribution Companies",
-            path: "/industries/distribution-companies",
+            name: "Wholesale Distribution",
+            path: "/industries/wholesale-distribution",
           },
         ],
       },

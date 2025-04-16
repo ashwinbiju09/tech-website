@@ -26,38 +26,38 @@ const servicesData = [
       image: bcs,
     },
     overviewSection: {
-      title: "What Our Business Consulting Services Can Do for You",
+      title: "What our business consulting services can do for you",
       description:
         "Our business consulting services are designed to help you adapt to change, drive operational efficiency, and grow with confidence. We work closely with your team to simplify workflows, manage risks, and implement practical solutions. Whether you're facing internal challenges or market shifts, our consultants bring clarity and strategic direction. Every solution we offer is tailored to your goals, size, and industry.",
     },
     offeringsSection: {
       departments: [
         {
-          title: "Strategy & Planning",
+          title: "Strategy & planning",
           content:
             "We help define clear business goals and create actionable roadmaps to reach them. Our consultants align strategy with market demands and long-term growth. We identify opportunities for innovation and competitive advantage. Your vision is backed by practical steps and measurable outcomes.",
           features: [],
         },
         {
-          title: "Digital Transformation",
+          title: "Digital transformation",
           content:
             "We guide the adoption of new technologies to modernize operations. From legacy systems to cloud platforms, we manage seamless transitions. Our approach ensures your tools support agility and decision-making. Stay relevant in a digital-first business landscape.",
           features: [],
         },
         {
-          title: "Process Optimization",
+          title: "Process optimization",
           content:
             "We analyze current workflows to identify inefficiencies and redundancies. Processes are restructured for speed, accuracy, and scalability. Automation is introduced where it adds measurable value. The result is leaner operations with better output.",
           features: [],
         },
         {
-          title: "Operational Efficiency",
+          title: "Operational efficiency",
           content:
             "We assess performance across teams, systems, and workflows. Our solutions reduce costs, increase productivity, and enhance quality. We prioritize sustainable improvements over short-term fixes. Efficiency becomes a core part of your business culture.",
           features: [],
         },
         {
-          title: "Workforce Management",
+          title: "Workforce management",
           content:
             "We support hiring, onboarding, and long-term talent development. Our solutions help align workforce capabilities with business needs. We use analytics to identify skill gaps and growth areas. Stronger teams lead to better performance and retention.",
           features: [],
@@ -65,25 +65,25 @@ const servicesData = [
       ],
     },
     insightsSection: {
-      title: "Insights That Matter",
+      title: "Insights that matter",
       stats: [
         {
           number: 72,
-          label: "Accelerated Digital Initiatives",
+          label: "Accelerated digital initiatives",
           content:
-            "72% of executives believe business consulting accelerates digital initiatives",
+            "Executives say working with consultants speeds up their transformation efforts.",
         },
         {
           number: 65,
           label: "Improved ROI",
           content:
-            "65% of businesses report improved ROI within 12 months of engaging consultants",
+            "Within a year, most companies see stronger financial returns after bringing in experts.",
         },
         {
           number: 58,
           label: "Better Decision-Making",
           content:
-            "58% say external consultants helped improve operational decision-making",
+            "Leaders report more effective operations thanks to outside guidance.",
         },
       ],
     },
@@ -92,7 +92,7 @@ const servicesData = [
         "We ensure your business applications are aligned with both your operational needs and strategic goals. Our experts assess, refine, and integrate tools that support long-term growth. This results in improved system performance and smarter resource planning. Every application works together to drive efficiency and business value.",
     },
     benefitSection: {
-      title: "Key Benefits of Business Consulting Services",
+      title: "Key benefits of business consulting services",
       description:
         "Maximize business potential through expert strategy, efficient operations, and technology-driven transformation.",
       benefits: [
@@ -100,11 +100,11 @@ const servicesData = [
           icon: (
             <img
               className="h-10 w-10"
-              src="https://img.icons8.com/windows/64/strategy-board.png"
+              src="https://img.icons8.com/windows/64/facc15/strategy-board.png"
               alt="strategy-board"
             />
           ),
-          title: "Strategic Clarity",
+          title: "Strategic clarity",
           description:
             "Gain a clear vision and actionable roadmap tailored to your goals, ensuring every decision aligns with long-term success.",
         },
@@ -112,11 +112,11 @@ const servicesData = [
           icon: (
             <img
               className="h-10 w-10"
-              src="https://img.icons8.com/windows/64/performance-smartphone.png"
+              src="https://img.icons8.com/windows/64/facc15/performance-smartphone.png"
               alt="performance-smartphone"
             />
           ),
-          title: "Operational Efficiency",
+          title: "Operational efficiency",
           description:
             "Streamline workflows and reduce costs by identifying inefficiencies and implementing sustainable improvements.",
         },
@@ -124,11 +124,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pastel-glyph/64/1A1A1A/network-care.png"
+              src="https://img.icons8.com/pastel-glyph/64/facc15/network-care.png"
               alt="network-care"
             />
           ),
-          title: "Digital Enablement",
+          title: "Digital enablement",
           description:
             "Transition smoothly to modern platforms and tools that boost agility, support data-driven decisions, and enhance performance.",
         },
@@ -136,11 +136,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/positive-dynamic.png"
+              src="https://img.icons8.com/windows/64/facc15/positive-dynamic.png"
               alt="positive-dynamic"
             />
           ),
-          title: "Scalable Growth",
+          title: "Scalable growth",
           description:
             "Leverage expert insights and outsourcing solutions to scale your operations efficiently without compromising quality.",
         },
@@ -148,7 +148,7 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/external-roi-digital-marketing-outline-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/facc15/external-roi-digital-marketing-outline-solidglyph-m-oki-orlando.png"
               alt="external-roi-digital-marketing-outline-solidglyph-m-oki-orlando"
             />
           ),
@@ -160,16 +160,17 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-glyph-silhouettes-icons-papa-vector/64/external-Organic-Company-Structure-company-structure-glyph-silhouettes-icons-papa-vector.png"
+              src="https://img.icons8.com/external-glyph-silhouettes-icons-papa-vector/64/facc15/external-Organic-Company-Structure-company-structure-glyph-silhouettes-icons-papa-vector.png"
               alt="external-Organic-Company-Structure-company-structure-glyph-silhouettes-icons-papa-vector"
             />
           ),
-          title: "Empowered Workforce",
+          title: "Empowered workforce",
           description:
             "Align talent development with business goals using data-backed workforce planning and performance strategies.",
         },
       ],
     },
+
     expertiseSection: {
       items: [
         {
@@ -220,38 +221,38 @@ const servicesData = [
       image: pcs,
     },
     overviewSection: {
-      title: "What Our Process Consulting Services Can Do for You",
+      title: "What our process consulting services can do for you",
       description:
         "Managing complex, multi-layered processes can be overwhelming for any organization. Our process consulting services are designed to bring structure, clarity, and efficiency to your workflows. We help document, optimize, and digitize your business processes to ensure they align with strategic goals. With a focus on value, we enable continuous improvement across your entire operational landscape.",
     },
     offeringsSection: {
       departments: [
         {
-          title: "End-to-End Analysis",
+          title: "End-to-end analysis",
           content:
             "We conduct a detailed evaluation of your workflows from start to finish. Our insights reveal gaps, redundancies, and process dependencies. We document each step and its impact on key stakeholders. This foundation supports better decision-making and smoother execution.",
           features: [],
         },
         {
-          title: "Process Optimization",
+          title: "Process optimization",
           content:
             "Our team identifies inefficiencies and eliminates non-value-adding steps. We align process goals with broader organizational strategies. Through simplification and redesign, we improve cycle times and quality. The result is faster, leaner, and more reliable operations.",
           features: [],
         },
         {
-          title: "Process Digitalization",
+          title: "Process digitalization",
           content:
             "We help shift manual, paper-based workflows to automated digital systems. Centralized data and tools enhance visibility and collaboration. We ensure all digital upgrades are scalable and system-compatible. Digital transformation becomes a practical, phased journey.",
           features: [],
         },
         {
-          title: "Agile Transformation",
+          title: "Agile transformation",
           content:
             "We implement Agile frameworks to improve adaptability and speed. Your teams learn to collaborate, iterate, and deliver faster. Workshops and coaching ensure adoption of Agile best practices. Agility becomes embedded in your work culture and mindset.",
           features: [],
         },
         {
-          title: "IT Service Management",
+          title: "IT service management",
           content:
             "We streamline and automate IT services using modern methodologies. From service catalogs to change management, every process is refined. We support traditional, agile, or hybrid service models. Continuous evaluation keeps your IT services high-performing and aligned.",
           features: [],
@@ -259,24 +260,25 @@ const servicesData = [
       ],
     },
     insightsSection: {
-      title: "Insights That Matter",
+      title: "Insights that matter",
       stats: [
         {
           number: 70,
-          label: "Efficiency Improvement",
+          label: "Efficiency improvement",
           content:
-            "70% of organizations implementing process consulting report improved efficiency within six months",
+            "Organizations report smoother operations just months after applying process consulting.",
         },
         {
           number: 55,
-          label: "Cost Savings",
-          content: "55% experience measurable cost savings post-optimization",
+          label: "Cost savings",
+          content:
+            "Many see clear financial benefits following optimization efforts.",
         },
         {
           number: 63,
-          label: "Faster Collaboration",
+          label: "Faster collaboration",
           content:
-            "63% see better internal collaboration and faster decision-making after digitalizing workflows",
+            "Digital workflows lead to stronger teamwork and quicker decisions.",
         },
       ],
     },
@@ -285,7 +287,7 @@ const servicesData = [
         "We help redefine your business strategies by evaluating processes for maximum value and minimum risk. Our approach balances long-term outcomes with immediate performance gains. We prioritize improvements that deliver tangible ROI. The result is smarter, more effective business execution.",
     },
     benefitSection: {
-      title: "Key Benefits of Process Consulting Services",
+      title: "Key benefits of Process Consulting services",
       description:
         "Redesign and digitize processes to boost clarity, reduce inefficiencies, and drive strategic outcomes across your organization.",
       benefits: [
@@ -293,11 +295,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/visible--v1.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/facc15/visible--v1.png"
               alt="visible--v1"
             />
           ),
-          title: "End-to-End Process Visibility",
+          title: "End-to-end process visibility",
           description:
             "Gain detailed insights into workflows, gaps, and dependencies to support better decisions and execution.",
         },
@@ -305,11 +307,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/system-task.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/facc15/system-task.png"
               alt="system-task"
             />
           ),
-          title: "Lean & Scalable Operations",
+          title: "Lean & scalable operations",
           description:
             "Remove inefficiencies and align processes with strategic goals to achieve faster, more reliable business outcomes.",
         },
@@ -317,11 +319,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/services--v1.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/facc15/services--v1.png"
               alt="services--v1"
             />
           ),
-          title: "Digital Process Transformation",
+          title: "Digital process transformation",
           description:
             "Convert manual processes into digital workflows for improved speed, visibility, and collaboration across teams.",
         },
@@ -329,11 +331,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/agree-.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/facc15/agree-.png"
               alt="agree-"
             />
           ),
-          title: "Agile Business Frameworks",
+          title: "Agile business frameworks",
           description:
             "Adopt agile methods to increase adaptability, responsiveness, and delivery speed across changing business needs.",
         },
@@ -341,11 +343,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/computer-support.png"
+              src="https://img.icons8.com/ios/64/facc15/computer-support.png"
               alt="computer-support"
             />
           ),
-          title: "Stronger IT Service Management",
+          title: "Stronger IT service management",
           description:
             "Refine ITSM processes for higher service quality, streamlined change management, and consistent IT performance.",
         },
@@ -353,16 +355,17 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/customer-support.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/customer-support.png"
               alt="customer-support"
             />
           ),
-          title: "Governance & Long-Term Support",
+          title: "Governance & long-term support",
           description:
             "Implement scalable governance models with continuous monitoring, compliance, and managed service partnerships.",
         },
       ],
     },
+
     expertiseSection: {
       items: [
         {
@@ -413,14 +416,14 @@ const servicesData = [
       image: tsc,
     },
     overviewSection: {
-      title: "What Our Technology Consulting Services Can Do for You",
+      title: "What our technology consulting services can do for you",
       description:
         "In a rapidly evolving digital landscape, aligning technology with your business strategy is more critical than ever. Our technology consulting services are designed to help organizations innovate, automate, and transform through future-ready solutions. From data and AI to blockchain and automation, we guide you through every stage — from planning to execution and long-term support. Our approach keeps you adaptive, secure, and ahead of the curve.",
     },
     offeringsSection: {
       departments: [
         {
-          title: "Data & Analytics",
+          title: "Data & analytics",
           content:
             "We unlock the full value of your data by building intelligent, insight-driven systems. Our solutions combine structured and unstructured data for a 360° business view. Advanced analytics and real-time dashboards support faster, smarter decisions. You gain improved visibility, predictive capabilities, and data-driven outcomes.",
           features: [],
@@ -452,25 +455,25 @@ const servicesData = [
       ],
     },
     insightsSection: {
-      title: "Insights That Matter",
+      title: "Insights that matter",
       stats: [
         {
           number: 91,
-          label: "Pursuing Digital Transformation",
+          label: "Pursuing digital transformation",
           content:
-            "91% of businesses are actively pursuing digital transformation initiatives.",
+            "Most companies are actively modernizing to stay ahead in a tech-driven landscape.",
         },
         {
           number: 67,
           label: "CEO Tech Focus",
           content:
-            "67% of CEOs view technology as the primary driver of competitive advantage.",
+            "Top executives see technology as the key to outpacing the competition.",
         },
         {
           number: 88,
           label: "Customer Experience Gains",
           content:
-            "88% of organizations improved customer experience through AI and automation.",
+            "AI and automation are helping businesses elevate how they serve their customers.",
         },
       ],
     },
@@ -479,7 +482,7 @@ const servicesData = [
         "We design scalable and resilient IT frameworks that support long-term growth. Our architecture services ensure adaptability, performance, and alignment with business goals. We help future-proof your systems against evolving demands. Efficiency and agility are built into every layer of your tech stack.",
     },
     benefitSection: {
-      title: "Key Benefits of Process Consulting Services",
+      title: "Key benefits of Process Consulting Services",
       description:
         "Unlock operational excellence with optimized workflows, digital transformation, and agile methodologies.",
       benefits: [
@@ -487,11 +490,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/wired/64/workflow.png"
+              src="https://img.icons8.com/wired/64/facc15/workflow.png"
               alt="workflow"
             />
           ),
-          title: "Streamlined Workflows",
+          title: "Streamlined workflows",
           description:
             "Identify redundancies and inefficiencies to create lean, efficient processes that boost productivity and speed.",
         },
@@ -499,11 +502,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pastel-glyph/64/network-care.png"
+              src="https://img.icons8.com/pastel-glyph/64/facc15/network-care.png"
               alt="network-care"
             />
           ),
-          title: "Digital Transformation",
+          title: "Digital transformation",
           description:
             "Shift from manual to automated workflows for better visibility, scalability, and real-time collaboration.",
         },
@@ -511,11 +514,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/external-agile-web-design-and-development-flatart-icons-solid-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/facc15/external-agile-web-design-and-development-flatart-icons-solid-flatarticons.png"
               alt="external-agile-web-design-and-development-flatart-icons-solid-flatarticons"
             />
           ),
-          title: "Agile Operations",
+          title: "Agile operations",
           description:
             "Introduce agile practices that enhance adaptability, speed up delivery, and empower cross-functional teams.",
         },
@@ -523,11 +526,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/decision-making.png"
+              src="https://img.icons8.com/ios/64/facc15/decision-making.png"
               alt="decision-making"
             />
           ),
-          title: "Data-Driven Decisions",
+          title: "Data-driven decisions",
           description:
             "End-to-end process visibility supports smarter decision-making and continuous process improvement.",
         },
@@ -535,11 +538,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/wired/64/cost.png"
+              src="https://img.icons8.com/wired/64/facc15/cost.png"
               alt="cost"
             />
           ),
-          title: "Cost Optimization",
+          title: "Cost optimization",
           description:
             "Improve efficiency and eliminate non-value-adding activities to reduce operational costs effectively.",
         },
@@ -547,41 +550,63 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/cyber-security.png"
+              src="https://img.icons8.com/ios/64/facc15/cyber-security.png"
               alt="cyber-security"
             />
           ),
-          title: "IT Service Excellence",
+          title: "IT service excellence",
           description:
             "Modernize IT operations through ITSM best practices, ensuring reliable and aligned service delivery across teams.",
         },
       ],
     },
+
     expertiseSection: {
       items: [
         {
-          icon: (<img 
-            className="h-8 w-8" 
-            src="https://img.icons8.com/pastel-glyph/64/0a1f36/financial-analytics.png" 
-            alt="financial-analytics"/>),
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/pastel-glyph/64/0a1f36/financial-analytics.png"
+              alt="financial-analytics"
+            />
+          ),
           title: "Value Analysis",
           description:
             "We assess the performance and ROI of your existing tech landscape. Our consultants identify areas for improvement across tools, systems, and investments. Value is maximized through cost optimization and capability alignment. You gain clarity on what’s working, what’s not, and what to evolve.",
         },
         {
-          icon: (<img className="h-8 w-8" src="https://img.icons8.com/external-line512-zulfa-mahendra/64/0a1f36/external-asset-management-saving-and-investment-line512-zulfa-mahendra.png" alt="external-asset-management-saving-and-investment-line512-zulfa-mahendra"/>),
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-line512-zulfa-mahendra/64/0a1f36/external-asset-management-saving-and-investment-line512-zulfa-mahendra.png"
+              alt="external-asset-management-saving-and-investment-line512-zulfa-mahendra"
+            />
+          ),
           title: "Asset Management",
           description:
             "We ensure IT assets are tracked, optimized, and aligned with your business strategy. From procurement to retirement, assets are managed for cost-efficiency and compliance. We support licensing, utilization, and governance across your tech estate. Control and visibility reduce risk and unnecessary spend.",
         },
         {
-          icon: (<img className="h-8 w-8" src="https://img.icons8.com/dotty/80/0a1f36/product.png" alt="product"/>),
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/dotty/80/0a1f36/product.png"
+              alt="product"
+            />
+          ),
           title: "Product Selection",
           description:
             "We help choose the right technologies for scalability, performance, and ROI. Products are evaluated for security, integration, and long-term value. Our approach minimizes risk and ensures faster implementation cycles. Every tool is selected with future-readiness in mind.",
         },
         {
-          icon: (<img className="h-8 w-8" src="https://img.icons8.com/external-glyph-andi-nur-abdillah/64/0a1f36/external-Data-Privacy-cyber-security-(glyph)-glyph-andi-nur-abdillah.png" alt="external-Data-Privacy-cyber-security-(glyph)-glyph-andi-nur-abdillah"/>),
+          icon: (
+            <img
+              className="h-8 w-8"
+              src="https://img.icons8.com/external-glyph-andi-nur-abdillah/64/0a1f36/external-Data-Privacy-cyber-security-(glyph)-glyph-andi-nur-abdillah.png"
+              alt="external-Data-Privacy-cyber-security-(glyph)-glyph-andi-nur-abdillah"
+            />
+          ),
           title: "Data Privacy & Security",
           description:
             "We build security strategies to protect data from cyber threats and breaches. Our services ensure compliance with global privacy standards and regulations. Security is embedded into infrastructure, applications, and access protocols. You gain peace of mind with end-to-end protection and risk mitigation.",
@@ -598,44 +623,44 @@ const servicesData = [
       image: sms,
     },
     overviewSection: {
-      title: "What Our SAP Managed Services Can Do for You",
+      title: "What our SAP managed services can do for you",
       description:
         "In today’s digital-first world, maximizing your SAP environment requires more than basic support — it demands strategic management, automation, and real-time oversight. Our SAP Managed Services help you stabilize operations, reduce complexity, and unlock long-term value from your SAP investments. From infrastructure and performance to compliance and business continuity, we cover every layer with a proactive and scalable approach.",
     },
     offeringsSection: {
       departments: [
         {
-          title: "Infrastructure Migration",
+          title: "Infrastructure migration",
           content:
             "We oversee SAP environments across cloud, on-premises, and hybrid setups. Our experts ensure smooth migrations with zero business disruption. Infrastructure is continuously optimized for speed, scalability, and uptime. We help build a reliable foundation for innovation and growth.",
           features: [],
         },
         {
-          title: "Performance Monitoring",
+          title: "Performance monitoring",
           content:
             "We implement round-the-clock monitoring with intelligent alert systems. Proactive audits identify bottlenecks and prevent unplanned downtime. Security vulnerabilities and compliance gaps are flagged in real time. You stay ahead of issues before they impact business performance.",
           features: [],
         },
         {
-          title: "Service Quality",
+          title: "Service quality",
           content:
             "We take full responsibility for SAP updates, patches, and incident resolution. Automation is used for system health checks and quality control. System configurations are aligned with evolving business needs. Our goal is consistent, high-quality SAP performance across all functions.",
           features: [],
         },
         {
-          title: "Continuity Management",
+          title: "Continuity management",
           content:
             "Our managed disaster recovery and backup services ensure resilience. Planned updates and patches are executed with minimal disruption. We refine processes continually to meet uptime goals and SLAs. Business continuity remains uncompromised, even during transitions.",
           features: [],
         },
         {
-          title: "SAP Implementation Support",
+          title: "SAP implementation support",
           content:
             "We support both new implementations and existing system enhancements. Certified experts manage deployment, testing, and long-term optimization. Post-implementation, we provide rapid issue resolution and system tuning. Your SAP environment evolves alongside your business.",
           features: [],
         },
         {
-          title: "Security Compliance",
+          title: "Security compliance",
           content:
             "Our SAP security model covers access control, governance, and threat response. Security Operations Centers (SOCs) ensure 24/7 protection and monitoring. We ensure compliance with industry, geographic, and audit-specific standards. Risk is minimized while data integrity and access remain secure.",
           features: [],
@@ -643,25 +668,25 @@ const servicesData = [
       ],
     },
     insightsSection: {
-      title: "Insights That Matter",
+      title: "Insights that matter",
       stats: [
         {
           number: 64,
-          label: "Reduced Downtime",
+          label: "Reduced downtime",
           content:
-            "64% of organizations saw a significant reduction in SAP downtime after adopting managed services",
+            "Organizations experienced fewer disruptions after moving to managed SAP services.",
         },
         {
           number: 58,
-          label: "Cost Savings",
+          label: "Cost savings",
           content:
-            "58% achieved cost savings through managed SAP operations, including infrastructure and license optimization",
+            "Many cut expenses by optimizing infrastructure and licensing through managed operations.",
         },
         {
           number: 72,
-          label: "Improved Security & Compliance",
+          label: "Improved security & compliance",
           content:
-            "72% reported stronger data security and compliance readiness with SAP managed service providers",
+            "Partnering with service providers strengthened data protection and regulatory readiness.",
         },
       ],
     },
@@ -670,7 +695,7 @@ const servicesData = [
         "We manage cloud-based SAP infrastructure for higher flexibility and performance. Our services ensure cost-effective scaling to meet dynamic business demands. Ongoing monitoring and updates keep systems agile and secure. We help reduce hardware overhead and increase operational speed.",
     },
     benefitSection: {
-      title: "Key Benefits of SAP Managed Services",
+      title: "Key benefits of SAP managed services",
       description:
         "Maximize performance, security, and scalability with proactive SAP managed services tailored to business continuity and innovation.",
       benefits: [
@@ -678,11 +703,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/external-availability-database-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/facc15/external-availability-database-solid-solidglyph-m-oki-orlando.png"
               alt="external-availability-database-solid-solidglyph-m-oki-orlando"
             />
           ),
-          title: "High Availability & Uptime",
+          title: "High availability & uptime",
           description:
             "Round-the-clock monitoring, auditing, and issue resolution ensure stable SAP performance with minimal unplanned downtime.",
         },
@@ -690,11 +715,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/cost.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/cost.png"
               alt="cost"
             />
           ),
-          title: "Cost Optimization",
+          title: "Cost optimization",
           description:
             "Optimize infrastructure and licensing to reduce operational expenses while enhancing long-term SAP value.",
         },
@@ -702,11 +727,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/fingerprint-scan.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/facc15/fingerprint-scan.png"
               alt="fingerprint-scan"
             />
           ),
-          title: "Enhanced Security & Compliance",
+          title: "Enhanced security & compliance",
           description:
             "24/7 SOC support, access controls, and governance keep systems secure and fully compliant with industry standards.",
         },
@@ -714,11 +739,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/project-management.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/facc15/project-management.png"
               alt="project-management"
             />
           ),
-          title: "Scalable Infrastructure Management",
+          title: "Scalable infrastructure management",
           description:
             "Support for hybrid, cloud, or on-prem SAP systems ensures flexible and future-ready infrastructure with continuous optimization.",
         },
@@ -726,11 +751,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/conference.png"
+              src="https://img.icons8.com/windows/64/facc15/conference.png"
               alt="conference"
             />
           ),
-          title: "Business Continuity",
+          title: "Business continuity",
           description:
             "Disaster recovery, backup automation, and SLA-driven uptime strategies maintain uninterrupted business operations.",
         },
@@ -738,16 +763,17 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/lifecycle--v1.png"
+              src="https://img.icons8.com/windows/64/facc15/lifecycle--v1.png"
               alt="lifecycle--v1"
             />
           ),
-          title: "Expert Lifecycle Support",
+          title: "Expert lifecycle support",
           description:
             "Certified professionals guide implementation, performance tuning, and evolution of SAP systems to match business growth.",
         },
       ],
     },
+
     expertiseSection: {
       items: [
         {
@@ -798,26 +824,26 @@ const servicesData = [
       image: ams,
     },
     overviewSection: {
-      title: "What Our SAP AMS Services Can Do for You",
+      title: "What our SAP AMS services can do for you",
       description:
         "As businesses grow in complexity, managing SAP applications efficiently becomes essential to ensure agility, performance, and ROI. Our SAP Application Management Services (AMS) are built to optimize your SAP landscape, reduce operational costs, and align applications with dynamic business needs. Through a blend of technical, functional, and Basis expertise, we deliver round-the-clock support using flexible global delivery models.",
     },
     offeringsSection: {
       departments: [
         {
-          title: "Technical Support",
+          title: "Technical support",
           content:
             "We provide end-to-end technical services to manage, update, and optimize your SAP environment. This includes system configuration, database management, and security enhancements. Our team ensures high system availability and peak performance at all times. We also support ongoing technical improvements to match business growth.",
           features: [],
         },
         {
-          title: "Functional Support",
+          title: "Functional support",
           content:
             "We align SAP functionality with evolving business processes and user needs. Our team configures modules, resolves user queries, and supports process efficiency. We validate real-time business scenarios to ensure system accuracy and usability. Continuous support improves operational flow and end-user experience.",
           features: [],
         },
         {
-          title: "SAP Basis Administration",
+          title: "SAP basis administration",
           content:
             "We manage your SAP infrastructure, ensuring stability across systems and platforms. Services include installation, upgrades, monitoring, and high availability setups. We handle migrations across databases and OS environments with minimal downtime. Backup and recovery frameworks keep your system secure and resilient.",
           features: [],
@@ -825,25 +851,25 @@ const servicesData = [
       ],
     },
     insightsSection: {
-      title: "Insights That Matter",
+      title: "Insights that matter",
       stats: [
         {
           number: 68,
-          label: "Reduced Downtime",
+          label: "Reduced downtime",
           content:
-            "68% of enterprises leveraging SAP AMS reported reduced system downtime and disruptions",
+            "Enterprises using SAP AMS report fewer system issues and smoother operations.",
         },
         {
           number: 59,
-          label: "Efficiency Gains",
+          label: "Efficiency gains",
           content:
-            "59% improved internal efficiency by integrating AMS with automation and AI",
+            "Automation and AI integration through AMS helped streamline internal processes.",
         },
         {
           number: 74,
-          label: "User Satisfaction",
+          label: "User satisfaction",
           content:
-            "74% of SAP users experienced enhanced user satisfaction through continuous AMS support",
+            "Ongoing support led to a better experience for those working within SAP systems.",
         },
       ],
     },
@@ -852,7 +878,7 @@ const servicesData = [
         "Empower your IT team to drive business outcomes with tailored AMS support. Whether you need dedicated, shared, or onsite assistance, our scalable global delivery models ensure expertise, responsiveness, and cost-effective results—right where you need them.",
     },
     benefitSection: {
-      title: "Key Benefits of SAP Managed Services",
+      title: "Key benefits of SAP managed services",
       description:
         "Ensure stability, reduce risk, and maximize performance with expert-managed SAP operations tailored to business goals.",
       benefits: [
@@ -860,11 +886,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/balance.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/facc15/balance.png"
               alt="balance"
             />
           ),
-          title: "Operational Stability",
+          title: "Operational stability",
           description:
             "24/7 monitoring, proactive audits, and real-time alerts ensure high availability and uninterrupted SAP performance.",
         },
@@ -872,11 +898,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/cheap-2--v1.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/facc15/cheap-2--v1.png"
               alt="cheap-2--v1"
             />
           ),
-          title: "Cost Efficiency",
+          title: "Cost efficiency",
           description:
             "Optimize infrastructure and licensing to reduce total cost of ownership while improving operational outcomes.",
         },
@@ -884,11 +910,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/business-conference-female-speaker.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/facc15/business-conference-female-speaker.png"
               alt="business-conference-female-speaker"
             />
           ),
-          title: "Business Continuity",
+          title: "Business continuity",
           description:
             "Managed disaster recovery and minimal downtime strategies keep critical systems running during updates and disruptions.",
         },
@@ -896,11 +922,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/key.png"
+              src="https://img.icons8.com/ios/64/facc15/key.png"
               alt="key"
             />
           ),
-          title: "Enhanced Security & Compliance",
+          title: "Enhanced security & compliance",
           description:
             "Comprehensive governance and SOC-driven monitoring ensure data protection and compliance across global standards.",
         },
@@ -908,11 +934,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/64/external-infrastructure-finance-smashingstocks-glyph-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/64/facc15/external-infrastructure-finance-smashingstocks-glyph-smashing-stocks.png"
               alt="external-infrastructure-finance-smashingstocks-glyph-smashing-stocks"
             />
           ),
-          title: "Scalable Infrastructure",
+          title: "Scalable infrastructure",
           description:
             "Adapt easily to changing demands with cloud, hybrid, or on-prem environments optimized for growth and innovation.",
         },
@@ -920,16 +946,17 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/customer-support.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/customer-support.png"
               alt="customer-support"
             />
           ),
-          title: "End-to-End SAP Lifecycle Support",
+          title: "End-to-end SAP lifecycle support",
           description:
             "From implementation to optimization, benefit from expert-led management at every phase of your SAP journey.",
         },
       ],
     },
+
     expertiseSection: {
       items: [
         {
@@ -940,7 +967,7 @@ const servicesData = [
               alt="low-price"
             />
           ),
-          title: "Lower Operational Costs",
+          title: "Lower operational costs",
           description:
             "Reduce internal IT burden with efficient, expert-led SAP support. Our AMS services optimize resource utilization and free your team for higher-value initiatives.",
         },
@@ -952,7 +979,7 @@ const servicesData = [
               alt="business-goal"
             />
           ),
-          title: "Business Agility",
+          title: "Business agility",
           description:
             "Rapidly adapt SAP applications to evolving market conditions and business goals. Our agile support frameworks help you stay competitive and responsive.",
         },
@@ -964,7 +991,7 @@ const servicesData = [
               alt="delivery--v1"
             />
           ),
-          title: "Scalable Delivery",
+          title: "Scalable delivery",
           description:
             "Leverage flexible AMS delivery models that scale with your business. From dedicated support to shared services and onsite expertise, we offer what fits you best.",
         },
@@ -980,38 +1007,38 @@ const servicesData = [
       image: shms,
     },
     overviewSection: {
-      title: "What Our SAP S/4 HANA Migration Services Can Do for You",
+      title: "What our SAP S/4 HANA migration services can do for you",
       description:
         "Migrating to SAP S/4 HANA is a strategic move toward greater business agility, smarter decision-making, and future-ready operations. Our end-to-end migration services help you transition securely, quickly, and efficiently — whether you're on ECC or another legacy SAP system. From sizing and planning to execution and validation, we deliver a seamless transformation with minimal disruption and maximum value.",
     },
     offeringsSection: {
       departments: [
         {
-          title: "Landscape Planning",
+          title: "Landscape planning",
           content:
             "We assess your current system and design the optimal S/4HANA environment. This includes infrastructure sizing, architecture planning, and deployment options. Cloud, hybrid, or on-prem — we tailor the solution to your needs. A strategic system landscape ensures long-term efficiency and scalability.",
           features: [],
         },
         {
-          title: "Migration Strategy",
+          title: "Migration strategy",
           content:
             "We help choose the right approach — greenfield, brownfield, or bluefield. Detailed pre-migration planning ensures minimal risk and aligned goals. We support deployment flexibility across cloud or on-prem platforms. Post-migration services ensure smooth stabilization and user adoption.",
           features: [],
         },
         {
-          title: "Data Validation",
+          title: "Data validation",
           content:
             "We identify and retain only essential data to speed up migration. Redundant, obsolete, or inconsistent data is removed or corrected. Data quality is improved before, during, and after migration. Clean data leads to accurate reporting and better system performance.",
           features: [],
         },
         {
-          title: "Implementation Readiness",
+          title: "Implementation readiness",
           content:
             "We align migration activities with business timelines and goals. Project scope, resources, and dependencies are clearly defined. System readiness and compatibility are assessed upfront. This structured approach ensures seamless execution and governance.",
           features: [],
         },
         {
-          title: "Concept Validation",
+          title: "Concept validation",
           content:
             "We conduct a controlled PoC to test scenarios before full rollout. A sandbox environment helps simulate and validate migration flows. Potential challenges are addressed early through real-time testing. PoC builds confidence and ensures stakeholder alignment.",
           features: [],
@@ -1019,7 +1046,7 @@ const servicesData = [
       ],
     },
     insightsSection: {
-      title: "Insights That Matter",
+      title: "Insights that matter",
       stats: [
         {
           number: 57,
@@ -1029,13 +1056,13 @@ const servicesData = [
         },
         {
           number: 62,
-          label: "Greenfield Benefits",
+          label: "Greenfield benefits",
           content:
             "62% of companies using greenfield approaches report improved process redesign and system efficiency.",
         },
         {
           number: 71,
-          label: "Cloud Deployments",
+          label: "Cloud deployments",
           content:
             "71% of S/4 HANA migrations are now being deployed on cloud platforms for greater scalability.",
         },
@@ -1046,7 +1073,7 @@ const servicesData = [
         "Kickstart your transformation with a clean slate through Greenfield, blend innovation and legacy with Bluefield, or upgrade with minimal disruption via Brownfield. Each path is tailored to fit your needs and strategic vision.",
     },
     benefitSection: {
-      title: "Key Benefits of SAP S/4 HANA Migration Services",
+      title: "Key benefits of SAP S/4 HANA migration services",
       description:
         "Migrate smarter and faster with tailored strategies that ensure a secure, agile, and high-performing SAP S/4 HANA environment.",
       benefits: [
@@ -1054,11 +1081,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pastel-glyph/64/1A1A1A/intelligent-person.png"
+              src="https://img.icons8.com/pastel-glyph/64/facc15/intelligent-person.png"
               alt="intelligent-person"
             />
           ),
-          title: "Strategic Migration Planning",
+          title: "Strategic migration planning",
           description:
             "Thorough assessment and roadmap creation align your business goals with the right migration path—greenfield, brownfield, or bluefield.",
         },
@@ -1066,11 +1093,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/data-backup.png"
+              src="https://img.icons8.com/ios/64/facc15/data-backup.png"
               alt="data-backup"
             />
           ),
-          title: "Clean & Reliable Data",
+          title: "Clean & reliable data",
           description:
             "Data validation and cleansing processes ensure quality, accuracy, and consistency during and after the migration.",
         },
@@ -1078,11 +1105,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-juicy-fish/64/external-flexible-arrows-outline-outline-juicy-fish-2.png"
+              src="https://img.icons8.com/external-outline-juicy-fish/64/facc15/external-flexible-arrows-outline-outline-juicy-fish-2.png"
               alt="external-flexible-arrows-outline-outline-juicy-fish-2"
             />
           ),
-          title: "Flexible Deployment Options",
+          title: "Flexible deployment options",
           description:
             "Whether cloud, hybrid, or on-premise, your system landscape is optimized for scalability, compliance, and performance.",
         },
@@ -1090,11 +1117,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/medium-risk.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/medium-risk.png"
               alt="medium-risk"
             />
           ),
-          title: "Risk-Free Execution",
+          title: "Risk-free execution",
           description:
             "Proof of Concept and readiness checks help identify challenges early, enabling smoother implementation with minimal risk.",
         },
@@ -1102,11 +1129,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/dashboard.png"
+              src="https://img.icons8.com/ios/64/facc15/dashboard.png"
               alt="dashboard"
             />
           ),
-          title: "Improved System Performance",
+          title: "Improved system performance",
           description:
             "Post-migration optimization ensures faster processing, real-time analytics, and enhanced operational efficiency.",
         },
@@ -1114,16 +1141,17 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/external-data-architecture-data-engineering-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/facc15/external-data-architecture-data-engineering-solid-solidglyph-m-oki-orlando.png"
               alt="external-data-architecture-data-engineering-solid-solidglyph-m-oki-orlando"
             />
           ),
-          title: "Future-Ready Architecture",
+          title: "Future-ready architecture",
           description:
             "Lay the groundwork for continuous innovation with a scalable, cloud-compatible SAP S/4 HANA foundation.",
         },
       ],
     },
+
     expertiseSection: {
       items: [
         {
@@ -1134,7 +1162,7 @@ const servicesData = [
               alt="increase-profits"
             />
           ),
-          title: "Faster Time to Value",
+          title: "Faster time to value",
           description:
             "Accelerate your transformation with structured planning and proven execution strategies. Achieve tangible business benefits quickly with our expert-led migration approach.",
         },
@@ -1146,7 +1174,7 @@ const servicesData = [
               alt="external-development-business-outline-wichaiwi"
             />
           ),
-          title: "Optimized Performance",
+          title: "Optimized performance",
           description:
             "Experience faster processing, real-time analytics, and streamlined operations with SAP S/4 HANA. Unlock the full value of your system with enhanced responsiveness.",
         },
@@ -1158,7 +1186,7 @@ const servicesData = [
               alt="external-check-multimedia-kiranshastry-lineal-kiranshastry"
             />
           ),
-          title: "Future-Ready Foundation",
+          title: "Future-ready foundation",
           description:
             "Prepare your enterprise for innovation with scalable architecture and cloud flexibility. Build a resilient, modern backbone for sustainable growth and digital evolution.",
         },
@@ -1174,50 +1202,50 @@ const servicesData = [
       image: sdes,
     },
     overviewSection: {
-      title: "What Our SAP Discovery & Evaluation Services Can Do for You",
+      title: "What our SAP discovery & evaluation services can do for you",
       description:
         "Choosing the right SAP solution is one of the most important strategic decisions a business can make. Our Discovery & Evaluation services guide you through the early stages of transformation by assessing current processes, aligning technology needs, and developing a clear roadmap. With structured analysis and outcome-driven planning, we help ensure your SAP investment delivers long-term value.",
     },
     offeringsSection: {
       departments: [
         {
-          title: "Solution Mapping",
+          title: "Solution mapping",
           content:
             "We define how SAP solutions can align with your business priorities and future growth plans. By analyzing goals and operational needs, we outline the best-fit SAP functionalities. High-level planning includes innovation potential, delivery timelines, and success benchmarks. This strategic blueprint provides a clear path forward for your SAP journey.",
           features: [],
         },
         {
-          title: "Investment Planning",
+          title: "Investment planning",
           content:
             "We help build a compelling financial case for SAP adoption through detailed cost-benefit analysis. Total Cost of Ownership (TCO) is broken down across implementation, infrastructure, and support. Both tangible and intangible returns—like process efficiency and decision agility—are considered. This empowers leadership to make informed, confident investment decisions.",
           features: [],
         },
         {
-          title: "Process Optimization",
+          title: "Process optimization",
           content:
             "We examine existing workflows to detect bottlenecks and improvement opportunities. Our analysis translates process performance data into actionable recommendations. Proposed enhancements are mapped against SAP’s capabilities and features. You gain clarity on how SAP will improve efficiency and outcomes.",
           features: [],
         },
         {
-          title: "System Planning",
+          title: "System planning",
           content:
             "We evaluate your current IT environment against future SAP infrastructure needs. Gap analysis reveals where upgrades, integrations, or redesigns are required. A future-state architecture plan is developed, fully aligned with business strategy. This ensures IT infrastructure is scalable, secure, and implementation-ready.",
           features: [],
         },
         {
-          title: "Fit Analysis",
+          title: "Fit analysis",
           content:
             "We assess how SAP solutions align with your current processes and business requirements. Mismatch areas are documented, along with suggestions for standardization or enhancement. Customizations are evaluated for their cost, impact, and necessity. This ensures your chosen SAP path is technically and functionally viable.",
           features: [],
         },
         {
-          title: "Integration Readiness",
+          title: "Integration readiness",
           content:
             "We study your existing systems to identify dependencies and migration challenges. Data, applications, and legacy platforms are analyzed for compatibility with SAP. We outline integration pathways that ensure seamless connectivity and data flow. A phased roadmap is created to support smooth, disruption-free migration.",
           features: [],
         },
         {
-          title: "Scope Estimation",
+          title: "Scope estimation",
           content:
             "We define the complete project scope including business areas, modules, and system touchpoints. System volumes, data complexity, and process depth are factored into effort estimates. Resource, cost, and timeline forecasts are developed to ensure accurate planning. This groundwork supports effective delivery, budgeting, and stakeholder alignment.",
           features: [],
@@ -1225,25 +1253,25 @@ const servicesData = [
       ],
     },
     insightsSection: {
-      title: "Insights That Matter",
+      title: "Insights that matter",
       stats: [
         {
           number: 50,
-          label: "Discovery Impact",
+          label: "Discovery impact",
           content:
-            "50% of ERP project success hinges on the discovery and evaluation phase.",
+            "Success in ERP projects often depends on a strong foundation built during early evaluation.",
         },
         {
           number: 34,
-          label: "Cloud Success",
+          label: "Cloud success",
           content:
-            "34% of cloud migrations succeed due to structured SAP evaluation strategies.",
+            "Well-structured SAP assessments play a key role in effective cloud migrations.",
         },
         {
           number: 25,
-          label: "Assessment Growth",
+          label: "Assessment growth",
           content:
-            "25% increase in cloud-based assessments shows the growing shift toward early ERP planning.",
+            "The rise in cloud-focused evaluations reflects a growing emphasis on early planning.",
         },
       ],
     },
@@ -1252,7 +1280,7 @@ const servicesData = [
         "Design and build a scalable application framework, establish a robust IT foundation, and create a strategic business case that aligns remote connectivity with maximizing SAP value.",
     },
     benefitSection: {
-      title: "Key Benefits of SAP S/4 HANA Migration Services",
+      title: "Key benefits of SAP S/4 HANA migration services",
       description:
         "Transition seamlessly to SAP S/4 HANA with optimized strategies that drive speed, agility, and long-term business value.",
       benefits: [
@@ -1260,11 +1288,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/critical-thinking.png"
+              src="https://img.icons8.com/windows/64/facc15/critical-thinking.png"
               alt="critical-thinking"
             />
           ),
-          title: "Strategic System Design",
+          title: "Strategic system design",
           description:
             "Tailored landscape planning ensures the ideal infrastructure, whether on cloud, hybrid, or on-premise, supporting scalability and future growth.",
         },
@@ -1272,11 +1300,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/change.png"
+              src="https://img.icons8.com/windows/64/facc15/change.png"
               alt="change"
             />
           ),
-          title: "Accelerated Transformation",
+          title: "Accelerated transformation",
           description:
             "Pre-defined roadmaps and expert-led execution reduce complexity, enabling faster migration with minimal business disruption.",
         },
@@ -1284,11 +1312,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/accuracy.png"
+              src="https://img.icons8.com/windows/64/facc15/accuracy.png"
               alt="accuracy"
             />
           ),
-          title: "Data Accuracy & Integrity",
+          title: "Data accuracy & integrity",
           description:
             "Thorough data cleaning and validation enhances system performance and ensures consistent, reliable reporting post-migration.",
         },
@@ -1296,11 +1324,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/down3.png"
+              src="https://img.icons8.com/windows/64/facc15/down3.png"
               alt="down3"
             />
           ),
-          title: "Minimal Downtime",
+          title: "Minimal downtime",
           description:
             "Migration strategies and proof-of-concept testing minimize business interruptions, ensuring a smooth go-live experience.",
         },
@@ -1308,11 +1336,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/light-automation.png"
+              src="https://img.icons8.com/windows/64/facc15/light-automation.png"
               alt="light-automation"
             />
           ),
-          title: "Process Innovation",
+          title: "Process innovation",
           description:
             "Unlock redesigned business processes through Greenfield and hybrid approaches, leading to greater efficiency and modernization.",
         },
@@ -1320,16 +1348,17 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/cloud-database.png"
+              src="https://img.icons8.com/windows/64/facc15/cloud-database.png"
               alt="cloud-database"
             />
           ),
-          title: "Cloud Scalability",
+          title: "Cloud scalability",
           description:
             "Embrace scalable cloud deployments that support real-time insights, agility, and long-term digital transformation goals.",
         },
       ],
     },
+
     expertiseSection: {
       items: [
         {
@@ -1340,7 +1369,7 @@ const servicesData = [
               alt="scales"
             />
           ),
-          title: "Informed Decision-Making",
+          title: "Informed decision-making",
           description:
             "Gain clarity on the most suitable SAP solution through structured analysis and fit-gap assessments. Make confident, value-based decisions for long-term success.",
         },
@@ -1352,7 +1381,7 @@ const servicesData = [
               alt="strategy-board"
             />
           ),
-          title: "Future-Ready IT Strategy",
+          title: "Future-ready IT strategy",
           description:
             "Develop a scalable architecture and integration roadmap aligned with growth and innovation goals. Ensure your IT is prepared to support the next stage of transformation.",
         },
@@ -1364,7 +1393,7 @@ const servicesData = [
               alt="project-management"
             />
           ),
-          title: "Confident Project Planning",
+          title: "Confident project planning",
           description:
             "Set realistic scope, resource, and timeline expectations to support smooth execution and stakeholder buy-in. Plan every phase with accuracy and alignment.",
         },
@@ -1429,21 +1458,21 @@ const servicesData = [
       stats: [
         {
           number: 30,
-          label: "Lower Implementation Costs",
+          label: "Lower implementation costs",
           content:
-            "30% lower implementation costs are achieved through structured rollout models",
+            "Structured rollout models help organizations cut expenses during SAP deployment.",
         },
         {
           number: 25,
-          label: "Performance Improvement",
+          label: "Performance improvement",
           content:
-            "25% improvement in long-term business performance is linked to post-go-live optimization",
+            "Ongoing optimization after go-live drives stronger long-term business outcomes.",
         },
         {
           number: 43,
-          label: "User Adoption Importance",
+          label: "User adoption importance",
           content:
-            "43% of successful SAP implementations cite user adoption as the most critical success factor",
+            "Getting users on board proves to be the most crucial element in successful implementations.",
         },
       ],
     },
@@ -1452,7 +1481,7 @@ const servicesData = [
         "Our rollout methodology combines global standardization with local flexibility—starting from business process analysis to template creation, localization, and end-user training—ensuring consistent success across all deployment regions.",
     },
     benefitSection: {
-      title: "Key Benefits of SAP Implementation & Rollout Services",
+      title: "Key benefits of SAP implementation & rollout services",
       description:
         "Achieve faster deployment, stronger adoption, and scalable SAP performance with structured implementation and rollout strategies.",
       benefits: [
@@ -1460,11 +1489,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/deployment.png"
+              src="https://img.icons8.com/windows/64/facc15/deployment.png"
               alt="deployment"
             />
           ),
-          title: "Standardized Yet Flexible Deployment",
+          title: "Standardized yet flexible deployment",
           description:
             "Balance global standardization with local adaptability to meet diverse operational and regulatory needs across regions.",
         },
@@ -1472,11 +1501,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/doughnut-chart.png"
+              src="https://img.icons8.com/windows/64/facc15/doughnut-chart.png"
               alt="doughnut-chart"
             />
           ),
-          title: "Seamless Data Transition",
+          title: "Seamless data transition",
           description:
             "Accurate validation, cleansing, and migration of legacy data ensures high-quality inputs and an audit-ready SAP environment.",
         },
@@ -1484,11 +1513,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/android/64/user.png"
+              src="https://img.icons8.com/android/64/facc15/user.png"
               alt="user"
             />
           ),
-          title: "High User Adoption",
+          title: "High user adoption",
           description:
             "Boost user engagement and confidence with tailored training and intuitive SAP interfaces, driving long-term success.",
         },
@@ -1496,11 +1525,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/high-risk.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/high-risk.png"
               alt="high-risk"
             />
           ),
-          title: "Risk-Controlled Rollout",
+          title: "Risk-controlled rollout",
           description:
             "Mitigate technical and operational risks through proactive governance, real-time monitoring, and contingency planning.",
         },
@@ -1508,11 +1537,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/laptop-settings--v2.png"
+              src="https://img.icons8.com/ios/64/facc15/laptop-settings--v2.png"
               alt="laptop-settings--v2"
             />
           ),
-          title: "Optimized System Performance",
+          title: "Optimized system performance",
           description:
             "Enhance SAP performance from day one with fine-tuned infrastructure, capacity planning, and continuous optimization.",
         },
@@ -1520,16 +1549,17 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/wired/64/ecosystem.png"
+              src="https://img.icons8.com/wired/64/facc15/ecosystem.png"
               alt="ecosystem"
             />
           ),
-          title: "Connected Ecosystem",
+          title: "Connected ecosystem",
           description:
             "Enable real-time data exchange and integration between SAP and third-party systems for seamless enterprise-wide operations.",
         },
       ],
     },
+
     expertiseSection: {
       items: [
         {
@@ -1540,7 +1570,7 @@ const servicesData = [
               alt="deployment"
             />
           ),
-          title: "Faster Global Deployment",
+          title: "Faster global deployment",
           description:
             "Accelerate time-to-value with structured rollout strategies tailored to both regional and global needs. Rapid deployment meets long-term scalability.",
         },
@@ -1552,7 +1582,7 @@ const servicesData = [
               alt="ookla-speedtest"
             />
           ),
-          title: "Enhanced System Performance",
+          title: "Enhanced system performance",
           description:
             "Ensure optimal SAP performance from day one with continuous monitoring, capacity planning, and proactive tuning.",
         },
@@ -1564,7 +1594,7 @@ const servicesData = [
               alt="user"
             />
           ),
-          title: "High User Adoption",
+          title: "High user adoption",
           description:
             "Empower teams with role-based, hands-on training and intuitive interfaces to boost confidence, engagement, and long-term SAP success.",
         },
@@ -1658,7 +1688,7 @@ const servicesData = [
         "Our upgrade offerings span readiness assessment, value-driven strategy scoping, complete technical execution, and optimization—ensuring your SAP systems are secure, high-performing, and future-ready from day one.",
     },
     benefitSection: {
-      title: "Key Benefits of SAP Upgrade Services",
+      title: "Key benefits of SAP upgrade services",
       description:
         "Enhance system performance, security, and future readiness through expertly managed SAP upgrade strategies.",
       benefits: [
@@ -1666,11 +1696,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/64/external-transition-animation-royyan-wijaya-detailed-outline-royyan-wijaya-4.png"
+              src="https://img.icons8.com/external-royyan-wijaya-detailed-outline-royyan-wijaya/64/facc15/external-transition-animation-royyan-wijaya-detailed-outline-royyan-wijaya-4.png"
               alt="external-transition-animation-royyan-wijaya-detailed-outline-royyan-wijaya-4"
             />
           ),
-          title: "Seamless Transition",
+          title: "Seamless transition",
           description:
             "Phased execution, backup strategies, and minimal downtime ensure a smooth, disruption-free upgrade experience.",
         },
@@ -1678,11 +1708,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/future.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/future.png"
               alt="future"
             />
           ),
-          title: "Future-Ready Architecture",
+          title: "Future-ready architecture",
           description:
             "Unlock the latest SAP features and enhancements to stay agile, scalable, and prepared for ongoing innovation.",
         },
@@ -1690,11 +1720,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/laptop-settings--v2.png"
+              src="https://img.icons8.com/ios/64/facc15/laptop-settings--v2.png"
               alt="laptop-settings--v2"
             />
           ),
-          title: "Optimized System Performance",
+          title: "Optimized system performance",
           description:
             "Post-upgrade tuning and infrastructure improvements deliver faster response times and enhanced system stability.",
         },
@@ -1702,11 +1732,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/lock-orientation.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/facc15/lock-orientation.png"
               alt="lock-orientation"
             />
           ),
-          title: "Improved Security & Compliance",
+          title: "Improved security & compliance",
           description:
             "Apply the latest patches and access controls to align with evolving compliance requirements and safeguard data.",
         },
@@ -1714,11 +1744,11 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/64/support.png"
+              src="https://img.icons8.com/fluency-systems-regular/64/facc15/support.png"
               alt="support"
             />
           ),
-          title: "Protected Custom Code",
+          title: "Protected custom code",
           description:
             "Custom code impact analysis and mitigation strategies ensure continuity and compatibility post-upgrade.",
         },
@@ -1726,16 +1756,17 @@ const servicesData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/parakeet-line/64/group.png"
+              src="https://img.icons8.com/parakeet-line/64/facc15/group.png"
               alt="group"
             />
           ),
-          title: "Empowered Users",
+          title: "Empowered users",
           description:
             "Engaging training, documentation, and change management promote smooth adoption and long-term productivity.",
         },
       ],
     },
+
     expertiseSection: {
       items: [
         {
@@ -1746,7 +1777,7 @@ const servicesData = [
               alt="external-download-video-and-movie-tanah-basah-basic-outline-tanah-basah"
             />
           ),
-          title: "Minimal Downtime",
+          title: "Minimal downtime",
           description:
             "Upgrade without interrupting operations using proven tools, automation, and phased execution. Business continues while systems improve.",
         },
@@ -1758,7 +1789,7 @@ const servicesData = [
               alt="square"
             />
           ),
-          title: "Future-Ready Systems",
+          title: "Future-ready systems",
           description:
             "Leverage the latest SAP capabilities to enhance agility, scalability, and long-term innovation. Your systems stay aligned with evolving needs.",
         },
@@ -1770,7 +1801,7 @@ const servicesData = [
               alt="user"
             />
           ),
-          title: "Smooth User Adoption",
+          title: "Smooth user adoption",
           description:
             "Empower teams with training, support, and intuitive enhancements for higher satisfaction and productivity post-upgrade.",
         },

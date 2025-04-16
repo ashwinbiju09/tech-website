@@ -88,13 +88,13 @@ const solutionData = [
         },
         {
           number: 68,
-          label:"Increase in On-Time Delivery Performance",
+          label: "Increase in On-Time Delivery Performance",
           description:
             "Companies with end-to-end supply chain visibility see a 68% increase in on-time delivery performance compared to those using fragmented systems.",
         },
         {
           number: 35,
-          label:"Reduction in Procurement Costs",
+          label: "Reduction in Procurement Costs",
           description:
             "Enterprises achieve a significant reduction in procurement costs through supplier relationship management and automated purchasing workflows.",
         },
@@ -111,7 +111,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/invisible.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/invisible.png"
               alt="invisible"
             />
           ),
@@ -123,7 +123,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pastel-glyph/64/gender-neutral-user.png"
+              src="https://img.icons8.com/pastel-glyph/64/facc15/gender-neutral-user.png"
               alt="gender-neutral-user"
             />
           ),
@@ -135,7 +135,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/wired/64/decision.png"
+              src="https://img.icons8.com/wired/64/facc15/decision.png"
               alt="decision"
             />
           ),
@@ -147,7 +147,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/64/external-regulation-project-management-kmg-design-glyph-kmg-design.png"
+              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/64/facc15/external-regulation-project-management-kmg-design-glyph-kmg-design.png"
               alt="external-regulation-project-management-kmg-design-glyph-kmg-design"
             />
           ),
@@ -159,7 +159,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-creatype-outline-colourcreatype/64/external-edi-data-file-extension-line-creatype-outline-colourcreatype.png"
+              src="https://img.icons8.com/external-creatype-outline-colourcreatype/64/facc15/external-edi-data-file-extension-line-creatype-outline-colourcreatype.png"
               alt="external-edi-data-file-extension-line-creatype-outline-colourcreatype"
             />
           ),
@@ -171,7 +171,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/material-outlined/64/collaboration.png"
+              src="https://img.icons8.com/material-outlined/64/facc15/collaboration.png"
               alt="collaboration"
             />
           ),
@@ -183,7 +183,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/membrane.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/membrane.png"
               alt="membrane"
             />
           ),
@@ -259,19 +259,19 @@ const solutionData = [
       stats: [
         {
           number: 89,
-          label:"Project Success Rate",
+          label: "Project Success Rate",
           description:
             "Organizations with standardized project management practices achieve an 89% project success rate, compared to just 34% in those without standardized processes.",
         },
         {
           number: 28,
-          label:"Reduction in Project Costs",
+          label: "Reduction in Project Costs",
           description:
             "Companies report a significant average reduction in project costs through improved resource allocation and minimized workflow inefficiencies enabled by effective project management solutions.",
         },
         {
           number: 77,
-          label:"Increase in Stakeholder Satisfaction",
+          label: "Increase in Stakeholder Satisfaction",
           description:
             "Businesses using integrated project management software see higher stakeholder satisfaction rates compared to those relying on disconnected systems.",
         },
@@ -288,7 +288,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/64/external-visibility-internet-marketing-kmg-design-glyph-kmg-design.png"
+              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/64/facc15/external-visibility-internet-marketing-kmg-design-glyph-kmg-design.png"
               alt="external-visibility-internet-marketing-kmg-design-glyph-kmg-design"
             />
           ),
@@ -300,7 +300,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/idea-sharing.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/idea-sharing.png"
               alt="idea-sharing"
             />
           ),
@@ -312,7 +312,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-hand-drawn-black-smashing-stocks/64/external-workforce-data-analytics-smashingstocks-hand-drawn-black-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-hand-drawn-black-smashing-stocks/64/facc15/external-workforce-data-analytics-smashingstocks-hand-drawn-black-smashing-stocks.png"
               alt="external-workforce-data-analytics-smashingstocks-hand-drawn-black-smashing-stocks"
             />
           ),
@@ -324,7 +324,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-glyph-geotatah/64/external-collaborative-knowledge-management-glyph-glyph-geotatah.png"
+              src="https://img.icons8.com/external-glyph-geotatah/64/facc15/external-collaborative-knowledge-management-glyph-glyph-geotatah.png"
               alt="external-collaborative-knowledge-management-glyph-glyph-geotatah"
             />
           ),
@@ -336,7 +336,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pulsar-line/64/Profitability.png"
+              src="https://img.icons8.com/pulsar-line/64/facc15/Profitability.png"
               alt="Profitability"
             />
           ),
@@ -348,7 +348,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/64/external-Decision-Making-business-startup-2-kmg-design-glyph-kmg-design.png"
+              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/64/facc15/external-Decision-Making-business-startup-2-kmg-design-glyph-kmg-design.png"
               alt="external-Decision-Making-business-startup-2-kmg-design-glyph-kmg-design"
             />
           ),
@@ -360,7 +360,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/administrative-tools.png"
+              src="https://img.icons8.com/ios/64/facc15/administrative-tools.png"
               alt="administrative-tools"
             />
           ),
@@ -437,19 +437,19 @@ const solutionData = [
       stats: [
         {
           number: 63,
-          label:"Improvement in On-Time Delivery Rates",
+          label: "Improvement in On-Time Delivery Rates",
           description:
             "Manufacturers implementing integrated production management systems with real-time scheduling capabilities see significant gains in meeting delivery commitments.",
         },
         {
           number: 47,
-          label:"Reduction in Production Waste",
+          label: "Reduction in Production Waste",
           description:
             "Companies adopting lean manufacturing technologies and processes report less material waste and more efficient operations.",
         },
         {
           number: 31,
-          label:"Increase in Manufacturing Throughput",
+          label: "Increase in Manufacturing Throughput",
           description:
             "Optimized scheduling and advanced production tracking systems enable higher output with better resource utilization.",
         },
@@ -466,7 +466,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/external-agility-digital-transformation-parzival-1997-detailed-outline-parzival-1997.png"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/facc15/external-agility-digital-transformation-parzival-1997-detailed-outline-parzival-1997.png"
               alt="external-agility-digital-transformation-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
@@ -478,7 +478,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-wichaiwi/64/external-operational-business-risks-outline-wichaiwi.png"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/facc15/external-operational-business-risks-outline-wichaiwi.png"
               alt="external-operational-business-risks-outline-wichaiwi"
             />
           ),
@@ -490,7 +490,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/connected-people.png"
+              src="https://img.icons8.com/ios/64/facc15/connected-people.png"
               alt="connected-people"
             />
           ),
@@ -502,7 +502,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/connected-people.png"
+              src="https://img.icons8.com/ios/64/facc15/connected-people.png"
               alt="connected-people"
             />
           ),
@@ -514,7 +514,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-icons-smashing-stocks/64/external-Precision-military-icon-icons-smashing-stocks-2.png"
+              src="https://img.icons8.com/external-icons-smashing-stocks/64/facc15/external-Precision-military-icon-icons-smashing-stocks-2.png"
               alt="external-Precision-military-icon-icons-smashing-stocks-2"
             />
           ),
@@ -526,7 +526,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/material-rounded/64/3-wheel-scooter.png"
+              src="https://img.icons8.com/material-rounded/64/facc15/3-wheel-scooter.png"
               alt="3-wheel-scooter"
             />
           ),
@@ -538,7 +538,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/lifecycle--v1.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/lifecycle--v1.png"
               alt="lifecycle--v1"
             />
           ),
@@ -615,19 +615,19 @@ const solutionData = [
       stats: [
         {
           number: 41,
-          label:"Reduction in Month-End Close Time",
+          label: "Reduction in Month-End Close Time",
           description:
             "Organizations implementing integrated financial management systems with automated workflows experience faster closing cycles and improved reporting efficiency.",
         },
         {
           number: 57,
-          label:"Improvement in Cash Flow Management",
+          label: "Improvement in Cash Flow Management",
           description:
             "Companies utilizing advanced financial analytics and forecasting capabilities gain better visibility and control over liquidity and working capital.",
         },
         {
           number: 38,
-          label:"Decrease in Compliance-Related Costs",
+          label: "Decrease in Compliance-Related Costs",
           description:
             "Streamlined reporting processes and automated regulatory controls help reduce the burden and expense of maintaining compliance.",
         },
@@ -644,7 +644,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/credit-control.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/credit-control.png"
               alt="credit-control"
             />
           ),
@@ -656,7 +656,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/sf-black-filled/64/money.png"
+              src="https://img.icons8.com/sf-black-filled/64/facc15/money.png"
               alt="money"
             />
           ),
@@ -668,7 +668,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/external-businessmen-business-and-management-kiranshastry-solid-kiranshastry-2.png"
+              src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/facc15/external-businessmen-business-and-management-kiranshastry-solid-kiranshastry-2.png"
               alt="external-businessmen-business-and-management-kiranshastry-solid-kiranshastry-2"
             />
           ),
@@ -680,7 +680,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/external-business-intelligence-information-systems-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/facc15/external-business-intelligence-information-systems-solid-solidglyph-m-oki-orlando.png"
               alt="external-business-intelligence-information-systems-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -692,7 +692,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-juicy-fish/60/external-decision-crisis-management-outline-outline-juicy-fish.png"
+              src="https://img.icons8.com/external-outline-juicy-fish/60/facc15/external-decision-crisis-management-outline-outline-juicy-fish.png"
               alt="external-decision-crisis-management-outline-outline-juicy-fish"
             />
           ),
@@ -704,7 +704,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/dotty/80/administrative-tools.png"
+              src="https://img.icons8.com/dotty/80/facc15/administrative-tools.png"
               alt="administrative-tools"
             />
           ),
@@ -716,7 +716,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/external-operation-digital-transformation-parzival-1997-detailed-outline-parzival-1997.png"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/facc15/external-operation-digital-transformation-parzival-1997-detailed-outline-parzival-1997.png"
               alt="external-operation-digital-transformation-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
@@ -793,19 +793,19 @@ const solutionData = [
       stats: [
         {
           number: 52,
-          label:"Improvement in Resource Utilization",
+          label: "Improvement in Resource Utilization",
           description:
             "Average improvement in resource utilization reported by manufacturers implementing advanced planning and scheduling solutions.",
         },
         {
           number: 44,
-          label:"Reduction in Lead Times",
+          label: "Reduction in Lead Times",
           description:
             "Reduction in production lead times achieved through constraint-based scheduling and material requirements planning.",
         },
         {
           number: 67,
-          label:"Increase in On-Time Delivery Performance",
+          label: "Increase in On-Time Delivery Performance",
           description:
             "Integrated demand and production planning systems align workflows and forecasts, enabling more consistent order fulfillment.",
         },
@@ -822,7 +822,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/decision-making.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/decision-making.png"
               alt="decision-making"
             />
           ),
@@ -834,7 +834,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/overtime.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/overtime.png"
               alt="overtime"
             />
           ),
@@ -846,7 +846,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/supply-chain.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/supply-chain.png"
               alt="supply-chain"
             />
           ),
@@ -858,7 +858,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-resource-talent-management-flatart-icons-outline-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/facc15/external-resource-talent-management-flatart-icons-outline-flatarticons.png"
               alt="external-resource-talent-management-flatart-icons-outline-flatarticons"
             />
           ),
@@ -870,7 +870,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/project.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/project.png"
               alt="project"
             />
           ),
@@ -882,7 +882,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-geotatah/64/external-coordination-emergency-and-disaster-management-outline-geotatah.png"
+              src="https://img.icons8.com/external-outline-geotatah/64/facc15/external-coordination-emergency-and-disaster-management-outline-geotatah.png"
               alt="external-coordination-emergency-and-disaster-management-outline-geotatah"
             />
           ),
@@ -894,7 +894,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/timeline-week.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/timeline-week.png"
               alt="timeline-week"
             />
           ),
@@ -971,19 +971,19 @@ const solutionData = [
       stats: [
         {
           number: 73,
-          label:"Administrative Efficiency Boost",
+          label: "Administrative Efficiency Boost",
           description:
             "Self-service employee portals and automated workflows drastically reduce time spent on routine HR tasks, freeing up resources for strategic initiatives.",
         },
         {
           number: 49,
-          label:"Talent Engagement & Growth",
+          label: "Talent Engagement & Growth",
           description:
             "Organizations with integrated talent management and development programs are seeing stronger employee loyalty and long-term workforce stability.",
         },
         {
           number: 62,
-          label:"Accelerated Recruitment Cycles",
+          label: "Accelerated Recruitment Cycles",
           description:
             "Streamlined applicant tracking and digital onboarding processes significantly shorten the time required to attract and hire top talent.",
         },
@@ -1000,7 +1000,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/wired/64/settings-3.png"
+              src="https://img.icons8.com/wired/64/facc15/settings-3.png"
               alt="settings-3"
             />
           ),
@@ -1012,7 +1012,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/accessibility2.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/accessibility2.png"
               alt="accessibility2"
             />
           ),
@@ -1024,7 +1024,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/administrative-tools.png"
+              src="https://img.icons8.com/ios/50/facc15/administrative-tools.png"
               alt="administrative-tools"
             />
           ),
@@ -1036,7 +1036,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pastel-glyph/64/information--v1.png"
+              src="https://img.icons8.com/pastel-glyph/64/facc15/information--v1.png"
               alt="information--v1"
             />
           ),
@@ -1048,7 +1048,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/self-service-kiosk.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/self-service-kiosk.png"
               alt="self-service-kiosk"
             />
           ),
@@ -1060,7 +1060,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/external-flexibility-freelance-smashingstocks-mixed-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/facc15/external-flexibility-freelance-smashingstocks-mixed-smashing-stocks.png"
               alt="external-flexibility-freelance-smashingstocks-mixed-smashing-stocks"
             />
           ),
@@ -1072,7 +1072,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/ledger.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/facc15/ledger.png"
               alt="ledger"
             />
           ),
@@ -1149,19 +1149,19 @@ const solutionData = [
       stats: [
         {
           number: 58,
-          label:"Increase in Sales Conversion Rates",
+          label: "Increase in Sales Conversion Rates",
           description:
             "Significant increase in sales conversion rates for organizations implementing integrated quote-to-cash automation systems.",
         },
         {
           number: 36,
-          label:"Reduction in Sales Cycle Time",
+          label: "Reduction in Sales Cycle Time",
           description:
             "Streamlined opportunity management and proposal tools eliminate bottlenecks, allowing deals to move faster through the pipeline.",
         },
         {
           number: 65,
-          label:"Improvement in Forecast Accuracy",
+          label: "Improvement in Forecast Accuracy",
           description:
             "Companies gain greater visibility and reliability in sales projections using pipeline analytics and confidence-level tracking.",
         },
@@ -1178,7 +1178,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/batch-assign--v1.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/facc15/batch-assign--v1.png"
               alt="batch-assign--v1"
             />
           ),
@@ -1190,7 +1190,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/down3.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/facc15/down3.png"
               alt="down3"
             />
           ),
@@ -1202,7 +1202,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/visible--v1.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/facc15/visible--v1.png"
               alt="visible--v1"
             />
           ),
@@ -1214,7 +1214,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/fast-cart.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/facc15/fast-cart.png"
               alt="fast-cart"
             />
           ),
@@ -1226,7 +1226,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/total-sales.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/facc15/total-sales.png"
               alt="total-sales"
             />
           ),
@@ -1238,7 +1238,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/tags--v1.png"
+              src="https://img.icons8.com/ios/50/facc15/tags--v1.png"
               alt="tags--v1"
             />
           ),
@@ -1250,7 +1250,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/dotty/80/reseller.png"
+              src="https://img.icons8.com/dotty/80/facc15/reseller.png"
               alt="reseller"
             />
           ),
@@ -1327,19 +1327,19 @@ const solutionData = [
       stats: [
         {
           number: 54,
-          label:"Increase in First-Time Resolution Rates",
+          label: "Increase in First-Time Resolution Rates",
           description:
             "Integrated field service tools with mobile access empower technicians to resolve issues on the first visit more consistently.",
         },
         {
           number: 41,
-          label:"Reduction in Service Delivery Costs",
+          label: "Reduction in Service Delivery Costs",
           description:
             "Optimized scheduling, efficient routing, and preventive maintenance significantly cut down on expenses.",
         },
         {
           number: 72,
-          label:"Increase in Service Contract Renewal Rates",
+          label: "Increase in Service Contract Renewal Rates",
           description:
             "Increase in service contract renewal rates for businesses providing proactive maintenance and high visibility into service performance.",
         },
@@ -1356,7 +1356,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/carbon-copy/64/money.png"
+              src="https://img.icons8.com/carbon-copy/64/facc15/money.png"
               alt="money"
             />
           ),
@@ -1368,7 +1368,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/conference-background-selected.png"
+              src="https://img.icons8.com/ios/64/facc15/conference-background-selected.png"
               alt="conference-background-selected"
             />
           ),
@@ -1380,7 +1380,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/online-maintenance-portal.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/online-maintenance-portal.png"
               alt="online-maintenance-portal"
             />
           ),
@@ -1392,7 +1392,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/external-resource-digital-globalization-parzival-1997-detailed-outline-parzival-1997.png"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/facc15/external-resource-digital-globalization-parzival-1997-detailed-outline-parzival-1997.png"
               alt="external-resource-digital-globalization-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
@@ -1404,7 +1404,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-glyph-geotatah/64/external-collaborative-knowledge-management-glyph-glyph-geotatah.png"
+              src="https://img.icons8.com/external-glyph-geotatah/64/facc15/external-collaborative-knowledge-management-glyph-glyph-geotatah.png"
               alt="external-collaborative-knowledge-management-glyph-glyph-geotatah"
             />
           ),
@@ -1416,7 +1416,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-wichaiwi/64/external-development-business-outline-wichaiwi.png"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/facc15/external-development-business-outline-wichaiwi.png"
               alt="external-development-business-outline-wichaiwi"
             />
           ),
@@ -1428,7 +1428,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/service--v2.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/service--v2.png"
               alt="service--v2"
             />
           ),
@@ -1504,19 +1504,19 @@ const solutionData = [
       stats: [
         {
           number: 64,
-          label:"Increase in Customer Retention Rates",
+          label: "Increase in Customer Retention Rates",
           description:
             "Businesses using CRM systems with comprehensive lifecycle management experience a significant improvement in retaining customers.",
         },
         {
           number: 43,
-          label:"Improvement in Sales Conversion Rates",
+          label: "Improvement in Sales Conversion Rates",
           description:
             "Streamlined lead qualification and opportunity management processes drive higher conversion rates for sales teams.",
         },
         {
           number: 39,
-          label:"Reduction in Customer Service Response Times",
+          label: "Reduction in Customer Service Response Times",
           description:
             "Companies leveraging case management and communication tools can address customer inquiries more swiftly and effectively.",
         },
@@ -1533,7 +1533,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/external-forecasting-data-science-and-cyber-security-flatart-icons-solid-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/facc15/external-forecasting-data-science-and-cyber-security-flatart-icons-solid-flatarticons.png"
               alt="external-forecasting-data-science-and-cyber-security-flatart-icons-solid-flatarticons"
             />
           ),
@@ -1545,7 +1545,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/1A1A1A/external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/facc15/external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks.png"
               alt="external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks"
             />
           ),
@@ -1557,7 +1557,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/external-skills-business-and-management-kiranshastry-solid-kiranshastry-3.png"
+              src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/facc15/external-skills-business-and-management-kiranshastry-solid-kiranshastry-3.png"
               alt="external-skills-business-and-management-kiranshastry-solid-kiranshastry-3"
             />
           ),
@@ -1569,7 +1569,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/external-business-project-management-outline-black-m-oki-orlando-2.png"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/facc15/external-business-project-management-outline-black-m-oki-orlando-2.png"
               alt="external-business-project-management-outline-black-m-oki-orlando-2"
             />
           ),
@@ -1581,7 +1581,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/omnichannel.png"
+              src="https://img.icons8.com/ios/64/facc15/omnichannel.png"
               alt="omnichannel"
             />
           ),
@@ -1593,7 +1593,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/stamp/32/1A1A1A/cloud.png"
+              src="https://img.icons8.com/stamp/32/facc15/cloud.png"
               alt="cloud"
             />
           ),
@@ -1605,7 +1605,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/add-shopping-cart--v1.png"
+              src="https://img.icons8.com/ios/64/facc15/add-shopping-cart--v1.png"
               alt="add-shopping-cart--v1"
             />
           ),

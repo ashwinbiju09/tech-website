@@ -4,9 +4,9 @@ import Title from "./Title";
 
 const industries = [
   {
-    title: "Retail",
-    icon: "https://img.icons8.com/ios/50/fc8d00/shopping-mall.png",
-    path: "/industries/fashion-and-apparel",
+    title: "Banking & Financial Services",
+    icon: "https://img.icons8.com/ios/50/fc8d00/euro-pound-exchange-1--v1.png",
+    path: "/industries/banking",
   },
   {
     title: "Consumer Products",
@@ -14,14 +14,29 @@ const industries = [
     path: "/industries/food-beverages",
   },
   {
-    title: "Manufacturing",
-    icon: "https://img.icons8.com/ios/50/fc8d00/factory.png",
-    path: "/industries/automotive-manufacturing",
+    title: "Education",
+    icon: "https://img.icons8.com/ios/50/fc8d00/graduation-cap.png",
+    path: "/industries/business-information-services",
   },
   {
     title: "Engineering & Construction",
     icon: "https://img.icons8.com/dotty/80/fc8d00/engineer.png",
     path: "/industries/engineering-construction-operations",
+  },
+  {
+    title: "High-Tech",
+    icon: "https://img.icons8.com/ios/50/fc8d00/atom-editor.png",
+    path: "/industries/computer-peripherals",
+  },
+  {
+    title: "Life Sciences & Healthcare",
+    icon: "https://img.icons8.com/ios/50/fc8d00/heart-with-pulse--v1.png",
+    path: "/industries/pharmaceutical-biotech",
+  },
+  {
+    title: "Manufacturing",
+    icon: "https://img.icons8.com/ios/50/fc8d00/factory.png",
+    path: "/industries/automotive-manufacturing",
   },
   {
     title: "Oil, Gas, & Energy",
@@ -34,24 +49,9 @@ const industries = [
     path: "/industries/information-technology",
   },
   {
-    title: "Life Sciences & Healthcare",
-    icon: "https://img.icons8.com/ios/50/fc8d00/heart-with-pulse--v1.png",
-    path: "/industries/pharmaceutical-biotech",
-  },
-  {
-    title: "Banking & Financial Services",
-    icon: "https://img.icons8.com/ios/50/fc8d00/euro-pound-exchange-1--v1.png",
-    path: "/industries/banking",
-  },
-  {
-    title: "Education",
-    icon: "https://img.icons8.com/ios/50/fc8d00/graduation-cap.png",
-    path: "/industries/business-information-services",
-  },
-  {
-    title: "High-Tech",
-    icon: "https://img.icons8.com/ios/50/fc8d00/atom-editor.png",
-    path: "/industries/computer-peripherals",
+    title: "Retail",
+    icon: "https://img.icons8.com/ios/50/fc8d00/shopping-mall.png",
+    path: "/industries/fashion-and-apparel",
   },
 ];
 
@@ -75,7 +75,14 @@ const Industry = () => {
   return (
     <div className="relative z-20 ">
       <div className="relative z-10 max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-        <Title data={"Driving transformation across Industries"} />
+        <h2 className="text-4xl font-semibold tracking-wide md:text-[45px] md:font-[600] py-4 md:tracking-[-2px] text-center text-midnight">
+          Driving
+          <span className="bg-gradient-to-r from-blue-800  to-yellow-400 bg-clip-text text-transparent">
+            {" "}
+            transformation{" "}
+          </span>
+          across Industries
+        </h2>
         <p className="text-2xl font-medium text-center mb-16 mx-auto text-midnight">
           Comprehensive solutions tailored to accelerate your digital
           transformation journey

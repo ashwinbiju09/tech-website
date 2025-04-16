@@ -38,10 +38,10 @@ const Stats = () => {
       animate={controls}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <div className="grid grid-cols-5 gap-2 bg-ice rounded-md shadow-xl py-10">
+      <div className="grid grid-cols-5 gap-2 py-10">
         {statsData.map((stat) => (
           <div key={stat.id} className="flex flex-col items-center text-center">
-            <div className="text-2xl md:text-3xl lg:text-5xl font-semibold bg-clip-text text-transparent bg-gradient-to-b from-midnight via-blue-800 to-blue-600">
+            <div className="text-2xl md:text-3xl lg:text-5xl font-semibold bg-clip-text text-transparent bg-gradient-to-b from-blue-800  to-yellow-400">
               <CountUp
                 start={0}
                 end={stat.number}

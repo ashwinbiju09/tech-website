@@ -24,7 +24,7 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-center space-x-0 lg:space-x-4">
                 <div className="hidden lg:flex bg-yellow-400 w-12 h-12 items-center justify-center rounded-full">
-                  <Mail className="w-5 h-5 text-white" />
+                  <Mail className="w-5 h-5 text-midnight" />
                 </div>
                 <div>
                   <p className="text-sm text-white">Email</p>
@@ -94,7 +94,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full rounded-sm bg-yellow-400 hover:text-midnight px-6 py-2 text-white font-medium hover:bg-yellow-500 flex items-center justify-center space-x-2 transition-colors"
+              className="w-48 rounded-sm bg-yellow-400 px-6 py-2 text-midnight font-medium hover:bg-yellow-500 flex items-center justify-center space-x-2 transition-colors"
             >
               <span>Send Message</span>
               <Send className="w-4 h-4" />

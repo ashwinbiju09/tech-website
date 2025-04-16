@@ -42,7 +42,7 @@ const Benefits = ({ data }) => {
                   ease: "easeOut",
                   delay: index * 0.1 + 0.2,
                 }}
-                className="w-12 h-12 flex-shrink-0 flex items-center justify-center bg-gray-300 rounded-full aspect-square"
+                className="w-12 h-12 flex-shrink-0 flex items-center justify-center bg-midnight rounded-full aspect-square"
               >
                 {benefit.icon}
               </motion.div>

@@ -110,7 +110,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-wichaiwi/64/external-efficiency-workation-outline-wichaiwi.png"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/facc15/external-efficiency-workation-outline-wichaiwi.png"
               alt="external-efficiency-workation-outline-wichaiwi"
             />
           ),
@@ -122,7 +122,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/collaboration.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/collaboration.png"
               alt="collaboration"
             />
           ),
@@ -134,7 +134,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/material-outlined/64/trust--v1.png"
+              src="https://img.icons8.com/material-outlined/64/facc15/trust--v1.png"
               alt="trust--v1"
             />
           ),
@@ -146,7 +146,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-geotatah/64/external-competitive-sustainable-competitive-advantage-outline-geotatah.png"
+              src="https://img.icons8.com/external-outline-geotatah/64/facc15/external-competitive-sustainable-competitive-advantage-outline-geotatah.png"
               alt="external-competitive-sustainable-competitive-advantage-outline-geotatah"
             />
           ),
@@ -158,7 +158,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/decision-making.png"
+              src="https://img.icons8.com/windows/64/facc15/decision-making.png"
               alt="decision-making"
             />
           ),
@@ -170,7 +170,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/64/external-Resource-human-resources-smashingstocks-mixed-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/64/facc15/external-Resource-human-resources-smashingstocks-mixed-smashing-stocks.png"
               alt="external-Resource-human-resources-smashingstocks-mixed-smashing-stocks"
             />
           ),
@@ -180,6 +180,7 @@ const automationData = [
         },
       ],
     },
+
     ctaSection: {
       description:
         "Let’s build intelligent, adaptive solutions tailored to your business needs. Start automating smarter today.Contact our experts today to Get Started with AI Agents.",
@@ -285,7 +286,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/gears.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/gears.png"
               alt="gears"
             />
           ),
@@ -297,7 +298,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/define-location--v1.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/define-location--v1.png"
               alt="define-location--v1"
             />
           ),
@@ -309,7 +310,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/external-productivity-soft-skills-parzival-1997-detailed-outline-parzival-1997.png"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/facc15/external-productivity-soft-skills-parzival-1997-detailed-outline-parzival-1997.png"
               alt="external-productivity-soft-skills-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
@@ -321,7 +322,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-wichaiwi/64/external-operational-business-risks-outline-wichaiwi.png"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/facc15/external-operational-business-risks-outline-wichaiwi.png"
               alt="external-operational-business-risks-outline-wichaiwi"
             />
           ),
@@ -333,7 +334,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/glyph-neue/64/settings-3.png"
+              src="https://img.icons8.com/glyph-neue/64/facc15/settings-3.png"
               alt="settings-3"
             />
           ),
@@ -345,7 +346,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/sf-black/64/collaboration.png"
+              src="https://img.icons8.com/sf-black/64/facc15/collaboration.png"
               alt="collaboration"
             />
           ),
@@ -355,6 +356,7 @@ const automationData = [
         },
       ],
     },
+
     ctaSection: {
       description:
         "Discover how automation can reduce errors, boost productivity, and accelerate your business growth. Contact out support team to Optimize My Workflow",
@@ -460,7 +462,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pulsar-line/64/conference.png"
+              src="https://img.icons8.com/ios/50/facc15/conference.png"
               alt="conference"
             />
           ),
@@ -472,7 +474,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pulsar-line/64/accuracy.png"
+              src="https://img.icons8.com/pulsar-line/64/facc15/accuracy.png"
               alt="accuracy"
             />
           ),
@@ -484,7 +486,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/test-passed.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/test-passed.png"
               alt="test-passed"
             />
           ),
@@ -496,7 +498,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/dotty/64/low-price.png"
+              src="https://img.icons8.com/dotty/64/facc15/low-price.png"
               alt="low-price"
             />
           ),
@@ -508,7 +510,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/gears--v1.png"
+              src="https://img.icons8.com/ios/64/facc15/gears--v1.png"
               alt="gears--v1"
             />
           ),
@@ -520,7 +522,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-filled/64/merge-arrow.png"
+              src="https://img.icons8.com/fluency-systems-filled/64/facc15/merge-arrow.png"
               alt="merge-arrow"
             />
           ),
@@ -530,6 +532,7 @@ const automationData = [
         },
       ],
     },
+
     ctaSection: {
       description:
         "Automate data extraction and validation to save time, reduce errors, and improve compliance across your workflows. Contact our team to automate your document processing",
@@ -635,7 +638,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/performance-macbook.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/performance-macbook.png"
               alt="performance-macbook"
             />
           ),
@@ -647,7 +650,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/visible--v1.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/visible--v1.png"
               alt="visible--v1"
             />
           ),
@@ -659,7 +662,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/requirements.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/requirements.png"
               alt="requirements"
             />
           ),
@@ -671,7 +674,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/external-roi-digital-marketing-outline-outline-black-m-oki-orlando-2.png"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/facc15/external-roi-digital-marketing-outline-outline-black-m-oki-orlando-2.png"
               alt="external-roi-digital-marketing-outline-outline-black-m-oki-orlando-2"
             />
           ),
@@ -683,7 +686,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/external-optimization-marketing-seo-flatart-icons-solid-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/facc15/external-optimization-marketing-seo-flatart-icons-solid-flatarticons.png"
               alt="external-optimization-marketing-seo-flatart-icons-solid-flatarticons"
             />
           ),
@@ -695,7 +698,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/material-outlined/64/for-experienced.png"
+              src="https://img.icons8.com/material-outlined/64/facc15/for-experienced.png"
               alt="for-experienced"
             />
           ),
@@ -705,6 +708,7 @@ const automationData = [
         },
       ],
     },
+
     ctaSection: {
       description:
         "Discover automation opportunities with real-time insights and drive smarter, faster decisions across your organization. Contact our team to Explore Process Intelligence",
@@ -810,7 +814,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/delivery--v1.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/delivery--v1.png"
               alt="delivery--v1"
             />
           ),
@@ -822,7 +826,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-resource-talent-management-flatart-icons-outline-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/facc15/external-resource-talent-management-flatart-icons-outline-flatarticons.png"
               alt="external-resource-talent-management-flatart-icons-outline-flatarticons"
             />
           ),
@@ -834,7 +838,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-yogi-aprelliyanto-glyph-yogi-aprelliyanto/64/external-quality-online-marketing-yogi-aprelliyanto-glyph-yogi-aprelliyanto.png"
+              src="https://img.icons8.com/external-yogi-aprelliyanto-glyph-yogi-aprelliyanto/64/facc15/external-quality-online-marketing-yogi-aprelliyanto-glyph-yogi-aprelliyanto.png"
               alt="external-quality-online-marketing-yogi-aprelliyanto-glyph-yogi-aprelliyanto"
             />
           ),
@@ -846,7 +850,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/piece-of-evidence.png"
+              src="https://img.icons8.com/ios/64/facc15/piece-of-evidence.png"
               alt="piece-of-evidence"
             />
           ),
@@ -858,7 +862,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/64/external-download-video-and-movie-tanah-basah-basic-outline-tanah-basah.png"
+              src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/64/facc15/external-download-video-and-movie-tanah-basah-basic-outline-tanah-basah.png"
               alt="external-download-video-and-movie-tanah-basah-basic-outline-tanah-basah"
             />
           ),
@@ -870,7 +874,7 @@ const automationData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/settings-3.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/settings-3.png"
               alt="settings-3"
             />
           ),
@@ -880,6 +884,7 @@ const automationData = [
         },
       ],
     },
+
     ctaSection: {
       description:
         "Transform documentation into resilient, AI-powered workflows and scale automation across your entire organization. Contact our team to Start Automating Smarter",

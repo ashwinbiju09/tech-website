@@ -15,7 +15,7 @@ const aboutData = [
   {
     heroSection: {
       image: Hero,
-      title: "Why Leading Businesses Trust Our Intelligent ERP Solutions",
+      title: "Why leading businesses trust our intelligent ERP solutions",
       subContent:
         "Discover how our unique combination of core ERP expertise, enhanced capabilities, and AI automation delivers transformative results.",
     },
@@ -41,57 +41,62 @@ const aboutData = [
     ],
     differentiatorsSection: [
       {
-        icon: (<img 
-          className="h-8 w-8" 
-          src="https://img.icons8.com/external-vectorslab-glyph-vectorslab/100/0a1f36/external-Artificial-Intelligence-education-and-science-vectorslab-glyph-vectorslab.png" 
-          alt="external-Artificial-Intelligence-education-and-science-vectorslab-glyph-vectorslab"
-        />
+        icon: (
+          <img
+            className="h-8 w-8"
+            src="https://img.icons8.com/wired/64/0a1f36/overview-pages-4.png"
+            alt="overview-pages-4"
+          />
         ),
-        title: "AI-First Methodology",
+        title: "Adaptive Intelligence Framework",
         description:
           "Eighty-six percent of CEOs believe that AI is a critical business advantage. We integrate AI into the core of our solutions to embed intelligence throughout your operations, turning data into actionable insights and automating repetitive tasks.",
       },
       {
-        icon: (<img 
-          className="h-8 w-8" 
-          src="https://img.icons8.com/pastel-glyph/64/0a1f36/browser-customization--v1.png" 
-          alt="browser-customization--v1"
+        icon: (
+          <img
+            className="h-8 w-8"
+            src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/0a1f36/external-optimization-marketing-seo-flatart-icons-outline-flatarticons.png"
+            alt="external-optimization-marketing-seo-flatart-icons-outline-flatarticons"
           />
         ),
-        title: "Truly Customized Solutions",
+        title: "Industry-Specific optimization",
         description:
           "Rejecting the one-size-fits-all approach, we tailor our solutions to your unique industry requirements, business processes, and growth objectives to ensure maximum impact and return on investment.",
       },
       {
-        icon: (<img 
-          className="h-8 w-8" 
-          src="https://img.icons8.com/wired/64/0a1f36/ecosystem.png" 
-          alt="ecosystem"
+        icon: (
+          <img
+            className="h-8 w-8"
+            src="https://img.icons8.com/ios-filled/50/0a1f36/virtual-machine.png"
+            alt="virtual-machine"
           />
         ),
-        title: "Seamless Integration Ecosystem",
+        title: "Cross-platform orchestration",
         description:
           "Our solutions are built for connectivity. We integrate your core ERP with essential business systems, cloud services, and specialized applications, creating a unified ecosystem that eliminates silos and enables real-time data flow across your organization.",
       },
       {
-        icon: (<img 
-          className="h-8 w-8" 
-          src="https://img.icons8.com/external-itim2101-lineal-itim2101/64/0a1f36/external-implementation-project-management-itim2101-lineal-itim2101.png" 
-          alt="external-implementation-project-management-itim2101-lineal-itim2101"
-        />
+        icon: (
+          <img
+            className="h-8 w-8"
+            src="https://img.icons8.com/wired/64/0a1f36/ecosystem.png"
+            alt="ecosystem"
+          />
         ),
-        title: "End-to-End Implementation Excellence",
+        title: "Unified technology ecosystem",
         description:
           "From initial assessment to go-live and beyond, we manage every aspect of your implementation with careful attention to detail. Our proven methodology minimizes disruption while maximizing adoption, ensuring your team confidently embraces new systems and processes.",
       },
       {
-        icon: (<img 
-          className="h-8 w-8" 
-          src="https://img.icons8.com/sf-black-filled/64/0a1f36/light-automation.png" 
-          alt="light-automation"
+        icon: (
+          <img
+            className="h-8 w-8"
+            src="https://img.icons8.com/external-good-lines-kalash/32/external-architecture-database-and-cyber-security-good-lines-kalash.png"
+            alt="external-architecture-database-and-cyber-security-good-lines-kalash"
           />
         ),
-        title: "Continuous Innovation Partnership",
+        title: "Data sovereignty architecture",
         description:
           "Technology and market conditions evolve rapidly. We establish ongoing partnerships focused on continuous improvement, helping you regularly reassess, optimize, and expand your capabilities to maintain a competitive edge.",
       },
@@ -100,38 +105,38 @@ const aboutData = [
       process: [
         {
           icon: featureIcon,
-          title: "Discovery & Assessment",
+          title: "Discovery & assessment",
           description:
             "We start by thoroughly understanding your business, challenges, and objectives. Our team conducts stakeholder interviews, process mapping, and system assessments to establish a clear baseline and identify opportunities for optimization.",
         },
         {
           icon: featureIcon,
-          title: "Strategic Solution Design",
+          title: "Strategic solution design",
           description:
             "Based on our discoveries, we design a comprehensive solution blueprint tailored to your needs. This blueprint outlines the appropriate ERP foundation, necessary enhanced capabilities, and potential AI automation opportunities aligned with your business goals and ROI expectations.",
         },
         {
           icon: featureIcon,
-          title: "Streamlined Implementation",
+          title: "Streamlined implementation",
           description:
             "Our implementation methodology focuses on minimizing disruption while accelerating time-to-value. Utilizing agile practices and regular milestones, we manage data migration, system configuration, integration setup, and comprehensive testing with full transparency throughout the process.",
         },
         {
           icon: featureIcon,
-          title: "Comprehensive Training & Change Management",
+          title: "Comprehensive training & change management",
           description:
             "Effective technology requires proper adoption. Our training programs and change management strategies ensure your team is confident and capable with new systems and processes. We provide role-based training, detailed documentation, and change champions to ensure a smooth transition.",
         },
         {
           icon: featureIcon,
-          title: "Ongoing Optimization & Support",
+          title: "Ongoing optimization & support",
           description:
             "Our partnership continues post go-live through proactive support and continuous improvement. Regular health checks, performance assessments, and strategic planning sessions help ensure your solution evolves with your business.",
         },
       ],
     },
     ctaSection: {
-      title: "Ready to Transform Your Business?  ",
+      title: "Ready to transform your business?  ",
       description:
         "Take the first step toward operational excellence and AI-powered growth. Our team is ready to discuss your challenges and demonstrate how our intelligent ERP solutions can address them. ",
     },

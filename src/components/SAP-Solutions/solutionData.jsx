@@ -381,7 +381,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/delivery-time--v1.png"
+              src="https://img.icons8.com/ios/50/facc15/delivery-time--v1.png"
               alt="delivery-time--v1"
             />
           ),
@@ -393,7 +393,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/hatch/64/cloud.png"
+              src="https://img.icons8.com/hatch/64/facc15/cloud.png"
               alt="cloud"
             />
           ),
@@ -405,7 +405,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/workflow.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/workflow.png"
               alt="workflow"
             />
           ),
@@ -417,7 +417,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/external-head-design-thinking-xnimrodx-lineal-xnimrodx-3.png"
+              src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/64/facc15/external-head-design-thinking-xnimrodx-lineal-xnimrodx-3.png"
               alt="external-head-design-thinking-xnimrodx-lineal-xnimrodx-3"
             />
           ),
@@ -429,7 +429,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/external-data-processing-web-analytics-smashingstocks-mixed-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/facc15/external-data-processing-web-analytics-smashingstocks-mixed-smashing-stocks.png"
               alt="external-data-processing-web-analytics-smashingstocks-mixed-smashing-stocks"
             />
           ),
@@ -441,7 +441,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-decision-making-design-thinking-tanah-basah-glyph-tanah-basah.png"
+              src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/facc15/external-decision-making-design-thinking-tanah-basah-glyph-tanah-basah.png"
               alt="external-decision-making-design-thinking-tanah-basah-glyph-tanah-basah"
             />
           ),
@@ -451,6 +451,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -1017,7 +1018,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-glyph-wichaiwi/64/1A1A1A/external-adaptable-generation-z-glyph-wichaiwi.png"
+              src="https://img.icons8.com/external-glyph-wichaiwi/64/facc15/external-adaptable-generation-z-glyph-wichaiwi.png"
               alt="external-adaptable-generation-z-glyph-wichaiwi"
             />
           ),
@@ -1029,7 +1030,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-juicy-fish/60/external-operations-devops-outline-outline-juicy-fish.png"
+              src="https://img.icons8.com/external-outline-juicy-fish/60/facc15/external-operations-devops-outline-outline-juicy-fish.png"
               alt="external-operations-devops-outline-outline-juicy-fish"
             />
           ),
@@ -1041,7 +1042,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/1A1A1A/external-progressive-enhancement-web-development-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/facc15/external-progressive-enhancement-web-development-solid-solidglyph-m-oki-orlando.png"
               alt="external-progressive-enhancement-web-development-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -1053,7 +1054,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/48/1A1A1A/external-set-of-algorithms-for-computer-to-perform-commanded-task-web-bold-tal-revivo.png"
+              src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/48/facc15/external-set-of-algorithms-for-computer-to-perform-commanded-task-web-bold-tal-revivo.png"
               alt="external-set-of-algorithms-for-computer-to-perform-commanded-task-web-bold-tal-revivo"
             />
           ),
@@ -1065,7 +1066,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/1A1A1A/external-optimization-marketing-seo-flatart-icons-solid-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/facc15/external-optimization-marketing-seo-flatart-icons-solid-flatarticons.png"
               alt="external-optimization-marketing-seo-flatart-icons-solid-flatarticons"
             />
           ),
@@ -1466,7 +1467,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-filled/48/brain-3.png"
+              src="https://img.icons8.com/fluency-systems-filled/48/facc15/brain-3.png"
               alt="brain-3"
             />
           ),
@@ -1478,7 +1479,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/1A1A1A/external-scalability-blockchain-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/facc15/external-scalability-blockchain-solid-solidglyph-m-oki-orlando.png"
               alt="external-scalability-blockchain-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -1490,7 +1491,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/dotty/80/greek-pillar.png"
+              src="https://img.icons8.com/dotty/80/facc15/greek-pillar.png"
               alt="greek-pillar"
             />
           ),
@@ -1502,7 +1503,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-goofy-line-kerismaker/96/external-Financial-office-goofy-line-kerismaker.png"
+              src="https://img.icons8.com/external-goofy-line-kerismaker/96/facc15/external-Financial-office-goofy-line-kerismaker.png"
               alt="external-Financial-office-goofy-line-kerismaker"
             />
           ),
@@ -1514,7 +1515,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/dotty/80/innovation.png"
+              src="https://img.icons8.com/dotty/80/facc15/innovation.png"
               alt="innovation"
             />
           ),
@@ -1526,7 +1527,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/glyph-neue/64/policy-document.png"
+              src="https://img.icons8.com/glyph-neue/64/facc15/policy-document.png"
               alt="policy-document"
             />
           ),
@@ -1536,6 +1537,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -1871,7 +1873,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/development-skill.png"
+              src="https://img.icons8.com/ios/64/facc15/development-skill.png"
               alt="development-skill"
             />
           ),
@@ -1883,7 +1885,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/external-optimization-seo-smashingstocks-glyph-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/facc15/external-optimization-seo-smashingstocks-glyph-smashing-stocks.png"
               alt="external-optimization-seo-smashingstocks-glyph-smashing-stocks"
             />
           ),
@@ -1895,7 +1897,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/person-growth.png"
+              src="https://img.icons8.com/ios/64/facc15/person-growth.png"
               alt="person-growth"
             />
           ),
@@ -1907,7 +1909,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/parakeet-line/64/for-experienced.png"
+              src="https://img.icons8.com/parakeet-line/64/facc15/for-experienced.png"
               alt="for-experienced"
             />
           ),
@@ -1919,7 +1921,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-wichaiwi/64/external-strategic-business-model-canvas-outline-wichaiwi.png"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/facc15/external-strategic-business-model-canvas-outline-wichaiwi.png"
               alt="external-strategic-business-model-canvas-outline-wichaiwi"
             />
           ),
@@ -1931,7 +1933,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/glyph-neue/64/design--v1.png"
+              src="https://img.icons8.com/glyph-neue/64/facc15/design--v1.png"
               alt="design--v1"
             />
           ),
@@ -1941,6 +1943,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -2258,7 +2261,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/for-experienced.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/for-experienced.png"
               alt="for-experienced"
             />
           ),
@@ -2270,7 +2273,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/1A1A1A/strategy-board.png"
+              src="https://img.icons8.com/ios/50/facc15/strategy-board.png"
               alt="strategy-board"
             />
           ),
@@ -2282,7 +2285,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/windows/64/1A1A1A/query-inner-join.png"
+              src="https://img.icons8.com/windows/64/facc15/query-inner-join.png"
               alt="query-inner-join"
             />
           ),
@@ -2294,7 +2297,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/glyph-neue/64/1A1A1A/sales-performance-balance.png"
+              src="https://img.icons8.com/glyph-neue/64/facc15/sales-performance-balance.png"
               alt="sales-performance-balance"
             />
           ),
@@ -2306,7 +2309,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/glyph-neue/64/1A1A1A/process.png"
+              src="https://img.icons8.com/glyph-neue/64/facc15/process.png"
               alt="process"
             />
           ),
@@ -2318,7 +2321,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/wired/64/overview-pages-4.png"
+              src="https://img.icons8.com/wired/64/facc15/overview-pages-4.png"
               alt="overview-pages-4"
             />
           ),
@@ -2328,6 +2331,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -2366,7 +2370,6 @@ const solutionData = [
     },
   },
   {
-    
     slug: "sap-analytics-cloud-planning",
     heroSection: {
       image: Sapanalyticscloudhero,
@@ -2750,7 +2753,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/external-capital-business-and-teamwork-smashingstocks-mixed-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/facc15/external-capital-business-and-teamwork-smashingstocks-mixed-smashing-stocks.png"
               alt="external-capital-business-and-teamwork-smashingstocks-mixed-smashing-stocks"
             />
           ),
@@ -2762,7 +2765,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/graduation-cap.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/graduation-cap.png"
               alt="graduation-cap"
             />
           ),
@@ -2774,7 +2777,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/external-meter-strategy-flatart-icons-solid-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/facc15/external-meter-strategy-flatart-icons-solid-flatarticons.png"
               alt="external-rush-date-and-time-tanah-basah-basic-outline-tanah-basah"
             />
           ),
@@ -2786,7 +2789,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-creatype-two-colour-colourcreatype/64/1A1A1A/external-intelligence-science-education-two-colour-creatype-two-colour-colourcreatype.png"
+              src="https://img.icons8.com/external-creatype-two-colour-colourcreatype/64/facc15/external-intelligence-science-education-two-colour-creatype-two-colour-colourcreatype.png"
               alt="external-intelligence-science-education-two-colour-creatype-two-colour-colourcreatype"
             />
           ),
@@ -2798,7 +2801,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pulsar-line/48/1A1A1A/commercial-development-management.png"
+              src="https://img.icons8.com/pulsar-line/48/facc15/commercial-development-management.png"
               alt="commercial-development-management"
             />
           ),
@@ -2810,7 +2813,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/external-head-tracking-virtual-reality-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/facc15/external-head-tracking-virtual-reality-solid-solidglyph-m-oki-orlando.png"
               alt="external-head-tracking-virtual-reality-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -2820,6 +2823,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -3180,7 +3184,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/glyph-neue/64/artificial-intelligence.png"
+              src="https://img.icons8.com/glyph-neue/64/facc15/artificial-intelligence.png"
               alt="artificial-intelligence"
             />
           ),
@@ -3192,7 +3196,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/weight-care.png"
+              src="https://img.icons8.com/ios/50/facc15/weight-care.png"
               alt="weight-care"
             />
           ),
@@ -3204,7 +3208,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/1A1A1A/sales-balance-1.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/sales-balance-1.png"
               alt="sales-balance-1"
             />
           ),
@@ -3216,7 +3220,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-glyph-silhouettes-icons-papa-vector/78/1A1A1A/external-Closing-property-sale-glyph-silhouettes-icons-papa-vector.png"
+              src="https://img.icons8.com/external-glyph-silhouettes-icons-papa-vector/78/facc15/external-Closing-property-sale-glyph-silhouettes-icons-papa-vector.png"
               alt="external-Closing-property-sale-glyph-silhouettes-icons-papa-vector"
             />
           ),
@@ -3228,7 +3232,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-lafs/64/1A1A1A/external-ic_governance-dao-and-tocenomics-outline-lafs.png"
+              src="https://img.icons8.com/external-outline-lafs/64/facc15/external-ic_governance-dao-and-tocenomics-outline-lafs.png"
               alt="external-ic_governance-dao-and-tocenomics-outline-lafs"
             />
           ),
@@ -3240,7 +3244,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/1A1A1A/external-ecosystem-earth-day-flatart-icons-solid-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/facc15/external-ecosystem-earth-day-flatart-icons-solid-flatarticons.png"
               alt="external-ecosystem-earth-day-flatart-icons-solid-flatarticons"
             />
           ),
@@ -3252,7 +3256,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/puzzle-matching.png"
+              src="https://img.icons8.com/ios/50/facc15/puzzle-matching.png"
               alt="puzzle-matching"
             />
           ),
@@ -3264,7 +3268,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/1A1A1A/assignment-turned-in.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/assignment-turned-in.png"
               alt="assignment-turned-in"
             />
           ),
@@ -3274,6 +3278,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -3715,7 +3720,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/3d.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/3d.png"
               alt="external-modeling-data-science-and-cyber-security-flatart-icons-solid-flatarticons"
             />
           ),
@@ -3727,7 +3732,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/dotty/80/learn-more.png"
+              src="https://img.icons8.com/dotty/80/facc15/learn-more.png"
               alt="learn-more"
             />
           ),
@@ -3739,7 +3744,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-becris-lineal-color-becris/64/external-enhanced-business-analysis-becris-lineal-color-becris-3.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/decision-making.png"
               alt="external-enhanced-business-analysis-becris-lineal-color-becris-3"
             />
           ),
@@ -3751,7 +3756,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/pastel-glyph/64/graduation-cap--v1.png"
+              src="https://img.icons8.com/pastel-glyph/64/facc15/graduation-cap--v1.png"
               alt="graduation-cap--v1"
             />
           ),
@@ -3763,7 +3768,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/for-experienced.png"
+              src="https://img.icons8.com/ios/50/facc15/for-experienced.png"
               alt="for-experienced"
             />
           ),
@@ -3775,7 +3780,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/dotty/80/spaceship-launch-documentation.png"
+              src="https://img.icons8.com/dotty/80/facc15/spaceship-launch-documentation.png"
               alt="spaceship-launch-documentation"
             />
           ),
@@ -3787,7 +3792,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/fluency-systems-regular/48/performance-goal.png"
+              src="https://img.icons8.com/fluency-systems-regular/48/facc15/performance-goal.png"
               alt="performance-goal"
             />
           ),
@@ -3799,7 +3804,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/learning.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/learning.png"
               alt="learning"
             />
           ),
@@ -3809,6 +3814,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -4196,7 +4202,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/delivery--v1.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/delivery--v1.png"
               alt="delivery--v1"
             />
           ),
@@ -4208,7 +4214,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-architecture-architecture-flatart-icons-outline-flatarticons-1.png"
+              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/facc15/external-architecture-architecture-flatart-icons-outline-flatarticons-1.png"
               alt="external-architecture-architecture-flatart-icons-outline-flatarticons-1"
             />
           ),
@@ -4220,7 +4226,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-juicy-fish/60/external-operations-devops-outline-outline-juicy-fish.png"
+              src="https://img.icons8.com/external-outline-juicy-fish/60/facc15/external-operations-devops-outline-outline-juicy-fish.png"
               alt="external-operations-devops-outline-outline-juicy-fish"
             />
           ),
@@ -4232,7 +4238,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/1A1A1A/external-cognitive-education-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/facc15/external-cognitive-education-solid-solidglyph-m-oki-orlando.png"
               alt="external-cognitive-education-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -4244,7 +4250,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-glyph-geotatah/64/external-dynamic-spread-of-disease-glyph-glyph-geotatah.png"
+              src="https://img.icons8.com/external-glyph-geotatah/64/facc15/external-dynamic-spread-of-disease-glyph-glyph-geotatah.png"
               alt="external-dynamic-spread-of-disease-glyph-glyph-geotatah"
             />
           ),
@@ -4256,7 +4262,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/test-passed.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/test-passed.png"
               alt="test-passed"
             />
           ),
@@ -4268,7 +4274,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/process.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/process.png"
               alt="process"
             />
           ),
@@ -4280,7 +4286,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-tulpahn-basic-outline-tulpahn/48/external-intelligent-back-to-school-tulpahn-basic-outline-tulpahn.png"
+              src="https://img.icons8.com/external-tulpahn-basic-outline-tulpahn/48/facc15/external-intelligent-back-to-school-tulpahn-basic-outline-tulpahn.png"
               alt="external-intelligent-back-to-school-tulpahn-basic-outline-tulpahn"
             />
           ),
@@ -4290,6 +4296,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -4604,7 +4611,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/64/omnichannel.png"
+              src="https://img.icons8.com/ios/64/facc15/omnichannel.png"
               alt="omnichannel"
             />
           ),
@@ -4616,7 +4623,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/1A1A1A/external-personalization-engineering-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/32/facc15/external-personalization-engineering-solid-solidglyph-m-oki-orlando.png"
               alt="external-personalization-engineering-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -4628,7 +4635,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/external-implement-business-administration-wanicon-lineal-wanicon.png"
+              src="https://img.icons8.com/external-wanicon-lineal-wanicon/64/facc15/external-implement-business-administration-wanicon-lineal-wanicon.png"
               alt="external-implement-business-administration-wanicon-lineal-wanicon"
             />
           ),
@@ -4640,7 +4647,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/60/1A1A1A/external-chameleon-tropical-vitaliy-gorbachev-fill-vitaly-gorbachev.png"
+              src="https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/60/facc15/external-chameleon-tropical-vitaliy-gorbachev-fill-vitaly-gorbachev.png"
               alt="external-chameleon-tropical-vitaliy-gorbachev-fill-vitaly-gorbachev"
             />
           ),
@@ -4652,7 +4659,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/factory-1.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/factory-1.png"
               alt="factory-1"
             />
           ),
@@ -4664,7 +4671,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/glyph-neue/64/ecosystem-2.png"
+              src="https://img.icons8.com/glyph-neue/64/facc15/ecosystem-2.png"
               alt="ecosystem-2"
             />
           ),
@@ -4674,6 +4681,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -5033,7 +5041,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/external-personalization-customer-relationship-management-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/50/facc15/external-personalization-customer-relationship-management-solid-solidglyph-m-oki-orlando.png"
               alt="external-personalization-customer-relationship-management-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -5045,8 +5053,8 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/64/external-opportunity-professional-mentorship-inipagistudio-mixed-inipagistudio.png"
-              alt="external-opportunity-professional-mentorship-inipagistudio-mixed-inipagistudio"
+              src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/facc15/external-opportunity-business-and-finance-tanah-basah-basic-outline-tanah-basah.png"
+              alt="external-opportunity-business-and-finance-tanah-basah-basic-outline-tanah-basah"
             />
           ),
           title: "Opportunity intelligence system",
@@ -5057,7 +5065,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-glyph-geotatah/64/external-collaborative-knowledge-management-glyph-glyph-geotatah.png"
+              src="https://img.icons8.com/external-glyph-geotatah/64/facc15/external-collaborative-knowledge-management-glyph-glyph-geotatah.png"
               alt="external-collaborative-knowledge-management-glyph-glyph-geotatah"
             />
           ),
@@ -5069,7 +5077,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/dashboard.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/dashboard.png"
               alt="dashboard"
             />
           ),
@@ -5081,7 +5089,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/refund-2.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/refund-2.png"
               alt="refund-2"
             />
           ),
@@ -5093,7 +5101,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-glyph-geotatah/64/external-execution-merger-and-acquisition-glyph-glyph-geotatah.png"
+              src="https://img.icons8.com/external-glyph-geotatah/64/facc15/external-execution-merger-and-acquisition-glyph-glyph-geotatah.png"
               alt="external-execution-merger-and-acquisition-glyph-glyph-geotatah"
             />
           ),
@@ -5103,6 +5111,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -5421,7 +5430,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/inspection.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/inspection.png"
               alt="inspection"
             />
           ),
@@ -5433,7 +5442,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-icons-smashing-stocks/64/external-Efficiency-stock-market-icons-smashing-stocks.png"
+              src="https://img.icons8.com/external-icons-smashing-stocks/64/facc15/external-Efficiency-stock-market-icons-smashing-stocks.png"
               alt="external-Efficiency-stock-market-icons-smashing-stocks"
             />
           ),
@@ -5445,7 +5454,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/knowledge-sharing.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/knowledge-sharing.png"
               alt="knowledge-sharing"
             />
           ),
@@ -5457,7 +5466,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/client-company.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/client-company.png"
               alt="client-company"
             />
           ),
@@ -5469,7 +5478,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/1A1A1A/external-businessman-business-and-management-kiranshastry-lineal-kiranshastry-3.png"
+              src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/64/facc15/external-businessman-business-and-management-kiranshastry-lineal-kiranshastry-3.png"
               alt="external-businessman-business-and-management-kiranshastry-lineal-kiranshastry-3"
             />
           ),
@@ -5481,7 +5490,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/design.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/design.png"
               alt="design"
             />
           ),
@@ -5491,6 +5500,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -5571,9 +5581,9 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-9"
-              src="https://img.icons8.com/dotty/80/FACC15/engage.png" 
+              src="https://img.icons8.com/dotty/80/FACC15/engage.png"
               alt="engage"
-              />
+            />
           ),
           title: "Predictive engagement optimization",
           description:
@@ -5808,7 +5818,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/external-data-architecture-data-engineering-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/facc15/external-data-architecture-data-engineering-solid-solidglyph-m-oki-orlando.png"
               alt="external-data-architecture-data-engineering-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -5820,7 +5830,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/omnichannel.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/omnichannel.png"
               alt="omnichannel"
             />
           ),
@@ -5832,7 +5842,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-tulpahn-basic-outline-tulpahn/64/external-intelligent-back-to-school-tulpahn-basic-outline-tulpahn.png"
+              src="https://img.icons8.com/external-tulpahn-basic-outline-tulpahn/64/facc15/external-intelligent-back-to-school-tulpahn-basic-outline-tulpahn.png"
               alt="external-intelligent-back-to-school-tulpahn-basic-outline-tulpahn"
             />
           ),
@@ -5844,7 +5854,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/external-personalization-customer-relationship-management-solid-solidglyph-m-oki-orlando.png"
+              src="https://img.icons8.com/external-solidglyph-m-oki-orlando/64/facc15/external-personalization-customer-relationship-management-solid-solidglyph-m-oki-orlando.png"
               alt="external-personalization-customer-relationship-management-solid-solidglyph-m-oki-orlando"
             />
           ),
@@ -5856,7 +5866,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/handshake--v1.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/handshake--v1.png"
               alt="handshake--v1"
             />
           ),
@@ -5868,9 +5878,9 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/settings-3.png" 
+              src="https://img.icons8.com/ios-filled/50/facc15/settings-3.png"
               alt="settings-3"
-              />
+            />
           ),
           title: "Advanced intelligence and automation",
           description:
@@ -5878,6 +5888,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -6102,7 +6113,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-environmental-sustainable-living-flaticons-lineal-color-flat-icons-2.png"
+              src="https://img.icons8.com/wired/50/facc15/ecosystem.png"
               alt="external-environmental-sustainable-living-flaticons-lineal-color-flat-icons-2"
             />
           ),
@@ -6114,7 +6125,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-architecture-architecture-flatart-icons-outline-flatarticons-1.png"
+              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/facc15/external-architecture-architecture-flatart-icons-outline-flatarticons-1.png"
               alt="external-architecture-architecture-flatart-icons-outline-flatarticons-1"
             />
           ),
@@ -6126,7 +6137,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/carbon-copy/64/sustainability.png"
+              src="https://img.icons8.com/carbon-copy/64/facc15/sustainability.png"
               alt="sustainability"
             />
           ),
@@ -6138,7 +6149,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/supply-chain.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/supply-chain.png"
               alt="supply-chain"
             />
           ),
@@ -6150,7 +6161,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-wichaiwi/64/external-operational-business-risks-outline-wichaiwi.png"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/facc15/external-operational-business-risks-outline-wichaiwi.png"
               alt="external-operational-business-risks-outline-wichaiwi"
             />
           ),
@@ -6162,7 +6173,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-sbts2018-solid-sbts2018/58/1A1A1A/external-brand-basic-ui-elements-2.2-sbts2018-solid-sbts2018.png"
+              src="https://img.icons8.com/external-sbts2018-solid-sbts2018/58/facc15/external-brand-basic-ui-elements-2.2-sbts2018-solid-sbts2018.png"
               alt="external-brand-basic-ui-elements-2.2-sbts2018-solid-sbts2018"
             />
           ),
@@ -6172,6 +6183,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description: "Explore common queries about SAP Sustainability solutions.",
@@ -6372,7 +6384,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-out-line-pongsakorn-tan/64/external-charging-furniture-out-line-pongsakorn-tan.png"
+              src="https://img.icons8.com/external-out-line-pongsakorn-tan/64/facc15/external-charging-furniture-out-line-pongsakorn-tan.png"
               alt="external-charging-furniture-out-line-pongsakorn-tan"
             />
           ),
@@ -6384,7 +6396,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/person-growth.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/person-growth.png"
               alt="person-growth"
             />
           ),
@@ -6396,7 +6408,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-wichaiwi/64/external-operational-business-risks-outline-wichaiwi.png"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/facc15/external-operational-business-risks-outline-wichaiwi.png"
               alt="external-operational-business-risks-outline-wichaiwi"
             />
           ),
@@ -6408,7 +6420,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/ecosystem-2.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/ecosystem-2.png"
               alt="ecosystem-2"
             />
           ),
@@ -6420,7 +6432,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/satisfaction.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/satisfaction.png"
               alt="satisfaction"
             />
           ),
@@ -6432,7 +6444,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/64/company.png"
+              src="https://img.icons8.com/ios-glyphs/64/facc15/company.png"
               alt="company"
             />
           ),
@@ -6442,6 +6454,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -6694,7 +6707,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/external-financial-finance-flatart-icons-outline-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/facc15/external-financial-finance-flatart-icons-outline-flatarticons.png"
               alt="external-financial-finance-flatart-icons-outline-flatarticons"
             />
           ),
@@ -6706,7 +6719,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/64/external-productivity-productivity-concentration-smashingstocks-mixed-smashing-stocks-4.png"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/64/facc15/external-productivity-productivity-concentration-smashingstocks-mixed-smashing-stocks-4.png"
               alt="external-productivity-productivity-concentration-smashingstocks-mixed-smashing-stocks-4"
             />
           ),
@@ -6718,7 +6731,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/forma-regular-filled-sharp/64/collaboration.png"
+              src="https://img.icons8.com/forma-regular-filled-sharp/64/facc15/collaboration.png"
               alt="collaboration"
             />
           ),
@@ -6730,7 +6743,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/dotty/64/investment.png"
+              src="https://img.icons8.com/dotty/64/facc15/investment.png"
               alt="investment"
             />
           ),
@@ -6742,7 +6755,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/external-scalability-blockchain-outline-outline-black-m-oki-orlando.png"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/64/facc15/external-scalability-blockchain-outline-outline-black-m-oki-orlando.png"
               alt="external-scalability-blockchain-outline-outline-black-m-oki-orlando"
             />
           ),
@@ -6754,7 +6767,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/webhook.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/webhook.png"
               alt="webhook"
             />
           ),
@@ -6764,6 +6777,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:
@@ -7019,7 +7033,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/64/client-company.png"
+              src="https://img.icons8.com/ios-filled/64/facc15/client-company.png"
               alt="client-company"
             />
           ),
@@ -7031,7 +7045,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/material-rounded/64/merge-docunemts.png"
+              src="https://img.icons8.com/material-rounded/64/facc15/merge-docunemts.png"
               alt="merge-docunemts"
             />
           ),
@@ -7043,7 +7057,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/wired/64/overview-pages-4.png"
+              src="https://img.icons8.com/wired/64/facc15/overview-pages-4.png"
               alt="overview-pages-4"
             />
           ),
@@ -7055,7 +7069,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/quill/64/backend-development.png"
+              src="https://img.icons8.com/quill/64/facc15/backend-development.png"
               alt="backend-development"
             />
           ),
@@ -7067,7 +7081,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-tulpahn-basic-outline-tulpahn/64/external-intelligent-back-to-school-tulpahn-basic-outline-tulpahn.png"
+              src="https://img.icons8.com/external-tulpahn-basic-outline-tulpahn/64/facc15/external-intelligent-back-to-school-tulpahn-basic-outline-tulpahn.png"
               alt="external-intelligent-back-to-school-tulpahn-basic-outline-tulpahn"
             />
           ),
@@ -7079,7 +7093,7 @@ const solutionData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ink/64/project-management.png"
+              src="https://img.icons8.com/ink/64/facc15/project-management.png"
               alt="project-management"
             />
           ),
@@ -7089,6 +7103,7 @@ const solutionData = [
         },
       ],
     },
+
     faqSection: {
       title: "Frequently Asked Questions",
       description:

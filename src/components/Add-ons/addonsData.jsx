@@ -118,7 +118,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/down3.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/down3.png"
               alt="down3"
             />
           ),
@@ -130,7 +130,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/work.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/work.png"
               alt="work"
             />
           ),
@@ -142,7 +142,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/dashboard.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/dashboard.png"
               alt="dashboard"
             />
           ),
@@ -154,7 +154,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/appointment-reminders--v1.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/appointment-reminders--v1.png"
               alt="appointment-reminders--v1"
             />
           ),
@@ -166,7 +166,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-others-pike-picture/64/0a1f36/external-regulations-policies-data-process-others-pike-picture-2.png"
+              src="https://img.icons8.com/external-others-pike-picture/64/facc15/external-regulations-policies-data-process-others-pike-picture-2.png"
               alt="external-regulations-policies-data-process-others-pike-picture-2"
             />
           ),
@@ -178,7 +178,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/0a1f36/external-lifecycle-traditional-marketing-flatart-icons-outline-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/facc15/external-lifecycle-traditional-marketing-flatart-icons-outline-flatarticons.png"
               alt="external-lifecycle-traditional-marketing-flatart-icons-outline-flatarticons"
             />
           ),
@@ -312,7 +312,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/centralized-network.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/centralized-network.png"
               alt="centralized-network"
             />
           ),
@@ -324,7 +324,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/bearish.png"
+              src="https://img.icons8.com/ios/50/facc15/bearish.png"
               alt="bearish"
             />
           ),
@@ -336,7 +336,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-soleicons-line-amoghdesign/64/external-adaptation-soleicons-line-vol-2-soleicons-line-amoghdesign.png"
+              src="https://img.icons8.com/external-soleicons-line-amoghdesign/64/facc15/external-adaptation-soleicons-line-vol-2-soleicons-line-amoghdesign.png"
               alt="external-adaptation-soleicons-line-vol-2-soleicons-line-amoghdesign"
             />
           ),
@@ -348,7 +348,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/process.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/process.png"
               alt="process"
             />
           ),
@@ -360,7 +360,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/external-resource-digital-globalization-parzival-1997-detailed-outline-parzival-1997.png"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/facc15/external-resource-digital-globalization-parzival-1997-detailed-outline-parzival-1997.png"
               alt="external-resource-digital-globalization-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
@@ -372,7 +372,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/light-automation.png"
+              src="https://img.icons8.com/ios/50/facc15/light-automation.png"
               alt="light-automation"
             />
           ),
@@ -507,7 +507,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/0a1f36/error--v1.png"
+              src="https://img.icons8.com/ios/50/facc15/error--v1.png"
               alt="error--v1"
             />
           ),
@@ -519,7 +519,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/0a1f36/external-operation-digital-transformation-parzival-1997-detailed-outline-parzival-1997.png"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/facc15/external-operation-digital-transformation-parzival-1997-detailed-outline-parzival-1997.png"
               alt="external-operation-digital-transformation-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
@@ -531,7 +531,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/0a1f36/external-customer-satisfaction-data-science-smashingstocks-mixed-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/facc15/external-customer-satisfaction-data-science-smashingstocks-mixed-smashing-stocks.png"
               alt="external-customer-satisfaction-data-science-smashingstocks-mixed-smashing-stocks"
             />
           ),
@@ -543,7 +543,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/cost.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/cost.png"
               alt="cost"
             />
           ),
@@ -555,7 +555,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/big-data.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/big-data.png"
               alt="big-data"
             />
           ),
@@ -567,7 +567,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-jumpicon-line-ayub-irawan/32/0a1f36/external-agility-success-jumpicon-(line)-jumpicon-line-ayub-irawan.png"
+              src="https://img.icons8.com/external-jumpicon-line-ayub-irawan/32/facc15/external-agility-success-jumpicon-(line)-jumpicon-line-ayub-irawan.png"
               alt="external-agility-success-jumpicon-(line)-jumpicon-line-ayub-irawan"
             />
           ),
@@ -702,7 +702,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/0a1f36/error--v1.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/error--v1.png"
               alt="error--v1"
             />
           ),
@@ -714,7 +714,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/invisible.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/invisible.png"
               alt="invisible"
             />
           ),
@@ -726,7 +726,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-black-m-oki-orlando/32/0a1f36/external-customer-experience-digital-marketing-outline-outline-black-m-oki-orlando-2.png"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/32/facc15/external-customer-experience-digital-marketing-outline-outline-black-m-oki-orlando-2.png"
               alt="external-customer-experience-digital-marketing-outline-outline-black-m-oki-orlando-2"
             />
           ),
@@ -738,7 +738,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-tulpahn-detailed-outline-tulpahn/64/0a1f36/external-productivity-work-from-home-tulpahn-detailed-outline-tulpahn.png"
+              src="https://img.icons8.com/external-tulpahn-detailed-outline-tulpahn/64/facc15/external-productivity-work-from-home-tulpahn-detailed-outline-tulpahn.png"
               alt="external-productivity-work-from-home-tulpahn-detailed-outline-tulpahn"
             />
           ),
@@ -750,7 +750,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/0a1f36/get-revenue.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/get-revenue.png"
               alt="get-revenue"
             />
           ),
@@ -762,7 +762,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/data-backup.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/data-backup.png"
               alt="data-backup"
             />
           ),
@@ -897,7 +897,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/0a136/external-optimize-customer-relationship-and-employee-benefits-flatart-icons-outline-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/facc15/external-optimize-customer-relationship-and-employee-benefits-flatart-icons-outline-flatarticons.png"
               alt="external-optimize-customer-relationship-and-employee-benefits-flatart-icons-outline-flatarticons"
             />
           ),
@@ -909,7 +909,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/work.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/work.png"
               alt="work"
             />
           ),
@@ -921,7 +921,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/scales--v1.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/scales--v1.png"
               alt="scales--v1"
             />
           ),
@@ -933,7 +933,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-ddara-fill-ddara/64/0a1f36/external-cost-control-business-management-ddara-fill-ddara.png"
+              src="https://img.icons8.com/external-ddara-fill-ddara/64/facc15/external-cost-control-business-management-ddara-fill-ddara.png"
               alt="external-cost-control-business-management-ddara-fill-ddara"
             />
           ),
@@ -945,7 +945,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/order-shipped.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/order-shipped.png"
               alt="order-shipped"
             />
           ),
@@ -957,7 +957,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/medium-risk.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/medium-risk.png"
               alt="medium-risk"
             />
           ),
@@ -1091,7 +1091,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/0a1f36/external-customer-engagement-network-and-communication-smashingstocks-glyph-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/facc15/external-customer-engagement-network-and-communication-smashingstocks-glyph-smashing-stocks.png"
               alt="external-customer-engagement-network-and-communication-smashingstocks-glyph-smashing-stocks"
             />
           ),
@@ -1103,7 +1103,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/0a1f36/sales-performance.png"
+              src="https://img.icons8.com/ios/50/facc15/sales-performance.png"
               alt="sales-performance"
             />
           ),
@@ -1115,7 +1115,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/0a1f36/commercial-development-management.png"
+              src="https://img.icons8.com/ios/50/facc15/commercial-development-management.png"
               alt="commercial-development-management"
             />
           ),
@@ -1127,7 +1127,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-black-m-oki-orlando/32/0a1f36/external-data-driven-data-science-outline-outline-black-m-oki-orlando.png"
+              src="https://img.icons8.com/external-outline-black-m-oki-orlando/32/facc15/external-data-driven-data-science-outline-outline-black-m-oki-orlando.png"
               alt="external-data-driven-data-science-outline-outline-black-m-oki-orlando"
             />
           ),
@@ -1139,7 +1139,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/0a1f36/external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/facc15/external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks.png"
               alt="external-forecasting-digital-marketing-smashingstocks-mixed-smashing-stocks"
             />
           ),
@@ -1151,7 +1151,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-goofy-line-kerismaker/96/0a1f36/external-Opportunities-business-goofy-line-kerismaker.png"
+              src="https://img.icons8.com/external-goofy-line-kerismaker/96/facc15/external-Opportunities-business-goofy-line-kerismaker.png"
               alt="external-Opportunities-business-goofy-line-kerismaker"
             />
           ),
@@ -1286,7 +1286,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/0a1f36/external-cash-flow-money-kmg-design-glyph-kmg-design-3.png"
+              src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/32/facc15/external-cash-flow-money-kmg-design-glyph-kmg-design-3.png"
               alt="external-cash-flow-money-kmg-design-glyph-kmg-design-3"
             />
           ),
@@ -1298,7 +1298,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/dotty/80/0a1f36/service.png"
+              src="https://img.icons8.com/dotty/80/facc15/service.png"
               alt="service"
             />
           ),
@@ -1310,7 +1310,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/0a1f36/external-retention-banking-and-finance-smashingstocks-glyph-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/facc15/external-retention-banking-and-finance-smashingstocks-glyph-smashing-stocks.png"
               alt="external-retention-banking-and-finance-smashingstocks-glyph-smashing-stocks"
             />
           ),
@@ -1322,7 +1322,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/bearish.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/bearish.png"
               alt="bearish"
             />
           ),
@@ -1334,7 +1334,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/0a1f36/data-migration.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/data-migration.png"
               alt="data-migration"
             />
           ),
@@ -1346,7 +1346,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/0a1f36/external-financial-finance-smashingstocks-glyph-smashing-stocks-3.png"
+              src="https://img.icons8.com/external-smashingstocks-glyph-smashing-stocks/66/facc15/external-financial-finance-smashingstocks-glyph-smashing-stocks-3.png"
               alt="external-financial-finance-smashingstocks-glyph-smashing-stocks-3"
             />
           ),
@@ -1480,8 +1480,8 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-only-li-kalash/48/0a1f36/external-business-business-management-only-li-kalash-3.png"
-              alt="external-business-business-management-only-li-kalash-3"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/facc15/external-partnership-human-networking-parzival-1997-detailed-outline-parzival-1997.png"
+              alt="external-partnership-human-networking-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
           title: "Robust Partnerships",
@@ -1492,7 +1492,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/carbon-copy/100/0a1f36/bearish.png"
+              src="https://img.icons8.com/carbon-copy/100/facc15/bearish.png"
               alt="bearish"
             />
           ),
@@ -1504,7 +1504,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-wichaiwi/64/0a1f36/external-operational-business-risks-outline-wichaiwi.png"
+              src="https://img.icons8.com/external-outline-wichaiwi/64/facc15/external-operational-business-risks-outline-wichaiwi.png"
               alt="external-operational-business-risks-outline-wichaiwi"
             />
           ),
@@ -1516,7 +1516,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/medium-risk.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/medium-risk.png"
               alt="medium-risk"
             />
           ),
@@ -1528,7 +1528,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/0a1f36/collaboration.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/collaboration.png"
               alt="collaboration"
             />
           ),
@@ -1540,7 +1540,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/carbon-copy/100/0a1f36/economic-improvement.png"
+              src="https://img.icons8.com/carbon-copy/100/facc15/economic-improvement.png"
               alt="economic-improvement"
             />
           ),
@@ -1675,7 +1675,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/0a1f36/good-quality--v1.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/good-quality--v1.png"
               alt="good-quality--v1"
             />
           ),
@@ -1687,7 +1687,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-ddara-lineal-ddara/64/0a1f36/external-cost-control-business-management-ddara-lineal-ddara.png"
+              src="https://img.icons8.com/external-ddara-lineal-ddara/64/facc15/external-cost-control-business-management-ddara-lineal-ddara.png"
               alt="external-cost-control-business-management-ddara-lineal-ddara"
             />
           ),
@@ -1699,7 +1699,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-others-pike-picture/50/0a1f36/external-regulations-policies-data-process-others-pike-picture-2.png"
+              src="https://img.icons8.com/external-others-pike-picture/50/facc15/external-regulations-policies-data-process-others-pike-picture-2.png"
               alt="external-regulations-policies-data-process-others-pike-picture-2"
             />
           ),
@@ -1711,7 +1711,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/0a1f36/external-experience-shopstreaming-parzival-1997-detailed-outline-parzival-1997.png"
+              src="https://img.icons8.com/external-parzival-1997-detailed-outline-parzival-1997/64/facc15/external-experience-shopstreaming-parzival-1997-detailed-outline-parzival-1997.png"
               alt="external-experience-shopstreaming-parzival-1997-detailed-outline-parzival-1997"
             />
           ),
@@ -1723,7 +1723,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/invisible.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/invisible.png"
               alt="invisible"
             />
           ),
@@ -1735,7 +1735,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/0a1f36/external-scalable-data-science-and-cyber-security-flatart-icons-solid-flatarticons.png"
+              src="https://img.icons8.com/external-flatart-icons-solid-flatarticons/64/facc15/external-scalable-data-science-and-cyber-security-flatart-icons-solid-flatarticons.png"
               alt="external-scalable-data-science-and-cyber-security-flatart-icons-solid-flatarticons"
             />
           ),
@@ -1869,7 +1869,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/0a1f36/test-passed--v1.png"
+              src="https://img.icons8.com/ios/50/facc15/test-passed--v1.png"
               alt="test-passed--v1"
             />
           ),
@@ -1881,7 +1881,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-ddara-fill-ddara/64/0a1f36/external-cost-control-business-management-ddara-fill-ddara.png"
+              src="https://img.icons8.com/external-ddara-fill-ddara/64/facc15/external-cost-control-business-management-ddara-fill-ddara.png"
               alt="external-cost-control-business-management-ddara-fill-ddara"
             />
           ),
@@ -1893,7 +1893,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/0a1f36/external-Accountability-core-values-smashingstocks-mixed-smashing-stocks.png"
+              src="https://img.icons8.com/external-smashingstocks-mixed-smashing-stocks/68/facc15/external-Accountability-core-values-smashingstocks-mixed-smashing-stocks.png"
               alt="external-Accountability-core-values-smashingstocks-mixed-smashing-stocks"
             />
           ),
@@ -1905,7 +1905,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/future.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/future.png"
               alt="future"
             />
           ),
@@ -1917,7 +1917,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/assignment-turned-in.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/assignment-turned-in.png"
               alt="assignment-turned-in"
             />
           ),
@@ -1929,7 +1929,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-glyph-wichaiwi/64/0a1f36/external-transparency-general-data-protection-regulation-gdpr-glyph-wichaiwi.png"
+              src="https://img.icons8.com/external-glyph-wichaiwi/64/facc15/external-transparency-general-data-protection-regulation-gdpr-glyph-wichaiwi.png"
               alt="external-transparency-general-data-protection-regulation-gdpr-glyph-wichaiwi"
             />
           ),
@@ -2062,7 +2062,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/0a1f36/cheap-2.png"
+              src="https://img.icons8.com/ios/50/facc15/cheap-2.png"
               alt="cheap-2"
             />
           ),
@@ -2074,7 +2074,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/workflow.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/workflow.png"
               alt="workflow"
             />
           ),
@@ -2086,7 +2086,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/conference-background-selected.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/conference-background-selected.png"
               alt="conference-background-selected"
             />
           ),
@@ -2098,7 +2098,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/0a1f36/external-busness-due-diligence-icongeek26-glyph-icongeek26.png"
+              src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/facc15/external-busness-due-diligence-icongeek26-glyph-icongeek26.png"
               alt="external-busness-due-diligence-icongeek26-glyph-icongeek26"
             />
           ),
@@ -2110,7 +2110,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/glyph-neue/64/0a1f36/collaboration.png"
+              src="https://img.icons8.com/glyph-neue/64/facc15/collaboration.png"
               alt="collaboration"
             />
           ),
@@ -2122,7 +2122,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/0a1f36/innovation.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/innovation.png"
               alt="innovation"
             />
           ),
@@ -2256,7 +2256,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-outline-juicy-fish/60/0a1f36/external-operations-devops-outline-outline-juicy-fish.png"
+              src="https://img.icons8.com/external-outline-juicy-fish/60/facc15/external-operations-devops-outline-outline-juicy-fish.png"
               alt="external-operations-devops-outline-outline-juicy-fish"
             />
           ),
@@ -2268,7 +2268,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/0a1f36/get-cash--v1.png"
+              src="https://img.icons8.com/ios/50/facc15/get-cash--v1.png"
               alt="get-cash--v1"
             />
           ),
@@ -2280,7 +2280,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/medium-risk.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/medium-risk.png"
               alt="medium-risk"
             />
           ),
@@ -2292,7 +2292,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/0a1f36/collaboration.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/collaboration.png"
               alt="collaboration"
             />
           ),
@@ -2304,7 +2304,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/accuracy.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/accuracy.png"
               alt="accuracy"
             />
           ),
@@ -2316,7 +2316,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/assignment-turned-in.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/assignment-turned-in.png"
               alt="assignment-turned-in"
             />
           ),
@@ -2450,7 +2450,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/external-vectorslab-glyph-vectorslab/53/0a1f36/external-resource-management-seo-and-marketing-vectorslab-glyph-vectorslab.png"
+              src="https://img.icons8.com/external-vectorslab-glyph-vectorslab/53/facc15/external-resource-management-seo-and-marketing-vectorslab-glyph-vectorslab.png"
               alt="external-resource-management-seo-and-marketing-vectorslab-glyph-vectorslab"
             />
           ),
@@ -2462,7 +2462,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/0a1f36/estimate.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/estimate.png"
               alt="estimate"
             />
           ),
@@ -2474,7 +2474,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-filled/50/0a1f36/medium-risk.png"
+              src="https://img.icons8.com/ios-filled/50/facc15/medium-risk.png"
               alt="medium-risk"
             />
           ),
@@ -2486,7 +2486,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/0a1f36/commercial-development-management.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/commercial-development-management.png"
               alt="commercial-development-management"
             />
           ),
@@ -2498,7 +2498,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios-glyphs/30/0a1f36/order-on-the-way.png"
+              src="https://img.icons8.com/ios-glyphs/30/facc15/order-on-the-way.png"
               alt="order-on-the-way"
             />
           ),
@@ -2510,7 +2510,7 @@ const addonsData = [
           icon: (
             <img
               className="h-8 w-8"
-              src="https://img.icons8.com/ios/50/0a1f36/batch-assign.png"
+              src="https://img.icons8.com/ios/50/facc15/batch-assign.png"
               alt="batch-assign"
             />
           ),

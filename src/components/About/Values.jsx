@@ -21,7 +21,10 @@ const Values = () => {
               >
                 <div className="flex-1">
                   <h2 className="text-4xl md:text-7xl font-bold text-midnight mb-6">
-                    Who <span className="bg-clip-text text-yellow-400">we</span>{" "}
+                    Who{" "}
+                    <span className="bg-gradient-to-r from-blue-800  to-yellow-400 bg-clip-text text-transparent">
+                      we
+                    </span>{" "}
                     are
                     <span className="text-gray-500"> ?</span>
                   </h2>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "../../assets/about.jpg";
 import aboutData from "./aboutData";
+import { FaChevronDown } from "react-icons/fa";
 
 const Methodology = () => {
   const [hoveredLayer, setHoveredLayer] = useState(null);
@@ -18,7 +19,7 @@ const Methodology = () => {
           transition={{ duration: 1.2, ease: "easeInOut" }}
         >
           The{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-950 to-blue-700">
+          <span className="bg-gradient-to-r from-blue-800  to-yellow-400 bg-clip-text text-transparent">
             Three-Layer
           </span>{" "}
           Transformation Methodology
@@ -62,11 +63,16 @@ const Methodology = () => {
                   {layer.title}
                 </h4>
                 <h3
-                  className={`text-2xl font-bold transition-colors duration-300 ${
+                  className={`flex items-center justify-between text-2xl font-bold transition-colors duration-300 ${
                     hoveredLayer === index ? "text-yellow-400" : "text-gray-800"
                   }`}
                 >
                   {layer.heading}
+                  <FaChevronDown
+                    className={`transition-transform duration-300 ${
+                      hoveredLayer === index ? "rotate-180" : ""
+                    }`}
+                  />
                 </h3>
 
                 <AnimatePresence>

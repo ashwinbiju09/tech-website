@@ -107,7 +107,11 @@ const data = [
       },
       {
         subTitle: "Address",
-        content: "[Insert Physical Address, United Kingdom]",
+        content: "32 Eyre Street, Sheffield, S1 4QZ",
+      },
+      {
+        subTitle: "Telephone number",
+        content: "0333 772 3807",
       },
     ],
     paraTwo:

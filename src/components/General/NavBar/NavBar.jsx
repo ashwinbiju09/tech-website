@@ -44,12 +44,12 @@ const NavBar = () => {
   return (
     <div
       className={`fixed top-0 left-0 w-full transition-colors duration-300 z-50 ${
-        isScrolled ? "bg-white text-black shadow" : "bg-transparent text-white"
+        isScrolled ? "bg-midnight text-white" : "bg-transparent text-white"
       }`}
     >
       <div className="flex justify-between items-center px-4 md:px-24 py-2 md:py-1">
         <a href="/" className="m-2">
-          <img className="h-12" src="#" alt="Logo" />
+          <img className="h-8" src="#" />
         </a>
 
         {/* Desktop Nav */}

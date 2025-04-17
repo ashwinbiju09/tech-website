@@ -40,7 +40,7 @@ const DesktopNav = ({
                   {navLinks[openDropdown].subMenu.map((sub, subIndex) => {
                     if (sub.Heading) {
                       return (
-                        <div key={subIndex} className="px-2">
+                        <div key={subIndex} className="pl-2">
                           <div className="py-2 text-sm font-medium text-white border-slate-300">
                             {sub.Heading}
                           </div>
@@ -53,7 +53,7 @@ const DesktopNav = ({
                                   child: childIndex,
                                 })
                               }
-                              className="group relative cursor-pointer px-4 py-2 ml-2 text-sm font-medium text-white transition-colors"
+                              className="group relative cursor-pointer px-4 py-2 ml-2 text-sm font-medium text-white transition-colors flex items-center justify-between"
                             >
                               {/* Hover effect background */}
                               <div
@@ -66,14 +66,23 @@ const DesktopNav = ({
                                 }}
                               ></div>
 
-                              <div className="relative z-10 flex items-center justify-between">
-                                <span>{child.name}</span>
-                                <img
-                                  src="https://img.icons8.com/ios-filled/50/facc15/circled-chevron-right.png"
-                                  alt="chevron-right"
-                                  className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                              <span className="relative z-10">
+                                {child.name}
+                              </span>
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="relative z-10 w-4 h-4 ml-2 text-white group-hover:text-yellow-400 transition-colors duration-200"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M9 5l7 7-7 7"
                                 />
-                              </div>
+                              </svg>
                             </div>
                           ))}
                         </div>
@@ -84,7 +93,7 @@ const DesktopNav = ({
                       <div
                         key={subIndex}
                         onMouseEnter={() => handleSubMouseEnter(subIndex)}
-                        className="group relative cursor-pointer px-2 py-2 text-sm font-medium text-white transition-colors"
+                        className="group relative cursor-pointer pl-2 pr-4 py-2 text-sm font-medium text-white transition-colors flex items-center justify-between"
                       >
                         {/* Hover effect background */}
                         <div
@@ -97,14 +106,21 @@ const DesktopNav = ({
                           }}
                         ></div>
 
-                        <div className="relative z-10 flex items-center justify-between">
-                          <span>{sub.name}</span>
-                          <img
-                            src="https://img.icons8.com/ios-filled/50/facc15/circled-chevron-right.png"
-                            alt="chevron-right"
-                            className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+                        <span className="relative z-10">{sub.name}</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="relative z-10 w-4 h-4 ml-2 text-white group-hover:text-yellow-400 transition-colors duration-200"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M9 5l7 7-7 7"
                           />
-                        </div>
+                        </svg>
                       </div>
                     );
                   })}

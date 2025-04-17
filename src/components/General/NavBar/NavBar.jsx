@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import navLinks from "./navData";
 import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
-import Logo from "../../../assets/logo.png";
+// import Logo from "../../../assets/logo.png";
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,7 +49,7 @@ const NavBar = () => {
     >
       <div className="flex justify-between items-center px-4 md:px-24 py-2 md:py-1">
         <a href="/" className="m-2">
-          <img className="h-12" src={Logo} alt="Logo" />
+          <img className="h-12" src="#" alt="Logo" />
         </a>
 
         {/* Desktop Nav */}

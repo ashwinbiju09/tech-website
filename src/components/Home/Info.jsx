@@ -10,21 +10,15 @@ const Info = () => {
   const testimonials = [
     {
       quote:
-        "Arka's automation solutions transformed our operations. We've seen a 40% reduction in processing time and eliminated most manual errors.",
-      name: "Sarah Johnson",
-      role: "CIO, Global Finance Corp",
+        "Arka brought AI automation to our ERP system that now handles routine tasks like creating reports. This has cut down errors and saved us time. Their solution also gives us easy-to- understand dashboards that help us make better financial decisions with our data.",
+      role: "Financial Consultant, Dream Bricks",
+      industry: "Finance",
     },
     {
       quote:
-        "Thanks to Arka, our digital transformation roadmap is now 2 years ahead. Their AI-powered integrations are unmatched.",
-      name: "Michael Chen",
-      role: "CTO, CoreSoft Solutions",
-    },
-    {
-      quote:
-        "From onboarding to deployment, Arka's delivered a seamless ERP enhancement that improved our ROI significantly.",
-      name: "Alicia Patel",
-      role: "VP Operations, GreenTech Group",
+        "Arka added smart AI tools to our SAP system that track inventory automatically. Their solution made our work faster and gave us clear, up-to-date information about our stock. We now make fewer mistakes and can see exactly what we have on hand at any time.",
+      role: "CTO, SOK UK LTD",
+      industry: "Retail",
     },
   ];
 
@@ -60,7 +54,7 @@ const Info = () => {
             slidesPerView={1}
             loop={true}
             autoplay={{
-              delay: 2000,
+              delay: 4000,
               disableOnInteraction: false,
             }}
             pagination={{ clickable: true }}
@@ -74,14 +68,16 @@ const Info = () => {
                     <div className="absolute top-5 left-8 text-6xl text-[#e9c46a] opacity-40 font-serif leading-none">
                       &quot;
                     </div>
-                    <p className="text-white text-lg leading-relaxed my-8 relative z-10">
+                    <div className="absolute top-5 right-8">
+                      <span className="bg-yellow-400 text-midnight text-xs font-semibold px-3 py-1 rounded-sm shadow-md">
+                        {item.industry}
+                      </span>
+                    </div>
+                    <p className="text-white text-justify text-md leading-relaxed my-8 relative z-10">
                       {item.quote}
                     </p>
                     <div className="flex items-center border-t border-white border-opacity-10 pt-5">
                       <div className="flex-1">
-                        <div className="text-white font-bold text-base mb-1">
-                          {item.name}
-                        </div>
                         <div className="text-white text-opacity-60 text-sm">
                           {item.role}
                         </div>

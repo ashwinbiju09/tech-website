@@ -58,11 +58,58 @@ const Footer = () => {
         <div className="container mx-auto grid gap-10 lg:grid-cols-6">
           <div className="lg:col-span-2 pl-4">
             <a href="/" className="inline-flex items-center">
-              <img className="h-8" src="/assets/logo.png" alt="Company Logo" />
+              <img className="h-8" src="/assets/logo.png" alt="" />
             </a>
-            <p className="text-sm pt-4 text-gray-600">
-              © 2025 Company Co. All rights reserved.
-            </p>
+
+            {/* Enhanced Contact Block */}
+            <div className="pt-4 space-y-3 text-sm text-gray-600">
+              <div className="flex items-start space-x-2">
+                <svg
+                  className="h-5 w-5 text-gray-500 mt-0.5"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17.657 16.657L13.414 12.414a2 2 0 00-2.828 0L6.343 16.657a8 8 0 1111.314 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+                <p>
+                  <strong>Address :</strong> 32 Eyre Street, Sheffield, S1 4QZ
+                </p>
+              </div>
+              <div className="flex items-center space-x-2">
+                <svg
+                  className="h-4 w-5 text-gray-500"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.95.684l1.22 3.651a1 1 0 01-.217.999l-2.347 2.347a11.042 11.042 0 005.657 5.657l2.347-2.347a1 1 0 01.999-.217l3.651 1.22a1 1 0 01.684.95V19a2 2 0 01-2 2h-1C10.611 21 3 13.389 3 4V3a2 2 0 012-2z"
+                  />
+                </svg>
+                <p>
+                  <strong>Telephone :</strong> 0333 772 3807
+                </p>
+              </div>
+              <p className="pt-2 text-gray-500">
+                © 2025 Company Co. All rights reserved.
+              </p>
+            </div>
+
+            {/* Social Icons */}
             <div className="flex space-x-4 pt-4">
               <a
                 href="/"
@@ -84,6 +131,7 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* Footer Menus */}
           <div className="grid grid-cols-2 gap-5 lg:col-span-4 md:grid-cols-4">
             {menuItems.map(({ title, links }) => {
               const visibleLinks = links.slice(0, 6);

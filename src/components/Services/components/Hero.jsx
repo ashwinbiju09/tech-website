@@ -16,7 +16,7 @@ const Hero = ({ data }) => {
         }}
       />
 
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/30"></div>
+      <div className="absolute inset-0 bg-black/75"></div>
 
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -28,7 +28,7 @@ const Hero = ({ data }) => {
           {data.title}
         </h1>
 
-        <p className="mt-4 text-lg sm:text-xl text-gray-300 max-w-2xl">
+        <p className="mt-4 text-lg sm:text-xl text-white max-w-2xl">
           {data.subContent}
         </p>
 

@@ -21,9 +21,7 @@ const DesktopNav = ({
             <div
               key={topIndex}
               onMouseEnter={() => handleMouseEnter(topIndex)}
-              className={`cursor-pointer px-4 text-md font-semibold tracking-wide transition-all ${
-                isScrolled ? "hover:text-gray-700" : "hover:text-gray-200"
-              }`}
+              className="cursor-pointer px-4 text-md font-semibold tracking-wide transition-all hover:text-yellow-400"
             >
               <a href={link.path || "#"}>{link.name}</a>
             </div>
@@ -245,17 +243,17 @@ const DesktopNav = ({
 
       <a
         href="/contact"
-        className={`ml-4 px-4 py-2 font-semibold tracking-wide rounded-sm relative overflow-hidden transition-all duration-300 z-10
+        className={`ml-4 px-4 py-2 font-semibold tracking-wide rounded-sm relative overflow-hidden transition-all duration-300 z-10 transform hover:scale-110
     ${
       isScrolled
-        ? "text-yellow-400 border-2 border-yellow-400 hover:text-midnight"
-        : "text-white hover:text-blue-800"
+        ? " border-2 border-yellow-400 bg-transparent text-midnight "
+        : "bg-yellow-400 text-midnight"
     }
     before:absolute before:top-0 before:left-0 before:w-0 before:h-full before:transition-all before:duration-300 before:z-[-1]
     ${
       isScrolled
-        ? "before:bg-yellow-400 hover:before:w-full"
-        : "hover:before:bg-white hover:before:w-full"
+        ? "before:bg-yellow-400 hover:before:w-full hover:text-midnight text-yellow-400"
+        : " hover:before:w-full"
     }
   `}
       >

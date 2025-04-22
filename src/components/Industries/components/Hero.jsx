@@ -16,7 +16,7 @@ const Hero = ({ data }) => {
         }}
       />
 
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/30"></div>
+      <div className="absolute inset-0 bg-black/60"></div>
 
       <motion.div
         initial={{ opacity: 0, y: 50 }}

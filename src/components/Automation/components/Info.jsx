@@ -24,7 +24,9 @@ const Info = ({ data }) => {
               <h2 className="text-3xl font-extrabold text-midnight">
                 {data.title}
               </h2>
-              <p className="mt-4 text-gray-600">{data.description}</p>
+              <p className="mt-4 text-justify text-gray-600">
+                {data.description}
+              </p>
             </div>
           </div>
         </div>

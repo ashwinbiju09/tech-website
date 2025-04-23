@@ -63,7 +63,7 @@ const Process = () => {
                       transition={{ duration: 0.4, ease: "easeInOut" }}
                       className="overflow-hidden mt-2"
                     >
-                      <p className="text-gray-600 text-base leading-relaxed">
+                      <p className="text-gray-600 text-base text-justify leading-relaxed">
                         {step.description}
                       </p>
                     </motion.div>

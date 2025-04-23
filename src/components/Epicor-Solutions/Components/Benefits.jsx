@@ -19,7 +19,7 @@ const Benefits = ({ data }) => {
           {data.title}
         </motion.h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-16 text-justify">
           {data.benefits.map((benefit, index) => (
             <motion.div
               key={index}

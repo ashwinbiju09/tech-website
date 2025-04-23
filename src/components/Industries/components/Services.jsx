@@ -34,7 +34,7 @@ const Services = ({ data }) => {
                 <h3 className="text-lg font-semibold text-midnight">
                   {service.title}
                 </h3>
-                <p className="text-sm text-gray-600 mt-2">
+                <p className="text-sm text-gray-600 mt-2 text-justify">
                   {service.description}
                 </p>
                 <hr className="mt-3 border-yellow-400 opacity-50" />
@@ -66,7 +66,7 @@ const Services = ({ data }) => {
                 <h3 className="text-lg font-semibold text-midnight">
                   {service.title}
                 </h3>
-                <p className="text-sm text-gray-600 mt-2">
+                <p className="text-sm text-gray-600 mt-2 text-justify">
                   {service.description}
                 </p>
                 <hr className="mt-3 border-yellow-400 opacity-50" />

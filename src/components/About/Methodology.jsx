@@ -87,7 +87,7 @@ const Methodology = () => {
                       }}
                     >
                       <div className="overflow-hidden">
-                        <p className="text-gray-600 mt-2 text-base leading-relaxed">
+                        <p className="text-gray-600 mt-2 text-base leading-relaxed text-justify">
                           {layer.description}
                         </p>
                         <ul className="list-disc pl-5 mt-2 text-gray-600 text-sm space-y-1">

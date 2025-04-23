@@ -14,7 +14,7 @@ const Offerings = ({ data }) => {
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="w-full pt-10 pb-16 bg-slate-100 text-midnight"
+      className="w-full pt-10 pb-16 bg-slate-100 text-midnight text-justify"
     >
       <div className="container mx-auto px-8 lg:px-16">
         <motion.h2

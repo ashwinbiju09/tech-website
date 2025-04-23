@@ -48,7 +48,7 @@ const Features = ({ data }) => {
                   <p className="text-xl font-semibold my-2">{benefit.title}</p>
                   <div className="border-t-2"></div>
                   <div className="mt-4">
-                    <p className="text-sm text-gray-600 py-2">
+                    <p className="text-sm text-gray-600 text-justify py-2">
                       {benefit.description}
                     </p>
                   </div>

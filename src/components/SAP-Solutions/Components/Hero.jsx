@@ -17,7 +17,7 @@ const Hero = ({ data }) => {
                 {data.heroTitle}
               </h1>
 
-              <p className="mt-4 text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed">
+              <p className="mt-4 text-base text-justify sm:text-lg md:text-xl text-gray-300 leading-relaxed">
                 {data.heroSubContent}
               </p>
 

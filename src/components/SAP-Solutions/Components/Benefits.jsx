@@ -11,7 +11,7 @@ const Benefits = ({ data }) => {
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="w-full bg-white pt-16 pb-20"
+      className="w-full bg-white pt-16 pb-20 text-justify"
     >
       <div className="container mx-auto px-6 lg:px-8 max-w-6xl">
         <motion.h2

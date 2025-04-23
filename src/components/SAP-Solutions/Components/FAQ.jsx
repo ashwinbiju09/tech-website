@@ -19,7 +19,9 @@ const FAQ = ({ data }) => {
               SAP S/4HANA FAQ
             </p>
             <p className="sm:text-4xl text-3xl font-extrabold">{data.title}</p>
-            <p className="mt-3 text-lg text-gray-300">{data.description}</p>
+            <p className="mt-3 text-lg text-justify text-gray-300">
+              {data.description}
+            </p>
           </div>
 
           <ul className="md:w-1/2">

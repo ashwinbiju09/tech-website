@@ -26,8 +26,8 @@ const Offerings = ({ data }) => {
           Offerings
         </motion.h2>
 
-        <div className="flex flex-col lg:flex-row bg-gray-100 text-gray-900 rounded-sm shadow-lg">
-          <div className="lg:w-80 py-4 px-1 border-r border-gray-300">
+        <div className="flex flex-col lg:flex-row bg-ice text-gray-900 rounded-sm shadow-lg ">
+          <div className="lg:w-80 py-4 px-1 border-r border-midnight m-4">
             {data.departments.map((department, index) => (
               <motion.button
                 key={index}
@@ -38,15 +38,33 @@ const Offerings = ({ data }) => {
                   ease: "easeOut",
                   delay: index * 0.1,
                 }}
-                className={`w-full py-2 text-lg font-medium text-left transition-all ${
-                  selectedDepartment.title === department.title
-                    ? "text-midnight font-semibold border-l-4 border-midnight pl-3"
-                    : "text-gray-700 hover:text-midnight pl-3"
-                }`}
+                className="group relative w-full py-2 text-lg font-medium text-left transition-all pl-3"
                 onClick={() => setSelectedDepartment(department)}
                 onMouseEnter={() => setSelectedDepartment(department)}
               >
-                {department.title}
+                {/* Highlight overlay for active tab */}
+                {selectedDepartment.title === department.title && (
+                  <div
+                    className="absolute inset-0 opacity-100 transition-opacity duration-200 z-0"
+                    style={{
+                      background:
+                        "linear-gradient(to right, #FACC1566, transparent)",
+                      borderLeft: "4px solid #FACC15",
+                      borderRadius: "2px",
+                    }}
+                  ></div>
+                )}
+
+                {/* Tab text content */}
+                <span
+                  className={`relative z-10 ${
+                    selectedDepartment.title === department.title
+                      ? "text-midnight font-semibold"
+                      : "text-midnight group-hover:text-yellow-400"
+                  }`}
+                >
+                  {department.title}
+                </span>
               </motion.button>
             ))}
           </div>
@@ -61,7 +79,7 @@ const Offerings = ({ data }) => {
             <h3 className="text-2xl font-bold text-midnight">
               {selectedDepartment.title}
             </h3>
-            <p className="mt-2 text-lg text-gray-700">
+            <p className="mt-2 text-lg text-justify text-gray-700">
               {selectedDepartment.content}
             </p>
 

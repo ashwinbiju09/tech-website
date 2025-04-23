@@ -17,7 +17,9 @@ const Hero = ({ data }) => {
             </h1>
 
             <div className="w-full lg:w-3/4 text-center lg:text-left">
-              <p className="mt-4 text-lg text-gray-300">{data.subContent}</p>
+              <p className="mt-4 text-lg text-justify text-gray-300">
+                {data.subContent}
+              </p>
 
               <div className="mt-6">
                 <CTAButton />

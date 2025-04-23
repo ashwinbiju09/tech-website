@@ -8,7 +8,7 @@ const Percentage = ({ data }) => {
 
   return (
     <section className="w-full py-16 bg-white">
-      <div className="container mx-auto px-6 lg:px-10 max-w-7xl text-center">
+      <div className="container mx-auto px-6 lg:px-10 max-w-8xl text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold bg-midnight text-transparent bg-clip-text mb-10">
           {data.title}
         </h2>
@@ -38,7 +38,7 @@ const Percentage = ({ data }) => {
                 {stat.label}
               </p>
 
-              <p className="text-sm md:text-base text-gray-700">
+              <p className="text-sm md:text-base text-center text-gray-700">
                 {stat.content}
               </p>
             </div>

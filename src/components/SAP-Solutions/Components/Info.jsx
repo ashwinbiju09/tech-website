@@ -24,9 +24,11 @@ const Info = ({ data }) => {
               <h2 className="text-3xl font-extrabold bg-midnight text-transparent bg-clip-text">
                 {data.infoTitle}
               </h2>
-              <p className="mt-4 text-gray-600">{data.subContent}</p>
+              <p className="mt-4 text-justify text-gray-600">
+                {data.subContent}
+              </p>
 
-              <div className="mt-8 space-y-6">
+              <div className="mt-8 space-y-6 text-justify">
                 {data.features.map((feature, index) => (
                   <div
                     key={index}

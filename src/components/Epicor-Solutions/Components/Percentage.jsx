@@ -32,7 +32,7 @@ const Percentage = ({ data }) => {
                 {stat.label}
               </p>
 
-              <p className="text-sm md:text-base text-gray-700 max-w-xs">
+              <p className="text-sm md:text-base text-center text-gray-700 max-w-xs">
                 {stat.description}
               </p>
             </div>

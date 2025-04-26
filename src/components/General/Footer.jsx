@@ -57,8 +57,12 @@ const Footer = () => {
       <footer className="px-4 pt-8 pb-8 bg-ice text-gray-800">
         <div className="container mx-auto grid gap-10 lg:grid-cols-6">
           <div className="lg:col-span-2 pl-4">
-            <a href="/" className="inline-flex items-center">
-              <img className="h-8" src="/assets/logo.png" alt="" />
+            <a href="/" className="inline-flex items-center space-x-2">
+              <div className="flex items-center justify-center h-12 w-12 border-r border-midnight pr-2">
+                <img src="/footer-favicon.png" alt="Icon" className="h-8 w-8" />
+              </div>
+
+              <img src="/footer-logo.png" alt="Logo" className="h-8" />
             </a>
 
             {/* Enhanced Contact Block */}

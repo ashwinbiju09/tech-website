@@ -49,7 +49,7 @@ const NavBar = () => {
     >
       <div className="flex justify-between items-center px-4 md:px-24 py-2 md:py-1">
         <a href="/" className="m-2">
-          <img className="h-8" src="#" />
+          <img className="h-8" src="/logo.png" />
         </a>
 
         {/* Desktop Nav */}

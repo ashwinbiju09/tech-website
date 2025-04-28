@@ -1,5 +1,7 @@
 import React from "react";
 import navLinks from "../General/NavBar/navData";
+import { IoLocation } from "react-icons/io5";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const footerLinkPaths = {
   "Why Us": "/about",
@@ -58,78 +60,66 @@ const Footer = () => {
         <div className="container mx-auto grid gap-10 lg:grid-cols-6">
           <div className="lg:col-span-2 pl-4">
             <a href="/" className="inline-flex items-center space-x-2">
-              <div className="flex items-center justify-center h-12 w-12 border-r border-midnight pr-2">
-                <img src="/footer-favicon.png" alt="Icon" className="h-8 w-8" />
+              <div className="relative flex items-center justify-center h-12 w-12 pr-2">
+                <div className="absolute right-0 h-8 border-r border-midnight" />
+
+                <img
+                  src="/footer-favicon.png"
+                  alt="Icon"
+                  className="h-8 w-10"
+                />
               </div>
 
-              <img src="/footer-logo.png" alt="Logo" className="h-8" />
+              <img src="/footer-logo.png" alt="Logo" className="h-10" />
             </a>
 
             {/* Enhanced Contact Block */}
             <div className="pt-4 space-y-3 text-sm text-gray-600">
-              <div className="flex items-start space-x-2">
-                <svg
-                  className="h-5 w-5 text-gray-500 mt-0.5"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17.657 16.657L13.414 12.414a2 2 0 00-2.828 0L6.343 16.657a8 8 0 1111.314 0z"
-                  />
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                  />
-                </svg>
-                <p>
-                  <strong>Address :</strong> 32 Eyre Street, Sheffield, S1 4QZ
-                </p>
-              </div>
               <div className="flex items-center space-x-2">
-                <svg
-                  className="h-4 w-5 text-gray-500"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.95.684l1.22 3.651a1 1 0 01-.217.999l-2.347 2.347a11.042 11.042 0 005.657 5.657l2.347-2.347a1 1 0 01.999-.217l3.651 1.22a1 1 0 01.684.95V19a2 2 0 01-2 2h-1C10.611 21 3 13.389 3 4V3a2 2 0 012-2z"
-                  />
-                </svg>
-                <p>
-                  <strong>Telephone :</strong> 0333 772 3807
-                </p>
+                <IoLocation className="h-5 w-5" />{" "}
+                <p>32 Eyre Street, Sheffield, S1 4QZ</p>
               </div>
+
+              <div className="flex items-center space-x-2">
+                <FaPhoneAlt className="h-4 w-4" /> <p>0333 772 3807</p>
+              </div>
+
               <p className="pt-2 text-gray-500">
-                © 2025 Company Co. All rights reserved.
+                © 2025 Arka Global. All rights reserved.
               </p>
             </div>
 
             {/* Social Icons */}
             <div className="flex space-x-4 pt-4">
+              {/* X (formerly Twitter) */}
               <a
-                href="/"
-                className="text-gray-500 transition-colors duration-300 hover:text-blue-900"
+                href="https://x.com/yourusername"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 transition-colors duration-300 hover:text-gray-900"
               >
-                <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
-                  <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="h-5 w-5"
+                >
+                  <path d="M22.162 0H1.838C.822 0 0 .822 0 1.838v20.324C0 23.178.822 24 1.838 24h20.324C23.178 24 24 23.178 24 22.162V1.838C24 .822 23.178 0 22.162 0zM17.126 6.489l-4.726 5.965 5.557 7.023h-2.668l-4.354-5.527-4.982 5.527H5.254l5.146-5.737-5.432-6.74h2.668l4.154 5.202 4.599-5.202h2.637z" />
                 </svg>
               </a>
+
+              {/* LinkedIn */}
               <a
-                href="/"
+                href="https://linkedin.com/in/yourusername"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-500 transition-colors duration-300 hover:text-blue-900"
               >
-                <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
-                  <circle cx="15" cy="15" r="4" />
-                  <path d="M19.999,3h-10C6.14,3,3,6.141,3,10.001v10C3,23.86,6.141,27,10.001,27h10C23.86,27,27,23.859,27,19.999v-10 C27,6.14,23.859,3,19.999,3z M15,21c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S18.309,21,15,21z M22,9c-0.552,0-1-0.448-1-1 c0-0.552,0.448-1,1-1s1,0.448,1,1C23,8.552,22.552,9,22,9z" />
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="h-5 w-5"
+                >
+                  <path d="M20.447 20.452H17.2V14.84c0-1.337-.027-3.065-1.868-3.065-1.868 0-2.154 1.46-2.154 2.968v5.709H9.934V9h3.123v1.561h.043c.435-.823 1.498-1.69 3.087-1.69 3.3 0 3.909 2.172 3.909 5v6.581zM5.337 7.433a1.81 1.81 0 1 1 0-3.619 1.81 1.81 0 0 1 0 3.619zm1.617 13.019H3.721V9h3.233v11.452zM22.225 0H1.771C.791 0 0 .771 0 1.729v20.542C0 23.229.791 24 1.771 24h20.451C23.21 24 24 23.229 24 22.271V1.729C24 .771 23.209 0 22.225 0z" />
                 </svg>
               </a>
             </div>
